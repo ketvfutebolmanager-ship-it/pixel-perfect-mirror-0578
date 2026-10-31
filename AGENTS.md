@@ -14,3 +14,4 @@
 - Main menu is defined only in `src/components/layout/navigation.ts`; every entry must point to an existing route.
 - Pages without real data render `DataPending`; never ship fictional data presented as real.
 - Planned DB schema lives in `database/schema.sql` until the cloud database is enabled, then becomes migrations.
+- When appending player entries to `src/modules/players/database.ts`, always end the previous entry with a comma and run a production build before finishing — missing commas between club blocks have repeatedly broken the build.
