@@ -29,6 +29,7 @@ const KICKOFF_SLOTS = [
   { weekday: "Domingo", kickoff: "20:30" },
   { weekday: "Segunda-feira", kickoff: "20:00" },
 ];
+type DivisionFixture = Fixture & { division: BrazilianDivision; groupName: string | undefined };
 function buildFixtures(clubs: Array<{id:string;name:string;state:string}>, maxRounds: number): Fixture[] {
   if (clubs.length < 2) return [];
   const teams = [...clubs];
