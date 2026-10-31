@@ -2329,6 +2329,454 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     id: "ryan-francisco-sao-paulo", name: "Ryan Francisco", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ATA",
     source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
   },
+  {
+    id: "fabio-fluminense", name: "Fábio", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "GOL",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marcelo-pitaluga-fluminense", name: "Marcelo Pitaluga", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "GOL",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vitor-eudes-fluminense", name: "Vitor Eudes", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "GOL",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gustavo-felix-fluminense", name: "Gustavo Félix", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "GOL",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "thiago-silva-fluminense", name: "Thiago Silva", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ZAG",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jemmes-fluminense", name: "Jemmes", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ZAG",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ignacio-fluminense", name: "Ignácio", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ZAG",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "igor-rabello-fluminense", name: "Igor Rabello", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ZAG",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "juan-freytes-fluminense", name: "Juan Freytes", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ZAG",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "julian-millan-fluminense", name: "Julián Millán", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ZAG",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gorgulho-fluminense", name: "Gorgulho", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ZAG",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "breno-britez-fluminense", name: "Breno Britez", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ZAG",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "samuel-xavier-fluminense", name: "Samuel Xavier", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "LAT",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rene-fluminense", name: "Renê", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "LAT",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "guilherme-arana-fluminense", name: "Guilherme Arana", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "LAT",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "guga-fluminense", name: "Guga", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "LAT",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vagno-fluminense", name: "Vagno", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "LAT",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "julio-fidelis-fluminense", name: "Júlio Fidélis", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "LAT",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kaio-borges-fluminense", name: "Kaio Borges", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "LAT",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "richard-wendell-fluminense", name: "Richard Wendell", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "LAT",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "facundo-bernal-fluminense", name: "Facundo Bernal", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "VOL",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "martinelli-fluminense", name: "Martinelli", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "MEI",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ganso-fluminense", name: "PH Ganso", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "MEI",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "savarino-fluminense", name: "Savarino", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "MEI",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "nonato-fluminense", name: "Nonato", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "MEI",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alisson-fluminense", name: "Alisson", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "MEI",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucho-acosta-fluminense", name: "Lucho Acosta", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "MEI",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "hercules-fluminense", name: "Hércules", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "MEI",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "davi-melo-fluminense", name: "Davi Melo", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "MEI",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "otavio-fluminense", name: "Otávio", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "VOL",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ruan-sales-fluminense", name: "Ruan Sales", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "MEI",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "naara-fluminense", name: "Naarã", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "MEI",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "paulinho-fluminense", name: "Paulinho", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "MEI",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "peter-fluminense", name: "Peter", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "MEI",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "andrey-fluminense", name: "Andrey", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "MEI",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "soteldo-fluminense", name: "Soteldo", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ATA",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "john-kennedy-fluminense", name: "John Kennedy", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ATA",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "german-cano-fluminense", name: "Germán Cano", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ATA",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "canobbio-fluminense", name: "Canobbio", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ATA",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rodrigo-castillo-fluminense", name: "Rodrigo Castillo", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ATA",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kevin-serna-fluminense", name: "Kevin Serna", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ATA",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheus-reis-fluminense", name: "Matheus Reis", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ATA",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "riquelme-felipe-fluminense", name: "Riquelme Felipe", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ATA",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "wesley-nata-fluminense", name: "Wesley Natã", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ATA",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "isack-gabriel-fluminense", name: "Isack Gabriel", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ATA",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "keven-samuel-fluminense", name: "Keven Samuel", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ATA",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "enzo-munerato-fluminense", name: "Enzo Munerato", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ATA",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-lourenco-fluminense", name: "João Lourenço", clubId: "fluminense", clubName: "Fluminense", division: "Série A", position: "ATA",
+    source: "CBF Série A 2026 e lista de inscritos do Fluminense para Libertadores, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "cleiton-red-bull-bragantino", name: "Cleiton", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "GOL",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "tiago-volpi-red-bull-bragantino", name: "Tiago Volpi", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "GOL",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fernando-costa-red-bull-bragantino", name: "Fernando Costa", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "GOL",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fabricio-red-bull-bragantino", name: "Fabrício", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "GOL",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gustavo-reis-red-bull-bragantino", name: "Gustavo Reis", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "GOL",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "guzman-rodriguez-red-bull-bragantino", name: "Guzmán Rodríguez", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ZAG",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "eduardo-santos-red-bull-bragantino", name: "Eduardo Santos", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ZAG",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alix-vinicius-red-bull-bragantino", name: "Alix Vinícius", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ZAG",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pedro-henrique-red-bull-bragantino", name: "Pedro Henrique", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ZAG",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gustavo-marques-red-bull-bragantino", name: "Gustavo Marques", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ZAG",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "agustin-santanna-red-bull-bragantino", name: "Agustín Sant'Anna", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "LAT",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "andres-hurtado-red-bull-bragantino", name: "Andrés Hurtado", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "LAT",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vanderlan-red-bull-bragantino", name: "Vanderlan", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "LAT",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "juninho-capixaba-red-bull-bragantino", name: "Juninho Capixaba", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "LAT",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "caue-red-bull-bragantino", name: "Cauê", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "LAT",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fabinho-red-bull-bragantino", name: "Fabinho", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "VOL",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-girotto-red-bull-bragantino", name: "Gabriel Girotto", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "VOL",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "eric-ramires-red-bull-bragantino", name: "Eric Ramires", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "MEI",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "nacho-sosa-red-bull-bragantino", name: "Nacho Sosa", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "VOL",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rodriguinho-red-bull-bragantino", name: "Rodriguinho", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "MEI",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gustavo-neves-red-bull-bragantino", name: "Gustavo Neves", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "MEI",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheus-fernandes-red-bull-bragantino", name: "Matheus Fernandes", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "VOL",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "eduardo-sasha-red-bull-bragantino", name: "Eduardo Sasha", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ATA",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "isidro-pitta-red-bull-bragantino", name: "Isidro Pitta", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ATA",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fernando-red-bull-bragantino", name: "Fernando", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ATA",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vinicinho-red-bull-bragantino", name: "Vinicinho", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ATA",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-barbosa-red-bull-bragantino", name: "Lucas Barbosa", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ATA",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "davi-gomes-red-bull-bragantino", name: "Davi Gomes", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ATA",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "henry-mosquera-red-bull-bragantino", name: "Henry Mosquera", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ATA",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jose-herrera-red-bull-bragantino", name: "José Herrera", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ATA",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marcelinho-red-bull-bragantino", name: "Marcelinho", clubId: "red-bull-bragantino", clubName: "Red Bull Bragantino", division: "Série A", position: "ATA",
+    source: "Red Bull Bragantino — elenco profissional 2026, publicado em 27/07/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "leo-jardim-vasco-da-gama", name: "Léo Jardim", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "GOL",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "daniel-fuzato-vasco-da-gama", name: "Daniel Fuzato", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "GOL",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pablo-vasco-da-gama", name: "Pablo", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "GOL",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-vitor-vasco-da-gama", name: "João Vitor", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "LAT",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "paulo-henrique-vasco-da-gama", name: "Paulo Henrique", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "LAT",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "puma-rodriguez-vasco-da-gama", name: "Puma Rodríguez", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "LAT",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "cuiabano-vasco-da-gama", name: "Cuiabano", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "LAT",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-piton-vasco-da-gama", name: "Lucas Piton", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "LAT",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "paulinho-vasco-da-gama", name: "Paulinho", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "LAT",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "carlos-cuesta-vasco-da-gama", name: "Carlos Cuesta", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ZAG",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-pereira-vasco-da-gama", name: "Gabriel Pereira", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ZAG",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-freitas-vasco-da-gama", name: "Lucas Freitas", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ZAG",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "robert-renan-vasco-da-gama", name: "Robert Renan", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ZAG",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "saldivia-vasco-da-gama", name: "Alan Saldivia", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ZAG",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "walace-falcao-vasco-da-gama", name: "Walace Falcão", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ZAG",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "cauan-barros-vasco-da-gama", name: "Cauan Barros", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "VOL",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jair-vasco-da-gama", name: "Jair", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "VOL",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "thiago-mendes-vasco-da-gama", name: "Thiago Mendes", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "VOL",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ramon-rique-vasco-da-gama", name: "Ramon Rique", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "VOL",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "tche-tche-vasco-da-gama", name: "Tchê Tchê", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "VOL",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "mateus-carvalho-vasco-da-gama", name: "Mateus Carvalho", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "VOL",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "santiago-sosa-vasco-da-gama", name: "Santiago Sosa", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "VOL",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rojas-vasco-da-gama", name: "Johan Rojas", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "MEI",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lescano-vasco-da-gama", name: "Lescano", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "MEI",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "spinelli-vasco-da-gama", name: "Claudio Spinelli", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ATA",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "brenner-vasco-da-gama", name: "Brenner", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ATA",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marino-hinestroza-vasco-da-gama", name: "Marino Hinestroza", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ATA",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "andres-gomez-vasco-da-gama", name: "Andrés Gómez", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ATA",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "nuno-moreira-vasco-da-gama", name: "Nuno Moreira", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ATA",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "david-vasco-da-gama", name: "David", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ATA",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "adson-vasco-da-gama", name: "Adson", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ATA",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "facundo-colidio-vasco-da-gama", name: "Facundo Colidio", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ATA",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bruno-duarte-vasco-da-gama", name: "Bruno Duarte", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ATA",
+    source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
+  },
 ];
 export const PLAYER_DATA_AS_OF = "2026-10-31";
 export const PLAYER_DATA_STATUS = "partial-verified";
