@@ -11,6 +11,8 @@ export const Route = createFileRoute("/partida")({
 });
 
 type MatchSpeed = "slow" | "medium" | "fast";
+type Formation = "4-4-2" | "4-3-3" | "3-5-2" | "4-2-3-1";
+type Pressure = "Baixa" | "Média" | "Alta";
 const SPEEDS: Record<MatchSpeed, { label: string; interval: number }> = {
   slow: { label: "Lento", interval: 1200 },
   medium: { label: "Médio", interval: 650 },
@@ -84,11 +86,22 @@ function Page() {
   const [result, setResult] = useState<MatchResult | null>(null);
   const [minute, setMinute] = useState(0);
   const [playing, setPlaying] = useState(false);
+  const [halftime, setHalftime] = useState(false);
+  const [formation, setFormation] = useState<Formation>("4-3-3");
+  const [pressure, setPressure] = useState<Pressure>("Média");
+  const [tacticalApproach, setTacticalApproach] = useState<"defensive" | "balanced" | "attacking">(career?.approach ?? "balanced");
+  const [substitutions, setSubstitutions] = useState(0);
+  const [substitutionNote, setSubstitutionNote] = useState("");
 
   useEffect(() => {
     if (!playing) return;
     const timer = window.setInterval(() => {
       setMinute((current) => {
+        if (current === 44) {
+          setPlaying(false);
+          setHalftime(true);
+          return 45;
+        }
         if (current >= 89) {
           setPlaying(false);
           return 90;
@@ -113,7 +126,7 @@ function Page() {
     const own: MatchTeam = {
       id: career!.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-"),
       name: career!.club,
-      attack: 70, midfield: 70, defense: 70, approach: career!.approach,
+      attack: 70, midfield: 70, defense: 70, approach: tacticalApproach,
     };
     const rival: MatchTeam = {
       id: selectedOpponent.id,
@@ -123,6 +136,9 @@ function Page() {
     const next = simulateMatch(own, rival);
     setResult(next);
     setMinute(0);
+    setHalftime(false);
+    setSubstitutions(0);
+    setSubstitutionNote("");
     setPlaying(true);
     const updated = { ...career!, played: career!.played + 1 };
     window.localStorage.setItem("ketvfm-career", JSON.stringify(updated));
@@ -131,6 +147,7 @@ function Page() {
 
   function resetMatch() {
     setPlaying(false);
+    setHalftime(false);
     setMinute(0);
     setResult(null);
   }
@@ -143,6 +160,11 @@ function Page() {
       <div className="rounded-md border border-border bg-card p-6">
         <p className="text-xs font-bold uppercase tracking-widest text-primary">Preparação</p>
         <h2 className="mt-2 text-2xl font-bold uppercase">Próximo confronto</h2>
+        <div className="mt-5 grid gap-4 sm:grid-cols-3">
+          <label className="text-sm font-semibold">Esquema tático<select value={formation} disabled={playing || halftime} onChange={(e) => setFormation(e.target.value as Formation)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>4-4-2</option><option>4-3-3</option><option>3-5-2</option><option>4-2-3-1</option></select></label>
+          <label className="text-sm font-semibold">Postura<select value={tacticalApproach} disabled={playing || halftime} onChange={(e) => setTacticalApproach(e.target.value as typeof tacticalApproach)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option value="defensive">Defensiva</option><option value="balanced">Equilibrada</option><option value="attacking">Ofensiva</option></select></label>
+          <label className="text-sm font-semibold">Pressão<select value={pressure} disabled={playing || halftime} onChange={(e) => setPressure(e.target.value as Pressure)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>Baixa</option><option>Média</option><option>Alta</option></select></label>
+        </div>
         <label htmlFor="opponent" className="mb-2 mt-5 block text-sm font-semibold">Adversário da mesma divisão</label>
         {availableOpponents.length > 0 ? (
           <>
@@ -164,6 +186,24 @@ function Page() {
         )}
       </div>
 
+      {halftime && result && <section className="mt-6 rounded-md border-2 border-primary bg-card p-6">
+        <p className="text-xs font-bold uppercase tracking-widest text-primary">Intervalo · 45 minutos</p>
+        <h2 className="mt-2 font-display text-3xl font-black uppercase">Ajustes para o segundo tempo</h2>
+        <p className="mt-2 text-sm text-muted-foreground">Mude o esquema, a postura e a pressão. Você também pode registrar uma substituição.</p>
+        <div className="mt-5 grid gap-4 sm:grid-cols-3">
+          <label className="text-sm font-semibold">Esquema<select value={formation} onChange={(e) => setFormation(e.target.value as Formation)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>4-4-2</option><option>4-3-3</option><option>3-5-2</option><option>4-2-3-1</option></select></label>
+          <label className="text-sm font-semibold">Postura<select value={tacticalApproach} onChange={(e) => setTacticalApproach(e.target.value as typeof tacticalApproach)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option value="defensive">Defensiva</option><option value="balanced">Equilibrada</option><option value="attacking">Ofensiva</option></select></label>
+          <label className="text-sm font-semibold">Pressão<select value={pressure} onChange={(e) => setPressure(e.target.value as Pressure)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>Baixa</option><option>Média</option><option>Alta</option></select></label>
+        </div>
+        <div className="mt-5 rounded-md border border-border p-4">
+          <p className="font-bold">Substituições: {substitutions}/5</p>
+          <p className="mt-1 text-xs text-muted-foreground">Elencos reais ainda não foram cadastrados. Nesta etapa, as trocas ficam registradas como ajustes táticos, sem atribuir nomes fictícios a jogadores reais.</p>
+          <button type="button" disabled={substitutions >= 5} onClick={() => { setSubstitutions((n) => n + 1); setSubstitutionNote("Substituição tática registrada no intervalo."); }} className="mt-3 rounded-md border border-primary px-4 py-2 text-sm font-semibold text-primary disabled:opacity-40">Registrar substituição</button>
+          {substitutionNote && <p className="mt-2 text-sm text-primary">{substitutionNote}</p>}
+        </div>
+        <button onClick={() => { setHalftime(false); setPlaying(true); }} className="mt-5 rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground">Começar segundo tempo</button>
+      </section>}
+
       {result && <section className="mt-6 rounded-md border border-primary bg-hero p-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <p className="text-xs font-bold uppercase tracking-widest text-primary">{minute === 90 ? "Apito final" : "Partida ao vivo"}</p>
@@ -180,6 +220,9 @@ function Page() {
           <p><span className="text-muted-foreground">Tempo:</span> {minute < 90 ? "Em andamento" : "Encerrado"}</p>
           <p><span className="text-muted-foreground">Competição:</span> Simulação livre · {career.division}</p>
           <p><span className="text-muted-foreground">Horário oficial:</span> Não aplicável a esta simulação</p>
+          <p><span className="text-muted-foreground">Esquema:</span> {formation}</p>
+          <p><span className="text-muted-foreground">Postura:</span> {tacticalApproach === "defensive" ? "Defensiva" : tacticalApproach === "attacking" ? "Ofensiva" : "Equilibrada"}</p>
+          <p><span className="text-muted-foreground">Pressão:</span> {pressure}</p>
         </div>
         <h3 className="mt-7 border-b border-border pb-2 text-lg font-bold uppercase">Lances da partida</h3>
         {visibleEvents.length ? <ol className="mt-3 space-y-2">{visibleEvents.map((event, index) => <li key={`${event.minute}-${index}`} className="flex justify-between rounded bg-card px-3 py-2 text-sm"><span>⚽ {event.clubName}</span><strong>{event.minute}'</strong></li>)}</ol> : <p className="mt-3 text-sm text-muted-foreground">{minute === 90 ? "Nenhum gol nesta partida." : "A partida está rolando. Os lances aparecerão aqui conforme o relógio avançar."}</p>}
