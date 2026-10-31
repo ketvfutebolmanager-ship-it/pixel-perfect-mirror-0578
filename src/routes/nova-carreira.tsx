@@ -20,6 +20,8 @@ export type CareerSave = {
   approach: "defensive" | "balanced" | "attacking";
   season: number;
   played: number;
+  fanMorale?: number;
+  boardConfidence?: number;
 };
 
 function Page() {
@@ -41,7 +43,7 @@ function Page() {
     if (coach.trim().length < 2) { setError("Digite o nome do treinador para continuar."); return; }
     if (!selectedClub) { setError("Não há clubes cadastrados nesta divisão."); return; }
     const save: CareerSave = {
-      coach: coach.trim(), club: selectedClub.name, division, approach, season: 2026, played: 0,
+      coach: coach.trim(), club: selectedClub.name, division, approach, season: 2026, played: 0, fanMorale: 70, boardConfidence: 70,
     };
     try {
       window.localStorage.setItem("ketvfm-career", JSON.stringify(save));
