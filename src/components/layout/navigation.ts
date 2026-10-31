@@ -9,14 +9,12 @@ export const NAV_GROUPS: NavGroup[] = [
       { label: "Página inicial", to: "/" },
       { label: "Nova carreira", to: "/nova-carreira" },
       { label: "Continuar carreira", to: "/continuar-carreira" },
-      { label: "Central da partida", to: "/partida" },
     ],
   },
   {
     title: "Competições",
     items: [
       { label: "Campeonatos", to: "/campeonatos" },
-      { label: "Calendário CBF", to: "/calendario" },
       { label: "Série A", to: "/campeonatos/$divisao", params: { divisao: "serie-a" } },
       { label: "Série B", to: "/campeonatos/$divisao", params: { divisao: "serie-b" } },
       { label: "Série C", to: "/campeonatos/$divisao", params: { divisao: "serie-c" } },
