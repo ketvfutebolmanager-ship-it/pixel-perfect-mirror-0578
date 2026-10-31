@@ -117,6 +117,7 @@ function Page() {
       return raw ? JSON.parse(raw) as CareerSave : null;
     } catch { return null; }
   });
+  const [result, setResult] = useState<MatchResult | null>(null);
   const divisionClubs = career ? getClubsByDivision(career.division as BrazilianDivision) : [];
   const group = career?.division === "Série D" ? divisionClubs.find((club) => club.name === career.club)?.group : undefined;
   const participatingClubs = group ? divisionClubs.filter((club) => club.group === group) : divisionClubs;
@@ -128,7 +129,6 @@ function Page() {
   const careerFixture = roundFixtures.find((fixture) => fixture.home.name === career?.club || fixture.away.name === career?.club);
   const fixtureOpponent = careerFixture ? (careerFixture.home.name === career?.club ? careerFixture.away : careerFixture.home) : null;
   const [speed, setSpeed] = useState<MatchSpeed>("medium");
-  const [result, setResult] = useState<MatchResult | null>(null);
   const [minute, setMinute] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [halftime, setHalftime] = useState(false);
