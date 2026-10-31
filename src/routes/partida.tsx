@@ -37,18 +37,18 @@ function buildFixtures(clubs: Array<{id:string;name:string;state:string}>, maxRo
   const fixtures: Fixture[] = [];
   const half = teams.length - 1;
   for (let round = 0; round < half; round += 1) {
-    const lineup = [fixed, ...rotating];
+    const lineup = [fixed, ...rotating].filter((t): t is NonNullable<typeof t> => !!t);
     for (let i = 0; i < lineup.length / 2; i += 1) {
       const left = lineup[i], right = lineup[lineup.length - 1 - i];
-      if (left.id !== "bye" && right.id !== "bye") {
+      if (left && right && left.id !== "bye" && right.id !== "bye") {
         const home = round % 2 === 0 ? left : right;
         const away = round % 2 === 0 ? right : left;
-        const firstSlot = KICKOFF_SLOTS[(round * 3) % KICKOFF_SLOTS.length];
-        const returnSlot = KICKOFF_SLOTS[((round + half) * 3) % KICKOFF_SLOTS.length];
+        const firstSlot = KICKOFF_SLOTS[(round * 3) % KICKOFF_SLOTS.length]!;
+        const returnSlot = KICKOFF_SLOTS[((round + half) * 3) % KICKOFF_SLOTS.length]!;
         fixtures.push({ round: round + 1, home, away, ...firstSlot }, { round: round + half + 1, home: away, away: home, ...returnSlot });
       }
     }
-    rotating = [rotating[rotating.length - 1], ...rotating.slice(0, -1)];
+    rotating = [...rotating.slice(-1), ...rotating.slice(0, -1)];
   }
   return fixtures.filter((f) => f.round <= maxRounds);
 }
@@ -117,6 +117,7 @@ function Page() {
       return raw ? JSON.parse(raw) as CareerSave : null;
     } catch { return null; }
   });
+  const [result, setResult] = useState<MatchResult | null>(null);
   const divisionClubs = career ? getClubsByDivision(career.division as BrazilianDivision) : [];
   const group = career?.division === "Série D" ? divisionClubs.find((club) => club.name === career.club)?.group : undefined;
   const participatingClubs = group ? divisionClubs.filter((club) => club.group === group) : divisionClubs;
@@ -128,7 +129,6 @@ function Page() {
   const careerFixture = roundFixtures.find((fixture) => fixture.home.name === career?.club || fixture.away.name === career?.club);
   const fixtureOpponent = careerFixture ? (careerFixture.home.name === career?.club ? careerFixture.away : careerFixture.home) : null;
   const [speed, setSpeed] = useState<MatchSpeed>("medium");
-  const [result, setResult] = useState<MatchResult | null>(null);
   const [minute, setMinute] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [halftime, setHalftime] = useState(false);
