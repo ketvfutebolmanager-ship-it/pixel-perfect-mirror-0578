@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
 import { getClubsByDivision, type BrazilianDivision } from "@/modules/clubs/brazilian-clubs-2026";
 import { simulateMatch, type MatchResult, type MatchTeam } from "@/modules/matches/simulate";
@@ -105,10 +105,133 @@ const STADIUMS: Record<string, string> = {
   Vitória: "Barradão",
 };
 
+const FOOTYLOGOS_SLUGS: Record<string, string> = {
+  "América Mineiro": "america-mineiro",
+  "Athletic Club": "athletic",
+  "Atlético Goianiense": "atletico-goianiense",
+  "Avaí": "avai-fc",
+  "Botafogo de Ribeirão Preto": "botafogo-sp",
+  "Ceará": "ceara-sc",
+  "CRB": "crb",
+  "Criciúma": "criciuma",
+  "Novorizontino": "gremio-novorizontino",
+  "Operário Ferroviário": "operario-ferroviario",
+  "Botafogo da Paraíba": "botafogo-pb",
+  "Ferroviária": "ferroviaria",
+  "Inter de Limeira": "inter-de-limeira",
+  "Maranhão": "maranhao",
+  "Paysandu": "paysandu",
+  "Volta Redonda": "volta-redonda",
+  "Ypiranga": "ypiranga",
+  "ABC": "abc",
+  "ABECAT": "abecat-ouvidorense",
+  "Água Santa": "agua-santa",
+  "Águia de Marabá": "aguia-de-maraba",
+  "Altos": "altos",
+  "America-RJ": "america-rj",
+  "América-RN": "america-de-natal",
+  "Aparecidense": "aparecidense",
+  "Araguaína": "araguaina",
+  "ASA": "asa-de-arapiraca",
+  "Atlético de Alagoinhas": "atletico-de-alagoinhas",
+  "Atlético Cearense": "atletico-cearense",
+  "Azuriz": "azuriz",
+  "Betim": "betim-futebol",
+  "Blumenau": "blumenau",
+  "Brasil de Pelotas": "brasil-de-pelotas",
+  "Brasiliense": "brasiliense",
+  "Capital": "capital-clube-de-futebol",
+  "Ceilândia": "ceilandia",
+  "Central": "central-sport-club",
+  "Cianorte": "cianorte",
+  "CRAC": "crac",
+  "CSA": "csa",
+  "CSE": "cse",
+  "Decisão": "decisao-goiana",
+  "Democrata de Governador Valadares": "democrata-gv",
+  "FC Cascavel": "fc-cascavel",
+  "Ferroviário": "ferroviario",
+  "Fluminense do Piauí": "fluminense-pi",
+  "Galvez": "galvez",
+  "Gama": "gama",
+  "GAS": "gremio-atletico-sampaio",
+  "Goiatuba": "goiatuba",
+  "Guaporé": "guapore",
+  "Guarany de Bagé": "guarany-de-bage",
+  "Humaitá": "sport-clube-humaita",
+  "IAPE": "iape",
+  "Iguatu": "iguatu",
+  "Imperatriz": "imperatriz",
+  "Ivinhema": "ivinhema",
+  "Independência": "independencia",
+  "Inhumas": "inhumas",
+  "Jacuipense": "ec-jacuipense",
+  "Joinville": "joinville",
+  "Juazeirense": "juazeirense",
+  "Lagarto": "lagarto",
+  "Laguna": "clube-laguna",
+  "Luverdense": "luverdense",
+  "Madureira": "madureira",
+  "Maguary": "maguary",
+  "Manaus": "manaus",
+  "Manauara": "manauara",
+  "Marcílio Dias": "marcilio-dias",
+  "Maracanã": "maracana",
+  "Maricá": "marica",
+  "Mixto": "mixto",
+  "Monte Roraima": "monte-roraima",
+  "Moto Club": "moto-club-de-sao-luis",
+  "Nacional-AM": "nacional-am",
+  "Noroeste": "noroeste",
+  "Nova Iguaçu": "nova-iguacu",
+  "Operário-MS": "operario-ms",
+  "Operário de Várzea Grande": "operario-mt",
+  "Oratório": "oratorio",
+  "Parnahyba": "parnahyba",
+  "Piauí": "piaui",
+  "Porto": "porto-ba",
+  "Porto Velho": "porto-velho",
+  "Portuguesa": "associacao-portuguesa-de-desportos",
+  "Portuguesa-RJ": "portuguesa-rj",
+  "Pouso Alegre": "pouso-alegre",
+  "Primavera": "primavera-atletico-clube",
+  "Real Noroeste": "real-noroeste",
+  "Retrô": "retro-fc",
+  "Rio Branco-ES": "rio-branco-es",
+  "Sampaio Corrêa-MA": "sampaio-correa",
+  "Sampaio Corrêa-RJ": "sampaio-correa-rj",
+  "Santa Catarina": "santa-catarina",
+  "São José-RS": "ec-sao-jose",
+  "São Joseense": "sao-joseense",
+  "São Luiz": "ec-sao-luiz",
+  "São Raimundo-RR": "sao-raimundo-rr",
+  "Serra Branca": "serra-branca",
+  "Sergipe": "sergipe",
+  "Sousa": "sousa",
+  "Tirol": "tirol",
+  "Tocantinópolis": "tocantinopolis",
+  "Tombense": "tombense",
+  "Treze": "treze",
+  "Trem": "trem",
+  "Tuna Luso": "tuna-luso",
+  "Uberlândia": "uberlandia",
+  "União Rondonópolis": "uniao-rondonopolis",
+  "Velo Clube": "velo-clube",
+  "Vitória-ES": "vitoria-es",
+  "XV de Piracicaba": "xv-de-piracicaba",
+};
+
+function logoSlug(name: string) {
+  return FOOTYLOGOS_SLUGS[name] ?? name.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
 function Crest({ club }: { club: string }) {
-  const file = CRESTS[club];
-  if (!file) return <span aria-label={`Escudo de ${club} não cadastrado`} className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-border bg-background text-xs font-black text-primary">{club.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>;
-  return <img src={`https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(file).replace(/%20/g, "%20")}`} alt={`Escudo do ${club}`} className="h-12 w-12 shrink-0 object-contain" />;
+  const [failed, setFailed] = useState(false);
+  const localFile = CRESTS[club];
+  const src = localFile
+    ? `https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(localFile)}`
+    : `https://www.footylogos.com/dls/logo/${logoSlug(club)}.png`;
+  if (failed) return <span aria-label={`Escudo de ${club} indisponível`} className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-border bg-background text-xs font-black text-primary">{club.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>;
+  return <img src={src} alt={`Escudo do ${club}`} loading="lazy" onError={() => setFailed(true)} className="h-12 w-12 shrink-0 object-contain" />;
 }
 
 function MoraleMeter({ title, value, description }: { title: string; value: number; description: string }) {
@@ -298,7 +421,10 @@ function Page() {
         <div className="mt-5 space-y-3">
           {allDivisionRoundFixtures.map((fixture, fixtureIndex) => {
             const isCareerMatch = fixture.division === career.division && (fixture.home.name === career.club || fixture.away.name === career.club);
-            return <div key={fixture.round + "-" + fixture.home.id} className={`rounded-md border p-3 ${isCareerMatch ? "border-primary bg-primary/5 ring-1 ring-primary/20" : "border-border bg-background"}`}>
+            const startsDivision = fixtureIndex === 0 || allDivisionRoundFixtures[fixtureIndex - 1]?.division !== fixture.division || allDivisionRoundFixtures[fixtureIndex - 1]?.groupName !== fixture.groupName;
+            return <Fragment key={fixture.division + "-" + (fixture.groupName ?? "geral") + "-" + fixture.round + "-" + fixture.home.id}>
+              {startsDivision && <div className="col-span-full flex items-center gap-3 py-3"><div className="h-px flex-1 bg-primary/60" /><h3 className="rounded-md border border-primary/50 bg-primary/10 px-5 py-2 font-display text-lg font-black uppercase tracking-wider text-primary">{fixture.division}{fixture.groupName ? " · Grupo " + fixture.groupName : ""}</h3><div className="h-px flex-1 bg-primary/60" /></div>}
+              <div className={`rounded-md border p-3 ${isCareerMatch ? "border-primary bg-primary/5 ring-1 ring-primary/20" : "border-border bg-background"}`}>
               <div className="mb-2 flex items-center justify-between"><span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">{fixture.division}{fixture.groupName ? " · Grupo " + fixture.groupName : ""} · Jogo {fixtureIndex + 1}</span><span className="text-[10px] font-semibold text-muted-foreground">{fixture.weekday} · {fixture.kickoff} (Brasília)</span>{isCareerMatch && <span className="text-[10px] font-black uppercase tracking-widest text-primary">Seu confronto</span>}</div>
               <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
                 <div className="flex min-w-0 items-center gap-2"><Crest club={fixture.home.name}/><span className="truncate text-sm font-semibold">{fixture.home.name}</span></div>
@@ -308,7 +434,8 @@ function Page() {
               {(() => { const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id; const matchResult = isCareerMatch ? result : roundResults[key]; const shownEvents = matchResult?.events.filter((event) => !isCareerMatch || event.minute <= minute) ?? []; return shownEvents.length > 0 ? <div className="mt-2 rounded bg-background/70 px-3 py-2 text-xs"><p className="mb-1 font-bold uppercase tracking-wide text-primary">Gols da partida</p><div className="flex flex-wrap gap-x-4 gap-y-1">{shownEvents.map((event, index) => <span key={event.minute + "-" + index} className="text-muted-foreground">{event.minute}' · <strong className="text-foreground">{event.playerName ?? "Autor não cadastrado"}</strong> ({event.clubName})</span>)}</div></div> : null; })()}
               
               {isCareerMatch && <div className="col-span-3 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-2"><span className="text-xs font-bold uppercase text-primary">Seu jogo · {STADIUMS[fixture.home.name] ?? "Estádio a cadastrar"}</span><button type="button" onClick={play} disabled={playing || !!result} className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-primary-foreground disabled:opacity-50">{playing ? "Partida em andamento..." : result ? "Partida realizada" : "Jogar partida"}</button></div>}
-            </div>;
+              </div>
+            </Fragment>;
           })}
         </div>
         <div className="mt-6 grid gap-4 sm:grid-cols-3">
