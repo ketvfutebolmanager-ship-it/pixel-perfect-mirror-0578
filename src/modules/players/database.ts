@@ -2892,6 +2892,398 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     id: "yuri-salenave-internacional", name: "Yuri Salenave", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "ATA",
     source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
   },
+  {
+    id: "georgemy-mirassol", name: "Georgemy", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "GOL", shirtNumber: 1,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "walter-mirassol", name: "Walter", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "GOL", shirtNumber: 22,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alex-muralha-mirassol", name: "Alex Muralha", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "GOL", shirtNumber: 23,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "thomazella-mirassol", name: "Thomazella", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "GOL", shirtNumber: 90,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-oliveira-mirassol", name: "Lucas Oliveira", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ZAG", shirtNumber: 2,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "willian-machado-mirassol", name: "Willian Machado", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ZAG", shirtNumber: 3,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-victor-mirassol", name: "João Victor", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ZAG", shirtNumber: 34,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-knesowitsch-mirassol", name: "Gabriel Knesowitsch", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ZAG", shirtNumber: 44,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marcelinho-mirassol", name: "Marcelinho", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ZAG", shirtNumber: 53,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "reinaldo-mirassol", name: "Reinaldo", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "LAT", shirtNumber: 6,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "victor-luis-mirassol", name: "Victor Luis", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "LAT", shirtNumber: 12,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "elias-mirassol", name: "Elias", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "LAT", shirtNumber: 18,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "daniel-borges-mirassol", name: "Daniel Borges", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "LAT", shirtNumber: 20,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "igor-formiga-mirassol", name: "Igor Formiga", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "LAT", shirtNumber: 32,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "japa-mirassol", name: "Japa", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "MEI", shirtNumber: 5,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "shaylon-mirassol", name: "Shaylon", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "MEI", shirtNumber: 7,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "denilson-mirassol", name: "Denilson", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "MEI", shirtNumber: 8,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "chico-kim-mirassol", name: "Chico Kim", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "MEI", shirtNumber: 10,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jose-aldo-mirassol", name: "José Aldo", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "MEI", shirtNumber: 21,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "neto-moura-mirassol", name: "Neto Moura", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "MEI", shirtNumber: 25,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "eduardo-mirassol", name: "Eduardo", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "MEI", shirtNumber: 33,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gustavo-cazonatti-mirassol", name: "Gustavo Cazonatti", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "MEI", shirtNumber: 55,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "wallisson-mirassol", name: "Wallisson", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "MEI", shirtNumber: 80,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ze-roberto-mirassol", name: "Zé Roberto", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ATA", shirtNumber: 9,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "negueba-mirassol", name: "Negueba", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ATA", shirtNumber: 11,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gustavo-silva-mirassol", name: "Gustavo Silva", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ATA", shirtNumber: 16,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fernandinho-mirassol", name: "Fernandinho", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ATA", shirtNumber: 17,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bruno-santos-mirassol", name: "Bruno Santos", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ATA", shirtNumber: 30,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alesson-mirassol", name: "Alesson", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ATA", shirtNumber: 77,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "edson-carioca-mirassol", name: "Edson Carioca", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ATA", shirtNumber: 95,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "carlos-eduardo-mirassol", name: "Carlos Eduardo", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ATA", shirtNumber: 96,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "andre-luis-mirassol", name: "André Luis", clubId: "mirassol", clubName: "Mirassol", division: "Série A", position: "ATA", shirtNumber: 99,
+    source: "Bússola do Futebol — elenco Mirassol 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ivan-remo-remo", name: "Ivan", clubId: "remo", clubName: "Remo", division: "Série A", position: "GOL",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marcelo-rangel-remo-remo", name: "Marcelo Rangel", clubId: "remo", clubName: "Remo", division: "Série A", position: "GOL",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ygor-vinhas-remo", name: "Ygor Vinhas", clubId: "remo", clubName: "Remo", division: "Série A", position: "GOL",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "leo-andrade-remo-remo", name: "Léo Andrade", clubId: "remo", clubName: "Remo", division: "Série A", position: "ZAG",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marllon-remo-remo", name: "Marllon", clubId: "remo", clubName: "Remo", division: "Série A", position: "ZAG",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheus-felipe-remo-remo", name: "Matheus Felipe", clubId: "remo", clubName: "Remo", division: "Série A", position: "ZAG",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "duplexe-tchamba-remo", name: "Duplexe Tchamba", clubId: "remo", clubName: "Remo", division: "Série A", position: "ZAG",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ze-ivaldo-remo-remo", name: "Zé Ivaldo", clubId: "remo", clubName: "Remo", division: "Série A", position: "ZAG",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-lucas-remo-remo", name: "João Lucas", clubId: "remo", clubName: "Remo", division: "Série A", position: "LAT",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marcelinho-remo-remo", name: "Marcelinho", clubId: "remo", clubName: "Remo", division: "Série A", position: "LAT",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheus-alexandre-remo-remo", name: "Matheus Alexandre", clubId: "remo", clubName: "Remo", division: "Série A", position: "LAT",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marlon-remo-remo", name: "Marlon", clubId: "remo", clubName: "Remo", division: "Série A", position: "LAT",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "mayk-remo-remo", name: "Mayk", clubId: "remo", clubName: "Remo", division: "Série A", position: "LAT",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "edson-fernando-remo", name: "Edson Fernando", clubId: "remo", clubName: "Remo", division: "Série A", position: "VOL",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jaderson-remo", name: "Jaderson", clubId: "remo", clubName: "Remo", division: "Série A", position: "VOL",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "patrick-remo-remo", name: "Patrick", clubId: "remo", clubName: "Remo", division: "Série A", position: "VOL",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "leonel-picco-remo", name: "Leonel Picco", clubId: "remo", clubName: "Remo", division: "Série A", position: "VOL",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ze-welison-remo", name: "Zé Welison", clubId: "remo", clubName: "Remo", division: "Série A", position: "VOL",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ze-ricardo-remo", name: "Zé Ricardo", clubId: "remo", clubName: "Remo", division: "Série A", position: "VOL",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "david-braga-remo", name: "David Braga", clubId: "remo", clubName: "Remo", division: "Série A", position: "MEI",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vitor-bueno-remo-remo", name: "Vitor Bueno", clubId: "remo", clubName: "Remo", division: "Série A", position: "MEI",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alef-manga-remo", name: "Alef Manga", clubId: "remo", clubName: "Remo", division: "Série A", position: "ATA",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "galeano-remo-remo", name: "Galeano", clubId: "remo", clubName: "Remo", division: "Série A", position: "ATA",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "eduardo-melo-remo", name: "Eduardo Melo", clubId: "remo", clubName: "Remo", division: "Série A", position: "ATA",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jaja-remo-remo", name: "Jajá", clubId: "remo", clubName: "Remo", division: "Série A", position: "ATA",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "yago-pikachu-remo", name: "Yago Pikachu", clubId: "remo", clubName: "Remo", division: "Série A", position: "ATA",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-poveda-remo", name: "Gabriel Poveda", clubId: "remo", clubName: "Remo", division: "Série A", position: "ATA",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-taliari-remo", name: "Gabriel Taliari", clubId: "remo", clubName: "Remo", division: "Série A", position: "ATA",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "tico-remo-remo", name: "Tico", clubId: "remo", clubName: "Remo", division: "Série A", position: "ATA",
+    source: "ge — elenco atual do Remo após reformulação, publicado em 13/09/2026; conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-arcanjo-vitoria", name: "Lucas Arcanjo", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "GOL", shirtNumber: 1,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fintelman-vitoria", name: "Fintelman", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "GOL", shirtNumber: 35,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "yuri-sena-vitoria", name: "Yuri Sena", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "GOL", shirtNumber: 71,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "emanuel-britez-vitoria", name: "Emanuel Brítez", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ZAG", shirtNumber: 2,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "darlan-vitoria", name: "Darlan", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ZAG", shirtNumber: 3,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "camutanga-vitoria", name: "Camutanga", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ZAG", shirtNumber: 4,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ramon-vitoria-vitoria", name: "Ramon", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "LAT", shirtNumber: 13,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kauan-coutinho-vitoria", name: "Kauan Coutinho", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ZAG", shirtNumber: 18,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "caca-vitoria", name: "Cacá", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ZAG", shirtNumber: 25,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "edenilson-vitoria-vitoria", name: "Edenilson", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ZAG", shirtNumber: 26,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "luan-candido-vitoria", name: "Luan Cândido", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "LAT", shirtNumber: 36,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "edu-ribeiro-vitoria", name: "Edu Ribeiro", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ZAG", shirtNumber: 43,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "nathan-mendes-vitoria", name: "Nathan Mendes", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "LAT", shirtNumber: 45,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fabiano-vitoria-vitoria", name: "Fabiano", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "LAT", shirtNumber: 70,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jamerson-vitoria", name: "Jamerson", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "LAT", shirtNumber: 83,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "mateus-silva-vitoria", name: "Mateus Silva", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ZAG", shirtNumber: 98,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "emmanuel-martinez-vitoria", name: "Emmanuel Martínez", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "MEI", shirtNumber: 6,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "tomas-pochettino-vitoria", name: "Tomás Pochettino", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "MEI", shirtNumber: 8,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheuzinho-vitoria", name: "Matheuzinho", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "MEI", shirtNumber: 10,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "walace-vitoria", name: "Walace", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "VOL", shirtNumber: 15,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ruben-ismael-vitoria", name: "Rúben Ismael", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "MEI", shirtNumber: 16,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "dudu-vitoria-vitoria", name: "Dudu", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "VOL", shirtNumber: 21,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "wendell-santos-vitoria", name: "Wendell Santos", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "MEI", shirtNumber: 41,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-baralhas-vitoria", name: "Gabriel Baralhas", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "VOL", shirtNumber: 44,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ze-vitor-vitoria-vitoria", name: "Zé Vitor", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "VOL", shirtNumber: 88,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "caique-goncalves-vitoria", name: "Caíque Gonçalves", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "VOL", shirtNumber: 95,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marinho-vitoria", name: "Marinho", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ATA", shirtNumber: 7,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alex-bruno-vitoria", name: "Alex Bruno", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ATA", shirtNumber: 9,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "osvaldo-vitoria", name: "Osvaldo", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ATA", shirtNumber: 11,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "diego-tarzia-vitoria", name: "Diego Tarzia", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ATA", shirtNumber: 12,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-silva-vitoria-vitoria", name: "Lucas Silva", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ATA", shirtNumber: 20,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fabri-vitoria", name: "Fabrí", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ATA", shirtNumber: 23,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "anderson-pato-vitoria", name: "Anderson Pato", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ATA", shirtNumber: 28,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "erick-vitoria-vitoria", name: "Erick", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ATA", shirtNumber: 33,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ignacio-laquintana-vitoria", name: "Ignacio Laquintana", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ATA", shirtNumber: 77,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "renato-kayzer-vitoria", name: "Renato Kayzer", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ATA", shirtNumber: 79,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rene-vitoria-ata-vitoria", name: "Renê", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ATA", shirtNumber: 91,
+    source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
+  },
 ];
 export const PLAYER_DATA_AS_OF = "2026-10-31";
 export const PLAYER_DATA_STATUS = "partial-verified";
