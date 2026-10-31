@@ -40,6 +40,9 @@ function Page() {
       coach: coach.trim(), club: selectedClub.name, division: selectedClub.division, approach, season: 2026, played: 0, fanMorale: 70, boardConfidence: 70,
     };
     try {
+      // Uma carreira nova nunca deve herdar o placar ou o estado tático de uma carreira anterior.
+      window.localStorage.removeItem("ketvfm-match-session");
+      window.localStorage.removeItem("ketvfm-lineup-selections");
       window.localStorage.setItem("ketvfm-career", JSON.stringify(save));
       navigate({ to: "/partida" });
     } catch {
