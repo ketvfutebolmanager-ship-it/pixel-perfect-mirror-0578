@@ -797,6 +797,402 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     id: "ramon-sosa-palmeiras", name: "Ramón Sosa", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "ATA", shirtNumber: 19,
     source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
   }
+  {
+    id: "stiven-mendoza-athletico-paranaense", name: "Stiven Mendoza", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "ATA", shirtNumber: 7,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kevin-viveros-athletico-paranaense", name: "Kevin Viveros", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "ATA", shirtNumber: 9,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kerwin-vargas-athletico-paranaense", name: "Kerwin Vargas", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "ATA", shirtNumber: 18,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jorge-rivaldo-athletico-paranaense", name: "Jorge Rivaldo", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "ATA", shirtNumber: 19,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "leozinho-athletico-paranaense", name: "Leozinho", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "ATA", shirtNumber: 21,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "felipe-chiqueti-athletico-paranaense", name: "Felipe Chiqueti", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "ATA", shirtNumber: 47,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "renan-viana-athletico-paranaense", name: "Renan Viana", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "ATA", shirtNumber: 50,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "renan-peixoto-athletico-paranaense", name: "Renan Peixoto", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "ATA", shirtNumber: 70,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "felipinho-athletico-paranaense", name: "Felipinho", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "MEI", shirtNumber: 5,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-cruz-athletico-paranaense", name: "João Cruz", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "MEI", shirtNumber: 8,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bruno-zapelli-athletico-paranaense", name: "Bruno Zapelli", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "MEI", shirtNumber: 10,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "luiz-gustavo-athletico-paranaense", name: "Luiz Gustavo", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "MEI", shirtNumber: 14,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jadson-athletico-paranaense", name: "Jadson", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "MEI", shirtNumber: 16,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alejandro-garcia-athletico-paranaense", name: "Alejandro García", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "MEI", shirtNumber: 17,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "juan-portilla-athletico-paranaense", name: "Juan Portilla", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "MEI", shirtNumber: 27,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "dudu-kogitzki-athletico-paranaense", name: "Dudu Kogitzki", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "MEI", shirtNumber: 53,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "diogo-riquelme-athletico-paranaense", name: "Diogo Riquelme", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "MEI", shirtNumber: 63,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gilberto-dos-santos-athletico-paranaense", name: "Gilberto dos Santos", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "DEF", shirtNumber: 2,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "leo-pele-athletico-paranaense", name: "Léo Pelé", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "ZAG", shirtNumber: 3,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "arthur-dias-athletico-paranaense", name: "Arthur Dias", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "LAT", shirtNumber: 4,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "leo-derik-athletico-paranaense", name: "Léo Derik", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "LAT", shirtNumber: 6,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gilberto-moraes-athletico-paranaense", name: "Gilberto Moraes", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "LAT", shirtNumber: 12,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "carlos-teran-athletico-paranaense", name: "Carlos Terán", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "ZAG", shirtNumber: 22,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "dantas-athletico-paranaense", name: "Dantas", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "LAT", shirtNumber: 25,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "claudinho-athletico-paranaense", name: "Claudinho", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "LAT", shirtNumber: 26,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gaston-benavidez-athletico-paranaense", name: "Gastón Benavídez", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "LAT", shirtNumber: 29,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "juan-felipe-aguirre-athletico-paranaense", name: "Juan Felipe Aguirre", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "ZAG", shirtNumber: 33,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-esquivel-athletico-paranaense", name: "Lucas Esquivel", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "LAT", shirtNumber: 37,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "mycael-athletico-paranaense", name: "Mycael", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "GOL", shirtNumber: 1,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "santos-athletico-paranaense", name: "Santos", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "GOL", shirtNumber: 23,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheus-soares-athletico-paranaense", name: "Matheus Soares", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "GOL", shirtNumber: 42,
+    source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "anderson-chapecoense", name: "Anderson", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "GOL", shirtNumber: 98,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-werner-chapecoense", name: "Gabriel Werner", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "GOL", shirtNumber: 14,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kaina-chapecoense", name: "Kainã", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "GOL", shirtNumber: 34,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheus-aurelio-chapecoense", name: "Matheus Aurélio", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "GOL", shirtNumber: 30,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rafael-santos-chapecoense", name: "Rafael Santos", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "GOL", shirtNumber: 1,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "doma-chapecoense", name: "Doma", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "ZAG", shirtNumber: 3,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-paulo-chapecoense", name: "João Paulo", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "ZAG", shirtNumber: 4,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kauan-chapecoense", name: "Kauan", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "ZAG", shirtNumber: 21,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rafael-thyere-chapecoense", name: "Rafael Thyere", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "ZAG", shirtNumber: 15,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "victor-caetano-chapecoense", name: "Victor Caetano", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "ZAG", shirtNumber: 25,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vinicius-chapecoense", name: "Vinicius", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "ZAG", shirtNumber: 35,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bruno-pacheco-chapecoense", name: "Bruno Pacheco", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "LAT", shirtNumber: 91,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bruno-tubarao-chapecoense", name: "Bruno Tubarão", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "LAT", shirtNumber: 20,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "dudu-chapecoense", name: "Dudu", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "LAT", shirtNumber: 23,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "everton-chapecoense", name: "Everton", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "LAT", shirtNumber: 26,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fernando-chapecoense", name: "Fernando", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "LAT", shirtNumber: 12,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "heitor-chapecoense", name: "Heitor", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "LAT", shirtNumber: 5,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "mancha-chapecoense", name: "Mancha", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "LAT", shirtNumber: 6,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bruno-matias-chapecoense", name: "Bruno Matias", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "VOL", shirtNumber: 16,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vinicius-balieiro-chapecoense", name: "Vinicius Balieiro", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "VOL", shirtNumber: 17,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "david-chapecoense", name: "David", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "VOL", shirtNumber: 19,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "camilo-chapecoense", name: "Camilo", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "VOL", shirtNumber: 27,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rosivan-chapecoense", name: "Rosivan", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "VOL", shirtNumber: 55,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rafael-carvalheira-chapecoense", name: "Rafael Carvalheira", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "VOL", shirtNumber: 99,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "giovanni-augusto-chapecoense", name: "Giovanni Augusto", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "MEI", shirtNumber: 10,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "max-chapecoense", name: "Max", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "MEI", shirtNumber: 22,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "miguel-carvalho-chapecoense", name: "Miguel Carvalho", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "MEI", shirtNumber: 80,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "robert-chapecoense", name: "Robert", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "MEI", shirtNumber: 8,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "yago-felipe-chapecoense", name: "Yago Felipe", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "MEI", shirtNumber: 88,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "dylan-borrero-chapecoense", name: "Dylan Borrero", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "ATA", shirtNumber: 77,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "franco-rossi-chapecoense", name: "Franco Rossi", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "ATA", shirtNumber: 29,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marcinho-chapecoense", name: "Marcinho", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "ATA", shirtNumber: 7,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "mauricio-garcez-chapecoense", name: "Maurício Garcez", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "ATA", shirtNumber: 31,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rubens-chapecoense", name: "Rubens", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "ATA", shirtNumber: 70,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "tulio-eduardo-chapecoense", name: "Túlio Eduardo", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "ATA", shirtNumber: 9,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "yannick-bolasie-chapecoense", name: "Yannick Bolasie", clubId: "chapecoense", clubName: "Chapecoense", division: "Série A", position: "ATA", shirtNumber: 11,
+    source: "Site oficial da Chapecoense — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "thiago-couto-sport-recife", name: "Thiago Couto", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "GOL", shirtNumber: 26,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "brenno-sport-recife", name: "Brenno", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "GOL", shirtNumber: 1,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "denis-sport-recife", name: "Denis", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "GOL", shirtNumber: 12,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "adriano-sport-recife", name: "Adriano", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "GOL", shirtNumber: 42,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marcelo-ajul-sport-recife", name: "Marcelo Ajul", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ZAG", shirtNumber: 3,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "benevenuto-sport-recife", name: "Benevenuto", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ZAG", shirtNumber: 5,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "patrick-sport-recife", name: "Patrick", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ZAG", shirtNumber: 63,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kayky-sport-recife", name: "Kayky", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ZAG", shirtNumber: 33,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "habraao-sport-recife", name: "Habraão", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ZAG", shirtNumber: 42,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rai-lopes-sport-recife", name: "Raí Lopes", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "LAT", shirtNumber: 76,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "augusto-pucci-sport-recife", name: "Augusto Pucci", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "LAT", shirtNumber: 68,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "felipinho-sport-recife", name: "Felipinho", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "LAT", shirtNumber: 60,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rafinha-sport-recife", name: "Rafinha", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "LAT", shirtNumber: 66,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "claudinho-sport-recife", name: "Claudinho", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "LAT", shirtNumber: 27,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "edson-lucas-sport-recife", name: "Edson Lucas", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "LAT", shirtNumber: 96,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fernando-sobral-sport-recife", name: "Fernando Sobral", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "VOL", shirtNumber: 88,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "biel-sport-recife", name: "Biel", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "VOL", shirtNumber: 6,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "adriel-sport-recife", name: "Adriel", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "VOL", shirtNumber: 54,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "murilo-rhikman-sport-recife", name: "Murilo Rhikman", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "VOL", shirtNumber: 15,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "patrick-de-paula-sport-recife", name: "Patrick de Paula", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "VOL", shirtNumber: 7,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ze-gabriel-sport-recife", name: "Zé Gabriel", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "VOL", shirtNumber: 23,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "willian-oliveira-sport-recife", name: "Willian Oliveira", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "VOL", shirtNumber: 29,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "diego-hernandez-sport-recife", name: "Diego Hernández", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "MEI", shirtNumber: 20,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "juan-alano-sport-recife", name: "Juan Alano", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "MEI", shirtNumber: 8,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "carlos-de-pena-sport-recife", name: "Carlos de Pena", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "MEI", shirtNumber: 10,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "chrystian-barletta-sport-recife", name: "Chrystian Barletta", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ATA", shirtNumber: 30,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kervin-andrade-sport-recife", name: "Kervin Andrade", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ATA", shirtNumber: 80,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "dudu-teodora-sport-recife", name: "Dudu Teodora", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ATA", shirtNumber: 77,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pedro-perotti-sport-recife", name: "Pedro Perotti", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ATA", shirtNumber: 9,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marlon-douglas-sport-recife", name: "Marlon Douglas", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ATA", shirtNumber: 31,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "clayson-sport-recife", name: "Clayson", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ATA", shirtNumber: 25,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "neto-pessoa-sport-recife", name: "Neto Pessoa", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ATA", shirtNumber: 19,
+    source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
 ];
 export const PLAYER_DATA_AS_OF = "2026-10-31";
 export const PLAYER_DATA_STATUS = "partial-verified";
