@@ -3,6 +3,14 @@ import { useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
 import { getClubsByDivision, type BrazilianDivision } from "@/modules/clubs/brazilian-clubs-2026";
 
+const CREST_FILES: Record<string, string> = {
+  "Athletico Paranaense":"Athletico Paranaense.png","Atlético Mineiro":"Atlético Mineiro.png",Bahia:"Bahia.png",Botafogo:"Botafogo.png",Chapecoense:"Chapecoense.png",Corinthians:"Corinthians.png",Coritiba:"Coritiba.png",Cruzeiro:"Cruzeiro.png",Flamengo:"Flamengo.png",Fluminense:"Fluminense.png","Grêmio":"Grêmio.png",Internacional:"Internacional.png",Mirassol:"Mirassol.png",Palmeiras:"Palmeiras.png","Red Bull Bragantino":"Red Bull Bragantino.png",Remo:"Remo.png",Santos:"Santos.png","São Paulo":"São Paulo.png","Vasco da Gama":"Vasco da Gama.png",Vitória:"Vitória.png"
+};
+function crestUrl(name: string) {
+  const file = CREST_FILES[name];
+  return file ? `https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(file)}` : null;
+}
+
 export const Route = createFileRoute("/classificacao")({
   head: () => ({
     meta: [
@@ -64,11 +72,11 @@ function Page() {
                 </thead>
                 <tbody>
                   {groupClubs.map((club, index) => (
-                    <tr key={club.id} className="border-t border-border/70 transition-colors hover:bg-primary/5">
+                    <tr key={club.id} className={`border-t border-border/70 transition-colors hover:bg-primary/5 ${division === "Série A" && index >= groupClubs.length - 4 ? "bg-red-500/10" : division !== "Série A" && division !== "Série D" && index < 4 ? "bg-emerald-500/10" : division !== "Série A" && division !== "Série D" && index >= groupClubs.length - 4 ? "bg-red-500/10" : ""}`}>
                       <td className="px-3 py-3 text-center font-bold tabular-nums text-muted-foreground">{index + 1}</td>
                       <td className="px-3 py-3">
                         <div className="flex items-center gap-3">
-                          <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-[10px] font-black text-primary">{club.name.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>
+                          {crestUrl(club.name) ? <img src={crestUrl(club.name)!} alt={`Escudo do ${club.name}`} className="h-8 w-8 shrink-0 object-contain" /> : <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-[10px] font-black text-primary">{club.name.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>}
                           <span className="font-semibold">{club.name}</span>
                           <span className="text-xs text-muted-foreground">{club.state}</span>
                         </div>
@@ -82,7 +90,10 @@ function Page() {
           </section>
         );
       })}
-      <p className="text-xs leading-relaxed text-muted-foreground">Importante: esta é a tabela inicial de cadastro, não uma classificação oficial da CBF. Pontos, jogos, vitórias, empates, derrotas e gols estão zerados porque o calendário oficial e os resultados ainda não foram conectados ao simulador.</p>
+      <div className="mb-4 flex flex-wrap gap-4 text-xs text-muted-foreground">
+        {division === "Série A" ? <><span className="flex items-center gap-2"><i className="h-3 w-3 rounded-sm bg-emerald-500/40"/> Zona de classificação continental (a definir pelo regulamento)</span><span className="flex items-center gap-2"><i className="h-3 w-3 rounded-sm bg-red-500/40"/> Zona de rebaixamento (4 últimos)</span></> : division === "Série B" || division === "Série C" ? <><span className="flex items-center gap-2"><i className="h-3 w-3 rounded-sm bg-emerald-500/40"/> Zona de acesso (4 primeiros)</span><span className="flex items-center gap-2"><i className="h-3 w-3 rounded-sm bg-red-500/40"/> Zona de rebaixamento (4 últimos)</span></> : <span>A Série D é organizada por grupos e fases; as zonas serão aplicadas conforme o regulamento específico.</span>}
+      </div>
+      <p className="text-xs leading-relaxed text-muted-foreground">A tabela ainda é inicial e os clubes estão em ordem de cadastro, não por desempenho. As faixas são indicativas até a integração dos regulamentos oficiais e resultados da temporada.</p>
     </>
   );
 }
