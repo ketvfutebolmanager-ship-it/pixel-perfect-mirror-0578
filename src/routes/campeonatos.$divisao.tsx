@@ -3,6 +3,11 @@ import { PageHeader } from "@/components/layout/AppShell";
 import { getDivision } from "@/modules/competitions/divisions";
 import { getClubsByDivision, type BrazilianDivision } from "@/modules/clubs/brazilian-clubs-2026";
 
+const CREST_FILES: Record<string, string> = { "Athletico Paranaense":"Athletico Paranaense.png","Atlético Mineiro":"Atlético Mineiro.png",Bahia:"Bahia.png",Botafogo:"Botafogo.png",Chapecoense:"Chapecoense.png",Corinthians:"Corinthians.png",Coritiba:"Coritiba.png",Cruzeiro:"Cruzeiro.png",Flamengo:"Flamengo.png",Fluminense:"Fluminense.png","Grêmio":"Grêmio.png",Internacional:"Internacional.png",Mirassol:"Mirassol.png",Palmeiras:"Palmeiras.png","Red Bull Bragantino":"Red Bull Bragantino.png",Remo:"Remo.png",Santos:"Santos.png","São Paulo":"São Paulo.png","Vasco da Gama":"Vasco da Gama.png",Vitória:"Vitória.png" };
+function crestUrl(name: string) { const file = CREST_FILES[name]; return file ? "https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/" + encodeURIComponent(file) : null; }
+function zoneFor(division: BrazilianDivision, index: number, total: number) { if (division === "Série A") return index >= total - 4 ? "relegation" : index < 6 ? "continental" : "none"; if (division === "Série B" || division === "Série C") return index < 4 ? "promotion" : index >= total - 4 ? "relegation" : "none"; return "none"; }
+
+
 export const Route = createFileRoute("/campeonatos/$divisao")({
   loader: ({ params }) => {
     const division = getDivision(params.divisao);
@@ -57,10 +62,10 @@ function Page() {
                 </thead>
                 <tbody>
                   {groupClubs.map((club, index) => (
-                    <tr key={club.id} className="border-t border-border/70 transition-colors hover:bg-primary/5">
+                    <tr key={club.id} className={"border-t border-border/70 transition-colors hover:bg-primary/5 " + (zoneFor(division.name as BrazilianDivision, index, groupClubs.length) === "relegation" ? "bg-red-500/10" : zoneFor(division.name as BrazilianDivision, index, groupClubs.length) === "promotion" ? "bg-emerald-500/10" : zoneFor(division.name as BrazilianDivision, index, groupClubs.length) === "continental" ? "bg-sky-500/10" : "")}>
                       <td className="px-3 py-3 text-center font-bold tabular-nums text-muted-foreground">{index + 1}</td>
                       <td className="px-3 py-3"><div className="flex items-center gap-3">
-                        <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-[10px] font-black text-primary">{club.name.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>
+                        {crestUrl(club.name) ? <img src={crestUrl(club.name)!} alt={"Escudo do " + club.name} className="h-9 w-9 shrink-0 object-contain" /> : <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-[10px] font-black text-primary">{club.name.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>}
                         <span className="font-semibold">{club.name}</span><span className="text-xs text-muted-foreground">{club.state}</span>
                       </div></td>
                       {[0, 0, 0, 0, 0, 0, 0, 0].map((value, cell) => <td key={cell} className="px-2 py-3 text-center tabular-nums">{value}</td>)}
@@ -72,7 +77,7 @@ function Page() {
           </section>
         );
       })}
-      <p className="text-xs leading-relaxed text-muted-foreground">Esta é a tabela inicial dos clubes cadastrados, não a classificação oficial da CBF. Os indicadores estão zerados; serão atualizados quando calendário, partidas e resultados forem conectados ao sistema.</p>
+      <div className="mb-4 flex flex-wrap gap-4 text-xs text-muted-foreground">{division.name === "Série A" ? <><span>🟦 Faixa continental indicativa (6 primeiros)</span><span>🟥 Rebaixamento (4 últimos)</span></> : division.name === "Série B" || division.name === "Série C" ? <><span>🟩 Zona indicativa de acesso (4 primeiros)</span><span>🟥 Zona indicativa de rebaixamento (4 últimos)</span></> : <span>Série D: classificação por grupos e fases.</span>}</div><p className="text-xs leading-relaxed text-muted-foreground">Tabela inicial: clubes em ordem de cadastro e pontos zerados. Faixas indicativas até integração dos resultados e regulamentos.</p>
     </>
   );
 }
