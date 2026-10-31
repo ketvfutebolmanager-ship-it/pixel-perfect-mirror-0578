@@ -540,7 +540,6 @@ function Page() {
   const careerClubId = career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
   const availableSubstitutionPlayers = VERIFIED_PLAYERS_2026.filter((player) => player.clubId === careerClubId);
   const lineupRows = formationRows(formation);
-  const lineupPlayers = availableSubstitutionPlayers.filter((player) => player.position !== "DEF");
   const usedLineupIds = new Set<string>();
   const tacticalLineup = lineupRows.map((row) => row.map((role) => {
     const player = availableSubstitutionPlayers.find((candidate) => !usedLineupIds.has(candidate.id) && (candidate.position === role || (role === "LAT" && candidate.position === "DEF")));
