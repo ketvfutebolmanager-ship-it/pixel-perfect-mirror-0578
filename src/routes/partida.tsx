@@ -43,8 +43,8 @@ function buildFixtures(clubs: Array<{id:string;name:string;state:string}>, maxRo
       if (left && right && left.id !== "bye" && right.id !== "bye") {
         const home = round % 2 === 0 ? left : right;
         const away = round % 2 === 0 ? right : left;
-        const firstSlot = KICKOFF_SLOTS[(round * 3) % KICKOFF_SLOTS.length];
-        const returnSlot = KICKOFF_SLOTS[((round + half) * 3) % KICKOFF_SLOTS.length];
+        const firstSlot = KICKOFF_SLOTS[(round * 3) % KICKOFF_SLOTS.length]!;
+        const returnSlot = KICKOFF_SLOTS[((round + half) * 3) % KICKOFF_SLOTS.length]!;
         fixtures.push({ round: round + 1, home, away, ...firstSlot }, { round: round + half + 1, home: away, away: home, ...returnSlot });
       }
     }
