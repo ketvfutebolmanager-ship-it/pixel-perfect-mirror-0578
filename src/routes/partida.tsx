@@ -390,7 +390,7 @@ function MoraleMeter({ title, value, description }: { title: string; value: numb
   );
 }
 
-type SavedMatchSession = { result: MatchResult | null; roundResults: Record<string, MatchResult>; minute: number; playing: boolean; halftime: boolean; formation: Formation; pressure: Pressure; tacticalApproach: "defensive" | "balanced" | "attacking"; substitutions: number; substitutionNote: string; playerOutId?: string; playerInId?: string };
+type SavedMatchSession = { result: MatchResult | null; roundResults: Record<string, MatchResult>; minute: number; playing: boolean; halftime: boolean; formation: Formation; pressure: Pressure; tacticalApproach: "defensive" | "balanced" | "attacking"; substitutions: number; substitutionNote: string; playerOutId?: string; playerInId?: string; finalized?: boolean };
 const MATCH_SESSION_KEY = "ketvfm-match-session";
 function readMatchSession(): Partial<SavedMatchSession> {
   try { return JSON.parse(window.localStorage.getItem(MATCH_SESSION_KEY) ?? "{}") as Partial<SavedMatchSession>; } catch { return {}; }
@@ -446,6 +446,7 @@ function Page() {
   const [substitutionNote, setSubstitutionNote] = useState(() => readMatchSession().substitutionNote ?? "");
   const [playerOutId, setPlayerOutId] = useState(() => readMatchSession().playerOutId ?? "");
   const [playerInId, setPlayerInId] = useState(() => readMatchSession().playerInId ?? "");
+  const [matchFinalized, setMatchFinalized] = useState(() => readMatchSession().finalized ?? false);
 
   useEffect(() => {
     if (!playing) return;
@@ -471,9 +472,19 @@ function Page() {
       window.localStorage.removeItem(MATCH_SESSION_KEY);
       return;
     }
-    const session: SavedMatchSession = { result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote, playerOutId, playerInId };
+    const session: SavedMatchSession = { result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote, playerOutId, playerInId, finalized: matchFinalized };
     window.localStorage.setItem(MATCH_SESSION_KEY, JSON.stringify(session));
-  }, [result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote, playerOutId, playerInId]);
+  }, [result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote, playerOutId, playerInId, matchFinalized]);
+
+  useEffect(() => {
+    if (!career || minute !== 90 || !result || matchFinalized) return;
+    const won = result.homeGoals > result.awayGoals;
+    const drew = result.homeGoals === result.awayGoals;
+    const updated = { ...career, played: career.played + 1, fanMorale: Math.max(0, Math.min(100, (career.fanMorale ?? 70) + (won ? 7 : drew ? 1 : -7))), boardConfidence: Math.max(0, Math.min(100, (career.boardConfidence ?? 70) + (won ? 9 : drew ? -1 : -9))) };
+    window.localStorage.setItem("ketvfm-career", JSON.stringify(updated));
+    setCareer(updated);
+    setMatchFinalized(true);
+  }, [minute, result, matchFinalized, career]);
 
   useEffect(() => {
     if (!career || minute !== 90 || !result || Object.keys(roundResults).length > 0) return;
@@ -513,30 +524,19 @@ function Page() {
       attack: 70, midfield: 70, defense: 70,
       players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixtureOpponent.id).map(({ id, name }) => ({ id, name })),
     };
-    const next = simulateMatch(own, rival);
+    const next = simulateMatch(own, rival, Math.random, 1, 45);
     // Os demais confrontos só recebem resultado depois que a partida do treinador terminar.
     // Assim, a rodada não revela placares futuros no início do jogo.
     setRoundResults({});
     setResult(next);
     setMinute(0);
     setHalftime(false);
+    setMatchFinalized(false);
     setSubstitutions(0);
     setSubstitutionNote("");
     setPlayerOutId("");
     setPlayerInId("");
     setPlaying(true);
-    const previousFanMorale = career!.fanMorale ?? 70;
-    const previousBoardConfidence = career!.boardConfidence ?? 70;
-    const won = next.homeGoals > next.awayGoals;
-    const drew = next.homeGoals === next.awayGoals;
-    const updated = {
-      ...career!,
-      played: career!.played + 1,
-      fanMorale: Math.max(0, Math.min(100, previousFanMorale + (won ? 7 : drew ? 1 : -7))),
-      boardConfidence: Math.max(0, Math.min(100, previousBoardConfidence + (won ? 9 : drew ? -1 : -9))),
-    };
-    window.localStorage.setItem("ketvfm-career", JSON.stringify(updated));
-    setCareer(updated);
   }
 
   function resetMatch() {
@@ -544,6 +544,7 @@ function Page() {
     setHalftime(false);
     setMinute(0);
     setResult(null);
+    setMatchFinalized(false);
     setRoundResults({});
     const nextRound = Math.min(currentRound + 1, totalRounds);
     const advancedCareer = { ...career!, round: nextRound };
@@ -583,7 +584,7 @@ function Page() {
               {(() => { const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id; const matchResult = isCareerMatch ? result : roundResults[key]; const shownEvents = matchResult?.events.filter((event) => !isCareerMatch || event.minute <= minute) ?? []; return shownEvents.length > 0 ? <div className="mt-2 rounded bg-background/70 px-3 py-2 text-xs"><p className="mb-1 font-bold uppercase tracking-wide text-primary">Gols da partida</p><div className="flex flex-wrap gap-x-4 gap-y-1">{shownEvents.map((event, index) => <span key={event.minute + "-" + index} className="text-muted-foreground">{event.minute}' · <strong className="text-foreground">{event.playerName ?? "Autor não cadastrado"}</strong> ({event.clubName})</span>)}</div></div> : null; })()}
               
               <div className="mt-3 rounded-md border border-primary/40 bg-primary/5 px-3 py-2 text-center"><p className="font-display text-sm font-black uppercase tracking-wide text-primary">{STADIUMS[fixture.home.name] ?? "Estádio a confirmar"}</p><p className="mt-1 text-xs font-semibold text-muted-foreground">Público simulado: {estimatedAttendance(fixture.home.id, fixture.away.id).toLocaleString("pt-BR")} torcedores</p></div>
-              <div className="col-span-3 mt-2 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-2"><span className="text-xs font-semibold text-muted-foreground">Estádio do mandante: <strong className="text-foreground">{STADIUMS[fixture.home.name] ?? "Local de mando a confirmar"}</strong></span>{isCareerMatch && <button type="button" onClick={play} disabled={playing || !!result} className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-primary-foreground disabled:opacity-50">{playing ? "Partida em andamento..." : result ? "Partida realizada" : "Jogar partida"}</button>}</div>
+              <div className="col-span-3 mt-2 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-2"><span className="text-xs font-semibold text-muted-foreground">Estádio do mandante: <strong className="text-foreground">{STADIUMS[fixture.home.name] ?? "Local de mando a confirmar"}</strong></span>{isCareerMatch && <button type="button" onClick={() => { if (result && minute < 90 && !halftime) setPlaying(true); else if (!result) play(); }} disabled={playing || (!!result && minute >= 90) || halftime} className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-primary-foreground disabled:opacity-50">{playing ? "Partida em andamento..." : result && minute < 90 ? "Retomar partida" : result ? "Partida realizada" : "Jogar partida"}</button>}</div>
               </div>
             </Fragment>;
           })}
@@ -601,7 +602,7 @@ function Page() {
       {halftime && result && <section className="mt-6 rounded-md border-2 border-primary bg-card p-6">
         <p className="text-xs font-bold uppercase tracking-widest text-primary">Intervalo · 45 minutos</p>
         <h2 className="mt-2 font-display text-3xl font-black uppercase">Ajustes para o segundo tempo</h2>
-        <p className="mt-2 text-sm text-muted-foreground">Mude o esquema, a postura e a pressão. Você também pode registrar uma substituição.</p>
+        <p className="mt-2 text-sm text-muted-foreground">Intervalo aos 45 minutos: ajuste esquema, postura, pressão e faça até cinco substituições antes de iniciar o segundo tempo.</p>
         <div className="mt-5 grid gap-4 sm:grid-cols-3">
           <label className="text-sm font-semibold">Esquema<select value={formation} onChange={(e) => setFormation(e.target.value as Formation)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>4-4-2</option><option>4-3-3</option><option>3-5-2</option><option>4-2-3-1</option></select></label>
           <label className="text-sm font-semibold">Postura<select value={tacticalApproach} onChange={(e) => setTacticalApproach(e.target.value as typeof tacticalApproach)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option value="defensive">Defensiva</option><option value="balanced">Equilibrada</option><option value="attacking">Ofensiva</option></select></label>
@@ -625,11 +626,11 @@ function Page() {
                 </select>
               </label>
             </div>
-            <button type="button" disabled={substitutions >= 5 || !playerOutId || !playerInId || playerOutId === playerInId} onClick={() => { const outgoing = availableSubstitutionPlayers.find((player) => player.id === playerOutId); const incoming = availableSubstitutionPlayers.find((player) => player.id === playerInId); if (!outgoing || !incoming) return; setSubstitutions((n) => n + 1); setSubstitutionNote(`Sai ${outgoing.name}; entra ${incoming.name}.`); setPlayerOutId(""); setPlayerInId(""); }} className="mt-4 rounded-md border border-primary px-4 py-2 text-sm font-semibold text-primary disabled:opacity-40">Confirmar substituição</button>
+            <button type="button" disabled={substitutions >= 5 || !playerOutId || !playerInId || playerOutId === playerInId} onClick={() => { const outgoing = availableSubstitutionPlayers.find((player) => player.id === playerOutId); const incoming = availableSubstitutionPlayers.find((player) => player.id === playerInId); if (!outgoing || !incoming || !result) return; setSubstitutions((n) => n + 1); setSubstitutionNote(`Sai ${outgoing.name}; entra ${incoming.name}.`); setResult((current) => current ? ({ ...current, home: { ...current.home, players: [...(current.home.players ?? []).filter((player) => player.id !== outgoing.id), { id: incoming.id, name: incoming.name }] } }) : current); setPlayerOutId(""); setPlayerInId(""); }} className="mt-4 rounded-md border border-primary px-4 py-2 text-sm font-semibold text-primary disabled:opacity-40">Confirmar substituição</button>
           </> : <p className="mt-2 text-sm text-amber-600">Ainda não há jogadores suficientes cadastrados para {career.club} para selecionar uma troca. A base atual tem apenas {availableSubstitutionPlayers.length} atleta(s) confirmado(s) deste clube. O elenco completo precisa ser importado antes de liberar substituições reais.</p>}
           {substitutionNote && <p className="mt-2 text-sm text-primary">{substitutionNote}</p>}
         </div>
-        <button onClick={() => { setHalftime(false); setPlaying(true); }} className="mt-5 rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground">Começar segundo tempo</button>
+        <button onClick={() => { if (!result) return; const adjustedHome = { ...result.home, approach: tacticalApproach }; const adjustedAway = { ...result.away }; const secondHalf = simulateMatch(adjustedHome, adjustedAway, Math.random, 46, 90); setResult((current) => current ? ({ ...current, home: adjustedHome, homeGoals: current.homeGoals + secondHalf.homeGoals, awayGoals: current.awayGoals + secondHalf.awayGoals, events: [...current.events, ...secondHalf.events] }) : current); setHalftime(false); setPlaying(true); }} className="mt-5 rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground">Começar segundo tempo</button>
       </section>}
 
       {result && <section className="mt-4 rounded-md border border-border bg-card p-4">
