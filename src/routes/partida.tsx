@@ -187,7 +187,7 @@ function Page() {
   }, [result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote]);
 
   useEffect(() => {
-    if (minute !== 90 || !result || Object.keys(roundResults).length > 0) return;
+    if (!career || minute !== 90 || !result || Object.keys(roundResults).length > 0) return;
     const completedRoundResults: Record<string, MatchResult> = {};
     roundFixtures
       .filter((fixture) => fixture.home.name !== career.club && fixture.away.name !== career.club)
