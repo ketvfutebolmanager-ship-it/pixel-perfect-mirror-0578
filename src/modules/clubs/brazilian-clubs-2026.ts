@@ -10,7 +10,7 @@ const rows: Array<[string, string, BrazilianDivision, string?]> = [
 
 export const BRAZILIAN_CLUBS_2026: BrazilianClub[] = rows.map(([name, state, division, group]) => ({
   id: name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""),
-  name, state, division, ...(group ? { group } : {}),
+  name, state, division, ...(group ? { group } : {}), ...(division === "Série D" ? { verifiedAt: "2026-03-06" } : {}),
 }));
 
 export function getClubsByDivision(division: BrazilianDivision): BrazilianClub[] {
