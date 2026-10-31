@@ -7,6 +7,7 @@ export type MatchTeam = {
   midfield: number;
   defense: number;
   approach?: TacticalApproach;
+  players?: Array<{ id: string; name: string }>;
 };
 
 export type MatchEvent = {
@@ -14,6 +15,8 @@ export type MatchEvent = {
   type: "goal";
   clubId: string;
   clubName: string;
+  playerId?: string;
+  playerName?: string;
 };
 
 export type MatchResult = {
@@ -66,6 +69,7 @@ export function simulateMatch(
         type: "goal",
         clubId: attacker.id,
         clubName: attacker.name,
+        ...(attacker.players?.length ? (() => { const scorer = attacker.players[Math.floor(rng() * attacker.players.length)]!; return { playerId: scorer.id, playerName: scorer.name }; })() : {}),
       });
     }
   }
