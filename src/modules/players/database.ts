@@ -700,6 +700,103 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     id: "rodrigo-rodrigues-coritiba", name: "Rodrigo Rodrigues", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ATA",
     source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
   },
+,
+  {
+    id: "carlos-miguel-palmeiras", name: "Carlos Miguel", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "GOL", shirtNumber: 1,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marcelo-lomba-palmeiras", name: "Marcelo Lomba", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "GOL", shirtNumber: 14,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bruno-bertinato-palmeiras", name: "Bruno Bertinato", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "GOL", shirtNumber: 21,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gustavo-gomez-palmeiras", name: "Gustavo Gómez", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "ZAG", shirtNumber: 15,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alexander-barboza-palmeiras", name: "Alexander Barboza", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "ZAG", shirtNumber: 2,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bruno-fuchs-palmeiras", name: "Bruno Fuchs", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "ZAG", shirtNumber: 3,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "murilo-palmeiras", name: "Murilo", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "ZAG", shirtNumber: 26,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "luiz-benedetti-palmeiras", name: "Luiz Benedetti", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "ZAG", shirtNumber: 43,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "agustin-giay-palmeiras", name: "Agustín Giay", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "LAT", shirtNumber: 4,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jefte-palmeiras", name: "Jefté", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "LAT", shirtNumber: 6,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "khellven-palmeiras", name: "Khellven", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "LAT", shirtNumber: 12,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joaquin-piquerez-palmeiras", name: "Joaquín Piquerez", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "LAT", shirtNumber: 22,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "arthur-palmeiras", name: "Arthur", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "LAT", shirtNumber: 56,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marlon-freitas-palmeiras", name: "Marlon Freitas", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "VOL", shirtNumber: 17,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "andreas-pereira-palmeiras", name: "Andreas Pereira", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "VOL", shirtNumber: 8,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "emiliano-martinez-palmeiras", name: "Emiliano Martínez", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "VOL", shirtNumber: 32,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-evangelista-palmeiras", name: "Lucas Evangelista", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "MEI", shirtNumber: 30,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "larson-palmeiras", name: "Larson", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "MEI", shirtNumber: 48,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "mauricio-palmeiras", name: "Mauricio", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "MEI", shirtNumber: 18,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "felipe-anderson-palmeiras", name: "Felipe Anderson", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "MEI", shirtNumber: 7,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jhon-arias-palmeiras", name: "Jhon Arias", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "MEI", shirtNumber: 11,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vitor-roque-palmeiras", name: "Vitor Roque", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "ATA", shirtNumber: 9,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "paulinho-palmeiras", name: "Paulinho", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "ATA", shirtNumber: 10,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ramon-sosa-palmeiras", name: "Ramón Sosa", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "ATA", shirtNumber: 19,
+    source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  }
 ];
 export const PLAYER_DATA_AS_OF = "2026-10-31";
 export const PLAYER_DATA_STATUS = "partial-verified";
