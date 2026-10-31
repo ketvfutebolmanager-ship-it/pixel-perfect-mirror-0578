@@ -144,7 +144,7 @@ function Page() {
   const totalRounds = (participatingClubs.length - 1) * 2;
   const fixtures = buildFixtures(participatingClubs, totalRounds);
   const matchesPlayedBeforeCurrent = Math.max(0, (career?.played ?? 0) - (result ? 1 : 0));
-  const currentRound = Math.min(matchesPlayedBeforeCurrent + 1, totalRounds);
+  const currentRound = Math.min(career?.round ?? (matchesPlayedBeforeCurrent + 1), totalRounds);
   const roundFixtures = fixtures.filter((fixture) => fixture.round === currentRound);
   const allDivisionRoundFixtures = (["Série A", "Série B", "Série C", "Série D"] as BrazilianDivision[]).flatMap((division) => {
     const clubs = getClubsByDivision(division);
@@ -273,6 +273,10 @@ function Page() {
     setMinute(0);
     setResult(null);
     setRoundResults({});
+    const nextRound = Math.min(currentRound + 1, totalRounds);
+    const advancedCareer = { ...career!, round: nextRound };
+    window.localStorage.setItem("ketvfm-career", JSON.stringify(advancedCareer));
+    setCareer(advancedCareer);
     window.localStorage.removeItem(MATCH_SESSION_KEY);
   }
 
