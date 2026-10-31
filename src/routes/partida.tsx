@@ -185,6 +185,20 @@ function Page() {
     window.localStorage.setItem(MATCH_SESSION_KEY, JSON.stringify(session));
   }, [result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote]);
 
+  useEffect(() => {
+    if (minute !== 90 || !result || Object.keys(roundResults).length > 0) return;
+    const completedRoundResults: Record<string, MatchResult> = {};
+    roundFixtures
+      .filter((fixture) => fixture.home.name !== career.club && fixture.away.name !== career.club)
+      .forEach((fixture) => {
+        const homeTeam: MatchTeam = { id: fixture.home.id, name: fixture.home.name, attack: 70, midfield: 70, defense: 70 };
+        const awayTeam: MatchTeam = { id: fixture.away.id, name: fixture.away.name, attack: 70, midfield: 70, defense: 70 };
+        const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id;
+        completedRoundResults[key] = simulateMatch(homeTeam, awayTeam);
+      });
+    setRoundResults(completedRoundResults);
+  }, [minute, result, roundResults, roundFixtures, career.club]);
+
   if (!career) {
     return <section className="rounded-md border border-border bg-card p-8"><h1 className="text-3xl font-bold uppercase">Nenhuma carreira encontrada</h1><p className="mt-2 text-muted-foreground">Crie sua carreira antes de entrar em campo.</p><Link to="/nova-carreira" className="mt-5 inline-block rounded-md bg-primary px-5 py-3 font-bold text-primary-foreground">Criar carreira</Link></section>;
   }
@@ -206,13 +220,9 @@ function Page() {
       attack: 70, midfield: 70, defense: 70,
     };
     const next = simulateMatch(own, rival);
-    const otherResults: Record<string, MatchResult> = {};
-    roundFixtures.filter(fixture => fixture.home.name !== career!.club && fixture.away.name !== career!.club).forEach(fixture => {
-      const homeTeam: MatchTeam = { id: fixture.home.id, name: fixture.home.name, attack: 70, midfield: 70, defense: 70 };
-      const awayTeam: MatchTeam = { id: fixture.away.id, name: fixture.away.name, attack: 70, midfield: 70, defense: 70 };
-      otherResults[fixture.round + "-" + fixture.home.id + "-" + fixture.away.id] = simulateMatch(homeTeam, awayTeam);
-    });
-    setRoundResults(otherResults);
+    // Os demais confrontos só recebem resultado depois que a partida do treinador terminar.
+    // Assim, a rodada não revela placares futuros no início do jogo.
+    setRoundResults({});
     setResult(next);
     setMinute(0);
     setHalftime(false);
