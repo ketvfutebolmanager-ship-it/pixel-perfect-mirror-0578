@@ -1,5 +1,5 @@
 export type BrazilianDivision = "Série A" | "Série B" | "Série C" | "Série D";
-export type BrazilianClub = { id: string; name: string; state: string; division: BrazilianDivision; group?: string };
+export type BrazilianClub = { id: string; name: string; state: string; division: BrazilianDivision; group?: string; verifiedAt?: string };
 
 const rows: Array<[string, string, BrazilianDivision, string?]> = [
   ["Athletico Paranaense","PR","Série A"],["Atlético Mineiro","MG","Série A"],["Bahia","BA","Série A"],["Botafogo","RJ","Série A"],["Chapecoense","SC","Série A"],["Corinthians","SP","Série A"],["Coritiba","PR","Série A"],["Cruzeiro","MG","Série A"],["Flamengo","RJ","Série A"],["Fluminense","RJ","Série A"],["Grêmio","RS","Série A"],["Internacional","RS","Série A"],["Mirassol","SP","Série A"],["Palmeiras","SP","Série A"],["Red Bull Bragantino","SP","Série A"],["Remo","PA","Série A"],["Santos","SP","Série A"],["São Paulo","SP","Série A"],["Vasco da Gama","RJ","Série A"],["Vitória","BA","Série A"],
