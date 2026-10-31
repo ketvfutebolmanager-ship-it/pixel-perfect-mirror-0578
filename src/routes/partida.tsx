@@ -13,6 +13,12 @@ export const Route = createFileRoute("/partida")({
 
 type MatchSpeed = "slow" | "medium" | "fast";
 type Formation = "4-4-2" | "4-3-3" | "3-5-2" | "4-2-3-1";
+function formationRows(formation: Formation): string[][] {
+  if (formation === "4-4-2") return [["GOL"], ["LAT", "ZAG", "ZAG", "LAT"], ["MEI", "VOL", "VOL", "MEI"], ["ATA", "ATA"]];
+  if (formation === "3-5-2") return [["GOL"], ["ZAG", "ZAG", "ZAG"], ["LAT", "VOL", "MEI", "VOL", "LAT"], ["ATA", "ATA"]];
+  if (formation === "4-2-3-1") return [["GOL"], ["LAT", "ZAG", "ZAG", "LAT"], ["VOL", "VOL"], ["MEI", "MEI", "MEI"], ["ATA"]];
+  return [["GOL"], ["LAT", "ZAG", "ZAG", "LAT"], ["VOL", "MEI", "MEI"], ["ATA", "ATA", "ATA"]];
+}
 type PlayerMorale = Record<string, number>;
 const PLAYER_MORALE_KEY = "ketvfm-player-morale";
 function readPlayerMorale(): PlayerMorale {
@@ -398,7 +404,7 @@ function MoraleMeter({ title, value, description }: { title: string; value: numb
   );
 }
 
-type SavedMatchSession = { result: MatchResult | null; roundResults: Record<string, MatchResult>; minute: number; playing: boolean; halftime: boolean; formation: Formation; pressure: Pressure; tacticalApproach: "defensive" | "balanced" | "attacking"; substitutions: number; substitutionNote: string; playerOutId?: string; playerInId?: string; finalized?: boolean };
+type SavedMatchSession = { result: MatchResult | null; roundResults: Record<string, MatchResult>; minute: number; playing: boolean; halftime: boolean; formation: Formation; pressure: Pressure; tacticalApproach: "defensive" | "balanced" | "attacking"; substitutions: number; substitutionNote: string; playerOutId?: string; playerInId?: string; lineupSelections?: Record<string, string>; finalized?: boolean };
 const MATCH_SESSION_KEY = "ketvfm-match-session";
 function readMatchSession(): Partial<SavedMatchSession> {
   try {
@@ -459,6 +465,7 @@ function Page() {
   const [substitutionNote, setSubstitutionNote] = useState(() => readMatchSession().substitutionNote ?? "");
   const [playerOutId, setPlayerOutId] = useState(() => readMatchSession().playerOutId ?? "");
   const [playerInId, setPlayerInId] = useState(() => readMatchSession().playerInId ?? "");
+  const [lineupSelections, setLineupSelections] = useState<Record<string, string>>(() => readMatchSession().lineupSelections ?? {});
   const [matchFinalized, setMatchFinalized] = useState(() => readMatchSession().finalized ?? false);
 
   useEffect(() => {
@@ -485,9 +492,9 @@ function Page() {
       window.localStorage.removeItem(MATCH_SESSION_KEY);
       return;
     }
-    const session: SavedMatchSession = { result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote, playerOutId, playerInId, finalized: matchFinalized };
+    const session: SavedMatchSession = { result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote, playerOutId, playerInId, lineupSelections, finalized: matchFinalized };
     window.localStorage.setItem(MATCH_SESSION_KEY, JSON.stringify(session));
-  }, [result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote, playerOutId, playerInId, matchFinalized]);
+  }, [result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote, playerOutId, playerInId, lineupSelections, matchFinalized]);
 
   useEffect(() => {
     if (!career || minute !== 90 || !result || matchFinalized) return;
@@ -530,6 +537,64 @@ function Page() {
   const progress = (minute / 90) * 100;
   const careerClubId = career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
   const availableSubstitutionPlayers = VERIFIED_PLAYERS_2026.filter((player) => player.clubId === careerClubId);
+  const tacticalRows = formationRows(formation);
+  const positionMatches = (role: string, position: string) => role === position || (role === "LAT" && position === "DEF");
+  const selectedLineupPlayers = Object.values(lineupSelections).filter(Boolean);
+  function renderTacticalBoard(withSubstitutions: boolean) {
+    return <section className="mt-5 rounded-xl border-2 border-primary bg-card p-5">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <div><p className="text-xs font-bold uppercase tracking-widest text-primary">{withSubstitutions ? "Intervalo · ajustes do treinador" : "Pré-jogo · escalação"}</p><h2 className="mt-1 font-display text-2xl font-black uppercase">Campo tático · {formation}</h2><p className="mt-1 text-sm text-muted-foreground">Escolha a formação e defina quem joga em cada posição antes de entrar em campo.</p></div>
+        <label className="text-sm font-semibold">Esquema tático<select value={formation} onChange={e => setFormation(e.target.value as Formation)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-2"><option>4-4-2</option><option>4-3-3</option><option>3-5-2</option><option>4-2-3-1</option></select></label>
+      </div>
+      <div className="mt-4 rounded-xl border-2 border-emerald-700 bg-emerald-950 p-3 sm:p-5">
+        <div className="rounded-lg border border-emerald-600/70 bg-emerald-900/30 p-3">
+          <div className="mb-3 flex justify-between text-[10px] font-bold uppercase tracking-widest text-emerald-100"><span>{career.club}</span><span>Seu time</span></div>
+          <div className="space-y-3">
+            {tacticalRows.map((row,rowIndex) => <div key={rowIndex} className="flex flex-wrap justify-center gap-2 sm:gap-4">
+              {row.map((role,index) => {
+                const slot = rowIndex + "-" + index;
+                const currentId = lineupSelections[slot] ?? "";
+                const choices = availableSubstitutionPlayers.filter(player => positionMatches(role, player.position));
+                const current = availableSubstitutionPlayers.find(player => player.id === currentId);
+                return <label key={slot} className="flex w-[145px] flex-col items-center rounded-md border border-emerald-500/60 bg-emerald-800/90 p-2 text-center">
+                  <span className="text-[10px] font-black text-emerald-100">{role}</span>
+                  <select aria-label={"Jogador na posição " + role} value={currentId} onChange={e => setLineupSelections(old => ({...old,[slot]:e.target.value}))} className="mt-1 w-full rounded border border-emerald-600 bg-emerald-950 px-1 py-2 text-center text-[11px] font-bold text-white">
+                    <option value="">Escolher atleta</option>
+                    {choices.map(player => <option key={player.id} value={player.id} disabled={selectedLineupPlayers.includes(player.id) && player.id !== currentId}>{player.name}</option>)}
+                  </select>
+                  {current && <span className="mt-1 text-[10px] text-emerald-100">Moral {readPlayerMorale()[current.id] ?? 65}/100</span>}
+                </label>;
+              })}
+            </div>)}
+          </div>
+        </div>
+      </div>
+      <p className="mt-2 text-xs text-muted-foreground">A base de elencos é parcial. Se não houver atleta compatível com uma posição, ela ficará sem escalação até o cadastro do jogador.</p>
+      <div className="mt-4 grid gap-4 sm:grid-cols-2">
+        <label className="text-sm font-semibold">Postura<select value={tacticalApproach} onChange={e => setTacticalApproach(e.target.value as typeof tacticalApproach)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3"><option value="defensive">Defensiva</option><option value="balanced">Equilibrada</option><option value="attacking">Ofensiva</option></select></label>
+        <label className="text-sm font-semibold">Pressão<select value={pressure} onChange={e => setPressure(e.target.value as Pressure)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3"><option>Baixa</option><option>Média</option><option>Alta</option></select></label>
+      </div>
+      {withSubstitutions && <div className="mt-5 rounded-md border border-border p-4">
+        <p className="font-bold">Substituições: {substitutions}/5</p>
+        <div className="mt-3 grid gap-3 sm:grid-cols-2">
+          <label className="text-sm font-semibold">Quem vai sair?<select value={playerOutId} onChange={e => setPlayerOutId(e.target.value)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3"><option value="">Selecione o jogador</option>{availableSubstitutionPlayers.filter(p => selectedLineupPlayers.includes(p.id)).map(p => <option key={p.id} value={p.id}>{p.name} · {p.position}</option>)}</select></label>
+          <label className="text-sm font-semibold">Quem vai entrar?<select value={playerInId} onChange={e => setPlayerInId(e.target.value)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3"><option value="">Selecione o jogador</option>{availableSubstitutionPlayers.filter(p => !selectedLineupPlayers.includes(p.id) || p.id === playerOutId).map(p => <option key={p.id} value={p.id}>{p.name} · {p.position}</option>)}</select></label>
+        </div>
+        <button type="button" disabled={substitutions >= 5 || !playerOutId || !playerInId || playerOutId === playerInId} onClick={() => {
+          const outgoing = availableSubstitutionPlayers.find(p => p.id === playerOutId);
+          const incoming = availableSubstitutionPlayers.find(p => p.id === playerInId);
+          if (!outgoing || !incoming) return;
+          const slot = Object.keys(lineupSelections).find(key => lineupSelections[key] === outgoing.id);
+          if (slot) setLineupSelections(old => ({...old,[slot]:incoming.id}));
+          setSubstitutions(n => n + 1);
+          setSubstitutionNote("Sai " + outgoing.name + "; entra " + incoming.name + ".");
+          setResult(current => current ? ({...current,home:{...current.home,players:[...(current.home.players ?? []).filter(p => p.id !== outgoing.id),{id:incoming.id,name:incoming.name}]}}) : current);
+          setPlayerOutId(""); setPlayerInId("");
+        }} className="mt-4 rounded-md border border-primary px-4 py-2 text-sm font-bold text-primary disabled:opacity-40">Confirmar substituição</button>
+        {substitutionNote && <p className="mt-2 text-sm font-semibold text-primary">{substitutionNote}</p>}
+      </div>}
+    </section>;
+  }
 
   function play() {
     if (!fixtureOpponent || !careerFixture || playing) return;
@@ -545,6 +610,8 @@ function Page() {
       attack: 70, midfield: 70, defense: 70,
       players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixtureOpponent.id).map(({ id, name }) => ({ id, name })),
     };
+    const selectedPlayers = Object.values(lineupSelections).filter(Boolean).map(id => availableSubstitutionPlayers.find(player => player.id === id)).filter((player): player is typeof availableSubstitutionPlayers[number] => Boolean(player)).map(({id,name}) => ({id,name}));
+    if (selectedPlayers.length) own.players = selectedPlayers;
     const next = simulateMatch(own, rival, Math.random, 1, 45);
     // Os demais confrontos só recebem resultado depois que a partida do treinador terminar.
     // Assim, a rodada não revela placares futuros no início do jogo.
@@ -557,6 +624,7 @@ function Page() {
     setSubstitutionNote("");
     setPlayerOutId("");
     setPlayerInId("");
+    setSubstitutions(0);
     setPlaying(true);
   }
 
@@ -579,6 +647,7 @@ function Page() {
       <PageHeader kicker={`${career.division} · Temporada ${career.season}`} title="Central da partida">
         Treinador: {career.coach} · Clube: {career.club}
       </PageHeader>
+      {!result && careerFixture && renderTacticalBoard(false)}
       {result && <section className="mt-6 rounded-md border border-primary bg-hero p-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <p className="text-xs font-bold uppercase tracking-widest text-primary">{minute === 90 ? "Apito final" : "Partida ao vivo"}</p>
@@ -653,34 +722,7 @@ function Page() {
         {!careerFixture && <p className="mt-4 text-sm text-muted-foreground">Seu clube não tem jogo nesta rodada.</p>}
       </div>
 
-      {halftime && result && <section className="mt-6 rounded-md border-2 border-primary bg-card p-6">
-        <p className="text-xs font-bold uppercase tracking-widest text-primary">Intervalo · 45 minutos</p>
-        <h2 className="mt-2 font-display text-3xl font-black uppercase">Ajustes para o segundo tempo</h2>
-        <p className="mt-2 text-sm text-muted-foreground">Intervalo aos 45 minutos: ajuste esquema, postura, pressão e faça até cinco substituições antes de iniciar o segundo tempo.</p>
-        <div className="mt-5 rounded-md border border-border p-4">
-          <p className="font-bold">Substituições: {substitutions}/5</p>
-          {availableSubstitutionPlayers.length >= 2 ? <>
-            <p className="mt-1 text-xs text-muted-foreground">Selecione um atleta para sair e outro para entrar. A lista mostra somente jogadores já cadastrados para {career.club}; ainda é uma base parcial, não o elenco completo.</p>
-            <div className="mt-4 grid gap-3 sm:grid-cols-2">
-              <label className="text-sm font-semibold">Quem vai sair?
-                <select value={playerOutId} onChange={(e) => setPlayerOutId(e.target.value)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground">
-                  <option value="">Selecione o jogador</option>
-                  {availableSubstitutionPlayers.map((player) => <option key={player.id} value={player.id} disabled={player.id === playerInId}>{player.name} · {player.position}</option>)}
-                </select>
-              </label>
-              <label className="text-sm font-semibold">Quem vai entrar?
-                <select value={playerInId} onChange={(e) => setPlayerInId(e.target.value)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground">
-                  <option value="">Selecione o jogador</option>
-                  {availableSubstitutionPlayers.map((player) => <option key={player.id} value={player.id} disabled={player.id === playerOutId}>{player.name} · {player.position}</option>)}
-                </select>
-              </label>
-            </div>
-            <button type="button" disabled={substitutions >= 5 || !playerOutId || !playerInId || playerOutId === playerInId} onClick={() => { const outgoing = availableSubstitutionPlayers.find((player) => player.id === playerOutId); const incoming = availableSubstitutionPlayers.find((player) => player.id === playerInId); if (!outgoing || !incoming || !result) return; setSubstitutions((n) => n + 1); setSubstitutionNote(`Sai ${outgoing.name}; entra ${incoming.name}.`); setResult((current) => current ? ({ ...current, home: { ...current.home, players: [...(current.home.players ?? []).filter((player) => player.id !== outgoing.id), { id: incoming.id, name: incoming.name }] } }) : current); setPlayerOutId(""); setPlayerInId(""); }} className="mt-4 rounded-md border border-primary px-4 py-2 text-sm font-semibold text-primary disabled:opacity-40">Confirmar substituição</button>
-          </> : <p className="mt-2 text-sm text-amber-600">Ainda não há jogadores suficientes cadastrados para {career.club} para selecionar uma troca. A base atual tem apenas {availableSubstitutionPlayers.length} atleta(s) confirmado(s) deste clube. O elenco completo precisa ser importado antes de liberar substituições reais.</p>}
-          {substitutionNote && <p className="mt-2 text-sm text-primary">{substitutionNote}</p>}
-        </div>
-        <button onClick={() => { if (!result) return; const adjustedHome = { ...result.home, approach: tacticalApproach }; const adjustedAway = { ...result.away }; const secondHalf = simulateMatch(adjustedHome, adjustedAway, Math.random, 46, 90); setResult((current) => current ? ({ ...current, home: adjustedHome, homeGoals: current.homeGoals + secondHalf.homeGoals, awayGoals: current.awayGoals + secondHalf.awayGoals, events: [...current.events, ...secondHalf.events] }) : current); setHalftime(false); setPlaying(true); }} className="mt-5 rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground">Começar segundo tempo</button>
-      </section>}
+      {halftime && result && <>{renderTacticalBoard(true)}<section className="mt-4"><button onClick={() => { if (!result) return; const selectedPlayers = Object.values(lineupSelections).filter(Boolean).map(id => availableSubstitutionPlayers.find(player => player.id === id)).filter((player): player is typeof availableSubstitutionPlayers[number] => Boolean(player)).map(({id,name}) => ({id,name})); const adjustedHome = { ...result.home, approach: tacticalApproach, players: selectedPlayers.length ? selectedPlayers : result.home.players }; const secondHalf = simulateMatch(adjustedHome, result.away, Math.random, 46, 90); setResult(current => current ? ({ ...current, home: adjustedHome, homeGoals: current.homeGoals + secondHalf.homeGoals, awayGoals: current.awayGoals + secondHalf.awayGoals, events: [...current.events, ...secondHalf.events] }) : current); setHalftime(false); setPlaying(true); }} className="rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground">Começar segundo tempo</button></section></>}
 
       {result && <section className="mt-4 rounded-md border border-border bg-card p-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
