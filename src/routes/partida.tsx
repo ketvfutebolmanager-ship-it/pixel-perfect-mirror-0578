@@ -406,7 +406,7 @@ function Page() {
   const matchesPlayedBeforeCurrent = Math.max(0, (career?.played ?? 0) - (result ? 1 : 0));
   const currentRound = Math.min(career?.round ?? (matchesPlayedBeforeCurrent + 1), totalRounds);
   const roundFixtures = fixtures.filter((fixture) => fixture.round === currentRound);
-  const allDivisionRoundFixtures = (["Série A", "Série B", "Série C", "Série D"] as BrazilianDivision[]).flatMap((division) => {
+  const allDivisionRoundFixtures: DivisionFixture[] = (["Série A", "Série B", "Série C", "Série D"] as BrazilianDivision[]).flatMap((division): DivisionFixture[] => {
     const clubs = getClubsByDivision(division);
     if (division === "Série D") {
       const groups = [...new Set(clubs.map((club) => club.group).filter((value): value is string => Boolean(value)))];
