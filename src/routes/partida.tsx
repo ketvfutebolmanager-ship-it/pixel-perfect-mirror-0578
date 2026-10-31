@@ -264,7 +264,7 @@ function Page() {
               <div className="mb-2 flex items-center justify-between"><span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Jogo {fixtureIndex + 1}</span><span className="text-[10px] font-semibold text-muted-foreground">{fixture.weekday} · {fixture.kickoff} (Brasília)</span>{isCareerMatch && <span className="text-[10px] font-black uppercase tracking-widest text-primary">Seu confronto</span>}</div>
               <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
                 <div className="flex min-w-0 items-center gap-2"><Crest club={fixture.home.name}/><span className="truncate text-sm font-semibold">{fixture.home.name}</span></div>
-                {(() => { const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id; const score = isCareerMatch ? result : roundResults[key]; return score ? <span className="rounded-md bg-primary/10 px-4 py-2 text-lg font-black tabular-nums text-primary">{score.homeGoals} × {score.awayGoals}</span> : <span className="rounded bg-muted px-2 py-1 text-xs font-black text-muted-foreground">VS</span>; })()}
+                {(() => { const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id; const score = isCareerMatch ? (result ? { homeGoals: result.events.filter((event) => event.minute <= minute && event.clubName === fixture.home.name).length, awayGoals: result.events.filter((event) => event.minute <= minute && event.clubName === fixture.away.name).length } : null) : roundResults[key]; return score ? <span className="rounded-md bg-primary/10 px-4 py-2 text-lg font-black tabular-nums text-primary">{score.homeGoals} × {score.awayGoals}</span> : <span className="rounded bg-muted px-2 py-1 text-xs font-black text-muted-foreground">VS</span>; })()}
                 <div className="flex min-w-0 items-center justify-end gap-2"><span className="truncate text-right text-sm font-semibold">{fixture.away.name}</span><Crest club={fixture.away.name}/></div>
               </div>
               
@@ -307,7 +307,7 @@ function Page() {
         <div className="mt-3 h-2 overflow-hidden rounded-full bg-background"><div className="h-full rounded-full bg-primary transition-all duration-300" style={{ width: `${progress}%` }} /></div>
         <div className="mt-7 grid grid-cols-[1fr_auto_1fr] items-center gap-3 text-center">
           <div className="flex flex-col items-center gap-2"><Crest club={result.home.name} /><p className="font-display text-sm font-bold uppercase sm:text-lg">{result.home.name}</p></div>
-          <p className="text-4xl font-black tabular-nums sm:text-5xl">{minute === 90 || !playing ? result.homeGoals : visibleEvents.filter((event) => event.clubId === result.home.id).length} × {minute === 90 || !playing ? result.awayGoals : visibleEvents.filter((event) => event.clubId === result.away.id).length}</p>
+          <p className="text-4xl font-black tabular-nums sm:text-5xl">{visibleEvents.filter((event) => event.clubId === result.home.id).length} × {visibleEvents.filter((event) => event.clubId === result.away.id).length}</p>
           <div className="flex flex-col items-center gap-2"><Crest club={result.away.name} /><p className="font-display text-sm font-bold uppercase sm:text-lg">{result.away.name}</p></div>
         </div>
         <div className="mt-6 grid gap-2 rounded-md border border-border bg-card p-4 text-sm sm:grid-cols-2">
