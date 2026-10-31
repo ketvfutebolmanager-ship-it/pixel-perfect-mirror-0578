@@ -1,10 +1,147 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
+import { useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
 import { getDivision } from "@/modules/competitions/divisions";
 import { getClubsByDivision, type BrazilianDivision } from "@/modules/clubs/brazilian-clubs-2026";
 
 const CREST_FILES: Record<string, string> = { "Athletico Paranaense":"Athletico Paranaense.png","Atlético Mineiro":"Atlético Mineiro.png",Bahia:"Bahia.png",Botafogo:"Botafogo.png",Chapecoense:"Chapecoense.png",Corinthians:"Corinthians.png",Coritiba:"Coritiba.png",Cruzeiro:"Cruzeiro.png",Flamengo:"Flamengo.png",Fluminense:"Fluminense.png","Grêmio":"Grêmio.png",Internacional:"Internacional.png",Mirassol:"Mirassol.png",Palmeiras:"Palmeiras.png","Red Bull Bragantino":"Red Bull Bragantino.png",Remo:"Remo.png",Santos:"Santos.png","São Paulo":"São Paulo.png","Vasco da Gama":"Vasco da Gama.png",Vitória:"Vitória.png" };
-function crestUrl(name: string) { const file = CREST_FILES[name]; return file ? "https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/" + encodeURIComponent(file) : null; }
+
+const FOOTYLOGOS_SLUGS: Record<string, string> = {
+  "América Mineiro": "america-mineiro",
+  "Athletic Club": "athletic",
+  "Cuiabá": "cuiaba",
+  "Fortaleza": "fortaleza",
+  "Goiás": "goias",
+  "Juventude": "juventude",
+  "Londrina": "londrina",
+  "Náutico": "nautico",
+  "Ponte Preta": "ponte-preta",
+  "São Bernardo": "sao-bernardo",
+  "Sport Recife": "sport-recife",
+  "Vila Nova": "vila-nova",
+  "Atlético Goianiense": "atletico-goianiense",
+  "Avaí": "avai-fc",
+  "Botafogo de Ribeirão Preto": "botafogo-sp",
+  "Ceará": "ceara-sc",
+  "CRB": "crb",
+  "Criciúma": "criciuma",
+  "Novorizontino": "gremio-novorizontino",
+  "Operário Ferroviário": "operario-ferroviario",
+  "Botafogo da Paraíba": "botafogo-pb",
+  "Ferroviária": "ferroviaria",
+  "Inter de Limeira": "inter-de-limeira",
+  "Maranhão": "maranhao",
+  "Paysandu": "paysandu",
+  "Volta Redonda": "volta-redonda",
+  "Ypiranga": "ypiranga",
+  "ABC": "abc",
+  "ABECAT": "abecat-ouvidorense",
+  "Água Santa": "agua-santa",
+  "Águia de Marabá": "aguia-de-maraba",
+  "Altos": "altos",
+  "America-RJ": "america-rj",
+  "América-RN": "america-de-natal",
+  "Aparecidense": "aparecidense",
+  "Araguaína": "araguaina",
+  "ASA": "asa-de-arapiraca",
+  "Atlético de Alagoinhas": "atletico-de-alagoinhas",
+  "Atlético Cearense": "atletico-cearense",
+  "Azuriz": "azuriz",
+  "Betim": "betim-futebol",
+  "Blumenau": "blumenau",
+  "Brasil de Pelotas": "brasil-de-pelotas",
+  "Brasiliense": "brasiliense",
+  "Capital": "capital-clube-de-futebol",
+  "Ceilândia": "ceilandia",
+  "Central": "central-sport-club",
+  "Cianorte": "cianorte",
+  "CRAC": "crac",
+  "CSA": "csa",
+  "CSE": "cse",
+  "Decisão": "decisao-goiana",
+  "Democrata de Governador Valadares": "democrata-gv",
+  "FC Cascavel": "fc-cascavel",
+  "Ferroviário": "ferroviario",
+  "Fluminense do Piauí": "fluminense-pi",
+  "Galvez": "galvez",
+  "Gama": "gama",
+  "GAS": "gremio-atletico-sampaio",
+  "Goiatuba": "goiatuba",
+  "Guaporé": "guapore",
+  "Guarany de Bagé": "guarany-de-bage",
+  "Humaitá": "sport-clube-humaita",
+  "IAPE": "iape",
+  "Iguatu": "iguatu",
+  "Imperatriz": "imperatriz",
+  "Ivinhema": "ivinhema",
+  "Independência": "independencia",
+  "Inhumas": "inhumas",
+  "Jacuipense": "ec-jacuipense",
+  "Joinville": "joinville",
+  "Juazeirense": "juazeirense",
+  "Lagarto": "lagarto",
+  "Laguna": "clube-laguna",
+  "Luverdense": "luverdense",
+  "Madureira": "madureira",
+  "Maguary": "maguary",
+  "Manaus": "manaus",
+  "Manauara": "manauara",
+  "Marcílio Dias": "marcilio-dias",
+  "Maracanã": "maracana",
+  "Maricá": "marica",
+  "Mixto": "mixto",
+  "Monte Roraima": "monte-roraima",
+  "Moto Club": "moto-club-de-sao-luis",
+  "Nacional-AM": "nacional-am",
+  "Noroeste": "noroeste",
+  "Nova Iguaçu": "nova-iguacu",
+  "Operário-MS": "operario-ms",
+  "Operário de Várzea Grande": "operario-mt",
+  "Oratório": "oratorio",
+  "Parnahyba": "parnahyba",
+  "Piauí": "piaui",
+  "Porto": "porto-ba",
+  "Porto Velho": "porto-velho",
+  "Portuguesa": "associacao-portuguesa-de-desportos",
+  "Portuguesa-RJ": "portuguesa-rj",
+  "Pouso Alegre": "pouso-alegre",
+  "Primavera": "primavera-atletico-clube",
+  "Real Noroeste": "real-noroeste",
+  "Retrô": "retro-fc",
+  "Rio Branco-ES": "rio-branco-es",
+  "Sampaio Corrêa-MA": "sampaio-correa",
+  "Sampaio Corrêa-RJ": "sampaio-correa-rj",
+  "Santa Catarina": "santa-catarina",
+  "São José-RS": "ec-sao-jose",
+  "São Joseense": "sao-joseense",
+  "São Luiz": "ec-sao-luiz",
+  "São Raimundo-RR": "sao-raimundo-rr",
+  "Serra Branca": "serra-branca",
+  "Sergipe": "sergipe",
+  "Sousa": "sousa",
+  "Tirol": "tirol",
+  "Tocantinópolis": "tocantinopolis",
+  "Tombense": "tombense",
+  "Treze": "treze",
+  "Trem": "trem",
+  "Tuna Luso": "tuna-luso",
+  "Uberlândia": "uberlandia",
+  "União Rondonópolis": "uniao-rondonopolis",
+  "Velo Clube": "velo-clube",
+  "Vitória-ES": "vitoria-es",
+  "XV de Piracicaba": "xv-de-piracicaba",
+};
+function logoSlug(name: string) { return FOOTYLOGOS_SLUGS[name] ?? name.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
+function ClubCrest({ name }: { name: string }) {
+  const [failed, setFailed] = useState(false);
+  const localFile = CREST_FILES[name];
+  const src = localFile
+    ? `https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(localFile)}`
+    : `https://www.footylogos.com/dls/logo/rgba-v1/${logoSlug(name)}.png`;
+  if (failed) return <span aria-label={`Escudo de ${name} indisponível`} className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-[10px] font-black text-primary">{name.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>;
+  return <img src={src} alt={`Escudo do ${name}`} loading="lazy" onError={() => setFailed(true)} className="h-9 w-9 shrink-0 object-contain" />;
+}
+
 function zoneFor(division: BrazilianDivision, index: number, total: number) { if (division === "Série A") return index >= total - 4 ? "relegation" : index < 6 ? "continental" : "none"; if (division === "Série B" || division === "Série C") return index < 4 ? "promotion" : index >= total - 4 ? "relegation" : "none"; return "none"; }
 
 
@@ -65,7 +202,7 @@ function Page() {
                     <tr key={club.id} className={"border-t border-border/70 transition-colors hover:bg-primary/5 " + (zoneFor(division.name as BrazilianDivision, index, groupClubs.length) === "relegation" ? "bg-red-500/10" : zoneFor(division.name as BrazilianDivision, index, groupClubs.length) === "promotion" ? "bg-emerald-500/10" : zoneFor(division.name as BrazilianDivision, index, groupClubs.length) === "continental" ? "bg-sky-500/10" : "")}>
                       <td className="px-3 py-3 text-center font-bold tabular-nums text-muted-foreground">{index + 1}</td>
                       <td className="px-3 py-3"><div className="flex items-center gap-3">
-                        {crestUrl(club.name) ? <img src={crestUrl(club.name)!} alt={"Escudo do " + club.name} className="h-9 w-9 shrink-0 object-contain" /> : <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-[10px] font-black text-primary">{club.name.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>}
+                        <ClubCrest name={club.name} />
                         <span className="font-semibold">{club.name}</span><span className="text-xs text-muted-foreground">{club.state}</span>
                       </div></td>
                       {[0, 0, 0, 0, 0, 0, 0, 0].map((value, cell) => <td key={cell} className="px-2 py-3 text-center tabular-nums">{value}</td>)}
