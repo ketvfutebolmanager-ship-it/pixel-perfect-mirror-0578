@@ -60,6 +60,13 @@ const SPEEDS: Record<MatchSpeed, { label: string; interval: number }> = {
   fast: { label: "Rápido", interval: 250 },
 };
 
+// Público é um dado de simulação do jogo, não uma presença oficial.
+function estimatedAttendance(homeId: string, awayId: string) {
+  const seed = [...(homeId + "-" + awayId)].reduce((sum, char) => sum + char.charCodeAt(0), 0);
+  return 6500 + (seed * 7919 % 28500);
+}
+const money = (value: number) => value.toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 2 });
+
 // Escudos públicos do pacote de imagens do Brasileirão 2026 (Série A).
 const CRESTS: Record<string, string> = {
   "Athletico Paranaense": "Athletico Paranaense.png",
@@ -424,6 +431,11 @@ function Page() {
   const careerFixture = roundFixtures.find((fixture) => fixture.home.name === career?.club || fixture.away.name === career?.club);
   const fixtureOpponent = careerFixture ? (careerFixture.home.name === career?.club ? careerFixture.away : careerFixture.home) : null;
   const [speed, setSpeed] = useState<MatchSpeed>("medium");
+  const [ticketPrice, setTicketPrice] = useState(() => {
+    const saved = Number(window.localStorage.getItem("ketvfm-ticket-price"));
+    return Number.isFinite(saved) && saved > 0 ? saved : 50;
+  });
+  useEffect(() => { window.localStorage.setItem("ketvfm-ticket-price", String(ticketPrice)); }, [ticketPrice]);
   const [minute, setMinute] = useState(() => readMatchSession().minute ?? 0);
   const [playing, setPlaying] = useState(() => readMatchSession().playing ?? false);
   const [halftime, setHalftime] = useState(() => readMatchSession().halftime ?? false);
@@ -570,6 +582,7 @@ function Page() {
               </div>
               {(() => { const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id; const matchResult = isCareerMatch ? result : roundResults[key]; const shownEvents = matchResult?.events.filter((event) => !isCareerMatch || event.minute <= minute) ?? []; return shownEvents.length > 0 ? <div className="mt-2 rounded bg-background/70 px-3 py-2 text-xs"><p className="mb-1 font-bold uppercase tracking-wide text-primary">Gols da partida</p><div className="flex flex-wrap gap-x-4 gap-y-1">{shownEvents.map((event, index) => <span key={event.minute + "-" + index} className="text-muted-foreground">{event.minute}' · <strong className="text-foreground">{event.playerName ?? "Autor não cadastrado"}</strong> ({event.clubName})</span>)}</div></div> : null; })()}
               
+              <div className="mt-3 rounded-md border border-primary/40 bg-primary/5 px-3 py-2 text-center"><p className="font-display text-sm font-black uppercase tracking-wide text-primary">{STADIUMS[fixture.home.name] ?? "Estádio a confirmar"}</p><p className="mt-1 text-xs font-semibold text-muted-foreground">Público simulado: {estimatedAttendance(fixture.home.id, fixture.away.id).toLocaleString("pt-BR")} torcedores</p></div>
               <div className="col-span-3 mt-2 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-2"><span className="text-xs font-semibold text-muted-foreground">Estádio do mandante: <strong className="text-foreground">{STADIUMS[fixture.home.name] ?? "Local de mando a confirmar"}</strong></span>{isCareerMatch && <button type="button" onClick={play} disabled={playing || !!result} className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-primary-foreground disabled:opacity-50">{playing ? "Partida em andamento..." : result ? "Partida realizada" : "Jogar partida"}</button>}</div>
               </div>
             </Fragment>;
@@ -580,6 +593,7 @@ function Page() {
           <label className="text-sm font-semibold">Postura<select value={tacticalApproach} disabled={playing || halftime} onChange={(e) => setTacticalApproach(e.target.value as typeof tacticalApproach)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option value="defensive">Defensiva</option><option value="balanced">Equilibrada</option><option value="attacking">Ofensiva</option></select></label>
           <label className="text-sm font-semibold">Pressão<select value={pressure} disabled={playing || halftime} onChange={(e) => setPressure(e.target.value as Pressure)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>Baixa</option><option>Média</option><option>Alta</option></select></label>
         </div>
+        <div className="mt-5 grid gap-3 rounded-md border border-border bg-background p-4 sm:grid-cols-2 sm:items-end"><label className="text-sm font-semibold">Preço do ingresso (R$)<input type="number" min="1" max="10000" step="0.5" value={ticketPrice} onChange={(e) => setTicketPrice(Math.max(1, Number(e.target.value) || 1))} className="mt-2 w-full rounded-md border border-input bg-card px-3 py-3 text-foreground" /></label><p className="text-xs text-muted-foreground">O valor fica salvo nesta sessão do navegador e será usado para calcular a renda estimada do seu mando.</p></div>
         <div className="mt-5"><p className="mb-2 text-sm font-semibold">Velocidade da partida</p><div className="flex flex-wrap gap-2" role="group" aria-label="Velocidade da partida">{(Object.keys(SPEEDS) as MatchSpeed[]).map((key) => <button key={key} type="button" onClick={() => setSpeed(key)} aria-pressed={speed === key} className={`rounded-md border px-5 py-2.5 text-sm font-bold ${speed === key ? "border-primary bg-primary text-primary-foreground" : "border-border bg-background hover:border-primary"} disabled:opacity-50`}>{SPEEDS[key].label}</button>)}</div></div>
         {!careerFixture && <p className="mt-4 text-sm text-muted-foreground">Seu clube não tem jogo nesta rodada.</p>}
       </div>
@@ -639,6 +653,7 @@ function Page() {
           <p className="text-4xl font-black tabular-nums sm:text-5xl">{visibleEvents.filter((event) => event.clubId === result.home.id).length} × {visibleEvents.filter((event) => event.clubId === result.away.id).length}</p>
           <div className="flex flex-col items-center gap-2"><Crest club={result.away.name} /><p className="font-display text-sm font-bold uppercase sm:text-lg">{result.away.name}</p></div>
         </div>
+        <div className="mt-4 rounded-md border-2 border-primary bg-primary/10 px-4 py-3 text-center"><p className="font-display text-xl font-black uppercase tracking-wider text-primary">{stadium}</p><p className="mt-1 text-sm font-bold">Público simulado: {estimatedAttendance(result.home.id, result.away.id).toLocaleString("pt-BR")} torcedores</p><p className="mt-1 text-sm text-muted-foreground">Renda estimada: {money(estimatedAttendance(result.home.id, result.away.id) * ticketPrice)}</p></div>
         <div className="mt-6 grid gap-2 rounded-md border border-border bg-card p-4 text-sm sm:grid-cols-2">
           <p><span className="text-muted-foreground">Estádio:</span> {stadium}</p>
           <p><span className="text-muted-foreground">Tempo:</span> {minute < 90 ? "Em andamento" : "Encerrado"}</p>
