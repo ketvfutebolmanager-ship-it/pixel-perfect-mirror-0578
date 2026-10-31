@@ -1429,6 +1429,398 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     id: "dieguinho-corinthians", name: "Dieguinho", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ATA", shirtNumber: 61,
     source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
   },
+  {
+    id: "everson-atletico-mineiro", name: "Everson", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "GOL", shirtNumber: 22,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-delfim-atletico-mineiro", name: "Gabriel Delfim", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "GOL", shirtNumber: 1,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "robert-atletico-mineiro", name: "Robert", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "GOL", shirtNumber: 31,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pedro-cobra-atletico-mineiro", name: "Pedro Cobra", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "GOL", shirtNumber: 46,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "leo-duarte-atletico-mineiro", name: "Léo Duarte", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "ZAG", shirtNumber: 3,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lyanco-atletico-mineiro", name: "Lyanco", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "ZAG", shirtNumber: 13,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ruan-atletico-mineiro", name: "Ruan", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "ZAG", shirtNumber: 4,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vitor-hugo-atletico-mineiro", name: "Vitor Hugo", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "ZAG", shirtNumber: 14,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vitao-atletico-mineiro", name: "Vitão", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "ZAG", shirtNumber: 40,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "samuel-atletico-mineiro", name: "Samuel", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "ZAG", shirtNumber: 34,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "preciado-atletico-mineiro", name: "Álvaro Preciado", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "LAT", shirtNumber: 23,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "renan-lodi-atletico-mineiro", name: "Renan Lodi", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "LAT", shirtNumber: 6,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "natanael-atletico-mineiro", name: "Natanael", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "LAT", shirtNumber: 2,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "luis-gustavo-atletico-mineiro", name: "Luis Gustavo", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "LAT", shirtNumber: 32,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kaua-pascini-atletico-mineiro", name: "Kauã Pascini", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "LAT", shirtNumber: 36,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fred-atletico-mineiro", name: "Fred", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "VOL", shirtNumber: 7,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "franco-atletico-mineiro", name: "Franco", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "VOL", shirtNumber: 21,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kevin-castano-atletico-mineiro", name: "Kevin Castaño", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "VOL", shirtNumber: 15,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "maycon-atletico-mineiro", name: "Maycon", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "VOL", shirtNumber: 8,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alexsander-atletico-mineiro", name: "Alexsander", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "VOL", shirtNumber: 5,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "tomas-perez-atletico-mineiro", name: "Tomás Pérez", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "VOL", shirtNumber: 25,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bernard-atletico-mineiro", name: "Bernard", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "MEI", shirtNumber: 11,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gustavo-scarpa-atletico-mineiro", name: "Gustavo Scarpa", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "MEI", shirtNumber: 10,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "igor-gomes-atletico-mineiro", name: "Igor Gomes", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "MEI", shirtNumber: 17,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "reinier-atletico-mineiro", name: "Reinier", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "MEI", shirtNumber: 19,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "indice-atletico-mineiro", name: "Índio", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "MEI", shirtNumber: 38,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "cisse-atletico-mineiro", name: "Mamady Cissé", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "MEI", shirtNumber: 39,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "victor-hugo-atletico-mineiro", name: "Victor Hugo", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "MEI", shirtNumber: 30,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "cassierra-atletico-mineiro", name: "Cassierra", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "ATA", shirtNumber: 9,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "cuello-atletico-mineiro", name: "Cuello", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "ATA", shirtNumber: 28,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "dudu-atletico-mineiro", name: "Dudu", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "ATA", shirtNumber: 92,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alan-minda-atletico-mineiro", name: "Alan Minda", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "ATA", shirtNumber: 27,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "caua-soares-atletico-mineiro", name: "Cauã Soares", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "ATA", shirtNumber: 29,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "murillo-atletico-mineiro", name: "Murillo", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "ATA", shirtNumber: 41,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "thiago-borbas-atletico-mineiro", name: "Thiago Borbas", clubId: "atletico-mineiro", clubName: "Atlético Mineiro", division: "Série A", position: "ATA", shirtNumber: 18,
+    source: "Galo Digital — elenco profissional 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ronaldo-bahia", name: "Ronaldo", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "GOL", shirtNumber: 1,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "leo-vieira-bahia", name: "Léo Vieira", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "GOL", shirtNumber: 22,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "guido-herrera-bahia", name: "Guido Herrera", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "GOL", shirtNumber: 17,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ze-guilherme-bahia", name: "Zé Guilherme", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "LAT", shirtNumber: 66,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "roman-gomez-bahia", name: "Román Gómez", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "LAT", shirtNumber: 31,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "luciano-juba-bahia", name: "Luciano Juba", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "LAT", shirtNumber: 46,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "david-duarte-bahia", name: "David Duarte", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ZAG", shirtNumber: 33,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marcos-victor-bahia", name: "Marcos Victor", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ZAG", shirtNumber: 44,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "luiz-gustavo-bahia", name: "Luiz Gustavo", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ZAG", shirtNumber: 43,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marco-moreno-bahia", name: "Marco Moreno", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ZAG", shirtNumber: 3,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kanu-bahia", name: "Kanu", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ZAG", shirtNumber: 4,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "everton-ribeiro-bahia", name: "Éverton Ribeiro", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "MEI", shirtNumber: 10,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "nicolas-acevedo-bahia", name: "Nicolás Acevedo", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "VOL", shirtNumber: 5,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "david-martins-bahia", name: "David Martins", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "MEI", shirtNumber: 63,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "erick-bahia", name: "Erick", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "VOL", shirtNumber: 14,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rodrigo-nestor-bahia", name: "Rodrigo Nestor", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "MEI", shirtNumber: 11,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "michel-araujo-bahia", name: "Michel Araújo", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "MEI", shirtNumber: 15,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lautaro-lopez-bahia", name: "Lautaro López", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "MEI", shirtNumber: 18,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "caio-alexandre-bahia", name: "Caio Alexandre", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "VOL", shirtNumber: 8,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jean-lucas-bahia", name: "Jean Lucas", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "VOL", shirtNumber: 6,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ademir-bahia", name: "Ademir", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ATA", shirtNumber: 7,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ruan-pablo-bahia", name: "Ruan Pablo", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ATA", shirtNumber: 77,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "erick-pulga-bahia", name: "Erick Pulga", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ATA", shirtNumber: 16,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "willian-jose-bahia", name: "Willian José", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ATA", shirtNumber: 12,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "mateo-sanabria-bahia", name: "Mateo Sanabria", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ATA", shirtNumber: 23,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kaue-furquim-bahia", name: "Kauê Furquim", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ATA", shirtNumber: 57,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kike-olivera-bahia", name: "Kike Olivera", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ATA", shirtNumber: 99,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alejo-veliz-bahia", name: "Alejo Véliz", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ATA", shirtNumber: 9,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "everaldo-bahia", name: "Everaldo", clubId: "bahia", clubName: "Bahia", division: "Série A", position: "ATA", shirtNumber: 27,
+    source: "Site oficial do Esporte Clube Bahia — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "weverton-gremio", name: "Weverton", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "GOL", shirtNumber: 1,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-grando-gremio", name: "Gabriel Grando", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "GOL", shirtNumber: 12,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "thiago-beltrame-gremio", name: "Thiago Beltrame", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "GOL", shirtNumber: 24,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-menegon-gremio", name: "Gabriel Menegon", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "GOL", shirtNumber: 31,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "balbuena-gremio", name: "Fabián Balbuena", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ZAG", shirtNumber: 2,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gustavo-martins-gremio", name: "Gustavo Martins", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ZAG", shirtNumber: 6,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kannemann-gremio", name: "Walter Kannemann", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ZAG", shirtNumber: 4,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "viery-gremio", name: "Viery", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ZAG", shirtNumber: 44,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "wagner-leonardo-gremio", name: "Wagner Leonardo", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ZAG", shirtNumber: 3,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "luis-eduardo-gremio", name: "Luis Eduardo", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ZAG", shirtNumber: 43,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "wallace-gremio", name: "Wallace", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ZAG", shirtNumber: 82,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "caio-paulista-gremio", name: "Caio Paulista", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "LAT", shirtNumber: 38,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-pedro-gremio", name: "João Pedro", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "LAT", shirtNumber: 18,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marcos-rocha-gremio", name: "Marcos Rocha", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "LAT", shirtNumber: 14,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marlon-gremio", name: "Marlon", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "LAT", shirtNumber: 23,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pedro-gabriel-gremio", name: "Pedro Gabriel", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "LAT", shirtNumber: 54,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "dodi-gremio", name: "Dodi", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "VOL", shirtNumber: 17,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "erick-noriega-gremio", name: "Erick Noriega", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "VOL", shirtNumber: 8,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "juan-nardoni-gremio", name: "Juan Nardoni", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "VOL", shirtNumber: 5,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "leonel-perez-gremio", name: "Leonel Pérez", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "MEI", shirtNumber: 33,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "monsalve-gremio", name: "Monsalve", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "MEI", shirtNumber: 11,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "riquelme-gremio", name: "Riquelme", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "MEI", shirtNumber: 65,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "roger-gremio", name: "Roger", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "MEI", shirtNumber: 47,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "tiago-gremio", name: "Tiago", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "MEI", shirtNumber: 39,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "villasanti-gremio", name: "Mathías Villasanti", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "VOL", shirtNumber: 20,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "willian-gremio", name: "Willian", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "MEI", shirtNumber: 10,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "amuzu-gremio", name: "Francis Amuzu", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ATA", shirtNumber: 9,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "braithwaite-gremio", name: "Martin Braithwaite", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ATA", shirtNumber: 22,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "carlos-vinicius-gremio", name: "Carlos Vinícius", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ATA", shirtNumber: 95,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "enamorado-gremio", name: "José Enamorado", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ATA", shirtNumber: 99,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pavon-gremio", name: "Cristian Pavon", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ATA", shirtNumber: 7,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "tete-gremio", name: "Tetê", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ATA", shirtNumber: 21,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-mec-gremio", name: "Gabriel Mec", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ATA", shirtNumber: 37,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "andre-henrique-gremio", name: "André Henrique", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ATA", shirtNumber: 77,
+    source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
 ];
 export const PLAYER_DATA_AS_OF = "2026-10-31";
 export const PLAYER_DATA_STATUS = "partial-verified";
