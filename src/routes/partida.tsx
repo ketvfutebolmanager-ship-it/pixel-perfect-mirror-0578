@@ -4,6 +4,7 @@ import { PageHeader } from "@/components/layout/AppShell";
 import { getClubsByDivision, type BrazilianDivision } from "@/modules/clubs/brazilian-clubs-2026";
 import { simulateMatch, type MatchResult, type MatchTeam } from "@/modules/matches/simulate";
 import type { CareerSave } from "./nova-carreira";
+import { VERIFIED_PLAYERS_2026 } from "@/modules/players/database";
 
 export const Route = createFileRoute("/partida")({
   head: () => ({ meta: [{ title: "Central da partida — KE TV Football Manager" }] }),
@@ -213,11 +214,13 @@ function Page() {
       id: career!.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-"),
       name: career!.club,
       attack: 70, midfield: 70, defense: 70, approach: tacticalApproach,
+      players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === career!.club.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-")).map(({ id, name }) => ({ id, name })),
     };
     const rival: MatchTeam = {
       id: fixtureOpponent.id,
       name: fixtureOpponent.name,
       attack: 70, midfield: 70, defense: 70,
+      players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixtureOpponent.id).map(({ id, name }) => ({ id, name })),
     };
     const next = simulateMatch(own, rival);
     // Os demais confrontos só recebem resultado depois que a partida do treinador terminar.
@@ -330,7 +333,7 @@ function Page() {
           <p><span className="text-muted-foreground">Pressão:</span> {pressure}</p>
         </div>
         <h3 className="mt-7 border-b border-border pb-2 text-lg font-bold uppercase">Lances da partida</h3>
-        {visibleEvents.length ? <ol className="mt-3 space-y-2">{visibleEvents.map((event, index) => <li key={`${event.minute}-${index}`} className="flex flex-wrap justify-between gap-2 rounded bg-card px-3 py-2 text-sm"><span>⚽ {event.clubName} · <strong>Autor do gol não cadastrado</strong></span><strong>{event.minute}'</strong></li>)}</ol> : <p className="mt-3 text-sm text-muted-foreground">{minute === 90 ? "Nenhum gol nesta partida." : "A partida está rolando. Os lances aparecerão aqui conforme o relógio avançar."}</p>}
+        {visibleEvents.length ? <ol className="mt-3 space-y-2">{visibleEvents.map((event, index) => <li key={`${event.minute}-${index}`} className="flex flex-wrap justify-between gap-2 rounded bg-card px-3 py-2 text-sm"><span>⚽ {event.clubName} · <strong>{event.playerName ? `Gol de ${event.playerName}` : "Autor ainda não cadastrado para este clube"}</strong></span><strong>{event.minute}'</strong></li>)}</ol> : <p className="mt-3 text-sm text-muted-foreground">{minute === 90 ? "Nenhum gol nesta partida." : "A partida está rolando. Os lances aparecerão aqui conforme o relógio avançar."}</p>}
         <p className="mt-3 text-xs text-amber-600">Os autores dos gols dependem do cadastro de elencos reais. O jogo não atribui gols a nomes inventados.</p>
         <p className="mt-5 text-sm text-muted-foreground">Partidas disputadas nesta carreira: {career.played}. A simulação ainda não altera a classificação oficial.</p>
         {minute === 90 && <button onClick={resetMatch} className="mt-4 rounded-md border border-border px-4 py-2 text-sm font-semibold hover:border-primary">Preparar nova partida</button>}
