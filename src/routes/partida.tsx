@@ -54,7 +54,7 @@ const STADIUMS: Record<string, string> = {
   Grêmio: "Arena do Grêmio",
   Internacional: "Estádio Beira-Rio",
   Mirassol: "Estádio José Maria de Campos Maia",
-  Palmeiras: "Allianz Parque",
+  Palmeiras: "Nubank Parque",
   "Red Bull Bragantino": "Estádio Cícero de Souza Marques",
   Remo: "Estádio Mangueirão",
   Santos: "Vila Belmiro",
