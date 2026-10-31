@@ -123,7 +123,7 @@ function MoraleMeter({ title, value, description }: { title: string; value: numb
   );
 }
 
-type SavedMatchSession = { result: MatchResult | null; roundResults: Record<string, MatchResult>; minute: number; playing: boolean; halftime: boolean; formation: Formation; pressure: Pressure; tacticalApproach: "defensive" | "balanced" | "attacking"; substitutions: number; substitutionNote: string };
+type SavedMatchSession = { result: MatchResult | null; roundResults: Record<string, MatchResult>; minute: number; playing: boolean; halftime: boolean; formation: Formation; pressure: Pressure; tacticalApproach: "defensive" | "balanced" | "attacking"; substitutions: number; substitutionNote: string; playerOutId?: string; playerInId?: string };
 const MATCH_SESSION_KEY = "ketvfm-match-session";
 function readMatchSession(): Partial<SavedMatchSession> {
   try { return JSON.parse(window.localStorage.getItem(MATCH_SESSION_KEY) ?? "{}") as Partial<SavedMatchSession>; } catch { return {}; }
@@ -157,6 +157,8 @@ function Page() {
   const [tacticalApproach, setTacticalApproach] = useState<"defensive" | "balanced" | "attacking">(() => readMatchSession().tacticalApproach ?? career?.approach ?? "balanced");
   const [substitutions, setSubstitutions] = useState(() => readMatchSession().substitutions ?? 0);
   const [substitutionNote, setSubstitutionNote] = useState(() => readMatchSession().substitutionNote ?? "");
+  const [playerOutId, setPlayerOutId] = useState(() => readMatchSession().playerOutId ?? "");
+  const [playerInId, setPlayerInId] = useState(() => readMatchSession().playerInId ?? "");
 
   useEffect(() => {
     if (!playing) return;
@@ -182,9 +184,9 @@ function Page() {
       window.localStorage.removeItem(MATCH_SESSION_KEY);
       return;
     }
-    const session: SavedMatchSession = { result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote };
+    const session: SavedMatchSession = { result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote, playerOutId, playerInId };
     window.localStorage.setItem(MATCH_SESSION_KEY, JSON.stringify(session));
-  }, [result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote]);
+  }, [result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote, playerOutId, playerInId]);
 
   useEffect(() => {
     if (!career || minute !== 90 || !result || Object.keys(roundResults).length > 0) return;
@@ -207,6 +209,8 @@ function Page() {
   const visibleEvents = result?.events.filter((event) => event.minute <= minute) ?? [];
   const stadium = STADIUMS[career.club] ?? "Estádio não cadastrado";
   const progress = (minute / 90) * 100;
+  const careerClubId = career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
+  const availableSubstitutionPlayers = VERIFIED_PLAYERS_2026.filter((player) => player.clubId === careerClubId);
 
   function play() {
     if (!fixtureOpponent || !careerFixture || playing) return;
@@ -231,6 +235,8 @@ function Page() {
     setHalftime(false);
     setSubstitutions(0);
     setSubstitutionNote("");
+    setPlayerOutId("");
+    setPlayerInId("");
     setPlaying(true);
     const previousFanMorale = career!.fanMorale ?? 70;
     const previousBoardConfidence = career!.boardConfidence ?? 70;
@@ -305,8 +311,24 @@ function Page() {
         </div>
         <div className="mt-5 rounded-md border border-border p-4">
           <p className="font-bold">Substituições: {substitutions}/5</p>
-          <p className="mt-1 text-xs text-muted-foreground">Elencos reais ainda não foram cadastrados. Nesta etapa, as trocas ficam registradas como ajustes táticos, sem atribuir nomes fictícios a jogadores reais.</p>
-          <button type="button" disabled={substitutions >= 5} onClick={() => { setSubstitutions((n) => n + 1); setSubstitutionNote("Substituição tática registrada no intervalo."); }} className="mt-3 rounded-md border border-primary px-4 py-2 text-sm font-semibold text-primary disabled:opacity-40">Registrar substituição</button>
+          {availableSubstitutionPlayers.length >= 2 ? <>
+            <p className="mt-1 text-xs text-muted-foreground">Selecione um atleta para sair e outro para entrar. A lista mostra somente jogadores já cadastrados para {career.club}; ainda é uma base parcial, não o elenco completo.</p>
+            <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              <label className="text-sm font-semibold">Quem vai sair?
+                <select value={playerOutId} onChange={(e) => setPlayerOutId(e.target.value)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground">
+                  <option value="">Selecione o jogador</option>
+                  {availableSubstitutionPlayers.map((player) => <option key={player.id} value={player.id} disabled={player.id === playerInId}>{player.name} · {player.position}</option>)}
+                </select>
+              </label>
+              <label className="text-sm font-semibold">Quem vai entrar?
+                <select value={playerInId} onChange={(e) => setPlayerInId(e.target.value)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground">
+                  <option value="">Selecione o jogador</option>
+                  {availableSubstitutionPlayers.map((player) => <option key={player.id} value={player.id} disabled={player.id === playerOutId}>{player.name} · {player.position}</option>)}
+                </select>
+              </label>
+            </div>
+            <button type="button" disabled={substitutions >= 5 || !playerOutId || !playerInId || playerOutId === playerInId} onClick={() => { const outgoing = availableSubstitutionPlayers.find((player) => player.id === playerOutId); const incoming = availableSubstitutionPlayers.find((player) => player.id === playerInId); if (!outgoing || !incoming) return; setSubstitutions((n) => n + 1); setSubstitutionNote(`Sai ${outgoing.name}; entra ${incoming.name}.`); setPlayerOutId(""); setPlayerInId(""); }} className="mt-4 rounded-md border border-primary px-4 py-2 text-sm font-semibold text-primary disabled:opacity-40">Confirmar substituição</button>
+          </> : <p className="mt-2 text-sm text-amber-600">Ainda não há jogadores suficientes cadastrados para {career.club} para selecionar uma troca. A base atual tem apenas {availableSubstitutionPlayers.length} atleta(s) confirmado(s) deste clube. O elenco completo precisa ser importado antes de liberar substituições reais.</p>}
           {substitutionNote && <p className="mt-2 text-sm text-primary">{substitutionNote}</p>}
         </div>
         <button onClick={() => { setHalftime(false); setPlaying(true); }} className="mt-5 rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground">Começar segundo tempo</button>
