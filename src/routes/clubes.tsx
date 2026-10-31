@@ -14,6 +14,34 @@ export const Route = createFileRoute("/clubes")({
 
 const divisions: BrazilianDivision[] = ["Série A", "Série B", "Série C", "Série D"];
 
+const CREST_FILES: Record<string, string> = {
+  "Athletico Paranaense": "Athletico Paranaense.png",
+  "Atlético Mineiro": "Atlético Mineiro.png",
+  Bahia: "Bahia.png",
+  Botafogo: "Botafogo.png",
+  Chapecoense: "Chapecoense.png",
+  Corinthians: "Corinthians.png",
+  Coritiba: "Coritiba.png",
+  Cruzeiro: "Cruzeiro.png",
+  Flamengo: "Flamengo.png",
+  Fluminense: "Fluminense.png",
+  Grêmio: "Grêmio.png",
+  Internacional: "Internacional.png",
+  Mirassol: "Mirassol.png",
+  Palmeiras: "Palmeiras.png",
+  "Red Bull Bragantino": "Red Bull Bragantino.png",
+  Remo: "Remo.png",
+  Santos: "Santos.png",
+  "São Paulo": "São Paulo.png",
+  "Vasco da Gama": "Vasco da Gama.png",
+  Vitória: "Vitória.png",
+};
+function ClubCrest({ name }: { name: string }) {
+  const file = CREST_FILES[name];
+  if (!file) return <span aria-label={`Escudo de ${name} não cadastrado`} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-xs font-black text-primary">{name.split(/\\s+/).map(part => part[0]).slice(0, 3).join("")}</span>;
+  return <img src={`https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(file)}`} alt={`Escudo do ${name}`} loading="lazy" className="h-11 w-11 shrink-0 object-contain" />;
+}
+
 function Page() {
   const [division, setDivision] = useState<BrazilianDivision>("Série A");
   const [search, setSearch] = useState("");
@@ -47,7 +75,7 @@ function Page() {
             <article key={club.id} className="rounded-md border border-border bg-card p-4">
               <div className="flex items-center justify-between gap-3">
                 <div><h3 className="font-display text-lg font-bold uppercase">{club.name}</h3><p className="text-xs text-muted-foreground">{club.state}{club.group ? ` · Grupo ${club.group.replace("A", "")}` : ""}</p></div>
-                <span className="flex h-11 w-11 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-xs font-black text-primary">{club.name.split(/\\s+/).map(part => part[0]).slice(0,3).join("")}</span>
+                <ClubCrest name={club.name} />
               </div>
               <div className="mt-4 flex items-center justify-between border-t border-border pt-3">
                 <span className="text-xs text-muted-foreground">{count ? `${count} atletas cadastrados` : "Elenco aguardando cadastro"}</span>
