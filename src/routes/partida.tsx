@@ -37,10 +37,10 @@ function buildFixtures(clubs: Array<{id:string;name:string;state:string}>, maxRo
   const fixtures: Fixture[] = [];
   const half = teams.length - 1;
   for (let round = 0; round < half; round += 1) {
-    const lineup = [fixed, ...rotating];
+    const lineup = [fixed, ...rotating].filter((t): t is NonNullable<typeof t> => !!t);
     for (let i = 0; i < lineup.length / 2; i += 1) {
       const left = lineup[i], right = lineup[lineup.length - 1 - i];
-      if (left.id !== "bye" && right.id !== "bye") {
+      if (left && right && left.id !== "bye" && right.id !== "bye") {
         const home = round % 2 === 0 ? left : right;
         const away = round % 2 === 0 ? right : left;
         const firstSlot = KICKOFF_SLOTS[(round * 3) % KICKOFF_SLOTS.length];
@@ -48,7 +48,7 @@ function buildFixtures(clubs: Array<{id:string;name:string;state:string}>, maxRo
         fixtures.push({ round: round + 1, home, away, ...firstSlot }, { round: round + half + 1, home: away, away: home, ...returnSlot });
       }
     }
-    rotating = [rotating[rotating.length - 1], ...rotating.slice(0, -1)];
+    rotating = [...rotating.slice(-1), ...rotating.slice(0, -1)];
   }
   return fixtures.filter((f) => f.round <= maxRounds);
 }
