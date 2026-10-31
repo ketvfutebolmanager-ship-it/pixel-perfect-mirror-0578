@@ -590,6 +590,17 @@ function Page() {
         <p className="mt-5 text-sm text-muted-foreground">Partidas disputadas nesta carreira: {career.played}. A simulação ainda não altera a classificação oficial.</p>
         {minute === 90 && <button onClick={resetMatch} className="mt-4 rounded-md border border-border px-4 py-2 text-sm font-semibold hover:border-primary">Preparar nova partida</button>}
       </section>}
+      {result && <section className="mt-4 rounded-md border border-primary/60 bg-card p-5">
+        <p className="text-xs font-bold uppercase tracking-widest text-primary">Comando tático</p>
+        <h2 className="mt-1 font-display text-xl font-black uppercase">Ajustes disponíveis durante toda a partida</h2>
+        <p className="mt-1 text-sm text-muted-foreground">Altere o esquema, a postura e a pressão a qualquer momento, inclusive no intervalo. As escolhas atuais serão consideradas na próxima etapa da simulação.</p>
+        <div className="mt-4 grid gap-4 sm:grid-cols-3">
+          <label className="text-sm font-semibold">Esquema tático<select value={formation} onChange={(e) => setFormation(e.target.value as Formation)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>4-4-2</option><option>4-3-3</option><option>3-5-2</option><option>4-2-3-1</option></select></label>
+          <label className="text-sm font-semibold">Postura<select value={tacticalApproach} onChange={(e) => setTacticalApproach(e.target.value as typeof tacticalApproach)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option value="defensive">Defensiva</option><option value="balanced">Equilibrada</option><option value="attacking">Ofensiva</option></select></label>
+          <label className="text-sm font-semibold">Pressão<select value={pressure} onChange={(e) => setPressure(e.target.value as Pressure)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>Baixa</option><option>Média</option><option>Alta</option></select></label>
+        </div>
+      </section>}
+
       <section className="mb-6 grid gap-4 rounded-md border border-border bg-card p-5 sm:grid-cols-2">
         <MoraleMeter title="Moral com a torcida" value={career.fanMorale ?? 70} description="Reage aos resultados da equipe." />
         <MoraleMeter title="Confiança da diretoria" value={career.boardConfidence ?? 70} description="Reage aos resultados e às metas do clube." />
@@ -621,11 +632,6 @@ function Page() {
             </Fragment>;
           })}
         </div>
-        <div className="mt-6 grid gap-4 sm:grid-cols-3">
-          <label className="text-sm font-semibold">Esquema tático<select value={formation} disabled={playing || halftime} onChange={(e) => setFormation(e.target.value as Formation)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>4-4-2</option><option>4-3-3</option><option>3-5-2</option><option>4-2-3-1</option></select></label>
-          <label className="text-sm font-semibold">Postura<select value={tacticalApproach} disabled={playing || halftime} onChange={(e) => setTacticalApproach(e.target.value as typeof tacticalApproach)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option value="defensive">Defensiva</option><option value="balanced">Equilibrada</option><option value="attacking">Ofensiva</option></select></label>
-          <label className="text-sm font-semibold">Pressão<select value={pressure} disabled={playing || halftime} onChange={(e) => setPressure(e.target.value as Pressure)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>Baixa</option><option>Média</option><option>Alta</option></select></label>
-        </div>
         <div className="mt-5 grid gap-3 rounded-md border border-border bg-background p-4 sm:grid-cols-2 sm:items-end"><label className="text-sm font-semibold">Preço do ingresso (R$)<input type="number" min="1" max="10000" step="0.5" value={ticketPrice} onChange={(e) => setTicketPrice(Math.max(1, Number(e.target.value) || 1))} className="mt-2 w-full rounded-md border border-input bg-card px-3 py-3 text-foreground" /></label><p className="text-xs text-muted-foreground">O valor fica salvo nesta sessão do navegador e será usado para calcular a renda estimada do seu mando.</p></div>
         <div className="mt-5"><p className="mb-2 text-sm font-semibold">Velocidade da partida</p><div className="flex flex-wrap gap-2" role="group" aria-label="Velocidade da partida">{(Object.keys(SPEEDS) as MatchSpeed[]).map((key) => <button key={key} type="button" onClick={() => setSpeed(key)} aria-pressed={speed === key} className={`rounded-md border px-5 py-2.5 text-sm font-bold ${speed === key ? "border-primary bg-primary text-primary-foreground" : "border-border bg-background hover:border-primary"} disabled:opacity-50`}>{SPEEDS[key].label}</button>)}</div></div>
         {!careerFixture && <p className="mt-4 text-sm text-muted-foreground">Seu clube não tem jogo nesta rodada.</p>}
@@ -635,11 +641,6 @@ function Page() {
         <p className="text-xs font-bold uppercase tracking-widest text-primary">Intervalo · 45 minutos</p>
         <h2 className="mt-2 font-display text-3xl font-black uppercase">Ajustes para o segundo tempo</h2>
         <p className="mt-2 text-sm text-muted-foreground">Intervalo aos 45 minutos: ajuste esquema, postura, pressão e faça até cinco substituições antes de iniciar o segundo tempo.</p>
-        <div className="mt-5 grid gap-4 sm:grid-cols-3">
-          <label className="text-sm font-semibold">Esquema<select value={formation} onChange={(e) => setFormation(e.target.value as Formation)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>4-4-2</option><option>4-3-3</option><option>3-5-2</option><option>4-2-3-1</option></select></label>
-          <label className="text-sm font-semibold">Postura<select value={tacticalApproach} onChange={(e) => setTacticalApproach(e.target.value as typeof tacticalApproach)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option value="defensive">Defensiva</option><option value="balanced">Equilibrada</option><option value="attacking">Ofensiva</option></select></label>
-          <label className="text-sm font-semibold">Pressão<select value={pressure} onChange={(e) => setPressure(e.target.value as Pressure)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>Baixa</option><option>Média</option><option>Alta</option></select></label>
-        </div>
         <div className="mt-5 rounded-md border border-border p-4">
           <p className="font-bold">Substituições: {substitutions}/5</p>
           {availableSubstitutionPlayers.length >= 2 ? <>
