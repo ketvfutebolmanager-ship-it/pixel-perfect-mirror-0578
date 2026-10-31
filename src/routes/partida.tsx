@@ -122,6 +122,12 @@ function MoraleMeter({ title, value, description }: { title: string; value: numb
   );
 }
 
+type SavedMatchSession = { result: MatchResult | null; roundResults: Record<string, MatchResult>; minute: number; playing: boolean; halftime: boolean; formation: Formation; pressure: Pressure; tacticalApproach: "defensive" | "balanced" | "attacking"; substitutions: number; substitutionNote: string };
+const MATCH_SESSION_KEY = "ketvfm-match-session";
+function readMatchSession(): Partial<SavedMatchSession> {
+  try { return JSON.parse(window.localStorage.getItem(MATCH_SESSION_KEY) ?? "{}") as Partial<SavedMatchSession>; } catch { return {}; }
+}
+
 function Page() {
   const [career, setCareer] = useState<CareerSave | null>(() => {
     try {
@@ -129,8 +135,8 @@ function Page() {
       return raw ? JSON.parse(raw) as CareerSave : null;
     } catch { return null; }
   });
-  const [result, setResult] = useState<MatchResult | null>(null);
-  const [roundResults, setRoundResults] = useState<Record<string, MatchResult>>({});
+  const [result, setResult] = useState<MatchResult | null>(() => readMatchSession().result ?? null);
+  const [roundResults, setRoundResults] = useState<Record<string, MatchResult>>(() => readMatchSession().roundResults ?? {});
   const divisionClubs = career ? getClubsByDivision(career.division as BrazilianDivision) : [];
   const group = career?.division === "Série D" ? divisionClubs.find((club) => club.name === career.club)?.group : undefined;
   const participatingClubs = group ? divisionClubs.filter((club) => club.group === group) : divisionClubs;
@@ -142,14 +148,14 @@ function Page() {
   const careerFixture = roundFixtures.find((fixture) => fixture.home.name === career?.club || fixture.away.name === career?.club);
   const fixtureOpponent = careerFixture ? (careerFixture.home.name === career?.club ? careerFixture.away : careerFixture.home) : null;
   const [speed, setSpeed] = useState<MatchSpeed>("medium");
-  const [minute, setMinute] = useState(0);
-  const [playing, setPlaying] = useState(false);
-  const [halftime, setHalftime] = useState(false);
-  const [formation, setFormation] = useState<Formation>("4-3-3");
-  const [pressure, setPressure] = useState<Pressure>("Média");
-  const [tacticalApproach, setTacticalApproach] = useState<"defensive" | "balanced" | "attacking">(career?.approach ?? "balanced");
-  const [substitutions, setSubstitutions] = useState(0);
-  const [substitutionNote, setSubstitutionNote] = useState("");
+  const [minute, setMinute] = useState(() => readMatchSession().minute ?? 0);
+  const [playing, setPlaying] = useState(() => readMatchSession().playing ?? false);
+  const [halftime, setHalftime] = useState(() => readMatchSession().halftime ?? false);
+  const [formation, setFormation] = useState<Formation>(() => readMatchSession().formation ?? "4-3-3");
+  const [pressure, setPressure] = useState<Pressure>(() => readMatchSession().pressure ?? "Média");
+  const [tacticalApproach, setTacticalApproach] = useState<"defensive" | "balanced" | "attacking">(() => readMatchSession().tacticalApproach ?? career?.approach ?? "balanced");
+  const [substitutions, setSubstitutions] = useState(() => readMatchSession().substitutions ?? 0);
+  const [substitutionNote, setSubstitutionNote] = useState(() => readMatchSession().substitutionNote ?? "");
 
   useEffect(() => {
     if (!playing) return;
@@ -169,6 +175,15 @@ function Page() {
     }, SPEEDS[speed].interval);
     return () => window.clearInterval(timer);
   }, [playing, speed]);
+
+  useEffect(() => {
+    if (!result) {
+      window.localStorage.removeItem(MATCH_SESSION_KEY);
+      return;
+    }
+    const session: SavedMatchSession = { result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote };
+    window.localStorage.setItem(MATCH_SESSION_KEY, JSON.stringify(session));
+  }, [result, roundResults, minute, playing, halftime, formation, pressure, tacticalApproach, substitutions, substitutionNote]);
 
   if (!career) {
     return <section className="rounded-md border border-border bg-card p-8"><h1 className="text-3xl font-bold uppercase">Nenhuma carreira encontrada</h1><p className="mt-2 text-muted-foreground">Crie sua carreira antes de entrar em campo.</p><Link to="/nova-carreira" className="mt-5 inline-block rounded-md bg-primary px-5 py-3 font-bold text-primary-foreground">Criar carreira</Link></section>;
@@ -223,6 +238,8 @@ function Page() {
     setHalftime(false);
     setMinute(0);
     setResult(null);
+    setRoundResults({});
+    window.localStorage.removeItem(MATCH_SESSION_KEY);
   }
 
   return (
