@@ -2061,6 +2061,274 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     id: "jose-kadir-botafogo", name: "José Kadir", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "ATA",
     source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
   },
+  {
+    id: "cassio-cruzeiro", name: "Cássio", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "GOL",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "otavio-cruzeiro", name: "Otávio", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "GOL",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "leo-aragao-cruzeiro", name: "Léo Aragão", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "GOL",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fabricio-bruno-cruzeiro", name: "Fabrício Bruno", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ZAG",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jonathan-jesus-cruzeiro", name: "Jonathan Jesus", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ZAG",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-marcelo-cruzeiro", name: "João Marcelo", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ZAG",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-villalba-cruzeiro", name: "Lucas Villalba", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ZAG",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fagner-cruzeiro", name: "Fagner", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "LAT",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "william-cruzeiro", name: "William", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "LAT",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kaua-moraes-cruzeiro", name: "Kauã Moraes", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "LAT",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-rojas-cruzeiro", name: "Gabriel Rojas", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "LAT",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matias-vina-cruzeiro", name: "Matías Viña", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "LAT",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-romero-cruzeiro", name: "Lucas Romero", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "VOL",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ze-lucas-cruzeiro", name: "Zé Lucas", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "VOL",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-silva-cruzeiro", name: "Lucas Silva", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "VOL",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheus-henrique-cruzeiro", name: "Matheus Henrique", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "MEI",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gerson-cruzeiro", name: "Gerson", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "MEI",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheus-pereira-cruzeiro", name: "Matheus Pereira", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "MEI",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "felipe-morais-cruzeiro", name: "Felipe Morais", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "MEI",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "keny-arroyo-cruzeiro", name: "Keny Arroyo", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ATA",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "wanderson-cruzeiro", name: "Wanderson", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ATA",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "wesley-cruzeiro", name: "Wesley", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ATA",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-costa-cruzeiro", name: "João Costa", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ATA",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucho-rodriguez-cruzeiro", name: "Lucho Rodríguez", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ATA",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kaique-kenji-cruzeiro", name: "Kaique Kenji", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ATA",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marquinhos-cruzeiro", name: "Marquinhos", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ATA",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-pec-cruzeiro", name: "Gabriel Pec", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ATA",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "luis-sinisterra-cruzeiro", name: "Luis Sinisterra", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ATA",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bruno-rodrigues-cruzeiro", name: "Bruno Rodrigues", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ATA",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kaio-jorge-cruzeiro", name: "Kaio Jorge", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ATA",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "neiser-villarreal-cruzeiro", name: "Néiser Villarreal", clubId: "cruzeiro", clubName: "Cruzeiro", division: "Série A", position: "ATA",
+    source: "Cruzeiro Esporte Clube — elenco profissional e janela 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rafael-sao-paulo", name: "Rafael", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "GOL",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "carlos-coronel-sao-paulo", name: "Carlos Coronel", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "GOL",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-pedro-sao-paulo", name: "João Pedro", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "GOL",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "young-sao-paulo", name: "Young", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "GOL",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "toloi-sao-paulo", name: "Rafael Tolói", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ZAG",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "arboleda-sao-paulo", name: "Arboleda", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ZAG",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "domingos-duarte-sao-paulo", name: "Domingos Duarte", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ZAG",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "sabino-sao-paulo", name: "Sabino", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ZAG",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "isac-sao-paulo", name: "Isac", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ZAG",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "osorio-sao-paulo", name: "Luis Osorio", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ZAG",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "iago-sao-paulo", name: "Iago", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "LAT",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "enzo-diaz-sao-paulo", name: "Enzo Díaz", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "LAT",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "wendell-sao-paulo", name: "Wendell", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "LAT",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-ramon-sao-paulo", name: "Lucas Ramon", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "LAT",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "buta-sao-paulo", name: "Aurélio Buta", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "LAT",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "cedric-sao-paulo", name: "Cédric Soares", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "LAT",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pedro-lima-sao-paulo", name: "Pedro Lima", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "LAT",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marcos-antonio-sao-paulo", name: "Marcos Antônio", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "MEI",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bobadilla-sao-paulo", name: "Damián Bobadilla", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "MEI",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "newton-sao-paulo", name: "Newton", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "VOL",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pablo-maia-sao-paulo", name: "Pablo Maia", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "VOL",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pedro-ferreira-sao-paulo", name: "Pedro Ferreira", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "MEI",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "djhordney-sao-paulo", name: "Djhordney", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "MEI",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "cauly-sao-paulo", name: "Cauly", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "MEI",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "danielzinho-sao-paulo", name: "Danielzinho", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "MEI",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-moura-sao-paulo", name: "Lucas Moura", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ATA",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jonathan-calleri-sao-paulo", name: "Jonathan Calleri", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ATA",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "luciano-sao-paulo", name: "Luciano", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ATA",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ferreirinha-sao-paulo", name: "Ferreira", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ATA",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "andre-silva-sao-paulo", name: "André Silva", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ATA",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "victor-sa-sao-paulo", name: "Victor Sá", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ATA",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "tete-sao-paulo", name: "Tetê", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ATA",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "artur-sao-paulo", name: "Artur", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ATA",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gustavo-santana-sao-paulo", name: "Gustavo Santana", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ATA",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucca-marques-sao-paulo", name: "Lucca Marques", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ATA",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ryan-francisco-sao-paulo", name: "Ryan Francisco", clubId: "sao-paulo", clubName: "São Paulo", division: "Série A", position: "ATA",
+    source: "São Paulo FC — elenco profissional oficial e relação CBF 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
 ];
 export const PLAYER_DATA_AS_OF = "2026-10-31";
 export const PLAYER_DATA_STATUS = "partial-verified";
