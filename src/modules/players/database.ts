@@ -700,7 +700,6 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     id: "rodrigo-rodrigues-coritiba", name: "Rodrigo Rodrigues", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ATA",
     source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
   },
-,
   {
     id: "carlos-miguel-palmeiras", name: "Carlos Miguel", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "GOL", shirtNumber: 1,
     source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
