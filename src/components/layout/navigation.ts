@@ -9,6 +9,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { label: "Página inicial", to: "/" },
       { label: "Nova carreira", to: "/nova-carreira" },
       { label: "Continuar carreira", to: "/continuar-carreira" },
+      { label: "Central da partida", to: "/partida" },
     ],
   },
   {
