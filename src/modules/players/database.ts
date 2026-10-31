@@ -1193,6 +1193,242 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     id: "neto-pessoa-sport-recife", name: "Neto Pessoa", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ATA", shirtNumber: 19,
     source: "Site oficial do Sport — jogadores profissionais 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
   },
+  {
+    id: "rossi-flamengo", name: "Agustín Rossi", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "GOL", shirtNumber: 1,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "andrew-flamengo", name: "Andrew", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "GOL", shirtNumber: 42,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "dyogo-alves-flamengo", name: "Dyogo Alves", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "GOL", shirtNumber: 49,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "leo-ortiz-flamengo", name: "Léo Ortiz", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "ZAG", shirtNumber: 3,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "leo-pereira-flamengo", name: "Léo Pereira", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "ZAG", shirtNumber: 4,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "danilo-flamengo", name: "Danilo", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "ZAG", shirtNumber: 13,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vitao-flamengo", name: "Vitão", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "ZAG", shirtNumber: 44,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-victor-flamengo", name: "João Victor", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "ZAG", shirtNumber: 61,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "varela-flamengo", name: "Guillermo Varela", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "LAT", shirtNumber: 2,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ayrton-lucas-flamengo", name: "Ayrton Lucas", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "LAT", shirtNumber: 6,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "emerson-royal-flamengo", name: "Emerson Royal", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "LAT", shirtNumber: 22,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alex-sandro-flamengo", name: "Alex Sandro", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "LAT", shirtNumber: 26,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pulgar-flamengo", name: "Erick Pulgar", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "VOL", shirtNumber: 5,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "saul-flamengo", name: "Saúl Ñíguez", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "MEI", shirtNumber: 8,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "arrascaeta-flamengo", name: "Giorgian de Arrascaeta", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "MEI", shirtNumber: 10,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "carrascal-flamengo", name: "Jorge Carrascal", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "MEI", shirtNumber: 15,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "de-la-cruz-flamengo", name: "Nicolás de la Cruz", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "MEI", shirtNumber: 18,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "paqueta-flamengo", name: "Lucas Paquetá", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "MEI", shirtNumber: 20,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jorginho-flamengo", name: "Jorginho", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "VOL", shirtNumber: 21,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "evertton-araujo-flamengo", name: "Evertton Araújo", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "VOL", shirtNumber: 52,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "luiz-araujo-flamengo", name: "Luiz Araújo", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "ATA", shirtNumber: 7,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pedro-flamengo", name: "Pedro", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "ATA", shirtNumber: 9,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "anthony-valencia-flamengo", name: "Anthony Valencia", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "ATA", shirtNumber: 14,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "samuel-lino-flamengo", name: "Samuel Lino", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "ATA", shirtNumber: 16,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "plata-flamengo", name: "Gonzalo Plata", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "ATA", shirtNumber: 19,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bruno-henrique-flamengo", name: "Bruno Henrique", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "ATA", shirtNumber: 27,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joaquin-freitas-flamengo", name: "Joaquín Freitas", clubId: "flamengo", clubName: "Flamengo", division: "Série A", position: "ATA", shirtNumber: 30,
+    source: "Elenco Flamengo 2026 — conferência em 31/10/2026; elenco oficial e relação de camisas", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "hugo-souza-corinthians", name: "Hugo Souza", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "GOL", shirtNumber: 1,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "felipe-longo-corinthians", name: "Felipe Longo", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "GOL", shirtNumber: 40,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kaue-corinthians", name: "Kauê", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "GOL", shirtNumber: 51,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheuzinho-corinthians", name: "Matheuzinho", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "LAT", shirtNumber: 2,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-paulista-corinthians", name: "Gabriel Paulista", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ZAG", shirtNumber: 3,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-pedro-tchoca-corinthians", name: "João Pedro Tchoca", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ZAG", shirtNumber: 4,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "andre-ramalho-corinthians", name: "André Ramalho", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ZAG", shirtNumber: 5,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gustavo-henrique-corinthians", name: "Gustavo Henrique", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ZAG", shirtNumber: 13,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pedro-milans-corinthians", name: "Pedro Milans", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "LAT", shirtNumber: 20,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheus-bidu-corinthians", name: "Matheus Bidu", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "LAT", shirtNumber: 21,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fabrizio-angileri-corinthians", name: "Fabrizio Angileri", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "LAT", shirtNumber: 26,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "hugo-farias-corinthians", name: "Hugo Farias", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "LAT", shirtNumber: 46,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "iago-machado-corinthians", name: "Iago Machado", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ZAG", shirtNumber: 55,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "breno-bidon-corinthians", name: "Breno Bidon", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "MEI", shirtNumber: 7,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rodrigo-garro-corinthians", name: "Rodrigo Garro", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "MEI", shirtNumber: 8,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vitinho-corinthians", name: "Vitinho", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ATA", shirtNumber: 11,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "raniele-corinthians", name: "Raniele", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "VOL", shirtNumber: 14,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "andre-carrillo-corinthians", name: "André Carrillo", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "MEI", shirtNumber: 19,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheus-pereira-corinthians", name: "Matheus Pereira", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "MEI", shirtNumber: 23,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "allan-corinthians", name: "Allan", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "VOL", shirtNumber: 29,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "charles-corinthians", name: "Charles", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "VOL", shirtNumber: 35,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "andre-luiz-corinthians", name: "André Luiz", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "MEI", shirtNumber: 49,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "zakaria-labyad-corinthians", name: "Zakaria Labyad", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "MEI", shirtNumber: 52,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jesse-lingard-corinthians", name: "Jesse Lingard", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "MEI", shirtNumber: 77,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alex-santana-corinthians", name: "Alex Santana", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "MEI", shirtNumber: 80,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "yuri-alberto-corinthians", name: "Yuri Alberto", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ATA", shirtNumber: 9,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "memphis-depay-corinthians", name: "Memphis Depay", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ATA", shirtNumber: 10,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pedro-raul-corinthians", name: "Pedro Raul", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ATA", shirtNumber: 18,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kayke-corinthians", name: "Kayke", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ATA", shirtNumber: 31,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kaio-cesar-corinthians", name: "Kaio César", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ATA", shirtNumber: 37,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gui-negao-corinthians", name: "Gui Negão", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ATA", shirtNumber: 56,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "dieguinho-corinthians", name: "Dieguinho", clubId: "corinthians", clubName: "Corinthians", division: "Série A", position: "ATA", shirtNumber: 61,
+    source: "Bússola do Futebol — elenco Corinthians 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
 ];
 export const PLAYER_DATA_AS_OF = "2026-10-31";
 export const PLAYER_DATA_STATUS = "partial-verified";
