@@ -13,7 +13,21 @@ export const Route = createFileRoute("/partida")({
 type MatchSpeed = "slow" | "medium" | "fast";
 type Formation = "4-4-2" | "4-3-3" | "3-5-2" | "4-2-3-1";
 type Pressure = "Baixa" | "Média" | "Alta";
-type Fixture = { round: number; home: { id: string; name: string; state: string }; away: { id: string; name: string; state: string } };
+type Fixture = { round: number; home: { id: string; name: string; state: string }; away: { id: string; name: string; state: string }; weekday: string; kickoff: string };
+const KICKOFF_SLOTS = [
+  { weekday: "Quarta-feira", kickoff: "19:00" },
+  { weekday: "Quarta-feira", kickoff: "21:30" },
+  { weekday: "Quinta-feira", kickoff: "19:00" },
+  { weekday: "Quinta-feira", kickoff: "21:30" },
+  { weekday: "Sábado", kickoff: "16:00" },
+  { weekday: "Sábado", kickoff: "18:30" },
+  { weekday: "Sábado", kickoff: "21:00" },
+  { weekday: "Domingo", kickoff: "11:00" },
+  { weekday: "Domingo", kickoff: "16:00" },
+  { weekday: "Domingo", kickoff: "18:30" },
+  { weekday: "Domingo", kickoff: "20:30" },
+  { weekday: "Segunda-feira", kickoff: "20:00" },
+];
 function buildFixtures(clubs: Array<{id:string;name:string;state:string}>, maxRounds: number): Fixture[] {
   if (clubs.length < 2) return [];
   const teams = [...clubs];
@@ -29,7 +43,9 @@ function buildFixtures(clubs: Array<{id:string;name:string;state:string}>, maxRo
       if (left.id !== "bye" && right.id !== "bye") {
         const home = round % 2 === 0 ? left : right;
         const away = round % 2 === 0 ? right : left;
-        fixtures.push({ round: round + 1, home, away }, { round: round + half + 1, home: away, away: home });
+        const firstSlot = KICKOFF_SLOTS[(round * 3) % KICKOFF_SLOTS.length];
+        const returnSlot = KICKOFF_SLOTS[((round + half) * 3) % KICKOFF_SLOTS.length];
+        fixtures.push({ round: round + 1, home, away, ...firstSlot }, { round: round + half + 1, home: away, away: home, ...returnSlot });
       }
     }
     rotating = [rotating[rotating.length - 1], ...rotating.slice(0, -1)];
@@ -189,12 +205,12 @@ function Page() {
         <p className="text-xs font-bold uppercase tracking-widest text-primary">Calendário da carreira</p>
         <h2 className="mt-2 text-2xl font-bold uppercase">Todos os jogos da rodada {currentRound}</h2>
         <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">{career.division} · {roundFixtures.length} confrontos nesta rodada</p>
-        <p className="mt-1 text-sm text-muted-foreground">Tabela de confrontos gerada para sua temporada. Não é uma importação do calendário oficial da CBF.</p>
+        <p className="mt-1 text-sm text-muted-foreground">Dias e horários simulados para a sua temporada, no horário de Brasília. Não são datas ou horários oficiais da CBF.</p>
         <div className="mt-5 space-y-3">
           {roundFixtures.map((fixture, fixtureIndex) => {
             const isCareerMatch = fixture.home.name === career.club || fixture.away.name === career.club;
             return <div key={fixture.round + "-" + fixture.home.id} className={`rounded-md border p-3 ${isCareerMatch ? "border-primary bg-primary/5 ring-1 ring-primary/20" : "border-border bg-background"}`}>
-              <div className="mb-2 flex items-center justify-between"><span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Jogo {fixtureIndex + 1}</span>{isCareerMatch && <span className="text-[10px] font-black uppercase tracking-widest text-primary">Seu confronto</span>}</div>
+              <div className="mb-2 flex items-center justify-between"><span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Jogo {fixtureIndex + 1}</span><span className="text-[10px] font-semibold text-muted-foreground">{fixture.weekday} · {fixture.kickoff} (Brasília)</span>{isCareerMatch && <span className="text-[10px] font-black uppercase tracking-widest text-primary">Seu confronto</span>}</div>
               <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
                 <div className="flex min-w-0 items-center gap-2"><Crest club={fixture.home.name}/><span className="truncate text-sm font-semibold">{fixture.home.name}</span></div>
                 <span className="rounded bg-muted px-2 py-1 text-xs font-black text-muted-foreground">VS</span>
