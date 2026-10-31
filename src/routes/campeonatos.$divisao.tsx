@@ -150,7 +150,7 @@ function ClubCrest({ name }: { name: string }) {
   const localFile = CREST_FILES[name];
   const src = localFile
     ? `https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(localFile)}`
-    : `https://www.footylogos.com/dls/logo/rgba-v1/${logoSlug(name)}.png`;
+    : `https://www.footylogos.com/dls/logo/${logoSlug(name)}.png`;
   if (failed) return <span aria-label={`Escudo de ${name} indisponível`} className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-[10px] font-black text-primary">{name.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>;
   return <img src={src} alt={`Escudo do ${name}`} loading="lazy" onError={() => setFailed(true)} className="h-9 w-9 shrink-0 object-contain" />;
 }
