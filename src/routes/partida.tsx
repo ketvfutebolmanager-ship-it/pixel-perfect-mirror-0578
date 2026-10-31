@@ -222,7 +222,7 @@ const STADIUMS: Record<string, string> = {
   "Sampaio Corrêa-RJ": "Estádio Lourival Gomes",
   "Santa Catarina": "Estádio Alfredo João Krieck",
   "São José-RS": "Estádio Passo d'Areia",
-  São Joseense: "Estádio do Pinhão",
+  "São Joseense": "Estádio do Pinhão",
   "São Luiz": "Estádio 19 de Outubro",
   "São Raimundo-RR": "Estádio Canarinho",
   "Serra Branca": "Estádio Amigão",
