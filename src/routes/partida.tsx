@@ -13,6 +13,20 @@ export const Route = createFileRoute("/partida")({
 
 type MatchSpeed = "slow" | "medium" | "fast";
 type Formation = "4-4-2" | "4-3-3" | "3-5-2" | "4-2-3-1";
+type PlayerMorale = Record<string, number>;
+const PLAYER_MORALE_KEY = "ketvfm-player-morale";
+function readPlayerMorale(): PlayerMorale {
+  try { return JSON.parse(window.localStorage.getItem(PLAYER_MORALE_KEY) ?? "{}") as PlayerMorale; }
+  catch { return {}; }
+}
+function clampMorale(value: number) { return Math.max(0, Math.min(100, value)); }
+function moraleLabel(value: number) { return value >= 80 ? "Excelente" : value >= 65 ? "Boa" : value >= 45 ? "Regular" : value >= 25 ? "Baixa" : "Crítica"; }
+function formationRows(formation: Formation): string[][] {
+  if (formation === "4-4-2") return [["GOL"], ["LAT", "ZAG", "ZAG", "LAT"], ["MEI", "VOL", "VOL", "MEI"], ["ATA", "ATA"]];
+  if (formation === "3-5-2") return [["GOL"], ["ZAG", "ZAG", "ZAG"], ["LAT", "VOL", "MEI", "VOL", "LAT"], ["ATA", "ATA"]];
+  if (formation === "4-2-3-1") return [["GOL"], ["LAT", "ZAG", "ZAG", "LAT"], ["VOL", "VOL"], ["MEI", "MEI", "MEI"], ["ATA"]];
+  return [["GOL"], ["LAT", "ZAG", "ZAG", "LAT"], ["VOL", "MEI", "MEI"], ["ATA", "ATA", "ATA"]];
+}
 type Pressure = "Baixa" | "Média" | "Alta";
 type Fixture = { round: number; home: { id: string; name: string; state: string }; away: { id: string; name: string; state: string }; weekday: string; kickoff: string };
 const KICKOFF_SLOTS = [
@@ -452,6 +466,8 @@ function Page() {
   const [playerOutId, setPlayerOutId] = useState(() => readMatchSession().playerOutId ?? "");
   const [playerInId, setPlayerInId] = useState(() => readMatchSession().playerInId ?? "");
   const [matchFinalized, setMatchFinalized] = useState(() => readMatchSession().finalized ?? false);
+  const [playerMorale, setPlayerMorale] = useState<PlayerMorale>(() => readPlayerMorale());
+  useEffect(() => { window.localStorage.setItem(PLAYER_MORALE_KEY, JSON.stringify(playerMorale)); }, [playerMorale]);
 
   useEffect(() => {
     if (!playing) return;
@@ -486,6 +502,15 @@ function Page() {
     const won = result.homeGoals > result.awayGoals;
     const drew = result.homeGoals === result.awayGoals;
     const updated = { ...career, played: career.played + 1, fanMorale: Math.max(0, Math.min(100, (career.fanMorale ?? 70) + (won ? 7 : drew ? 1 : -7))), boardConfidence: Math.max(0, Math.min(100, (career.boardConfidence ?? 70) + (won ? 9 : drew ? -1 : -9))) };
+    const clubPlayers = VERIFIED_PLAYERS_2026.filter((player) => player.clubId === career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-"));
+    const nextMorale = { ...readPlayerMorale() };
+    clubPlayers.forEach((player) => {
+      const scored = result.events.filter((event) => event.minute <= 90 && event.clubId === result.home.id && event.playerId === player.id).length;
+      const delta = (won ? 4 : drew ? 1 : -3) + (scored * 5) + 1;
+      nextMorale[player.id] = clampMorale((nextMorale[player.id] ?? 65) + delta);
+    });
+    window.localStorage.setItem(PLAYER_MORALE_KEY, JSON.stringify(nextMorale));
+    setPlayerMorale(nextMorale);
     window.localStorage.setItem("ketvfm-career", JSON.stringify(updated));
     setCareer(updated);
     setMatchFinalized(true);
@@ -514,6 +539,14 @@ function Page() {
   const progress = (minute / 90) * 100;
   const careerClubId = career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
   const availableSubstitutionPlayers = VERIFIED_PLAYERS_2026.filter((player) => player.clubId === careerClubId);
+  const lineupRows = formationRows(formation);
+  const lineupPlayers = availableSubstitutionPlayers.filter((player) => player.position !== "DEF");
+  const usedLineupIds = new Set<string>();
+  const tacticalLineup = lineupRows.map((row) => row.map((role) => {
+    const player = availableSubstitutionPlayers.find((candidate) => !usedLineupIds.has(candidate.id) && (candidate.position === role || (role === "LAT" && candidate.position === "DEF")));
+    if (player) usedLineupIds.add(player.id);
+    return { role, player };
+  }));
 
   function play() {
     if (!fixtureOpponent || !careerFixture || playing) return;
@@ -563,6 +596,39 @@ function Page() {
       <PageHeader kicker={`${career.division} · Temporada ${career.season}`} title="Central da partida">
         Treinador: {career.coach} · Clube: {career.club}
       </PageHeader>
+      <section className="mt-6 rounded-md border border-primary/60 bg-card p-5">
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <div><p className="text-xs font-bold uppercase tracking-widest text-primary">Análise tática e individual</p><h2 className="mt-1 font-display text-2xl font-black uppercase">Campo e escalação · {formation}</h2><p className="mt-1 text-sm text-muted-foreground">Confira a distribuição dos atletas por posição e a moral individual antes do jogo e no intervalo.</p></div>
+          <span className="rounded-md border border-border px-3 py-2 text-xs font-bold">{availableSubstitutionPlayers.length} atletas cadastrados</span>
+        </div>
+        <div className="mt-4 rounded-xl border-2 border-emerald-800 bg-emerald-950 p-3 sm:p-5">
+          <div className="rounded-lg border border-emerald-700/70 bg-emerald-900/30 p-3">
+            <div className="mb-3 flex justify-between text-[10px] font-bold uppercase tracking-widest text-emerald-200"><span>Seu time · {career.club}</span><span>Formação {formation}</span></div>
+            <div className="space-y-3">
+              {tacticalLineup.map((row, rowIndex) => <div key={rowIndex} className="flex flex-wrap items-center justify-center gap-2 sm:gap-4">
+                {row.map((slot, slotIndex) => <div key={rowIndex + "-" + slotIndex} className="flex min-w-[88px] max-w-[150px] flex-col items-center rounded-md border border-emerald-500/50 bg-emerald-800/80 px-2 py-2 text-center">
+                  <span className="text-[10px] font-black text-emerald-200">{slot.role}</span>
+                  <strong className="mt-1 text-xs text-white">{slot.player?.name ?? "A definir"}</strong>
+                  {slot.player && <><span className="mt-1 text-[10px] text-emerald-100">Moral {playerMorale[slot.player.id] ?? 65}/100</span><span className="text-[9px] text-emerald-200">{moraleLabel(playerMorale[slot.player.id] ?? 65)}</span></>}
+                </div>)}
+              </div>)}
+            </div>
+            <p className="mt-3 text-center text-[10px] text-emerald-200">Representação tática por posição · jogadores ainda não cadastrados aparecem como “A definir”</p>
+          </div>
+        </div>
+        <h3 className="mt-5 border-b border-border pb-2 text-sm font-bold uppercase">Relatório individual dos atletas</h3>
+        {availableSubstitutionPlayers.length ? <div className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          {availableSubstitutionPlayers.map((player) => {
+            const morale = playerMorale[player.id] ?? 65;
+            return <div key={player.id} className="rounded-md border border-border bg-background p-3">
+              <div className="flex items-start justify-between gap-2"><div><p className="font-bold">{player.name}</p><p className="text-xs text-muted-foreground">{player.position}{player.shirtNumber ? " · Camisa " + player.shirtNumber : ""}</p></div><strong className="text-sm tabular-nums">{morale}/100</strong></div>
+              <div className="mt-2 h-2 overflow-hidden rounded-full bg-muted"><div className={`h-full rounded-full ${morale >= 65 ? "bg-emerald-500" : morale >= 45 ? "bg-amber-500" : "bg-red-500"}`} style={{ width: morale + "%" }} /></div>
+              <p className="mt-1 text-[11px] font-semibold text-muted-foreground">{moraleLabel(morale)} · {player.seasonStats?.appearances ?? 0} jogos na base estatística</p>
+            </div>;
+          })}
+        </div> : <p className="mt-3 text-sm text-muted-foreground">Ainda não há atletas cadastrados para este clube. O campo será preenchido conforme o elenco for cadastrado.</p>}
+        <p className="mt-3 text-xs text-muted-foreground">A moral começa em 65/100 e é atualizada ao apito final: vitória melhora, empate gera pequeno ganho e derrota reduz; gols marcados pelo atleta dão bônus. Os valores ficam salvos neste navegador.</p>
+      </section>
       {result && <section className="mt-6 rounded-md border border-primary bg-hero p-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <p className="text-xs font-bold uppercase tracking-widest text-primary">{minute === 90 ? "Apito final" : "Partida ao vivo"}</p>
