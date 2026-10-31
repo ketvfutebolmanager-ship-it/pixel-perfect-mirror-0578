@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as CalendarioRouteImport } from './routes/calendario'
 import { Route as ClassificacaoRouteImport } from './routes/classificacao'
 import { Route as ClubesRouteImport } from './routes/clubes'
 import { Route as ConfiguracoesRouteImport } from './routes/configuracoes'
@@ -17,6 +18,7 @@ import { Route as ContinuarCarreiraRouteImport } from './routes/continuar-carrei
 import { Route as EstatisticasRouteImport } from './routes/estatisticas'
 import { Route as JogadoresRouteImport } from './routes/jogadores'
 import { Route as NovaCarreiraRouteImport } from './routes/nova-carreira'
+import { Route as PartidaRouteImport } from './routes/partida'
 import { Route as TransferenciasRouteImport } from './routes/transferencias'
 import { Route as CampeonatosIndexRouteImport } from './routes/campeonatos.index'
 import { Route as CampeonatosDivisaoRouteImport } from './routes/campeonatos.$divisao'
@@ -24,6 +26,11 @@ import { Route as CampeonatosDivisaoRouteImport } from './routes/campeonatos.$di
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CalendarioRoute = CalendarioRouteImport.update({
+  id: '/calendario',
+  path: '/calendario',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ClassificacaoRoute = ClassificacaoRouteImport.update({
@@ -61,6 +68,11 @@ const NovaCarreiraRoute = NovaCarreiraRouteImport.update({
   path: '/nova-carreira',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PartidaRoute = PartidaRouteImport.update({
+  id: '/partida',
+  path: '/partida',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TransferenciasRoute = TransferenciasRouteImport.update({
   id: '/transferencias',
   path: '/transferencias',
@@ -79,6 +91,7 @@ const CampeonatosDivisaoRoute = CampeonatosDivisaoRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/calendario': typeof CalendarioRoute
   '/classificacao': typeof ClassificacaoRoute
   '/clubes': typeof ClubesRoute
   '/configuracoes': typeof ConfiguracoesRoute
@@ -86,12 +99,14 @@ export interface FileRoutesByFullPath {
   '/estatisticas': typeof EstatisticasRoute
   '/jogadores': typeof JogadoresRoute
   '/nova-carreira': typeof NovaCarreiraRoute
+  '/partida': typeof PartidaRoute
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos/': typeof CampeonatosIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/calendario': typeof CalendarioRoute
   '/classificacao': typeof ClassificacaoRoute
   '/clubes': typeof ClubesRoute
   '/configuracoes': typeof ConfiguracoesRoute
@@ -99,6 +114,7 @@ export interface FileRoutesByTo {
   '/estatisticas': typeof EstatisticasRoute
   '/jogadores': typeof JogadoresRoute
   '/nova-carreira': typeof NovaCarreiraRoute
+  '/partida': typeof PartidaRoute
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos': typeof CampeonatosIndexRoute
@@ -106,6 +122,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/calendario': typeof CalendarioRoute
   '/classificacao': typeof ClassificacaoRoute
   '/clubes': typeof ClubesRoute
   '/configuracoes': typeof ConfiguracoesRoute
@@ -113,6 +130,7 @@ export interface FileRoutesById {
   '/estatisticas': typeof EstatisticasRoute
   '/jogadores': typeof JogadoresRoute
   '/nova-carreira': typeof NovaCarreiraRoute
+  '/partida': typeof PartidaRoute
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos/': typeof CampeonatosIndexRoute
@@ -121,6 +139,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/calendario'
     | '/classificacao'
     | '/clubes'
     | '/configuracoes'
@@ -128,12 +147,14 @@ export interface FileRouteTypes {
     | '/estatisticas'
     | '/jogadores'
     | '/nova-carreira'
+    | '/partida'
     | '/transferencias'
     | '/campeonatos/$divisao'
     | '/campeonatos/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/calendario'
     | '/classificacao'
     | '/clubes'
     | '/configuracoes'
@@ -141,12 +162,14 @@ export interface FileRouteTypes {
     | '/estatisticas'
     | '/jogadores'
     | '/nova-carreira'
+    | '/partida'
     | '/transferencias'
     | '/campeonatos/$divisao'
     | '/campeonatos'
   id:
     | '__root__'
     | '/'
+    | '/calendario'
     | '/classificacao'
     | '/clubes'
     | '/configuracoes'
@@ -154,6 +177,7 @@ export interface FileRouteTypes {
     | '/estatisticas'
     | '/jogadores'
     | '/nova-carreira'
+    | '/partida'
     | '/transferencias'
     | '/campeonatos/$divisao'
     | '/campeonatos/'
@@ -161,6 +185,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  CalendarioRoute: typeof CalendarioRoute
   ClassificacaoRoute: typeof ClassificacaoRoute
   ClubesRoute: typeof ClubesRoute
   ConfiguracoesRoute: typeof ConfiguracoesRoute
@@ -168,6 +193,7 @@ export interface RootRouteChildren {
   EstatisticasRoute: typeof EstatisticasRoute
   JogadoresRoute: typeof JogadoresRoute
   NovaCarreiraRoute: typeof NovaCarreiraRoute
+  PartidaRoute: typeof PartidaRoute
   TransferenciasRoute: typeof TransferenciasRoute
   CampeonatosDivisaoRoute: typeof CampeonatosDivisaoRoute
   CampeonatosIndexRoute: typeof CampeonatosIndexRoute
@@ -180,6 +206,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/calendario': {
+      id: '/calendario'
+      path: '/calendario'
+      fullPath: '/calendario'
+      preLoaderRoute: typeof CalendarioRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/classificacao': {
@@ -231,6 +264,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof NovaCarreiraRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/partida': {
+      id: '/partida'
+      path: '/partida'
+      fullPath: '/partida'
+      preLoaderRoute: typeof PartidaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/transferencias': {
       id: '/transferencias'
       path: '/transferencias'
@@ -257,6 +297,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  CalendarioRoute: CalendarioRoute,
   ClassificacaoRoute: ClassificacaoRoute,
   ClubesRoute: ClubesRoute,
   ConfiguracoesRoute: ConfiguracoesRoute,
@@ -264,6 +305,7 @@ const rootRouteChildren: RootRouteChildren = {
   EstatisticasRoute: EstatisticasRoute,
   JogadoresRoute: JogadoresRoute,
   NovaCarreiraRoute: NovaCarreiraRoute,
+  PartidaRoute: PartidaRoute,
   TransferenciasRoute: TransferenciasRoute,
   CampeonatosDivisaoRoute: CampeonatosDivisaoRoute,
   CampeonatosIndexRoute: CampeonatosIndexRoute,
