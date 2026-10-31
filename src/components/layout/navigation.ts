@@ -27,7 +27,7 @@ export const NAV_GROUPS: NavGroup[] = [
     title: "Mercado",
     items: [
       { label: "Clubes", to: "/clubes" },
-      { label: "Jogadores", to: "/jogadores" },
+      { label: "Elenco e moral", to: "/jogadores" },
       { label: "Transferências", to: "/transferencias" },
     ],
   },
