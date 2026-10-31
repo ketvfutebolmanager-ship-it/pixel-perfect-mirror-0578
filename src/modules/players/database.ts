@@ -588,4 +588,6 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     "source": "Classificação Geral — estatísticas Brasileirão 2026 (consulta em 31/10/2026)",
     "verifiedAt": "2026-10-31"
   }
-];\nexport const PLAYER_DATA_AS_OF = "2026-10-31";\nexport const PLAYER_DATA_STATUS = "partial-verified";\n
+];
+export const PLAYER_DATA_AS_OF = "2026-10-31";
+export const PLAYER_DATA_STATUS = "partial-verified";
