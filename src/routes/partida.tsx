@@ -13,6 +13,29 @@ export const Route = createFileRoute("/partida")({
 type MatchSpeed = "slow" | "medium" | "fast";
 type Formation = "4-4-2" | "4-3-3" | "3-5-2" | "4-2-3-1";
 type Pressure = "Baixa" | "Média" | "Alta";
+type Fixture = { round: number; home: { id: string; name: string; state: string }; away: { id: string; name: string; state: string } };
+function buildFixtures(clubs: Array<{id:string;name:string;state:string}>, maxRounds: number): Fixture[] {
+  if (clubs.length < 2) return [];
+  const teams = [...clubs];
+  if (teams.length % 2) teams.push({ id: "bye", name: "Folga", state: "" });
+  const fixed = teams[0];
+  let rotating = teams.slice(1);
+  const fixtures: Fixture[] = [];
+  const half = teams.length - 1;
+  for (let round = 0; round < half; round += 1) {
+    const lineup = [fixed, ...rotating];
+    for (let i = 0; i < lineup.length / 2; i += 1) {
+      const left = lineup[i], right = lineup[lineup.length - 1 - i];
+      if (left.id !== "bye" && right.id !== "bye") {
+        const home = round % 2 === 0 ? left : right;
+        const away = round % 2 === 0 ? right : left;
+        fixtures.push({ round: round + 1, home, away }, { round: round + half + 1, home: away, away: home });
+      }
+    }
+    rotating = [rotating[rotating.length - 1], ...rotating.slice(0, -1)];
+  }
+  return fixtures.filter((f) => f.round <= maxRounds);
+}
 const SPEEDS: Record<MatchSpeed, { label: string; interval: number }> = {
   slow: { label: "Lento", interval: 1200 },
   medium: { label: "Médio", interval: 650 },
@@ -78,10 +101,15 @@ function Page() {
       return raw ? JSON.parse(raw) as CareerSave : null;
     } catch { return null; }
   });
-  const availableOpponents = career
-    ? getClubsByDivision(career.division as BrazilianDivision).filter((club) => club.name !== career.club)
-    : [];
-  const [opponentId, setOpponentId] = useState(() => availableOpponents[0]?.id ?? "");
+  const divisionClubs = career ? getClubsByDivision(career.division as BrazilianDivision) : [];
+  const group = career?.division === "Série D" ? divisionClubs.find((club) => club.name === career.club)?.group : undefined;
+  const participatingClubs = group ? divisionClubs.filter((club) => club.group === group) : divisionClubs;
+  const totalRounds = (participatingClubs.length - 1) * 2;
+  const fixtures = buildFixtures(participatingClubs, totalRounds);
+  const currentRound = Math.min((career?.played ?? 0) + 1, totalRounds);
+  const roundFixtures = fixtures.filter((fixture) => fixture.round === currentRound);
+  const careerFixture = roundFixtures.find((fixture) => fixture.home.name === career?.club || fixture.away.name === career?.club);
+  const fixtureOpponent = careerFixture ? (careerFixture.home.name === career?.club ? careerFixture.away : careerFixture.home) : null;
   const [speed, setSpeed] = useState<MatchSpeed>("medium");
   const [result, setResult] = useState<MatchResult | null>(null);
   const [minute, setMinute] = useState(0);
@@ -116,21 +144,20 @@ function Page() {
     return <section className="rounded-md border border-border bg-card p-8"><h1 className="text-3xl font-bold uppercase">Nenhuma carreira encontrada</h1><p className="mt-2 text-muted-foreground">Crie sua carreira antes de entrar em campo.</p><Link to="/nova-carreira" className="mt-5 inline-block rounded-md bg-primary px-5 py-3 font-bold text-primary-foreground">Criar carreira</Link></section>;
   }
 
-  const selectedOpponent = availableOpponents.find((club) => club.id === opponentId);
   const visibleEvents = result?.events.filter((event) => event.minute <= minute) ?? [];
   const stadium = STADIUMS[career.club] ?? "Estádio não cadastrado";
   const progress = (minute / 90) * 100;
 
   function play() {
-    if (!selectedOpponent || playing) return;
+    if (!fixtureOpponent || !careerFixture || playing) return;
     const own: MatchTeam = {
       id: career!.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-"),
       name: career!.club,
       attack: 70, midfield: 70, defense: 70, approach: tacticalApproach,
     };
     const rival: MatchTeam = {
-      id: selectedOpponent.id,
-      name: selectedOpponent.name,
+      id: fixtureOpponent.id,
+      name: fixtureOpponent.name,
       attack: 70, midfield: 70, defense: 70,
     };
     const next = simulateMatch(own, rival);
@@ -158,32 +185,27 @@ function Page() {
         Treinador: {career.coach} · Clube: {career.club}
       </PageHeader>
       <div className="rounded-md border border-border bg-card p-6">
-        <p className="text-xs font-bold uppercase tracking-widest text-primary">Preparação</p>
-        <h2 className="mt-2 text-2xl font-bold uppercase">Próximo confronto</h2>
-        <div className="mt-5 grid gap-4 sm:grid-cols-3">
+        <p className="text-xs font-bold uppercase tracking-widest text-primary">Calendário da carreira</p>
+        <h2 className="mt-2 text-2xl font-bold uppercase">Rodada {currentRound} · {career.division}</h2>
+        <p className="mt-1 text-sm text-muted-foreground">Tabela de confrontos gerada para sua temporada. Não é uma importação do calendário oficial da CBF.</p>
+        <div className="mt-5 space-y-2">
+          {roundFixtures.map((fixture) => {
+            const isCareerMatch = fixture.home.name === career.club || fixture.away.name === career.club;
+            return <div key={fixture.round + "-" + fixture.home.id} className={`grid grid-cols-[1fr_auto_1fr] items-center gap-2 rounded-md border p-3 ${isCareerMatch ? "border-primary bg-primary/5" : "border-border bg-background"}`}>
+              <div className="flex min-w-0 items-center gap-2"><Crest club={fixture.home.name}/><span className="truncate text-sm font-semibold">{fixture.home.name}</span></div>
+              <span className="text-xs font-black text-muted-foreground">VS</span>
+              <div className="flex min-w-0 items-center justify-end gap-2"><span className="truncate text-right text-sm font-semibold">{fixture.away.name}</span><Crest club={fixture.away.name}/></div>
+              {isCareerMatch && <div className="col-span-3 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-2"><span className="text-xs font-bold uppercase text-primary">Seu jogo · {STADIUMS[fixture.home.name] ?? "Estádio a cadastrar"}</span><button type="button" onClick={play} disabled={playing || !!result} className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-primary-foreground disabled:opacity-50">{playing ? "Partida em andamento..." : result ? "Partida realizada" : "Jogar partida"}</button></div>}
+            </div>;
+          })}
+        </div>
+        <div className="mt-6 grid gap-4 sm:grid-cols-3">
           <label className="text-sm font-semibold">Esquema tático<select value={formation} disabled={playing || halftime} onChange={(e) => setFormation(e.target.value as Formation)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>4-4-2</option><option>4-3-3</option><option>3-5-2</option><option>4-2-3-1</option></select></label>
           <label className="text-sm font-semibold">Postura<select value={tacticalApproach} disabled={playing || halftime} onChange={(e) => setTacticalApproach(e.target.value as typeof tacticalApproach)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option value="defensive">Defensiva</option><option value="balanced">Equilibrada</option><option value="attacking">Ofensiva</option></select></label>
           <label className="text-sm font-semibold">Pressão<select value={pressure} disabled={playing || halftime} onChange={(e) => setPressure(e.target.value as Pressure)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-foreground"><option>Baixa</option><option>Média</option><option>Alta</option></select></label>
         </div>
-        <label htmlFor="opponent" className="mb-2 mt-5 block text-sm font-semibold">Adversário da mesma divisão</label>
-        {availableOpponents.length > 0 ? (
-          <>
-            <select id="opponent" disabled={playing} value={opponentId} onChange={(e) => { setOpponentId(e.target.value); resetMatch(); }} className="w-full max-w-md rounded-md border border-input bg-background px-3 py-3 text-foreground disabled:opacity-60">
-              {availableOpponents.map((club) => <option key={club.id} value={club.id}>{club.name} · {club.state}</option>)}
-            </select>
-            <div className="mt-5">
-              <p className="mb-2 text-sm font-semibold">Velocidade da partida</p>
-              <div className="flex flex-wrap gap-2" role="group" aria-label="Velocidade da partida">
-                {(Object.keys(SPEEDS) as MatchSpeed[]).map((key) => <button key={key} type="button" disabled={playing} onClick={() => setSpeed(key)} aria-pressed={speed === key} className={`rounded-md border px-5 py-2.5 text-sm font-bold ${speed === key ? "border-primary bg-primary text-primary-foreground" : "border-border bg-background hover:border-primary"} disabled:opacity-50`}>{SPEEDS[key].label}</button>)}
-              </div>
-              <p className="mt-2 text-xs text-muted-foreground">Lento: cerca de 108 segundos · Médio: 59 segundos · Rápido: 23 segundos por partida.</p>
-            </div>
-            <p className="mt-4 max-w-xl text-xs text-muted-foreground">Simulação livre entre clubes reais da mesma divisão. A tabela oficial de confrontos ainda não está conectada a esta tela.</p>
-            <button onClick={play} disabled={playing} className="mt-5 block rounded-md bg-primary px-6 py-3 font-display text-xl font-bold uppercase text-primary-foreground hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50">{playing ? "Partida em andamento..." : "Apitar início da partida"}</button>
-          </>
-        ) : (
-          <p className="mt-3 text-sm text-muted-foreground">Não há adversários cadastrados para esta divisão. Confira a divisão da carreira.</p>
-        )}
+        <div className="mt-5"><p className="mb-2 text-sm font-semibold">Velocidade da partida</p><div className="flex flex-wrap gap-2" role="group" aria-label="Velocidade da partida">{(Object.keys(SPEEDS) as MatchSpeed[]).map((key) => <button key={key} type="button" disabled={playing} onClick={() => setSpeed(key)} aria-pressed={speed === key} className={`rounded-md border px-5 py-2.5 text-sm font-bold ${speed === key ? "border-primary bg-primary text-primary-foreground" : "border-border bg-background hover:border-primary"} disabled:opacity-50`}>{SPEEDS[key].label}</button>)}</div></div>
+        {!careerFixture && <p className="mt-4 text-sm text-muted-foreground">Seu clube não tem jogo nesta rodada.</p>}
       </div>
 
       {halftime && result && <section className="mt-6 rounded-md border-2 border-primary bg-card p-6">
