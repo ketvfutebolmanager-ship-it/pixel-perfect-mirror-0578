@@ -588,6 +588,119 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     "source": "Classificação Geral — estatísticas Brasileirão 2026 (consulta em 31/10/2026)",
     "verifiedAt": "2026-10-31"
   }
+
+  {
+    id: "tinga-coritiba", name: "Tinga", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "LAT",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "maicon-coritiba", name: "Maicon", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ZAG",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rodrigo-moledo-coritiba", name: "Rodrigo Moledo", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ZAG",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "felipe-jonatan-coritiba", name: "Felipe Jonatan", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "LAT",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fabricio-bustos-coritiba", name: "Fabricio Bustos", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "LAT",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "thiago-santos-coritiba", name: "Thiago Santos", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ZAG",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "tiago-coser-coritiba", name: "Tiago Coser", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ZAG",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bruno-melo-coritiba", name: "Bruno Melo", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "LAT",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jacy-coritiba", name: "Jacy", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ZAG",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rodrigo-gelado-coritiba", name: "Rodrigo Gelado", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "LAT",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "nicolas-fonseca-coritiba", name: "Nicolás Fonseca", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "VOL",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "josue-coritiba", name: "Josué", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "MEI",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "sebastian-gomez-coritiba", name: "Sebastián Gómez", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "MEI",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "richard-coelho-coritiba", name: "Richard Coelho", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "VOL",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vini-paulista-coritiba", name: "Vini Paulista", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "MEI",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gustavo-oliveira-coritiba", name: "Gustavo Oliveira", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "MEI",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vitor-tissi-coritiba", name: "Vitor Tissi", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "VOL",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "eberth-coritiba", name: "Éberth", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ATA",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joaquin-lavega-coritiba", name: "Joaquín Lavega", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ATA",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-ronier-coritiba", name: "Lucas Ronier", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ATA",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "brian-ocampo-coritiba", name: "Brian Ocampo", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ATA",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "paulo-roberto-coritiba", name: "Paulo Roberto", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ATA",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "keno-coritiba", name: "Keno", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ATA",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "fabinho-coritiba", name: "Fabinho", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ATA",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "pedro-rocha-coritiba", name: "Pedro Rocha", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ATA",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "breno-lopes-coritiba", name: "Breno Lopes", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ATA",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "renato-marques-coritiba", name: "Renato Marques", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ATA",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rodrigo-rodrigues-coritiba", name: "Rodrigo Rodrigues", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "ATA",
+    source: "365Scores — elenco Coritiba 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
+  },
 ];
 export const PLAYER_DATA_AS_OF = "2026-10-31";
 export const PLAYER_DATA_STATUS = "partial-verified";
