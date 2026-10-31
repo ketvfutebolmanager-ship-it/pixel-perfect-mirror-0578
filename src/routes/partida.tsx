@@ -194,8 +194,8 @@ function Page() {
     roundFixtures
       .filter((fixture) => fixture.home.name !== career.club && fixture.away.name !== career.club)
       .forEach((fixture) => {
-        const homeTeam: MatchTeam = { id: fixture.home.id, name: fixture.home.name, attack: 70, midfield: 70, defense: 70 };
-        const awayTeam: MatchTeam = { id: fixture.away.id, name: fixture.away.name, attack: 70, midfield: 70, defense: 70 };
+        const homeTeam: MatchTeam = { id: fixture.home.id, name: fixture.home.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.home.id).map(({ id, name }) => ({ id, name })) };
+        const awayTeam: MatchTeam = { id: fixture.away.id, name: fixture.away.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.away.id).map(({ id, name }) => ({ id, name })) };
         const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id;
         completedRoundResults[key] = simulateMatch(homeTeam, awayTeam);
       });
@@ -286,6 +286,7 @@ function Page() {
                 {(() => { const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id; const score = isCareerMatch ? (result ? { homeGoals: result.events.filter((event) => event.minute <= minute && event.clubName === fixture.home.name).length, awayGoals: result.events.filter((event) => event.minute <= minute && event.clubName === fixture.away.name).length } : null) : roundResults[key]; return score ? <span className="rounded-md bg-primary/10 px-4 py-2 text-lg font-black tabular-nums text-primary">{score.homeGoals} × {score.awayGoals}</span> : <span className="rounded bg-muted px-2 py-1 text-xs font-black text-muted-foreground">VS</span>; })()}
                 <div className="flex min-w-0 items-center justify-end gap-2"><span className="truncate text-right text-sm font-semibold">{fixture.away.name}</span><Crest club={fixture.away.name}/></div>
               </div>
+              {(() => { const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id; const matchResult = isCareerMatch ? result : roundResults[key]; const shownEvents = matchResult?.events.filter((event) => !isCareerMatch || event.minute <= minute) ?? []; return shownEvents.length > 0 ? <div className="mt-2 rounded bg-background/70 px-3 py-2 text-xs"><p className="mb-1 font-bold uppercase tracking-wide text-primary">Gols da partida</p><div className="flex flex-wrap gap-x-4 gap-y-1">{shownEvents.map((event, index) => <span key={event.minute + "-" + index} className="text-muted-foreground">{event.minute}' · <strong className="text-foreground">{event.playerName ?? "Autor não cadastrado"}</strong> ({event.clubName})</span>)}</div></div> : null; })()}
               
               {isCareerMatch && <div className="col-span-3 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-2"><span className="text-xs font-bold uppercase text-primary">Seu jogo · {STADIUMS[fixture.home.name] ?? "Estádio a cadastrar"}</span><button type="button" onClick={play} disabled={playing || !!result} className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-primary-foreground disabled:opacity-50">{playing ? "Partida em andamento..." : result ? "Partida realizada" : "Jogar partida"}</button></div>}
             </div>;
