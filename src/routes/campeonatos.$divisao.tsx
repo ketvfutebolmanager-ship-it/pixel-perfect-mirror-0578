@@ -7,6 +7,19 @@ import { getClubsByDivision, type BrazilianDivision } from "@/modules/clubs/braz
 const CREST_FILES: Record<string, string> = { "Athletico Paranaense":"Athletico Paranaense.png","Atlético Mineiro":"Atlético Mineiro.png",Bahia:"Bahia.png",Botafogo:"Botafogo.png",Chapecoense:"Chapecoense.png",Corinthians:"Corinthians.png",Coritiba:"Coritiba.png",Cruzeiro:"Cruzeiro.png",Flamengo:"Flamengo.png",Fluminense:"Fluminense.png","Grêmio":"Grêmio.png",Internacional:"Internacional.png",Mirassol:"Mirassol.png",Palmeiras:"Palmeiras.png","Red Bull Bragantino":"Red Bull Bragantino.png",Remo:"Remo.png",Santos:"Santos.png","São Paulo":"São Paulo.png","Vasco da Gama":"Vasco da Gama.png",Vitória:"Vitória.png" };
 
 const FOOTYLOGOS_SLUGS: Record<string, string> = {
+  "Amazonas": "amazonas",
+  "Anápolis": "anapolis",
+  "Barra": "barra",
+  "Brusque": "brusque",
+  "Caxias": "caxias",
+  "Confiança": "confianca",
+  "Figueirense": "figueirense",
+  "Floresta": "floresta",
+  "Guarani": "guarani",
+  "Itabaiana": "itabaiana",
+  "Ituano": "ituano",
+  "Maringá": "maringa",
+  "Santa Cruz": "santa-cruz",
   "América Mineiro": "america-mineiro",
   "Athletic Club": "athletic",
   "Cuiabá": "cuiaba",
