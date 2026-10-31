@@ -130,6 +130,7 @@ function Page() {
     } catch { return null; }
   });
   const [result, setResult] = useState<MatchResult | null>(null);
+  const [roundResults, setRoundResults] = useState<Record<string, MatchResult>>({});
   const divisionClubs = career ? getClubsByDivision(career.division as BrazilianDivision) : [];
   const group = career?.division === "Série D" ? divisionClubs.find((club) => club.name === career.club)?.group : undefined;
   const participatingClubs = group ? divisionClubs.filter((club) => club.group === group) : divisionClubs;
@@ -190,6 +191,13 @@ function Page() {
       attack: 70, midfield: 70, defense: 70,
     };
     const next = simulateMatch(own, rival);
+    const otherResults: Record<string, MatchResult> = {};
+    roundFixtures.filter(fixture => fixture.home.name !== career!.club && fixture.away.name !== career!.club).forEach(fixture => {
+      const homeTeam: MatchTeam = { id: fixture.home.id, name: fixture.home.name, attack: 70, midfield: 70, defense: 70 };
+      const awayTeam: MatchTeam = { id: fixture.away.id, name: fixture.away.name, attack: 70, midfield: 70, defense: 70 };
+      otherResults[fixture.round + "-" + fixture.home.id + "-" + fixture.away.id] = simulateMatch(homeTeam, awayTeam);
+    });
+    setRoundResults(otherResults);
     setResult(next);
     setMinute(0);
     setHalftime(false);
@@ -242,6 +250,7 @@ function Page() {
                 <span className="rounded bg-muted px-2 py-1 text-xs font-black text-muted-foreground">VS</span>
                 <div className="flex min-w-0 items-center justify-end gap-2"><span className="truncate text-right text-sm font-semibold">{fixture.away.name}</span><Crest club={fixture.away.name}/></div>
               </div>
+              {!isCareerMatch && roundResults[fixture.round + "-" + fixture.home.id + "-" + fixture.away.id] && <div className="mt-3 flex items-center justify-between border-t border-border pt-2 text-sm"><span className="font-bold tabular-nums">{roundResults[fixture.round + "-" + fixture.home.id + "-" + fixture.away.id].homeGoals} × {roundResults[fixture.round + "-" + fixture.home.id + "-" + fixture.away.id].awayGoals}</span><span className="rounded bg-emerald-500/10 px-2 py-1 text-[10px] font-bold uppercase text-emerald-600">Resultado simulado</span></div>}
               {isCareerMatch && <div className="col-span-3 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-2"><span className="text-xs font-bold uppercase text-primary">Seu jogo · {STADIUMS[fixture.home.name] ?? "Estádio a cadastrar"}</span><button type="button" onClick={play} disabled={playing || !!result} className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-primary-foreground disabled:opacity-50">{playing ? "Partida em andamento..." : result ? "Partida realizada" : "Jogar partida"}</button></div>}
             </div>;
           })}
@@ -294,7 +303,8 @@ function Page() {
           <p><span className="text-muted-foreground">Pressão:</span> {pressure}</p>
         </div>
         <h3 className="mt-7 border-b border-border pb-2 text-lg font-bold uppercase">Lances da partida</h3>
-        {visibleEvents.length ? <ol className="mt-3 space-y-2">{visibleEvents.map((event, index) => <li key={`${event.minute}-${index}`} className="flex justify-between rounded bg-card px-3 py-2 text-sm"><span>⚽ {event.clubName}</span><strong>{event.minute}'</strong></li>)}</ol> : <p className="mt-3 text-sm text-muted-foreground">{minute === 90 ? "Nenhum gol nesta partida." : "A partida está rolando. Os lances aparecerão aqui conforme o relógio avançar."}</p>}
+        {visibleEvents.length ? <ol className="mt-3 space-y-2">{visibleEvents.map((event, index) => <li key={`${event.minute}-${index}`} className="flex flex-wrap justify-between gap-2 rounded bg-card px-3 py-2 text-sm"><span>⚽ {event.clubName} · <strong>Autor do gol não cadastrado</strong></span><strong>{event.minute}'</strong></li>)}</ol> : <p className="mt-3 text-sm text-muted-foreground">{minute === 90 ? "Nenhum gol nesta partida." : "A partida está rolando. Os lances aparecerão aqui conforme o relógio avançar."}</p>}
+        <p className="mt-3 text-xs text-amber-600">Os autores dos gols dependem do cadastro de elencos reais. O jogo não atribui gols a nomes inventados.</p>
         <p className="mt-5 text-sm text-muted-foreground">Partidas disputadas nesta carreira: {career.played}. A simulação ainda não altera a classificação oficial.</p>
         {minute === 90 && <button onClick={resetMatch} className="mt-4 rounded-md border border-border px-4 py-2 text-sm font-semibold hover:border-primary">Preparar nova partida</button>}
       </section>}
