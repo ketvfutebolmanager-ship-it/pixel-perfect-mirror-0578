@@ -393,7 +393,12 @@ function MoraleMeter({ title, value, description }: { title: string; value: numb
 type SavedMatchSession = { result: MatchResult | null; roundResults: Record<string, MatchResult>; minute: number; playing: boolean; halftime: boolean; formation: Formation; pressure: Pressure; tacticalApproach: "defensive" | "balanced" | "attacking"; substitutions: number; substitutionNote: string; playerOutId?: string; playerInId?: string; finalized?: boolean };
 const MATCH_SESSION_KEY = "ketvfm-match-session";
 function readMatchSession(): Partial<SavedMatchSession> {
-  try { return JSON.parse(window.localStorage.getItem(MATCH_SESSION_KEY) ?? "{}") as Partial<SavedMatchSession>; } catch { return {}; }
+  try {
+    const saved = JSON.parse(window.localStorage.getItem(MATCH_SESSION_KEY) ?? "{}") as Partial<SavedMatchSession>;
+    // Descarta sessões antigas que não registravam o estado de finalização e podiam abrir direto no placar.
+    if (saved.result && typeof saved.finalized !== "boolean") return {};
+    return saved;
+  } catch { return {}; }
 }
 
 function Page() {
