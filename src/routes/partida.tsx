@@ -110,6 +110,18 @@ function Crest({ club }: { club: string }) {
   return <img src={`https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(file).replace(/%20/g, "%20")}`} alt={`Escudo do ${club}`} className="h-12 w-12 shrink-0 object-contain" />;
 }
 
+function MoraleMeter({ title, value, description }: { title: string; value: number; description: string }) {
+  const status = value >= 80 ? "Muito boa" : value >= 65 ? "Boa" : value >= 45 ? "Em observação" : value >= 25 ? "Sob pressão" : "Crítica";
+  const color = value >= 65 ? "bg-emerald-500" : value >= 45 ? "bg-amber-500" : "bg-red-500";
+  return (
+    <div>
+      <div className="flex items-center justify-between gap-3"><h2 className="text-sm font-bold uppercase">{title}</h2><strong className="font-display text-2xl tabular-nums">{value}/100</strong></div>
+      <div className="mt-2 h-2 overflow-hidden rounded-full bg-muted"><div className={`h-full rounded-full ${color}`} style={{ width: `${value}%` }} /></div>
+      <p className="mt-1 text-xs font-semibold text-muted-foreground">{status}</p><p className="mt-1 text-xs text-muted-foreground">{description}</p>
+    </div>
+  );
+}
+
 function Page() {
   const [career, setCareer] = useState<CareerSave | null>(() => {
     try {
@@ -184,7 +196,16 @@ function Page() {
     setSubstitutions(0);
     setSubstitutionNote("");
     setPlaying(true);
-    const updated = { ...career!, played: career!.played + 1 };
+    const previousFanMorale = career!.fanMorale ?? 70;
+    const previousBoardConfidence = career!.boardConfidence ?? 70;
+    const won = next.homeGoals > next.awayGoals;
+    const drew = next.homeGoals === next.awayGoals;
+    const updated = {
+      ...career!,
+      played: career!.played + 1,
+      fanMorale: Math.max(0, Math.min(100, previousFanMorale + (won ? 7 : drew ? 1 : -7))),
+      boardConfidence: Math.max(0, Math.min(100, previousBoardConfidence + (won ? 9 : drew ? -1 : -9))),
+    };
     window.localStorage.setItem("ketvfm-career", JSON.stringify(updated));
     setCareer(updated);
   }
@@ -201,6 +222,11 @@ function Page() {
       <PageHeader kicker={`${career.division} · Temporada ${career.season}`} title="Central da partida">
         Treinador: {career.coach} · Clube: {career.club}
       </PageHeader>
+      <section className="mb-6 grid gap-4 rounded-md border border-border bg-card p-5 sm:grid-cols-2">
+        <MoraleMeter title="Moral com a torcida" value={career.fanMorale ?? 70} description="Reage aos resultados da equipe." />
+        <MoraleMeter title="Confiança da diretoria" value={career.boardConfidence ?? 70} description="Reage aos resultados e às metas do clube." />
+        <p className="sm:col-span-2 text-xs text-muted-foreground">Indicadores iniciais em 70/100. Nesta etapa, variam conforme o resultado da partida; metas, finanças e protestos serão conectados depois.</p>
+      </section>
       <div className="rounded-md border border-border bg-card p-6">
         <p className="text-xs font-bold uppercase tracking-widest text-primary">Calendário da carreira</p>
         <h2 className="mt-2 text-2xl font-bold uppercase">Todos os jogos da rodada {currentRound}</h2>
