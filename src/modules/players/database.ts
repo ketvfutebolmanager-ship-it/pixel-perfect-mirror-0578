@@ -587,7 +587,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     },
     "source": "Classificação Geral — estatísticas Brasileirão 2026 (consulta em 31/10/2026)",
     "verifiedAt": "2026-10-31"
-  }
+  },
 
   {
     id: "tinga-coritiba", name: "Tinga", clubId: "coritiba", clubName: "Coritiba", division: "Série A", position: "LAT",
