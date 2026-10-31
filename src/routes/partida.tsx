@@ -106,7 +106,8 @@ function Page() {
   const participatingClubs = group ? divisionClubs.filter((club) => club.group === group) : divisionClubs;
   const totalRounds = (participatingClubs.length - 1) * 2;
   const fixtures = buildFixtures(participatingClubs, totalRounds);
-  const currentRound = Math.min((career?.played ?? 0) + 1, totalRounds);
+  const matchesPlayedBeforeCurrent = Math.max(0, (career?.played ?? 0) - (result ? 1 : 0));
+  const currentRound = Math.min(matchesPlayedBeforeCurrent + 1, totalRounds);
   const roundFixtures = fixtures.filter((fixture) => fixture.round === currentRound);
   const careerFixture = roundFixtures.find((fixture) => fixture.home.name === career?.club || fixture.away.name === career?.club);
   const fixtureOpponent = careerFixture ? (careerFixture.home.name === career?.club ? careerFixture.away : careerFixture.home) : null;
@@ -186,15 +187,19 @@ function Page() {
       </PageHeader>
       <div className="rounded-md border border-border bg-card p-6">
         <p className="text-xs font-bold uppercase tracking-widest text-primary">Calendário da carreira</p>
-        <h2 className="mt-2 text-2xl font-bold uppercase">Rodada {currentRound} · {career.division}</h2>
+        <h2 className="mt-2 text-2xl font-bold uppercase">Todos os jogos da rodada {currentRound}</h2>
+        <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">{career.division} · {roundFixtures.length} confrontos nesta rodada</p>
         <p className="mt-1 text-sm text-muted-foreground">Tabela de confrontos gerada para sua temporada. Não é uma importação do calendário oficial da CBF.</p>
-        <div className="mt-5 space-y-2">
-          {roundFixtures.map((fixture) => {
+        <div className="mt-5 space-y-3">
+          {roundFixtures.map((fixture, fixtureIndex) => {
             const isCareerMatch = fixture.home.name === career.club || fixture.away.name === career.club;
-            return <div key={fixture.round + "-" + fixture.home.id} className={`grid grid-cols-[1fr_auto_1fr] items-center gap-2 rounded-md border p-3 ${isCareerMatch ? "border-primary bg-primary/5" : "border-border bg-background"}`}>
-              <div className="flex min-w-0 items-center gap-2"><Crest club={fixture.home.name}/><span className="truncate text-sm font-semibold">{fixture.home.name}</span></div>
-              <span className="text-xs font-black text-muted-foreground">VS</span>
-              <div className="flex min-w-0 items-center justify-end gap-2"><span className="truncate text-right text-sm font-semibold">{fixture.away.name}</span><Crest club={fixture.away.name}/></div>
+            return <div key={fixture.round + "-" + fixture.home.id} className={`rounded-md border p-3 ${isCareerMatch ? "border-primary bg-primary/5 ring-1 ring-primary/20" : "border-border bg-background"}`}>
+              <div className="mb-2 flex items-center justify-between"><span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Jogo {fixtureIndex + 1}</span>{isCareerMatch && <span className="text-[10px] font-black uppercase tracking-widest text-primary">Seu confronto</span>}</div>
+              <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
+                <div className="flex min-w-0 items-center gap-2"><Crest club={fixture.home.name}/><span className="truncate text-sm font-semibold">{fixture.home.name}</span></div>
+                <span className="rounded bg-muted px-2 py-1 text-xs font-black text-muted-foreground">VS</span>
+                <div className="flex min-w-0 items-center justify-end gap-2"><span className="truncate text-right text-sm font-semibold">{fixture.away.name}</span><Crest club={fixture.away.name}/></div>
+              </div>
               {isCareerMatch && <div className="col-span-3 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-2"><span className="text-xs font-bold uppercase text-primary">Seu jogo · {STADIUMS[fixture.home.name] ?? "Estádio a cadastrar"}</span><button type="button" onClick={play} disabled={playing || !!result} className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-primary-foreground disabled:opacity-50">{playing ? "Partida em andamento..." : result ? "Partida realizada" : "Jogar partida"}</button></div>}
             </div>;
           })}
