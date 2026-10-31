@@ -198,7 +198,7 @@ function Page() {
         completedRoundResults[key] = simulateMatch(homeTeam, awayTeam);
       });
     setRoundResults(completedRoundResults);
-  }, [minute, result, roundResults, roundFixtures, career.club]);
+  }, [minute, result, roundResults, roundFixtures, career]);
 
   if (!career) {
     return <section className="rounded-md border border-border bg-card p-8"><h1 className="text-3xl font-bold uppercase">Nenhuma carreira encontrada</h1><p className="mt-2 text-muted-foreground">Crie sua carreira antes de entrar em campo.</p><Link to="/nova-carreira" className="mt-5 inline-block rounded-md bg-primary px-5 py-3 font-bold text-primary-foreground">Criar carreira</Link></section>;
