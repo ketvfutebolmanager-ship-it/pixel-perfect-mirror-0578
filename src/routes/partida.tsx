@@ -207,7 +207,7 @@ function Page() {
   }
 
   const visibleEvents = result?.events.filter((event) => event.minute <= minute) ?? [];
-  const stadium = STADIUMS[career.club] ?? "Estádio não cadastrado";
+  const stadium = (careerFixture ? STADIUMS[careerFixture.home.name] : STADIUMS[career.club]) ?? "Estádio não cadastrado";
   const progress = (minute / 90) * 100;
   const careerClubId = career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
   const availableSubstitutionPlayers = VERIFIED_PLAYERS_2026.filter((player) => player.clubId === careerClubId);
