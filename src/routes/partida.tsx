@@ -146,6 +146,21 @@ function Page() {
   const matchesPlayedBeforeCurrent = Math.max(0, (career?.played ?? 0) - (result ? 1 : 0));
   const currentRound = Math.min(matchesPlayedBeforeCurrent + 1, totalRounds);
   const roundFixtures = fixtures.filter((fixture) => fixture.round === currentRound);
+  const allDivisionRoundFixtures = (["Série A", "Série B", "Série C", "Série D"] as BrazilianDivision[]).flatMap((division) => {
+    const clubs = getClubsByDivision(division);
+    if (division === "Série D") {
+      const groups = [...new Set(clubs.map((club) => club.group).filter((value): value is string => Boolean(value)))];
+      return groups.flatMap((groupName) => {
+        const groupClubs = clubs.filter((club) => club.group === groupName);
+        return buildFixtures(groupClubs, (groupClubs.length - 1) * 2)
+          .filter((fixture) => fixture.round === currentRound)
+          .map((fixture) => ({ ...fixture, division, groupName }));
+      });
+    }
+    return buildFixtures(clubs, (clubs.length - 1) * 2)
+      .filter((fixture) => fixture.round === currentRound)
+      .map((fixture) => ({ ...fixture, division, groupName: undefined as string | undefined }));
+  });
   const careerFixture = roundFixtures.find((fixture) => fixture.home.name === career?.club || fixture.away.name === career?.club);
   const fixtureOpponent = careerFixture ? (careerFixture.home.name === career?.club ? careerFixture.away : careerFixture.home) : null;
   const [speed, setSpeed] = useState<MatchSpeed>("medium");
@@ -191,7 +206,7 @@ function Page() {
   useEffect(() => {
     if (!career || minute !== 90 || !result || Object.keys(roundResults).length > 0) return;
     const completedRoundResults: Record<string, MatchResult> = {};
-    roundFixtures
+    allDivisionRoundFixtures
       .filter((fixture) => fixture.home.name !== career.club && fixture.away.name !== career.club)
       .forEach((fixture) => {
         const homeTeam: MatchTeam = { id: fixture.home.id, name: fixture.home.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.home.id).map(({ id, name }) => ({ id, name })) };
@@ -200,7 +215,7 @@ function Page() {
         completedRoundResults[key] = simulateMatch(homeTeam, awayTeam);
       });
     setRoundResults(completedRoundResults);
-  }, [minute, result, roundResults, roundFixtures, career]);
+  }, [minute, result, roundResults, allDivisionRoundFixtures, career]);
 
   if (!career) {
     return <section className="rounded-md border border-border bg-card p-8"><h1 className="text-3xl font-bold uppercase">Nenhuma carreira encontrada</h1><p className="mt-2 text-muted-foreground">Crie sua carreira antes de entrar em campo.</p><Link to="/nova-carreira" className="mt-5 inline-block rounded-md bg-primary px-5 py-3 font-bold text-primary-foreground">Criar carreira</Link></section>;
@@ -274,13 +289,13 @@ function Page() {
       <div className="rounded-md border border-border bg-card p-6">
         <p className="text-xs font-bold uppercase tracking-widest text-primary">Calendário da carreira</p>
         <h2 className="mt-2 text-2xl font-bold uppercase">Todos os jogos da rodada {currentRound}</h2>
-        <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">{career.division} · {roundFixtures.length} confrontos nesta rodada</p>
+        <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">Todas as divisões · {allDivisionRoundFixtures.length} confrontos nesta rodada</p>
         <p className="mt-1 text-sm text-muted-foreground">Dias e horários simulados para a sua temporada, no horário de Brasília. Não são datas ou horários oficiais da CBF.</p>
         <div className="mt-5 space-y-3">
-          {roundFixtures.map((fixture, fixtureIndex) => {
-            const isCareerMatch = fixture.home.name === career.club || fixture.away.name === career.club;
+          {allDivisionRoundFixtures.map((fixture, fixtureIndex) => {
+            const isCareerMatch = fixture.division === career.division && (fixture.home.name === career.club || fixture.away.name === career.club);
             return <div key={fixture.round + "-" + fixture.home.id} className={`rounded-md border p-3 ${isCareerMatch ? "border-primary bg-primary/5 ring-1 ring-primary/20" : "border-border bg-background"}`}>
-              <div className="mb-2 flex items-center justify-between"><span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Jogo {fixtureIndex + 1}</span><span className="text-[10px] font-semibold text-muted-foreground">{fixture.weekday} · {fixture.kickoff} (Brasília)</span>{isCareerMatch && <span className="text-[10px] font-black uppercase tracking-widest text-primary">Seu confronto</span>}</div>
+              <div className="mb-2 flex items-center justify-between"><span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">{fixture.division}{fixture.groupName ? " · Grupo " + fixture.groupName : ""} · Jogo {fixtureIndex + 1}</span><span className="text-[10px] font-semibold text-muted-foreground">{fixture.weekday} · {fixture.kickoff} (Brasília)</span>{isCareerMatch && <span className="text-[10px] font-black uppercase tracking-widest text-primary">Seu confronto</span>}</div>
               <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
                 <div className="flex min-w-0 items-center gap-2"><Crest club={fixture.home.name}/><span className="truncate text-sm font-semibold">{fixture.home.name}</span></div>
                 {(() => { const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id; const score = isCareerMatch ? (result ? { homeGoals: result.events.filter((event) => event.minute <= minute && event.clubName === fixture.home.name).length, awayGoals: result.events.filter((event) => event.minute <= minute && event.clubName === fixture.away.name).length } : null) : roundResults[key]; return score ? <span className="rounded-md bg-primary/10 px-4 py-2 text-lg font-black tabular-nums text-primary">{score.homeGoals} × {score.awayGoals}</span> : <span className="rounded bg-muted px-2 py-1 text-xs font-black text-muted-foreground">VS</span>; })()}
