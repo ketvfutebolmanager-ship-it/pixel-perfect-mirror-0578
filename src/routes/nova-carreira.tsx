@@ -1,6 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
+import { getClubsByDivision, type BrazilianDivision } from "@/modules/clubs/brazilian-clubs-2026";
 
 export const Route = createFileRoute("/nova-carreira")({
   head: () => ({
@@ -12,13 +13,7 @@ export const Route = createFileRoute("/nova-carreira")({
   component: Page,
 });
 
-const divisions = ["Série A", "Série B", "Série C", "Série D"];
-const demoClubs = [
-  { name: "Clube Aurora", attack: 72, midfield: 70, defense: 68 },
-  { name: "União Esportiva", attack: 68, midfield: 72, defense: 71 },
-  { name: "Atlético do Vale", attack: 75, midfield: 66, defense: 65 },
-  { name: "Esporte Clube Central", attack: 65, midfield: 68, defense: 74 },
-];
+const divisions: BrazilianDivision[] = ["Série A", "Série B", "Série C", "Série D"];
 
 export type CareerSave = {
   coach: string;
@@ -42,7 +37,7 @@ function Page() {
       setError("Digite o nome do treinador para continuar.");
       return;
     }
-    const save: CareerSave = { coach: coach.trim(), club, division, approach, season: 2026, played: 0 };
+    if (!selectedClub) { setError("Não há clubes cadastrados nesta divisão."); return; }\n    const save: CareerSave = { coach: coach.trim(), club: selectedClub.name, division, approach, season: 2026, played: 0 };
     try {
       window.localStorage.setItem("ketvfm-career", JSON.stringify(save));
       navigate({ to: "/partida" });
@@ -71,7 +66,7 @@ function Page() {
           </div>
           <div>
             <label htmlFor="division" className="mb-2 block text-sm font-semibold">Divisão inicial</label>
-            <select id="division" value={division} onChange={(e) => setDivision(e.target.value)} className="w-full rounded-md border border-input bg-background px-3 py-3 text-foreground">
+            <select id="division" value={division} onChange={(e) => { const nextDivision = e.target.value as BrazilianDivision; setDivision(nextDivision); const firstClub = getClubsByDivision(nextDivision)[0]; if (firstClub) setClubId(firstClub.id); }} className="w-full rounded-md border border-input bg-background px-3 py-3 text-foreground">
               {divisions.map((item) => <option key={item}>{item}</option>)}
             </select>
           </div>
