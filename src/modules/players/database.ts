@@ -2776,6 +2776,122 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     id: "bruno-duarte-vasco-da-gama", name: "Bruno Duarte", clubId: "vasco-da-gama", clubName: "Vasco da Gama", division: "Série A", position: "ATA",
     source: "NETVASCO — elenco 2026 atualizado em 31/10/2026 e relação CONMEBOL Sudamericana 2026", verifiedAt: "2026-10-31"
   },
+  {
+    id: "sergio-rochet-internacional", name: "Sergio Rochet", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "GOL",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "anthoni-internacional", name: "Anthoni", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "GOL",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "diego-esser-internacional", name: "Diego Esser", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "GOL",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kauan-jesus-internacional", name: "Kauan Jesus", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "GOL",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheus-cunha-internacional", name: "Matheus Cunha", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "GOL",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "felix-torres-internacional", name: "Félix Torres", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "ZAG",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-mercado-internacional", name: "Gabriel Mercado", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "ZAG",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "guillermo-maripan-internacional", name: "Guillermo Maripán", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "ZAG",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "juninho-internacional", name: "Juninho", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "ZAG",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "victor-gabriel-internacional", name: "Victor Gabriel", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "ZAG",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bernabei-internacional", name: "Bernabei", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "LAT",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "braian-aguirre-internacional", name: "Braian Aguirre", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "LAT",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bruno-gomes-internacional", name: "Bruno Gomes", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "LAT",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheus-bahia-internacional", name: "Matheus Bahia", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "LAT",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alan-patrick-internacional", name: "Alan Patrick", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "MEI",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "bruno-henrique-internacional", name: "Bruno Henrique", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "VOL",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "calebe-internacional", name: "Calebe", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "MEI",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "niclas-eliasson-internacional", name: "Niclas Eliasson", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "MEI",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "paulinho-internacional", name: "Paulinho", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "MEI",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ronaldo-internacional", name: "Ronaldo", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "VOL",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "thiago-maia-internacional", name: "Thiago Maia", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "VOL",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "villagra-internacional", name: "Villagra", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "VOL",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alerrandro-internacional", name: "Alerrandro", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "ATA",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "johan-carbonero-internacional", name: "Johan Carbonero", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "ATA",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kayky-internacional", name: "Kayky", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "ATA",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "sanabria-internacional", name: "Sanabria", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "ATA",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vitinho-internacional", name: "Vitinho", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "ATA",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "youssef-kanaan-internacional", name: "Youssef Kanaan", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "ATA",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "yuri-salenave-internacional", name: "Yuri Salenave", clubId: "internacional", clubName: "Internacional", division: "Série A", position: "ATA",
+    source: "Site oficial do Sport Club Internacional — elenco masculino, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
 ];
 export const PLAYER_DATA_AS_OF = "2026-10-31";
 export const PLAYER_DATA_STATUS = "partial-verified";
