@@ -34,6 +34,9 @@ function Page() {
           </select>
         </label>
       </section>
+      <div className="mb-4 rounded-md border border-amber-500/40 bg-amber-500/5 p-3 text-sm">
+        <strong>Importação inicial parcial:</strong> 30 atletas com estatísticas identificadas nas Séries A e B. Os demais elencos ainda serão conferidos; esta lista não representa os grupos completos.
+      </div>
       <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
         <h2 className="font-display text-xl font-bold uppercase">{division} · {players.length} atletas cadastrados</h2>
         <span className="text-xs text-muted-foreground">Dados: {PLAYER_DATA_AS_OF}</span>
