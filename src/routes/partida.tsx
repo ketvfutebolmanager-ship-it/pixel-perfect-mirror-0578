@@ -1,6 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
+import { getClubsByDivision, type BrazilianDivision } from "@/modules/clubs/brazilian-clubs-2026";
 import { simulateMatch, type MatchResult, type MatchTeam } from "@/modules/matches/simulate";
 import type { CareerSave } from "./nova-carreira";
 
@@ -8,12 +9,6 @@ export const Route = createFileRoute("/partida")({
   head: () => ({ meta: [{ title: "Central da partida — KE TV Football Manager" }] }),
   component: Page,
 });
-
-const demoOpponents = [
-  { name: "União Esportiva", attack: 68, midfield: 72, defense: 71 },
-  { name: "Atlético do Vale", attack: 75, midfield: 66, defense: 65 },
-  { name: "Esporte Clube Central", attack: 65, midfield: 68, defense: 74 },
-];
 
 function Page() {
   const navigate = useNavigate();
@@ -23,20 +18,30 @@ function Page() {
       return raw ? JSON.parse(raw) as CareerSave : null;
     } catch { return null; }
   });
-  const [opponent, setOpponent] = useState(demoOpponents[0].name);
+  const availableOpponents = career
+    ? getClubsByDivision(career.division as BrazilianDivision).filter((club) => club.name !== career.club)
+    : [];
+  const [opponentId, setOpponentId] = useState(() => availableOpponents[0]?.id ?? "");
   const [result, setResult] = useState<MatchResult | null>(null);
 
   if (!career) {
     return <section className="rounded-md border border-border bg-card p-8"><h1 className="text-3xl font-bold uppercase">Nenhuma carreira encontrada</h1><p className="mt-2 text-muted-foreground">Crie sua carreira antes de entrar em campo.</p><Link to="/nova-carreira" className="mt-5 inline-block rounded-md bg-primary px-5 py-3 font-bold text-primary-foreground">Criar carreira</Link></section>;
   }
 
+  const selectedOpponent = availableOpponents.find((club) => club.id === opponentId);
+
   function play() {
-    const opponentData = demoOpponents.find((item) => item.name === opponent) ?? demoOpponents[0];
+    if (!selectedOpponent) return;
     const own: MatchTeam = {
-      id: "career-club", name: career!.club,
+      id: career!.club.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-"),
+      name: career!.club,
       attack: 70, midfield: 70, defense: 70, approach: career!.approach,
     };
-    const rival: MatchTeam = { id: "opponent", ...opponentData };
+    const rival: MatchTeam = {
+      id: selectedOpponent.id,
+      name: selectedOpponent.name,
+      attack: 70, midfield: 70, defense: 70,
+    };
     const next = simulateMatch(own, rival);
     setResult(next);
     const updated = { ...career!, played: career!.played + 1 };
@@ -52,11 +57,18 @@ function Page() {
       <div className="rounded-md border border-border bg-card p-6">
         <p className="text-xs font-bold uppercase tracking-widest text-primary">Preparação</p>
         <h2 className="mt-2 text-2xl font-bold uppercase">Próximo confronto</h2>
-        <label htmlFor="opponent" className="mb-2 mt-5 block text-sm font-semibold">Adversário de demonstração</label>
-        <select id="opponent" value={opponent} onChange={(e) => { setOpponent(e.target.value); setResult(null); }} className="w-full max-w-md rounded-md border border-input bg-background px-3 py-3 text-foreground">
-          {demoOpponents.filter((item) => item.name !== career.club).map((item) => <option key={item.name}>{item.name}</option>)}
-        </select>
-        <button onClick={play} className="mt-5 block rounded-md bg-primary px-6 py-3 font-display text-xl font-bold uppercase text-primary-foreground hover:opacity-90">Apitar início da partida</button>
+        <label htmlFor="opponent" className="mb-2 mt-5 block text-sm font-semibold">Adversário da mesma divisão</label>
+        {availableOpponents.length > 0 ? (
+          <>
+            <select id="opponent" value={opponentId} onChange={(e) => { setOpponentId(e.target.value); setResult(null); }} className="w-full max-w-md rounded-md border border-input bg-background px-3 py-3 text-foreground">
+              {availableOpponents.map((club) => <option key={club.id} value={club.id}>{club.name} · {club.state}</option>)}
+            </select>
+            <p className="mt-2 max-w-xl text-xs text-muted-foreground">Lista formada pelos clubes cadastrados na sua divisão. A tabela oficial de confrontos ainda não está conectada a esta tela; por isso, escolha um adversário real para esta simulação.</p>
+            <button onClick={play} className="mt-5 block rounded-md bg-primary px-6 py-3 font-display text-xl font-bold uppercase text-primary-foreground hover:opacity-90">Apitar início da partida</button>
+          </>
+        ) : (
+          <p className="mt-3 text-sm text-muted-foreground">Não há adversários cadastrados para esta divisão. Confira a divisão da carreira.</p>
+        )}
       </div>
       {result && <section className="mt-6 rounded-md border border-primary bg-hero p-6">
         <p className="text-center text-xs font-bold uppercase tracking-widest text-primary">Apito final</p>
