@@ -10,33 +10,167 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ClassificacaoRouteImport } from './routes/classificacao'
+import { Route as ClubesRouteImport } from './routes/clubes'
+import { Route as ConfiguracoesRouteImport } from './routes/configuracoes'
+import { Route as ContinuarCarreiraRouteImport } from './routes/continuar-carreira'
+import { Route as EstatisticasRouteImport } from './routes/estatisticas'
+import { Route as JogadoresRouteImport } from './routes/jogadores'
+import { Route as NovaCarreiraRouteImport } from './routes/nova-carreira'
+import { Route as TransferenciasRouteImport } from './routes/transferencias'
+import { Route as CampeonatosIndexRouteImport } from './routes/campeonatos.index'
+import { Route as CampeonatosDivisaoRouteImport } from './routes/campeonatos.$divisao'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ClassificacaoRoute = ClassificacaoRouteImport.update({
+  id: '/classificacao',
+  path: '/classificacao',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ClubesRoute = ClubesRouteImport.update({
+  id: '/clubes',
+  path: '/clubes',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ConfiguracoesRoute = ConfiguracoesRouteImport.update({
+  id: '/configuracoes',
+  path: '/configuracoes',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContinuarCarreiraRoute = ContinuarCarreiraRouteImport.update({
+  id: '/continuar-carreira',
+  path: '/continuar-carreira',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EstatisticasRoute = EstatisticasRouteImport.update({
+  id: '/estatisticas',
+  path: '/estatisticas',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const JogadoresRoute = JogadoresRouteImport.update({
+  id: '/jogadores',
+  path: '/jogadores',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NovaCarreiraRoute = NovaCarreiraRouteImport.update({
+  id: '/nova-carreira',
+  path: '/nova-carreira',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TransferenciasRoute = TransferenciasRouteImport.update({
+  id: '/transferencias',
+  path: '/transferencias',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CampeonatosIndexRoute = CampeonatosIndexRouteImport.update({
+  id: '/campeonatos/',
+  path: '/campeonatos/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CampeonatosDivisaoRoute = CampeonatosDivisaoRouteImport.update({
+  id: '/campeonatos/$divisao',
+  path: '/campeonatos/$divisao',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/classificacao': typeof ClassificacaoRoute
+  '/clubes': typeof ClubesRoute
+  '/configuracoes': typeof ConfiguracoesRoute
+  '/continuar-carreira': typeof ContinuarCarreiraRoute
+  '/estatisticas': typeof EstatisticasRoute
+  '/jogadores': typeof JogadoresRoute
+  '/nova-carreira': typeof NovaCarreiraRoute
+  '/transferencias': typeof TransferenciasRoute
+  '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
+  '/campeonatos/': typeof CampeonatosIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/classificacao': typeof ClassificacaoRoute
+  '/clubes': typeof ClubesRoute
+  '/configuracoes': typeof ConfiguracoesRoute
+  '/continuar-carreira': typeof ContinuarCarreiraRoute
+  '/estatisticas': typeof EstatisticasRoute
+  '/jogadores': typeof JogadoresRoute
+  '/nova-carreira': typeof NovaCarreiraRoute
+  '/transferencias': typeof TransferenciasRoute
+  '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
+  '/campeonatos': typeof CampeonatosIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/classificacao': typeof ClassificacaoRoute
+  '/clubes': typeof ClubesRoute
+  '/configuracoes': typeof ConfiguracoesRoute
+  '/continuar-carreira': typeof ContinuarCarreiraRoute
+  '/estatisticas': typeof EstatisticasRoute
+  '/jogadores': typeof JogadoresRoute
+  '/nova-carreira': typeof NovaCarreiraRoute
+  '/transferencias': typeof TransferenciasRoute
+  '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
+  '/campeonatos/': typeof CampeonatosIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/classificacao'
+    | '/clubes'
+    | '/configuracoes'
+    | '/continuar-carreira'
+    | '/estatisticas'
+    | '/jogadores'
+    | '/nova-carreira'
+    | '/transferencias'
+    | '/campeonatos/$divisao'
+    | '/campeonatos/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/classificacao'
+    | '/clubes'
+    | '/configuracoes'
+    | '/continuar-carreira'
+    | '/estatisticas'
+    | '/jogadores'
+    | '/nova-carreira'
+    | '/transferencias'
+    | '/campeonatos/$divisao'
+    | '/campeonatos'
+  id:
+    | '__root__'
+    | '/'
+    | '/classificacao'
+    | '/clubes'
+    | '/configuracoes'
+    | '/continuar-carreira'
+    | '/estatisticas'
+    | '/jogadores'
+    | '/nova-carreira'
+    | '/transferencias'
+    | '/campeonatos/$divisao'
+    | '/campeonatos/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ClassificacaoRoute: typeof ClassificacaoRoute
+  ClubesRoute: typeof ClubesRoute
+  ConfiguracoesRoute: typeof ConfiguracoesRoute
+  ContinuarCarreiraRoute: typeof ContinuarCarreiraRoute
+  EstatisticasRoute: typeof EstatisticasRoute
+  JogadoresRoute: typeof JogadoresRoute
+  NovaCarreiraRoute: typeof NovaCarreiraRoute
+  TransferenciasRoute: typeof TransferenciasRoute
+  CampeonatosDivisaoRoute: typeof CampeonatosDivisaoRoute
+  CampeonatosIndexRoute: typeof CampeonatosIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +182,91 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/classificacao': {
+      id: '/classificacao'
+      path: '/classificacao'
+      fullPath: '/classificacao'
+      preLoaderRoute: typeof ClassificacaoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/clubes': {
+      id: '/clubes'
+      path: '/clubes'
+      fullPath: '/clubes'
+      preLoaderRoute: typeof ClubesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/configuracoes': {
+      id: '/configuracoes'
+      path: '/configuracoes'
+      fullPath: '/configuracoes'
+      preLoaderRoute: typeof ConfiguracoesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/continuar-carreira': {
+      id: '/continuar-carreira'
+      path: '/continuar-carreira'
+      fullPath: '/continuar-carreira'
+      preLoaderRoute: typeof ContinuarCarreiraRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/estatisticas': {
+      id: '/estatisticas'
+      path: '/estatisticas'
+      fullPath: '/estatisticas'
+      preLoaderRoute: typeof EstatisticasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/jogadores': {
+      id: '/jogadores'
+      path: '/jogadores'
+      fullPath: '/jogadores'
+      preLoaderRoute: typeof JogadoresRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nova-carreira': {
+      id: '/nova-carreira'
+      path: '/nova-carreira'
+      fullPath: '/nova-carreira'
+      preLoaderRoute: typeof NovaCarreiraRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/transferencias': {
+      id: '/transferencias'
+      path: '/transferencias'
+      fullPath: '/transferencias'
+      preLoaderRoute: typeof TransferenciasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/campeonatos/': {
+      id: '/campeonatos/'
+      path: '/campeonatos'
+      fullPath: '/campeonatos/'
+      preLoaderRoute: typeof CampeonatosIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/campeonatos/$divisao': {
+      id: '/campeonatos/$divisao'
+      path: '/campeonatos/$divisao'
+      fullPath: '/campeonatos/$divisao'
+      preLoaderRoute: typeof CampeonatosDivisaoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ClassificacaoRoute: ClassificacaoRoute,
+  ClubesRoute: ClubesRoute,
+  ConfiguracoesRoute: ConfiguracoesRoute,
+  ContinuarCarreiraRoute: ContinuarCarreiraRoute,
+  EstatisticasRoute: EstatisticasRoute,
+  JogadoresRoute: JogadoresRoute,
+  NovaCarreiraRoute: NovaCarreiraRoute,
+  TransferenciasRoute: TransferenciasRoute,
+  CampeonatosDivisaoRoute: CampeonatosDivisaoRoute,
+  CampeonatosIndexRoute: CampeonatosIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

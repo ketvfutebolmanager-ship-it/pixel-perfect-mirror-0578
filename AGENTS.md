@@ -8,3 +8,9 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Read `docs/ARQUITETURA.md` before changing structure; domain logic lives in `src/modules/<domain>/`, pages in `src/routes/` — keeps modules independently maintainable.
+- Main menu is defined only in `src/components/layout/navigation.ts`; every entry must point to an existing route.
+- Pages without real data render `DataPending`; never ship fictional data presented as real.
+- Planned DB schema lives in `database/schema.sql` until the cloud database is enabled, then becomes migrations.
