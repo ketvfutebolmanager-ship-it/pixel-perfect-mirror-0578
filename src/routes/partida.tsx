@@ -69,9 +69,9 @@ function buildFixtures(clubs: Array<{id:string;name:string;state:string}>, maxRo
   return fixtures.filter((f) => f.round <= maxRounds);
 }
 const SPEEDS: Record<MatchSpeed, { label: string; interval: number }> = {
-  slow: { label: "Lento", interval: 1200 },
-  medium: { label: "Médio", interval: 650 },
-  fast: { label: "Rápido", interval: 250 },
+  slow: { label: "Lento", interval: 3000 },
+  medium: { label: "Médio", interval: 2000 },
+  fast: { label: "Rápido", interval: 1000 },
 };
 
 // Público é um dado de simulação do jogo, não uma presença oficial.
@@ -533,7 +533,8 @@ function Page() {
   }
 
   const visibleEvents = result?.events.filter((event) => event.minute <= minute) ?? [];
-  const stadium = (careerFixture ? STADIUMS[careerFixture.home.name] : STADIUMS[career.club]) ?? "Estádio não cadastrado";
+  // O placar desta simulação sempre usa o clube do treinador como mandante; o estádio deve seguir o time exibido no lado esquerdo do placar, não o mando original do calendário.
+  const stadium = STADIUMS[result?.home.name ?? careerFixture?.home.name ?? career.club] ?? "Estádio não cadastrado";
   const progress = (minute / 90) * 100;
   const careerClubId = career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
   const availableSubstitutionPlayers = VERIFIED_PLAYERS_2026.filter((player) => player.clubId === careerClubId);
