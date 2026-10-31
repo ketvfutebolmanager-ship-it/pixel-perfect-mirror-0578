@@ -35,6 +35,8 @@ export function simulateMatch(
   home: MatchTeam,
   away: MatchTeam,
   rng: () => number = Math.random,
+  startMinute = 1,
+  endMinute = 90,
 ): MatchResult {
   validateTeam(home);
   validateTeam(away);
@@ -47,7 +49,7 @@ export function simulateMatch(
   const homeStyle = styleModifiers(home.approach ?? "balanced");
   const awayStyle = styleModifiers(away.approach ?? "balanced");
 
-  for (let minute = 1; minute <= 90; minute += 1) {
+  for (let minute = startMinute; minute <= endMinute; minute += 1) {
     const homeControl = home.midfield * homeStyle.control;
     const awayControl = away.midfield * awayStyle.control;
     const homePossession = clamp(homeControl / (homeControl + awayControl), 0.2, 0.8);
