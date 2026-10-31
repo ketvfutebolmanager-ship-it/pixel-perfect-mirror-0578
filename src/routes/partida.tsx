@@ -29,6 +29,7 @@ const KICKOFF_SLOTS = [
   { weekday: "Domingo", kickoff: "20:30" },
   { weekday: "Segunda-feira", kickoff: "20:00" },
 ];
+type DivisionFixture = Fixture & { division: BrazilianDivision; groupName: string | undefined };
 function buildFixtures(clubs: Array<{id:string;name:string;state:string}>, maxRounds: number): Fixture[] {
   if (clubs.length < 2) return [];
   const teams = [...clubs];
@@ -222,7 +223,7 @@ const STADIUMS: Record<string, string> = {
   "Sampaio Corrêa-RJ": "Estádio Lourival Gomes",
   "Santa Catarina": "Estádio Alfredo João Krieck",
   "São José-RS": "Estádio Passo d'Areia",
-  São Joseense: "Estádio do Pinhão",
+  "São Joseense": "Estádio do Pinhão",
   "São Luiz": "Estádio 19 de Outubro",
   "São Raimundo-RR": "Estádio Canarinho",
   "Serra Branca": "Estádio Amigão",
@@ -405,7 +406,7 @@ function Page() {
   const matchesPlayedBeforeCurrent = Math.max(0, (career?.played ?? 0) - (result ? 1 : 0));
   const currentRound = Math.min(career?.round ?? (matchesPlayedBeforeCurrent + 1), totalRounds);
   const roundFixtures = fixtures.filter((fixture) => fixture.round === currentRound);
-  const allDivisionRoundFixtures = (["Série A", "Série B", "Série C", "Série D"] as BrazilianDivision[]).flatMap((division) => {
+  const allDivisionRoundFixtures: DivisionFixture[] = (["Série A", "Série B", "Série C", "Série D"] as BrazilianDivision[]).flatMap((division): DivisionFixture[] => {
     const clubs = getClubsByDivision(division);
     if (division === "Série D") {
       const groups = [...new Set(clubs.map((club) => club.group).filter((value): value is string => Boolean(value)))];

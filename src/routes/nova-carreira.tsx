@@ -18,6 +18,7 @@ export type CareerSave = {
   approach: "defensive" | "balanced" | "attacking";
   season: number;
   played: number;
+  round?: number;
   fanMorale?: number;
   boardConfidence?: number;
 };
