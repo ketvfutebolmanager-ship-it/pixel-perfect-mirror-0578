@@ -796,7 +796,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
   {
     id: "ramon-sosa-palmeiras", name: "Ramón Sosa", clubId: "palmeiras", clubName: "Palmeiras", division: "Série A", position: "ATA", shirtNumber: 19,
     source: "Site oficial do Palmeiras — elenco profissional 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
-  }
+  },
   {
     id: "stiven-mendoza-athletico-paranaense", name: "Stiven Mendoza", clubId: "athletico-paranaense", clubName: "Athletico Paranaense", division: "Série A", position: "ATA", shirtNumber: 7,
     source: "Bússola do Futebol — elenco Athletico-PR 2026 (consulta em 31/10/2026)", verifiedAt: "2026-10-31"
