@@ -1821,6 +1821,246 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     id: "andre-henrique-gremio", name: "André Henrique", clubId: "gremio", clubName: "Grêmio", division: "Série A", position: "ATA", shirtNumber: 77,
     source: "Site oficial do Grêmio — elenco profissional, consulta em 31/10/2026", verifiedAt: "2026-10-31"
   },
+  {
+    id: "joao-paulo-goleiro-santos", name: "João Paulo", clubId: "santos", clubName: "Santos", division: "Série A", position: "GOL",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-pedro-goleiro-santos", name: "João Pedro", clubId: "santos", clubName: "Santos", division: "Série A", position: "GOL",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rodrigo-falcao-santos", name: "Rodrigo Falcão", clubId: "santos", clubName: "Santos", division: "Série A", position: "GOL",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "diogenes-santos", name: "Diógenes", clubId: "santos", clubName: "Santos", division: "Série A", position: "GOL",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-brazao-santos", name: "Gabriel Brazão", clubId: "santos", clubName: "Santos", division: "Série A", position: "GOL",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-ananias-santos", name: "João Ananias", clubId: "santos", clubName: "Santos", division: "Série A", position: "ZAG",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "luan-peres-santos", name: "Luan Peres", clubId: "santos", clubName: "Santos", division: "Série A", position: "ZAG",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-verissimo-santos", name: "Lucas Veríssimo", clubId: "santos", clubName: "Santos", division: "Série A", position: "ZAG",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "adonis-frias-santos", name: "Adonis Frías", clubId: "santos", clubName: "Santos", division: "Série A", position: "ZAG",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ze-ivaldo-santos", name: "Zé Ivaldo", clubId: "santos", clubName: "Santos", division: "Série A", position: "ZAG",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-alencar-santos", name: "João Alencar", clubId: "santos", clubName: "Santos", division: "Série A", position: "ZAG",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "escobar-santos", name: "Escobar", clubId: "santos", clubName: "Santos", division: "Série A", position: "LAT",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rafael-gonzaga-santos", name: "Rafael Gonzaga", clubId: "santos", clubName: "Santos", division: "Série A", position: "LAT",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vinicius-lira-santos", name: "Vinícius Lira", clubId: "santos", clubName: "Santos", division: "Série A", position: "LAT",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "davizinho-santos", name: "Davizinho", clubId: "santos", clubName: "Santos", division: "Série A", position: "LAT",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "igor-vinicius-santos", name: "Igor Vinícius", clubId: "santos", clubName: "Santos", division: "Série A", position: "LAT",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rodinei-santos", name: "Rodinei", clubId: "santos", clubName: "Santos", division: "Série A", position: "LAT",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lima-santos", name: "Lima", clubId: "santos", clubName: "Santos", division: "Série A", position: "MEI",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "miguelito-santos", name: "Miguelito", clubId: "santos", clubName: "Santos", division: "Série A", position: "MEI",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "neymar-santos", name: "Neymar Jr", clubId: "santos", clubName: "Santos", division: "Série A", position: "MEI",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "coutinho-santos", name: "Philippe Coutinho", clubId: "santos", clubName: "Santos", division: "Série A", position: "MEI",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-bontempo-santos", name: "Gabriel Bontempo", clubId: "santos", clubName: "Santos", division: "Série A", position: "MEI",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rollheiser-santos", name: "Benjamín Rollheiser", clubId: "santos", clubName: "Santos", division: "Série A", position: "MEI",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "oliva-santos", name: "Christian Oliva", clubId: "santos", clubName: "Santos", division: "Série A", position: "VOL",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "samuel-pierri-santos", name: "Samuel Pierri", clubId: "santos", clubName: "Santos", division: "Série A", position: "VOL",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "willian-arao-santos", name: "Willian Arão", clubId: "santos", clubName: "Santos", division: "Série A", position: "VOL",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "arthur-melo-santos", name: "Arthur", clubId: "santos", clubName: "Santos", division: "Série A", position: "VOL",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gustavo-henrique-santos", name: "Gustavo Henrique", clubId: "santos", clubName: "Santos", division: "Série A", position: "VOL",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "joao-schmidt-santos", name: "João Schmidt", clubId: "santos", clubName: "Santos", division: "Série A", position: "VOL",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "moises-santos", name: "Moisés", clubId: "santos", clubName: "Santos", division: "Série A", position: "ATA",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "rony-santos", name: "Rony", clubId: "santos", clubName: "Santos", division: "Série A", position: "ATA",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "thaciano-santos", name: "Thaciano", clubId: "santos", clubName: "Santos", division: "Série A", position: "ATA",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "barreal-santos", name: "Álvaro Barreal", clubId: "santos", clubName: "Santos", division: "Série A", position: "ATA",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "caballero-santos", name: "Gustavo Caballero", clubId: "santos", clubName: "Santos", division: "Série A", position: "ATA",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "everton-cebolinha-santos", name: "Everton Cebolinha", clubId: "santos", clubName: "Santos", division: "Série A", position: "ATA",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-barbosa-santos", name: "Gabriel Barbosa", clubId: "santos", clubName: "Santos", division: "Série A", position: "ATA",
+    source: "Santos FC — elenco masculino oficial e CBF Série A 2026, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-batista-botafogo", name: "Gabriel Batista", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "GOL",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "warleson-botafogo", name: "Warleson", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "GOL",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "alex-telles-botafogo", name: "Alex Telles", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "LAT",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "anthony-botafogo", name: "Anthony", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "ZAG",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "arthur-chaves-botafogo", name: "Arthur Chaves", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "ZAG",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ferraresi-botafogo", name: "Nahuel Ferraresi", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "ZAG",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "gabriel-pereira-botafogo", name: "Gabriel Pereira", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "ZAG",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "carlos-eduardo-botafogo", name: "Carlos Eduardo", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "LAT",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kaio-pantaleao-botafogo", name: "Kaio Pantaleão", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "ZAG",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "lucas-monzon-botafogo", name: "Lucas Monzón", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "ZAG",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "marcal-botafogo", name: "Fernando Marçal", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "LAT",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "mateo-ponte-botafogo", name: "Mateo Ponte", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "LAT",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "paulo-victor-botafogo", name: "Paulo Victor", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "LAT",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "vitinho-botafogo", name: "Vitinho", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "LAT",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "allan-botafogo", name: "Allan", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "VOL",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "danilo-santos-botafogo", name: "Danilo Santos", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "MEI",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "cristian-medina-botafogo", name: "Cristian Medina", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "VOL",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "matheus-martins-botafogo", name: "Matheus Martins", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "ATA",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "junior-santos-botafogo", name: "Júnior Santos", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "ATA",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "kauan-botafogo", name: "Kauan", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "MEI",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "huguinho-botafogo", name: "Huguinho", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "ATA",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "tiquinho-botafogo", name: "Tiquinho Soares", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "ATA",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "ziyech-botafogo", name: "Hakim Ziyech", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "MEI",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
+  {
+    id: "jose-kadir-botafogo", name: "José Kadir", clubId: "botafogo", clubName: "Botafogo", division: "Série A", position: "ATA",
+    source: "Botafogo FR — elenco profissional oficial 2026 e escalação CBF Série A, consulta em 31/10/2026", verifiedAt: "2026-10-31"
+  },
 ];
 export const PLAYER_DATA_AS_OF = "2026-10-31";
 export const PLAYER_DATA_STATUS = "partial-verified";
