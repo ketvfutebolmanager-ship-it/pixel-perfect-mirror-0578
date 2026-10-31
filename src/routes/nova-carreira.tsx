@@ -4,12 +4,10 @@ import { PageHeader } from "@/components/layout/AppShell";
 import { getClubsByDivision, type BrazilianDivision } from "@/modules/clubs/brazilian-clubs-2026";
 
 export const Route = createFileRoute("/nova-carreira")({
-  head: () => ({
-    meta: [
-      { title: "Nova carreira — KE TV Football Manager" },
-      { name: "description", content: "Crie seu técnico, escolha um clube e comece a temporada." },
-    ],
-  }),
+  head: () => ({ meta: [
+    { title: "Nova carreira — KE TV Football Manager" },
+    { name: "description", content: "Crie seu técnico, escolha um clube brasileiro e comece a temporada 2026." },
+  ] }),
   component: Page,
 });
 
@@ -27,17 +25,24 @@ export type CareerSave = {
 function Page() {
   const navigate = useNavigate();
   const [coach, setCoach] = useState("");
-  const [club, setClub] = useState(demoClubs[0].name);
-  const [division, setDivision] = useState("Série D");
+  const [division, setDivision] = useState<BrazilianDivision>("Série D");
+  const clubs = getClubsByDivision(division);
+  const [clubId, setClubId] = useState(() => getClubsByDivision("Série D")[0]?.id ?? "");
+  const selectedClub = clubs.find((item) => item.id === clubId) ?? clubs[0];
   const [approach, setApproach] = useState<CareerSave["approach"]>("balanced");
   const [error, setError] = useState("");
 
+  function changeDivision(value: BrazilianDivision) {
+    setDivision(value);
+    setClubId(getClubsByDivision(value)[0]?.id ?? "");
+  }
+
   function startCareer() {
-    if (coach.trim().length < 2) {
-      setError("Digite o nome do treinador para continuar.");
-      return;
-    }
-    if (!selectedClub) { setError("Não há clubes cadastrados nesta divisão."); return; }\n    const save: CareerSave = { coach: coach.trim(), club: selectedClub.name, division, approach, season: 2026, played: 0 };
+    if (coach.trim().length < 2) { setError("Digite o nome do treinador para continuar."); return; }
+    if (!selectedClub) { setError("Não há clubes cadastrados nesta divisão."); return; }
+    const save: CareerSave = {
+      coach: coach.trim(), club: selectedClub.name, division, approach, season: 2026, played: 0,
+    };
     try {
       window.localStorage.setItem("ketvfm-career", JSON.stringify(save));
       navigate({ to: "/partida" });
@@ -49,7 +54,7 @@ function Page() {
   return (
     <>
       <PageHeader kicker="Sua jornada começa aqui" title="Nova carreira">
-        Assuma o comando, escolha seu desafio e leve seu clube ao topo.
+        Escolha entre os clubes participantes reais do Brasileirão 2026 e assuma o comando.
       </PageHeader>
       <div className="grid gap-6 xl:grid-cols-[1.1fr_0.9fr]">
         <section className="space-y-5 rounded-md border border-border bg-card p-6">
@@ -58,17 +63,17 @@ function Page() {
             <input id="coach" value={coach} onChange={(e) => setCoach(e.target.value)} placeholder="Ex.: Carlos Silva" className="w-full rounded-md border border-input bg-background px-3 py-3 text-foreground outline-none focus:border-primary" />
           </div>
           <div>
-            <label htmlFor="club" className="mb-2 block text-sm font-semibold">Clube para comandar</label>
-            <select id="club" value={club} onChange={(e) => setClub(e.target.value)} className="w-full rounded-md border border-input bg-background px-3 py-3 text-foreground">
-              {demoClubs.map((item) => <option key={item.name} value={item.name}>{item.name}</option>)}
+            <label htmlFor="division" className="mb-2 block text-sm font-semibold">Divisão inicial</label>
+            <select id="division" value={division} onChange={(e) => changeDivision(e.target.value as BrazilianDivision)} className="w-full rounded-md border border-input bg-background px-3 py-3 text-foreground">
+              {divisions.map((item) => <option key={item} value={item}>{item}</option>)}
             </select>
-            <p className="mt-2 text-xs text-muted-foreground">Clubes de demonstração do protótipo. A base oficial de clubes e elencos será integrada após validação dos dados e licenças.</p>
           </div>
           <div>
-            <label htmlFor="division" className="mb-2 block text-sm font-semibold">Divisão inicial</label>
-            <select id="division" value={division} onChange={(e) => { const nextDivision = e.target.value as BrazilianDivision; setDivision(nextDivision); const firstClub = getClubsByDivision(nextDivision)[0]; if (firstClub) setClubId(firstClub.id); }} className="w-full rounded-md border border-input bg-background px-3 py-3 text-foreground">
-              {divisions.map((item) => <option key={item}>{item}</option>)}
+            <label htmlFor="club" className="mb-2 block text-sm font-semibold">Clube para comandar ({clubs.length} clubes)</label>
+            <select id="club" value={selectedClub?.id ?? ""} onChange={(e) => setClubId(e.target.value)} className="w-full rounded-md border border-input bg-background px-3 py-3 text-foreground">
+              {clubs.map((item) => <option key={item.id} value={item.id}>{item.name} - {item.state}{item.group ? ` · Grupo ${item.group}` : ""}</option>)}
             </select>
+            <p className="mt-2 text-xs text-muted-foreground">Participantes do Campeonato Brasileiro de 2026. Os grupos da Série D seguem a divisão divulgada pela CBF.</p>
           </div>
           <div>
             <p className="mb-2 text-sm font-semibold">Filosofia tática</p>
@@ -85,10 +90,10 @@ function Page() {
         <aside className="rounded-md border border-border bg-hero p-6">
           <p className="text-xs font-bold uppercase tracking-widest text-primary">Temporada 2026</p>
           <h2 className="mt-3 text-3xl font-bold uppercase">Seu legado começa no primeiro jogo.</h2>
-          <p className="mt-3 text-sm text-muted-foreground">Escolha sua filosofia, prepare o time e entre em campo. Cada resultado será registrado na carreira deste navegador.</p>
+          <p className="mt-3 text-sm text-muted-foreground">Escolha seu clube e filosofia, prepare o time e entre em campo.</p>
           <div className="mt-6 rounded-md border border-border bg-card p-4">
-            <p className="text-xs uppercase tracking-widest text-muted-foreground">Importante</p>
-            <p className="mt-2 text-sm">Nesta versão inicial, a carreira fica salva localmente neste navegador. O salvamento em nuvem exige autenticação e banco de dados ativos.</p>
+            <p className="text-xs uppercase tracking-widest text-muted-foreground">Salvamento</p>
+            <p className="mt-2 text-sm">Nesta versão, a carreira fica salva neste navegador. A sincronização em nuvem será ativada quando autenticação e banco estiverem configurados.</p>
           </div>
           <Link to="/" className="mt-5 inline-block text-sm font-semibold text-primary">← Voltar ao início</Link>
         </aside>
