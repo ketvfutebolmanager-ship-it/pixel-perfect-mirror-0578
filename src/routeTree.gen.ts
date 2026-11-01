@@ -16,6 +16,7 @@ import { Route as ClubesRouteImport } from './routes/clubes'
 import { Route as ConfiguracoesRouteImport } from './routes/configuracoes'
 import { Route as ContinuarCarreiraRouteImport } from './routes/continuar-carreira'
 import { Route as EstatisticasRouteImport } from './routes/estatisticas'
+import { Route as FinancasRouteImport } from './routes/financas'
 import { Route as JogadoresRouteImport } from './routes/jogadores'
 import { Route as NovaCarreiraRouteImport } from './routes/nova-carreira'
 import { Route as PartidaRouteImport } from './routes/partida'
@@ -58,6 +59,11 @@ const ContinuarCarreiraRoute = ContinuarCarreiraRouteImport.update({
 const EstatisticasRoute = EstatisticasRouteImport.update({
   id: '/estatisticas',
   path: '/estatisticas',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FinancasRoute = FinancasRouteImport.update({
+  id: '/financas',
+  path: '/financas',
   getParentRoute: () => rootRouteImport,
 } as any)
 const JogadoresRoute = JogadoresRouteImport.update({
@@ -109,6 +115,7 @@ export interface FileRoutesByFullPath {
   '/configuracoes': typeof ConfiguracoesRoute
   '/continuar-carreira': typeof ContinuarCarreiraRoute
   '/estatisticas': typeof EstatisticasRoute
+  '/financas': typeof FinancasRoute
   '/jogadores': typeof JogadoresRoute
   '/nova-carreira': typeof NovaCarreiraRoute
   '/partida': typeof PartidaRoute
@@ -126,6 +133,7 @@ export interface FileRoutesByTo {
   '/configuracoes': typeof ConfiguracoesRoute
   '/continuar-carreira': typeof ContinuarCarreiraRoute
   '/estatisticas': typeof EstatisticasRoute
+  '/financas': typeof FinancasRoute
   '/jogadores': typeof JogadoresRoute
   '/nova-carreira': typeof NovaCarreiraRoute
   '/partida': typeof PartidaRoute
@@ -144,6 +152,7 @@ export interface FileRoutesById {
   '/configuracoes': typeof ConfiguracoesRoute
   '/continuar-carreira': typeof ContinuarCarreiraRoute
   '/estatisticas': typeof EstatisticasRoute
+  '/financas': typeof FinancasRoute
   '/jogadores': typeof JogadoresRoute
   '/nova-carreira': typeof NovaCarreiraRoute
   '/partida': typeof PartidaRoute
@@ -155,56 +164,10 @@ export interface FileRoutesById {
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths:
-    | '/'
-    | '/calendario'
-    | '/classificacao'
-    | '/clubes'
-    | '/configuracoes'
-    | '/continuar-carreira'
-    | '/estatisticas'
-    | '/jogadores'
-    | '/nova-carreira'
-    | '/partida'
-    | '/patrocinios'
-    | '/sala-de-trofeus'
-    | '/transferencias'
-    | '/campeonatos/$divisao'
-    | '/campeonatos/'
+  fullPaths: '/' | '/calendario' | '/classificacao' | '/clubes' | '/configuracoes' | '/continuar-carreira' | '/estatisticas' | '/financas' | '/jogadores' | '/nova-carreira' | '/partida' | '/patrocinios' | '/sala-de-trofeus' | '/transferencias' | '/campeonatos/$divisao' | '/campeonatos/'
   fileRoutesByTo: FileRoutesByTo
-  to:
-    | '/'
-    | '/calendario'
-    | '/classificacao'
-    | '/clubes'
-    | '/configuracoes'
-    | '/continuar-carreira'
-    | '/estatisticas'
-    | '/jogadores'
-    | '/nova-carreira'
-    | '/partida'
-    | '/patrocinios'
-    | '/sala-de-trofeus'
-    | '/transferencias'
-    | '/campeonatos/$divisao'
-    | '/campeonatos'
-  id:
-    | '__root__'
-    | '/'
-    | '/calendario'
-    | '/classificacao'
-    | '/clubes'
-    | '/configuracoes'
-    | '/continuar-carreira'
-    | '/estatisticas'
-    | '/jogadores'
-    | '/nova-carreira'
-    | '/partida'
-    | '/patrocinios'
-    | '/sala-de-trofeus'
-    | '/transferencias'
-    | '/campeonatos/$divisao'
-    | '/campeonatos/'
+  to: '/' | '/calendario' | '/classificacao' | '/clubes' | '/configuracoes' | '/continuar-carreira' | '/estatisticas' | '/financas' | '/jogadores' | '/nova-carreira' | '/partida' | '/patrocinios' | '/sala-de-trofeus' | '/transferencias' | '/campeonatos/$divisao' | '/campeonatos'
+  id: '__root__' | '/' | '/calendario' | '/classificacao' | '/clubes' | '/configuracoes' | '/continuar-carreira' | '/estatisticas' | '/financas' | '/jogadores' | '/nova-carreira' | '/partida' | '/patrocinios' | '/sala-de-trofeus' | '/transferencias' | '/campeonatos/$divisao' | '/campeonatos/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -215,6 +178,7 @@ export interface RootRouteChildren {
   ConfiguracoesRoute: typeof ConfiguracoesRoute
   ContinuarCarreiraRoute: typeof ContinuarCarreiraRoute
   EstatisticasRoute: typeof EstatisticasRoute
+  FinancasRoute: typeof FinancasRoute
   JogadoresRoute: typeof JogadoresRoute
   NovaCarreiraRoute: typeof NovaCarreiraRoute
   PartidaRoute: typeof PartidaRoute
@@ -227,6 +191,13 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/financas': {
+      id: '/financas'
+      path: '/financas'
+      fullPath: '/financas'
+      preLoaderRoute: typeof FinancasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -343,6 +314,7 @@ const rootRouteChildren: RootRouteChildren = {
   ConfiguracoesRoute: ConfiguracoesRoute,
   ContinuarCarreiraRoute: ContinuarCarreiraRoute,
   EstatisticasRoute: EstatisticasRoute,
+  FinancasRoute: FinancasRoute,
   JogadoresRoute: JogadoresRoute,
   NovaCarreiraRoute: NovaCarreiraRoute,
   PartidaRoute: PartidaRoute,
