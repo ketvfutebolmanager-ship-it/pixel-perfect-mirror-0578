@@ -164,10 +164,59 @@ export interface FileRoutesById {
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/calendario' | '/classificacao' | '/clubes' | '/configuracoes' | '/continuar-carreira' | '/estatisticas' | '/financas' | '/jogadores' | '/nova-carreira' | '/partida' | '/patrocinios' | '/sala-de-trofeus' | '/transferencias' | '/campeonatos/$divisao' | '/campeonatos/'
+  fullPaths:
+    | '/'
+    | '/calendario'
+    | '/classificacao'
+    | '/clubes'
+    | '/configuracoes'
+    | '/continuar-carreira'
+    | '/estatisticas'
+    | '/financas'
+    | '/jogadores'
+    | '/nova-carreira'
+    | '/partida'
+    | '/patrocinios'
+    | '/sala-de-trofeus'
+    | '/transferencias'
+    | '/campeonatos/$divisao'
+    | '/campeonatos/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/calendario' | '/classificacao' | '/clubes' | '/configuracoes' | '/continuar-carreira' | '/estatisticas' | '/financas' | '/jogadores' | '/nova-carreira' | '/partida' | '/patrocinios' | '/sala-de-trofeus' | '/transferencias' | '/campeonatos/$divisao' | '/campeonatos'
-  id: '__root__' | '/' | '/calendario' | '/classificacao' | '/clubes' | '/configuracoes' | '/continuar-carreira' | '/estatisticas' | '/financas' | '/jogadores' | '/nova-carreira' | '/partida' | '/patrocinios' | '/sala-de-trofeus' | '/transferencias' | '/campeonatos/$divisao' | '/campeonatos/'
+  to:
+    | '/'
+    | '/calendario'
+    | '/classificacao'
+    | '/clubes'
+    | '/configuracoes'
+    | '/continuar-carreira'
+    | '/estatisticas'
+    | '/financas'
+    | '/jogadores'
+    | '/nova-carreira'
+    | '/partida'
+    | '/patrocinios'
+    | '/sala-de-trofeus'
+    | '/transferencias'
+    | '/campeonatos/$divisao'
+    | '/campeonatos'
+  id:
+    | '__root__'
+    | '/'
+    | '/calendario'
+    | '/classificacao'
+    | '/clubes'
+    | '/configuracoes'
+    | '/continuar-carreira'
+    | '/estatisticas'
+    | '/financas'
+    | '/jogadores'
+    | '/nova-carreira'
+    | '/partida'
+    | '/patrocinios'
+    | '/sala-de-trofeus'
+    | '/transferencias'
+    | '/campeonatos/$divisao'
+    | '/campeonatos/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -191,13 +240,6 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/financas': {
-      id: '/financas'
-      path: '/financas'
-      fullPath: '/financas'
-      preLoaderRoute: typeof FinancasRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/': {
       id: '/'
       path: '/'
@@ -247,6 +289,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EstatisticasRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/financas': {
+      id: '/financas'
+      path: '/financas'
+      fullPath: '/financas'
+      preLoaderRoute: typeof FinancasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/jogadores': {
       id: '/jogadores'
       path: '/jogadores'
@@ -261,6 +310,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof NovaCarreiraRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/partida': {
+      id: '/partida'
+      path: '/partida'
+      fullPath: '/partida'
+      preLoaderRoute: typeof PartidaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/patrocinios': {
       id: '/patrocinios'
       path: '/patrocinios'
@@ -273,13 +329,6 @@ declare module '@tanstack/react-router' {
       path: '/sala-de-trofeus'
       fullPath: '/sala-de-trofeus'
       preLoaderRoute: typeof SalaDeTrofeusRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/partida': {
-      id: '/partida'
-      path: '/partida'
-      fullPath: '/partida'
-      preLoaderRoute: typeof PartidaRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/transferencias': {
