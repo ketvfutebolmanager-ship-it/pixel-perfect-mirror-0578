@@ -519,8 +519,24 @@ function Page() {
     if (!career || minute !== 90 || !result || matchFinalized) return;
     const won = result.homeGoals > result.awayGoals;
     const drew = result.homeGoals === result.awayGoals;
-    const updated = { ...career, played: career.played + 1, fanMorale: Math.max(0, Math.min(100, (career.fanMorale ?? 70) + (won ? 7 : drew ? 1 : -7))), boardConfidence: Math.max(0, Math.min(100, (career.boardConfidence ?? 70) + (won ? 9 : drew ? -1 : -9))) };
-    const clubPlayers = VERIFIED_PLAYERS_2026.filter((player) => player.clubId === career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-"));
+    const clubId = career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
+    const financeKey = "ketvfm-finances:" + clubId;
+    const sponsorKey = "ketvfm-sponsor-contracts:" + clubId;
+    let sponsorContracts: { camisa?: { annualValue?: number; expiresSeason?: number }; estadio?: { annualValue?: number; expiresSeason?: number } } = {};
+    let finance: { balance?: number; ledger?: Array<{ id: string; season: number; round: number; description: string; amount: number }> } = {};
+    try { sponsorContracts = JSON.parse(window.localStorage.getItem(sponsorKey) ?? "{}"); } catch { sponsorContracts = {}; }
+    try { finance = JSON.parse(window.localStorage.getItem(financeKey) ?? "{}"); } catch { finance = {}; }
+    const attendance = estimatedAttendance(result.home.id, result.away.id);
+    const gateRevenue = result.home.id === clubId ? attendance * ticketPrice : 0;
+    const sponsorshipPerMatch = [sponsorContracts.camisa, sponsorContracts.estadio]
+      .filter((contract) => contract && (contract.expiresSeason ?? 0) >= career.season)
+      .reduce((sum, contract) => sum + (contract?.annualValue ?? 0), 0) / Math.max(1, totalRounds);
+    const matchIncome = Math.round(gateRevenue + sponsorshipPerMatch);
+    const nextBalance = (finance.balance ?? career.balance ?? 25000000) + matchIncome;
+    const ledger = [...(finance.ledger ?? []), { id: career.season + "-" + currentRound + "-" + result.home.id + "-" + result.away.id, season: career.season, round: currentRound, description: "Renda da partida e cotas de patrocínio", amount: matchIncome }];
+    window.localStorage.setItem(financeKey, JSON.stringify({ balance: nextBalance, ledger }));
+    const updated = { ...career, balance: nextBalance, played: career.played + 1, fanMorale: Math.max(0, Math.min(100, (career.fanMorale ?? 70) + (won ? 7 : drew ? 1 : -7))), boardConfidence: Math.max(0, Math.min(100, (career.boardConfidence ?? 70) + (won ? 9 : drew ? -1 : -9))) };
+    const clubPlayers = VERIFIED_PLAYERS_2026.filter((player) => player.clubId === clubId);
     const nextMorale = { ...readPlayerMorale() };
     clubPlayers.forEach((player) => {
       const scored = result.events.filter((event) => event.minute <= 90 && event.clubId === result.home.id && event.playerId === player.id).length;
@@ -544,6 +560,45 @@ function Page() {
         const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id;
         completedRoundResults[key] = simulateMatch(homeTeam, awayTeam);
       });
+    if (careerFixture) completedRoundResults[currentRound + "-" + careerFixture.home.id + "-" + careerFixture.away.id] = result;
+    const seasonKey = "ketvfm-season-results:" + career.division + ":" + career.season + ":" + (group ?? "geral");
+    let previousResults: Record<string, MatchResult> = {};
+    try { previousResults = JSON.parse(window.localStorage.getItem(seasonKey) ?? "{}"); } catch { previousResults = {}; }
+    const seasonResults = { ...previousResults, ...completedRoundResults };
+    window.localStorage.setItem(seasonKey, JSON.stringify(seasonResults));
+    if (currentRound === totalRounds) {
+      const table = new Map<string, { name: string; points: number; goalsFor: number; goalsAgainst: number }>();
+      participatingClubs.forEach((club) => table.set(club.id, { name: club.name, points: 0, goalsFor: 0, goalsAgainst: 0 }));
+      Object.values(seasonResults).forEach((match) => {
+        const home = table.get(match.home.id), away = table.get(match.away.id);
+        if (!home || !away) return;
+        home.goalsFor += match.homeGoals; home.goalsAgainst += match.awayGoals;
+        away.goalsFor += match.awayGoals; away.goalsAgainst += match.homeGoals;
+        if (match.homeGoals > match.awayGoals) home.points += 3;
+        else if (match.awayGoals > match.homeGoals) away.points += 3;
+        else { home.points += 1; away.points += 1; }
+      });
+      const champion = [...table.entries()].sort((a,b) => b[1].points-a[1].points || (b[1].goalsFor-b[1].goalsAgainst)-(a[1].goalsFor-a[1].goalsAgainst) || b[1].goalsFor-a[1].goalsFor)[0];
+      if (champion?.[0] === clubId) {
+        const prizeByDivision: Record<string, number> = { "Série A": 30000000, "Série B": 12000000, "Série C": 5000000, "Série D": 2000000 };
+        const prize = prizeByDivision[career.division] ?? 1000000;
+        const trophyKey = "ketvfm-trophy-room:" + clubId;
+        let trophies: Array<{ competition: string; season: number; prize: number }> = [];
+        try { trophies = JSON.parse(window.localStorage.getItem(trophyKey) ?? "[]"); } catch { trophies = []; }
+        if (!trophies.some((trophy) => trophy.season === career.season && trophy.competition === career.division)) {
+          trophies.push({ competition: career.division, season: career.season, prize });
+          window.localStorage.setItem(trophyKey, JSON.stringify(trophies));
+          let currentFinance: { balance?: number; ledger?: Array<{ id: string; season: number; round: number; description: string; amount: number }> } = {};
+          try { currentFinance = JSON.parse(window.localStorage.getItem("ketvfm-finances:" + clubId) ?? "{}"); } catch { currentFinance = {}; }
+          const updatedBalance = (currentFinance.balance ?? 0) + prize;
+          const nextLedger = [...(currentFinance.ledger ?? []), { id: "titulo-" + career.season + "-" + career.division, season: career.season, round: totalRounds, description: "Premiação pelo título da " + career.division, amount: prize }];
+          window.localStorage.setItem("ketvfm-finances:" + clubId, JSON.stringify({ balance: updatedBalance, ledger: nextLedger }));
+          const storedCareer = JSON.parse(window.localStorage.getItem("ketvfm-career") ?? "{}");
+          window.localStorage.setItem("ketvfm-career", JSON.stringify({ ...storedCareer, balance: updatedBalance }));
+          setCareer((old) => old ? { ...old, balance: updatedBalance } : old);
+        }
+      }
+    }
     setRoundResults(completedRoundResults);
   }, [minute, result, roundResults, allDivisionRoundFixtures, career]);
 
