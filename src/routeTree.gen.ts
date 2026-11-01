@@ -114,16 +114,9 @@ export interface FileRoutesByFullPath {
   '/partida': typeof PartidaRoute
   '/patrocinios': typeof PatrociniosRoute
   '/sala-de-trofeus': typeof SalaDeTrofeusRoute
-  '/patrocinios': typeof PatrociniosRoute
-  '/sala-de-trofeus': typeof SalaDeTrofeusRoute
-  '/patrocinios': typeof PatrociniosRoute
-  '/sala-de-trofeus': typeof SalaDeTrofeusRoute
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos/': typeof CampeonatosIndexRoute
-  '/patrocinios': typeof PatrociniosRoute
-  '/sala-de-trofeus': typeof SalaDeTrofeusRoute
-
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -136,12 +129,11 @@ export interface FileRoutesByTo {
   '/jogadores': typeof JogadoresRoute
   '/nova-carreira': typeof NovaCarreiraRoute
   '/partida': typeof PartidaRoute
+  '/patrocinios': typeof PatrociniosRoute
+  '/sala-de-trofeus': typeof SalaDeTrofeusRoute
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos': typeof CampeonatosIndexRoute
-  '/patrocinios': typeof PatrociniosRoute
-  '/sala-de-trofeus': typeof SalaDeTrofeusRoute
-
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -155,12 +147,11 @@ export interface FileRoutesById {
   '/jogadores': typeof JogadoresRoute
   '/nova-carreira': typeof NovaCarreiraRoute
   '/partida': typeof PartidaRoute
+  '/patrocinios': typeof PatrociniosRoute
+  '/sala-de-trofeus': typeof SalaDeTrofeusRoute
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos/': typeof CampeonatosIndexRoute
-  '/patrocinios': typeof PatrociniosRoute
-  '/sala-de-trofeus': typeof SalaDeTrofeusRoute
-
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -175,10 +166,6 @@ export interface FileRouteTypes {
     | '/jogadores'
     | '/nova-carreira'
     | '/partida'
-    | '/patrocinios'
-    | '/sala-de-trofeus'
-    | '/patrocinios'
-    | '/sala-de-trofeus'
     | '/patrocinios'
     | '/sala-de-trofeus'
     | '/transferencias'
@@ -196,6 +183,8 @@ export interface FileRouteTypes {
     | '/jogadores'
     | '/nova-carreira'
     | '/partida'
+    | '/patrocinios'
+    | '/sala-de-trofeus'
     | '/transferencias'
     | '/campeonatos/$divisao'
     | '/campeonatos'
@@ -211,6 +200,8 @@ export interface FileRouteTypes {
     | '/jogadores'
     | '/nova-carreira'
     | '/partida'
+    | '/patrocinios'
+    | '/sala-de-trofeus'
     | '/transferencias'
     | '/campeonatos/$divisao'
     | '/campeonatos/'
