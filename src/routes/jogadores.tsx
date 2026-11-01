@@ -36,15 +36,15 @@ function Page() {
     setPlayerMorale(next);
     window.localStorage.setItem(PLAYER_MORALE_KEY, JSON.stringify(next));
   };
+  const clubs = getClubsByDivision(division);
+  const players = useMemo(() => VERIFIED_PLAYERS_2026.filter(p => p.division === division && (clubId === "all" || p.clubId === clubId)), [division, clubId]);
+  const selected = players.find(player => player.id === selectedPlayer);
   const lineupUsed = new Set<string>();
   const tacticalLineup = formationRows(formation).map(row => row.map(role => {
     const player = players.find(candidate => !lineupUsed.has(candidate.id) && (candidate.position === role || (role === "LAT" && candidate.position === "DEF")));
     if (player) lineupUsed.add(player.id);
     return { role, player };
   }));
-  const clubs = getClubsByDivision(division);
-  const players = useMemo(() => VERIFIED_PLAYERS_2026.filter(p => p.division === division && (clubId === "all" || p.clubId === clubId)), [division, clubId]);
-  const selected = players.find(player => player.id === selectedPlayer);
 
   return (
     <>
