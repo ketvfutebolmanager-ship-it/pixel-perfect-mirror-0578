@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
 import type { CareerSave } from "./nova-carreira";
 
@@ -16,18 +16,19 @@ const SPONSORS = [
 ];
 const BASE: Record<string, number> = { "Série A": 8000000, "Série B": 3500000, "Série C": 1400000, "Série D": 500000 };
 const money = (v: number) => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
-function readContracts(): Contracts {
-  try { return JSON.parse(localStorage.getItem(KEY) ?? "{}") as Contracts; } catch { return {}; }
+function readContracts(storageKey: string): Contracts {
+  try { return JSON.parse(localStorage.getItem(storageKey) ?? "{}") as Contracts; } catch { return {}; }
 }
 export const Route = createFileRoute("/patrocinios")({ component: Page, head: () => ({ meta: [{ title: "Patrocinadores — KE TV Futebol Manager" }] }) });
 function Page() {
-  const [career, setCareer] = useState<CareerSave | null>(() => { try { return JSON.parse(localStorage.getItem("ketvfm-career") ?? "null") as CareerSave | null; } catch { return null; } });
-  const [contracts, setContracts] = useState<Contracts>(readContracts);
+  const [career] = useState<CareerSave | null>(() => { try { return JSON.parse(localStorage.getItem("ketvfm-career") ?? "null") as CareerSave | null; } catch { return null; } });
+  const storageKey = KEY + ":" + (career?.club ?? "sem-clube").toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
+  const [contracts, setContracts] = useState<Contracts>(() => readContracts(storageKey));
   const [slot, setSlot] = useState<Slot>("camisa");
   const [sponsor, setSponsor] = useState(SPONSORS[0]!.name);
   const [years, setYears] = useState(1);
   const [notice, setNotice] = useState("");
-  useEffect(() => { localStorage.setItem(KEY, JSON.stringify(contracts)); }, [contracts]);
+  useEffect(() => { localStorage.setItem(storageKey, JSON.stringify(contracts)); }, [contracts, storageKey]);
   const selected = SPONSORS.find(s => s.name === sponsor) ?? SPONSORS[0]!;
   const base = BASE[career?.division ?? "Série D"] ?? BASE["Série D"]!;
   const annualValue = Math.round(base * selected.factor * (slot === "camisa" ? 1 : 0.62) * (years === 3 ? 1.12 : years === 2 ? 1.06 : 1));
