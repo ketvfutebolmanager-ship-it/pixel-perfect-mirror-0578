@@ -19,6 +19,8 @@ import { Route as EstatisticasRouteImport } from './routes/estatisticas'
 import { Route as JogadoresRouteImport } from './routes/jogadores'
 import { Route as NovaCarreiraRouteImport } from './routes/nova-carreira'
 import { Route as PartidaRouteImport } from './routes/partida'
+import { Route as PatrociniosRouteImport } from './routes/patrocinios'
+import { Route as SalaDeTrofeusRouteImport } from './routes/sala-de-trofeus'
 import { Route as TransferenciasRouteImport } from './routes/transferencias'
 import { Route as CampeonatosIndexRouteImport } from './routes/campeonatos.index'
 import { Route as CampeonatosDivisaoRouteImport } from './routes/campeonatos.$divisao'
@@ -73,6 +75,16 @@ const PartidaRoute = PartidaRouteImport.update({
   path: '/partida',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PatrociniosRoute = PatrociniosRouteImport.update({
+  id: '/patrocinios',
+  path: '/patrocinios',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SalaDeTrofeusRoute = SalaDeTrofeusRouteImport.update({
+  id: '/sala-de-trofeus',
+  path: '/sala-de-trofeus',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TransferenciasRoute = TransferenciasRouteImport.update({
   id: '/transferencias',
   path: '/transferencias',
@@ -100,9 +112,18 @@ export interface FileRoutesByFullPath {
   '/jogadores': typeof JogadoresRoute
   '/nova-carreira': typeof NovaCarreiraRoute
   '/partida': typeof PartidaRoute
+  '/patrocinios': typeof PatrociniosRoute
+  '/sala-de-trofeus': typeof SalaDeTrofeusRoute
+  '/patrocinios': typeof PatrociniosRoute
+  '/sala-de-trofeus': typeof SalaDeTrofeusRoute
+  '/patrocinios': typeof PatrociniosRoute
+  '/sala-de-trofeus': typeof SalaDeTrofeusRoute
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos/': typeof CampeonatosIndexRoute
+  '/patrocinios': typeof PatrociniosRoute
+  '/sala-de-trofeus': typeof SalaDeTrofeusRoute
+
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -118,6 +139,9 @@ export interface FileRoutesByTo {
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos': typeof CampeonatosIndexRoute
+  '/patrocinios': typeof PatrociniosRoute
+  '/sala-de-trofeus': typeof SalaDeTrofeusRoute
+
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -134,6 +158,9 @@ export interface FileRoutesById {
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos/': typeof CampeonatosIndexRoute
+  '/patrocinios': typeof PatrociniosRoute
+  '/sala-de-trofeus': typeof SalaDeTrofeusRoute
+
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -148,6 +175,12 @@ export interface FileRouteTypes {
     | '/jogadores'
     | '/nova-carreira'
     | '/partida'
+    | '/patrocinios'
+    | '/sala-de-trofeus'
+    | '/patrocinios'
+    | '/sala-de-trofeus'
+    | '/patrocinios'
+    | '/sala-de-trofeus'
     | '/transferencias'
     | '/campeonatos/$divisao'
     | '/campeonatos/'
@@ -194,6 +227,8 @@ export interface RootRouteChildren {
   JogadoresRoute: typeof JogadoresRoute
   NovaCarreiraRoute: typeof NovaCarreiraRoute
   PartidaRoute: typeof PartidaRoute
+  PatrociniosRoute: typeof PatrociniosRoute
+  SalaDeTrofeusRoute: typeof SalaDeTrofeusRoute
   TransferenciasRoute: typeof TransferenciasRoute
   CampeonatosDivisaoRoute: typeof CampeonatosDivisaoRoute
   CampeonatosIndexRoute: typeof CampeonatosIndexRoute
@@ -264,6 +299,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof NovaCarreiraRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/patrocinios': {
+      id: '/patrocinios'
+      path: '/patrocinios'
+      fullPath: '/patrocinios'
+      preLoaderRoute: typeof PatrociniosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sala-de-trofeus': {
+      id: '/sala-de-trofeus'
+      path: '/sala-de-trofeus'
+      fullPath: '/sala-de-trofeus'
+      preLoaderRoute: typeof SalaDeTrofeusRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/partida': {
       id: '/partida'
       path: '/partida'
@@ -306,6 +355,8 @@ const rootRouteChildren: RootRouteChildren = {
   JogadoresRoute: JogadoresRoute,
   NovaCarreiraRoute: NovaCarreiraRoute,
   PartidaRoute: PartidaRoute,
+  PatrociniosRoute: PatrociniosRoute,
+  SalaDeTrofeusRoute: SalaDeTrofeusRoute,
   TransferenciasRoute: TransferenciasRoute,
   CampeonatosDivisaoRoute: CampeonatosDivisaoRoute,
   CampeonatosIndexRoute: CampeonatosIndexRoute,
