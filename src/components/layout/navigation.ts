@@ -36,6 +36,7 @@ export const NAV_GROUPS: NavGroup[] = [
     items: [
       { label: "Sala de Troféus", to: "/sala-de-trofeus" },
       { label: "Patrocinadores", to: "/patrocinios" },
+      { label: "Finanças", to: "/financas" },
     ],
   },
   { title: "Sistema", items: [{ label: "Configurações", to: "/configuracoes" }] },
