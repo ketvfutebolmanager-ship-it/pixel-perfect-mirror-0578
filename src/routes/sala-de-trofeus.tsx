@@ -5,11 +5,11 @@ import type { CareerSave } from "./nova-carreira";
 type Trophy = { competition: string; season: number; prize: number; topScorer?: string; goals?: number };
 const KEY="ketvfm-trophy-room";
 const money=(v:number)=>v.toLocaleString("pt-BR",{style:"currency",currency:"BRL",maximumFractionDigits:0});
-function readTrophies():Trophy[]{try{return JSON.parse(localStorage.getItem(KEY)??"[]") as Trophy[]}catch{return[]}}
+function readTrophies(club: string):Trophy[]{const clubId=club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").replace(/[^a-z0-9]+/g,"-");try{return JSON.parse(localStorage.getItem(KEY+":"+clubId)??"[]") as Trophy[]}catch{return[]}}
 export const Route=createFileRoute("/sala-de-trofeus")({component:Page,head:()=>({meta:[{title:"Sala de Troféus — KE TV Futebol Manager"}]})});
 function Page(){
  const [career]=useState<CareerSave|null>(()=>{try{return JSON.parse(localStorage.getItem("ketvfm-career")??"null") as CareerSave|null}catch{return null}});
- const [trophies]=useState<Trophy[]>(readTrophies);
+ const [trophies]=useState<Trophy[]>(()=>readTrophies(career?.club ?? ""));
  const total=trophies.reduce((s,t)=>s+t.prize,0);
  return <><PageHeader kicker="História e conquistas" title="Sala de Troféus">O museu da sua gestão: títulos, premiações e artilheiros que marcaram cada temporada.</PageHeader>
  {!career?<section className="rounded-md border border-border bg-card p-6">Crie ou continue uma carreira para consultar o histórico do clube.</section>:<>
