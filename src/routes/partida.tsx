@@ -665,7 +665,7 @@ function Page() {
           <p><span className="text-muted-foreground">Estádio:</span> {stadium}</p>
           <p><span className="text-muted-foreground">Tempo:</span> {minute < 90 ? "Em andamento" : "Encerrado"}</p>
           <p><span className="text-muted-foreground">Competição:</span> Simulação livre · {career.division}</p>
-          <p><span className="text-muted-foreground">Horário oficial:</span> Não aplicável a esta simulação</p>
+          <p><span className="text-muted-foreground">Horário da partida:</span> {careerFixture ? `${careerFixture.weekday} · ${careerFixture.kickoff} (horário de Brasília)` : "A definir"}</p>
           <p><span className="text-muted-foreground">Esquema:</span> {formation}</p>
           <p><span className="text-muted-foreground">Postura:</span> {tacticalApproach === "defensive" ? "Defensiva" : tacticalApproach === "attacking" ? "Ofensiva" : "Equilibrada"}</p>
           <p><span className="text-muted-foreground">Pressão:</span> {pressure}</p>
