@@ -8,11 +8,31 @@ type Contract = { sponsor: string; years: number; annualValue: number; startedSe
 type Contracts = Partial<Record<Slot, Contract>>;
 const KEY = "ketvfm-sponsor-contracts";
 const SPONSORS = [
-  { name: "Vértice Bank", factor: 1.35, style: "Patrocinador master" },
-  { name: "MaxPower Energy", factor: 1.2, style: "Marca esportiva" },
-  { name: "Nexa Telecom", factor: 1.05, style: "Tecnologia e conectividade" },
-  { name: "PontoCerto", factor: 0.9, style: "Varejo nacional" },
-  { name: "Rota Motors", factor: 0.8, style: "Mobilidade" },
+  { name: "Mercado Livre", factor: 1.5, style: "Comércio eletrônico" },
+  { name: "Shopee", factor: 1.42, style: "Comércio eletrônico" },
+  { name: "Lenovo", factor: 1.38, style: "Tecnologia" },
+  { name: "HP", factor: 1.32, style: "Tecnologia e informática" },
+  { name: "Samsung", factor: 1.4, style: "Tecnologia e eletrônicos" },
+  { name: "Coca-Cola", factor: 1.35, style: "Bebidas" },
+  { name: "Pepsi", factor: 1.2, style: "Bebidas" },
+  { name: "Amazon", factor: 1.45, style: "Comércio e tecnologia" },
+  { name: "Microsoft", factor: 1.48, style: "Tecnologia" },
+  { name: "Google", factor: 1.5, style: "Tecnologia" },
+  { name: "iFood", factor: 1.25, style: "Entrega e serviços" },
+  { name: "Uber", factor: 1.22, style: "Mobilidade" },
+  { name: "Vivo", factor: 1.18, style: "Telecomunicações" },
+  { name: "Claro", factor: 1.16, style: "Telecomunicações" },
+  { name: "TIM", factor: 1.12, style: "Telecomunicações" },
+  { name: "Havan", factor: 1.08, style: "Varejo" },
+  { name: "Localiza", factor: 1.1, style: "Mobilidade" },
+  { name: "BYD", factor: 1.28, style: "Automóveis" },
+  { name: "Volkswagen", factor: 1.3, style: "Automóveis" },
+  { name: "Red Bull", factor: 1.35, style: "Bebidas e esporte" },
+  { name: "Banrisul", factor: 0.95, style: "Serviços financeiros" },
+  { name: "Banpará", factor: 0.82, style: "Serviços financeiros" },
+  { name: "Aurora Coop", factor: 0.9, style: "Alimentos" },
+  { name: "Foxlux", factor: 0.78, style: "Casa e construção" },
+  { name: "Guaraná Poty", factor: 0.76, style: "Bebidas" },
 ];
 const BASE: Record<string, number> = { "Série A": 8000000, "Série B": 3500000, "Série C": 1400000, "Série D": 500000 };
 const money = (v: number) => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
@@ -42,7 +62,7 @@ function Page() {
     setNotice("Contrato assinado! Receita anual adicionada ao planejamento do clube.");
   }
   const slotLabel = (s: Slot) => s === "camisa" ? "Camisa dos jogadores" : "Naming rights e publicidade do estádio";
-  return <><PageHeader kicker="Gestão do clube · Comercial" title="Patrocinadores">Negocie contratos comerciais para o uniforme e para o estádio. Os contratos ficam salvos nesta carreira neste navegador.</PageHeader>
+  return <><PageHeader kicker="Gestão do clube · Comercial" title="Patrocinadores">Negocie com marcas reais contratos para estampar a camisa ou dar nome e publicidade ao estádio. Clubes sem patrocinador master começam com o espaço livre. Os contratos ficam salvos nesta carreira neste navegador.</PageHeader>
     {!career ? <section className="rounded-md border border-border bg-card p-6">Crie ou continue uma carreira para negociar patrocínios.</section> : <>
       <section className="mb-6 grid gap-4 sm:grid-cols-3">
         <div className="rounded-md border border-border bg-card p-5"><p className="text-xs uppercase text-muted-foreground">Clube</p><strong className="mt-2 block text-xl">{career.club}</strong><p className="text-sm text-muted-foreground">{career.division} · Temporada {career.season}</p></div>
@@ -57,7 +77,7 @@ function Page() {
         <label className="text-sm font-semibold">Patrocinador<select value={sponsor} onChange={e=>setSponsor(e.target.value)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3">{SPONSORS.map(s=><option key={s.name} value={s.name}>{s.name} · {s.style}</option>)}</select></label>
         <label className="text-sm font-semibold">Duração do contrato<select value={years} onChange={e=>setYears(Number(e.target.value))} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3"><option value={1}>1 temporada</option><option value={2}>2 temporadas</option><option value={3}>3 temporadas</option></select></label>
         <div className="rounded-md border border-border bg-background p-3"><p className="text-xs uppercase text-muted-foreground">Valor estimado por temporada</p><strong className="mt-1 block text-2xl text-primary">{money(annualValue)}</strong><p className="text-xs text-muted-foreground">Proposta simulada conforme divisão, espaço, marca e duração.</p></div>
-      </div><p className="mt-3 text-xs text-muted-foreground">Os nomes das marcas e valores são fictícios e fazem parte da economia simulada do jogo.</p>{notice && <p role="status" className="mt-3 text-sm font-semibold text-primary">{notice}</p>}<button type="button" onClick={sign} disabled={!!contracts[slot] && contracts[slot]!.expiresSeason >= career.season} className="mt-4 rounded-md bg-primary px-5 py-3 font-bold text-primary-foreground disabled:cursor-not-allowed disabled:opacity-40">Assinar contrato</button></section>
+      </div><p className="mt-3 text-xs text-muted-foreground">Marcas reais disponíveis no mercado do jogo. Os valores oferecidos são estimativas fictícias da simulação e variam conforme divisão, espaço e duração. Casas de apostas não fazem parte do catálogo.</p>{notice && <p role="status" className="mt-3 text-sm font-semibold text-primary">{notice}</p>}<button type="button" onClick={sign} disabled={!!contracts[slot] && contracts[slot]!.expiresSeason >= career.season} className="mt-4 rounded-md bg-primary px-5 py-3 font-bold text-primary-foreground disabled:cursor-not-allowed disabled:opacity-40">Assinar contrato</button></section>
     </>}
   </>;
 }
