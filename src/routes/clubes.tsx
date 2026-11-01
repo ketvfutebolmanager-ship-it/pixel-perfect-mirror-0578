@@ -150,6 +150,12 @@ const FOOTYLOGOS_SLUGS: Record<string, string> = {
   "Velo Clube": "velo-clube",
   "Vitória-ES": "vitoria-es",
   "XV de Piracicaba": "xv-de-piracicaba",
+  "Atlético-BA": "atletico-de-alagoinhas",
+  "Atlético-CE": "atletico-cearense",
+  "Brasil-RS": "brasil-de-pelotas",
+  "Democrata GV": "democrata-gv",
+  "Fluminense-PI": "fluminense-pi",
+  "Operário-MT": "operario-mt",
 };
 function logoSlug(name: string) {
   return FOOTYLOGOS_SLUGS[name] ?? name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
