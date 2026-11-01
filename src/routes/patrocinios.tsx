@@ -42,7 +42,7 @@ function readContracts(storageKey: string): Contracts {
 export const Route = createFileRoute("/patrocinios")({ component: Page, head: () => ({ meta: [{ title: "Patrocinadores — KE TV Futebol Manager" }] }) });
 function Page() {
   const [career] = useState<CareerSave | null>(() => { try { return JSON.parse(localStorage.getItem("ketvfm-career") ?? "null") as CareerSave | null; } catch { return null; } });
-  const storageKey = KEY + ":" + (career?.club ?? "sem-clube").toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
+  const storageKey = KEY + ":" + (career?.club ?? "sem-clube").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
   const [contracts, setContracts] = useState<Contracts>(() => readContracts(storageKey));
   const [slot, setSlot] = useState<Slot>("camisa");
   const [sponsor, setSponsor] = useState(SPONSORS[0]!.name);
