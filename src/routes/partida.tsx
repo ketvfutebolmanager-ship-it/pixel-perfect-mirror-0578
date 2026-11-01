@@ -264,6 +264,12 @@ const STADIUMS: Record<string, string> = {
 };
 
 const FOOTYLOGOS_SLUGS: Record<string, string> = {
+  "Atlético-BA": "atletico-de-alagoinhas",
+  "Atlético-CE": "futebol-clube-atletico-cearense",
+  "Brasil-RS": "brasil-de-pelotas",
+  "Democrata GV": "democrata-gv",
+  "Fluminense-PI": "fluminense-pi",
+  "Operário-MT": "varzea-grande",
   "América Mineiro": "america-mineiro",
   "Athletic Club": "athletic",
   "Atlético Goianiense": "atletico-goianiense",
@@ -383,19 +389,16 @@ function logoSlug(name: string) {
   return FOOTYLOGOS_SLUGS[name] ?? name.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 function Crest({ club }: { club: string }) {
-  const [fallbackSource, setFallbackSource] = useState(false);
-  const [failed, setFailed] = useState(false);
+  const [sourceIndex, setSourceIndex] = useState(0);
   const localFile = CRESTS[club];
   const slug = logoSlug(club);
-  const primarySrc = localFile
-    ? `https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(localFile)}`
-    : `https://www.footylogos.com/dls/logo/rgba-v1/${slug}.png`;
-  const fallbackSrc = `https://www.footylogos.com/dls/logo/${slug}.png`;
-  if (failed) return <span aria-label={`Escudo de ${club} indisponível`} className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-border bg-background text-xs font-black text-primary">{club.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>;
-  return <img src={fallbackSource && !localFile ? fallbackSrc : primarySrc} alt={`Escudo do ${club}`} loading="lazy" onError={() => {
-    if (!localFile && !fallbackSource) setFallbackSource(true);
-    else setFailed(true);
-  }} className="h-12 w-12 shrink-0 object-contain" />;
+  const sources = [
+    ...(localFile ? [`https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(localFile)}`] : []),
+    `https://www.footylogos.com/dls/logo/${slug}.png`,
+    `https://www.footylogos.com/dls/logo/rgba-v1/${slug}.png`,
+  ];
+  if (sourceIndex >= sources.length) return <span aria-label={`Escudo de ${club} indisponível`} className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-border bg-background text-xs font-black text-primary">{club.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>;
+  return <img src={sources[sourceIndex]!} alt={`Escudo do ${club}`} loading="lazy" onError={() => setSourceIndex((current) => current + 1)} className="h-12 w-12 shrink-0 object-contain" />;
 }
 
 function MoraleMeter({ title, value, description }: { title: string; value: number; description: string }) {
