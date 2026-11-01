@@ -587,8 +587,9 @@ function Page() {
         try { trophies = JSON.parse(window.localStorage.getItem(trophyKey) ?? "[]"); } catch { trophies = []; }
         if (!trophies.some((trophy) => trophy.season === career.season && trophy.competition === career.division)) {
           const scorerTotals = new Map<string, { name: string; goals: number }>();
+          const participatingIds = new Set(participatingClubs.map((club) => club.id));
           Object.values(seasonResults).flatMap((match) => match.events).forEach((event) => {
-            if (!event.playerId || !event.playerName) return;
+            if (!participatingIds.has(event.clubId) || !event.playerId || !event.playerName) return;
             const current = scorerTotals.get(event.playerId) ?? { name: event.playerName, goals: 0 };
             current.goals += 1;
             scorerTotals.set(event.playerId, current);
