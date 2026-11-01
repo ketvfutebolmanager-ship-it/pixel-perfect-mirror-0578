@@ -399,6 +399,17 @@ const FOOTYLOGOS_SLUGS: Record<string, string> = {
   "Democrata GV": "democrata-gv",
   "Fluminense-PI": "fluminense-pi",
   "Operário-MT": "operario-mt",
+  "América-RN": "america-de-natal",
+  "Maguary": "associacao-atletica-maguary",
+  "Central": "central-sport-club",
+  "Laguna": "laguna-rn",
+  "ABC": "abc-futebol-clube",
+  "Atlético-CE": "futebol-clube-atletico-cearense",
+  "Operário-MT": "varzea-grande",
+  "Decisão": "decisao-goiana-fc",
+  "Democrata GV": "democrata-gv",
+  "Fluminense-PI": "fluminense-esporte-clube",
+  "GAS": "gremio-atletico-sampaio",
 };
 
 function logoSlug(name: string) {
