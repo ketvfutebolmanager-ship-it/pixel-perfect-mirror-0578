@@ -586,7 +586,15 @@ function Page() {
         let trophies: Array<{ competition: string; season: number; prize: number }> = [];
         try { trophies = JSON.parse(window.localStorage.getItem(trophyKey) ?? "[]"); } catch { trophies = []; }
         if (!trophies.some((trophy) => trophy.season === career.season && trophy.competition === career.division)) {
-          trophies.push({ competition: career.division, season: career.season, prize });
+          const scorerTotals = new Map<string, { name: string; goals: number }>();
+          Object.values(seasonResults).flatMap((match) => match.events).forEach((event) => {
+            if (!event.playerId || !event.playerName) return;
+            const current = scorerTotals.get(event.playerId) ?? { name: event.playerName, goals: 0 };
+            current.goals += 1;
+            scorerTotals.set(event.playerId, current);
+          });
+          const topScorer = [...scorerTotals.values()].sort((a,b) => b.goals-a.goals)[0];
+          trophies.push({ competition: career.division, season: career.season, prize, ...(topScorer ? { topScorer: topScorer.name, goals: topScorer.goals } : {}) });
           window.localStorage.setItem(trophyKey, JSON.stringify(trophies));
           let currentFinance: { balance?: number; ledger?: Array<{ id: string; season: number; round: number; description: string; amount: number }> } = {};
           try { currentFinance = JSON.parse(window.localStorage.getItem("ketvfm-finances:" + clubId) ?? "{}"); } catch { currentFinance = {}; }
