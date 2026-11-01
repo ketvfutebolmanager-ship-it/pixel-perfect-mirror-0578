@@ -396,7 +396,7 @@ const FOOTYLOGOS_SLUGS: Record<string, string> = {
 };
 
 function logoSlug(name: string) {
-  return FOOTYLOGOS_SLUGS[name] ?? name.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return FOOTYLOGOS_SLUGS[name] ?? name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 function Crest({ club }: { club: string }) {
   const [sourceIndex, setSourceIndex] = useState(0);
@@ -404,7 +404,6 @@ function Crest({ club }: { club: string }) {
   const slug = logoSlug(club);
   const sources = [
     ...(localFile ? [`https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(localFile)}`] : []),
-    `https://www.footylogos.com/dls/logo/${slug}.png`,
     `https://www.footylogos.com/dls/logo/rgba-v1/${slug}.png`,
   ];
   if (sourceIndex >= sources.length) return <span aria-label={`Escudo de ${club} indisponível`} className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-border bg-background text-xs font-black text-primary">{club.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>;
