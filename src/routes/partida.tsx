@@ -410,6 +410,30 @@ function Crest({ club }: { club: string }) {
   return <img src={sources[sourceIndex]!} alt={`Escudo do ${club}`} loading="lazy" onError={() => setSourceIndex((current) => current + 1)} className="h-12 w-12 shrink-0 object-contain" />;
 }
 
+type JerseyProps = { club: string; sponsor?: string; compact?: boolean };
+const KIT_COLORS: Record<string, string> = { Flamengo: "#c8102e", Corinthians: "#f2f2f2", Palmeiras: "#087a42", "São Paulo": "#ffffff", Santos: "#ffffff", Grêmio: "#1686c7", Internacional: "#c8102e", Vasco: "#171717", Botafogo: "#171717", Fluminense: "#7a172b", Cruzeiro: "#0756a5", "Atlético Mineiro": "#171717", Bahia: "#0877c9", Vitória: "#c8102e", "Athletico Paranaense": "#c8102e", Coritiba: "#087a42", "América Mineiro": "#087a42", "Vila Nova": "#c8102e", Goiás: "#087a42", Remo: "#0756a5" };
+function Jersey({ club, sponsor, compact = false }: JerseyProps) {
+  const color = KIT_COLORS[club] ?? "#2457a6";
+  const ink = ["#ffffff", "#f2f2f2", "#f5f5f5"].includes(color) ? "#171717" : "#ffffff";
+  const label = sponsor?.trim() || "SEM PATROCÍNIO";
+  const short = label.length > 17 ? label.slice(0, 16) + "…" : label;
+  return <div className={compact ? "flex shrink-0 items-center justify-center" : "flex flex-col items-center gap-1"}>
+    <svg viewBox="0 0 100 110" width={compact ? 34 : 94} height={compact ? 38 : 104} role="img" aria-label={"Camisa de " + club + (sponsor ? " com patrocínio " + sponsor : " sem patrocinador master")}>
+      <path d="M29 9 12 18 3 42l17 8 7-13v62h46V37l7 13 17-8-9-24L71 9 61 4H39z" fill={color} stroke="#d1d5db" strokeWidth="2" strokeLinejoin="round"/>
+      <path d="M39 5q11 15 22 0" fill="none" stroke={ink} strokeWidth="4"/>
+      <path d="M27 18 20 40M73 18l7 22" stroke={ink} strokeWidth="3" opacity=".75"/>
+      <text x="50" y="48" textAnchor="middle" fontSize="8" fontWeight="900" fill={ink}>{club.toUpperCase().slice(0, 11)}</text>
+      <rect x="17" y="55" width="66" height="18" rx="3" fill="#ffffff" opacity=".94"/>
+      <text x="50" y="67" textAnchor="middle" fontSize={short.length > 12 ? "6" : "7"} fontWeight="900" fill="#111827" textLength="60" lengthAdjust="spacingAndGlyphs">{short.toUpperCase()}</text>
+      <text x="50" y="87" textAnchor="middle" fontSize="8" fontWeight="900" fill={ink}>KE TV FM</text>
+    </svg>
+    {!compact && <span className="max-w-28 text-center text-[10px] font-bold uppercase text-muted-foreground">{sponsor || "Espaço master livre"}</span>}
+  </div>;
+}
+function sponsorForClub(club: string, season: number) {
+  const id = club.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
+  try { const data = JSON.parse(window.localStorage.getItem("ketvfm-sponsor-contracts:" + id) ?? "{}") as { camisa?: { sponsor?: string; expiresSeason?: number } }; return data.camisa && (data.camisa.expiresSeason ?? 0) >= season ? data.camisa.sponsor : undefined; } catch { return undefined; }
+}
 function MoraleMeter({ title, value, description }: { title: string; value: number; description: string }) {
   const status = value >= 80 ? "Muito boa" : value >= 65 ? "Boa" : value >= 45 ? "Em observação" : value >= 25 ? "Sob pressão" : "Crítica";
   const color = value >= 65 ? "bg-emerald-500" : value >= 45 ? "bg-amber-500" : "bg-red-500";
@@ -630,6 +654,7 @@ function Page() {
         <div><p className="text-xs font-bold uppercase tracking-widest text-primary">{withSubstitutions ? "Intervalo · ajustes do treinador" : "Pré-jogo · escalação"}</p><h2 className="mt-1 font-display text-2xl font-black uppercase">Campo tático · {formation}</h2><p className="mt-1 text-sm text-muted-foreground">Escolha a formação e defina quem joga em cada posição antes de entrar em campo.</p></div>
         <label className="text-sm font-semibold">Esquema tático<select value={formation} onChange={e => setFormation(e.target.value as Formation)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-2"><option>4-4-2</option><option>4-3-3</option><option>3-5-2</option><option>4-2-3-1</option><option>3-3-4</option><option>5-3-2</option><option>4-5-1</option><option>3-1-4-2</option><option>4-2-4</option><option>4-3-2-1</option><option>3-4-3</option><option>5-4-1</option><option>4-1-4-1</option></select></label>
       </div>
+      <div className="mt-4 flex flex-wrap items-center gap-4 rounded-lg border border-border bg-background p-3"><Jersey club={career?.club ?? "Seu clube"} sponsor={career ? sponsorForClub(career.club, career.season) : undefined} /><div className="min-w-0 flex-1"><p className="text-xs font-black uppercase tracking-widest text-primary">Uniforme do clube</p><p className="mt-1 text-sm font-semibold">{sponsorForClub(career?.club ?? "", career?.season ?? 2026) || "Patrocínio master não contratado"}</p><p className="mt-1 text-xs text-muted-foreground">O patrocinador contratado na área Comercial aparece estampado no peito da camisa durante a escalação.</p></div></div>
       <div className="mt-4 rounded-xl border-2 border-emerald-700 bg-emerald-950 p-3 sm:p-5">
         <div className="rounded-lg border border-emerald-600/70 bg-emerald-900/30 p-3">
           <div className="mb-3 flex justify-between text-[10px] font-bold uppercase tracking-widest text-emerald-100"><span>{career?.club}</span><span>Seu time</span></div>
@@ -641,6 +666,7 @@ function Page() {
                 const choices = availableSubstitutionPlayers.filter(player => positionMatches(role, player.position));
                 const current = availableSubstitutionPlayers.find(player => player.id === currentId);
                 return <label key={slot} className="flex w-[145px] flex-col items-center rounded-md border border-emerald-500/60 bg-emerald-800/90 p-2 text-center">
+                  <Jersey compact club={career?.club ?? "Clube"} sponsor={career ? sponsorForClub(career.club, career.season) : undefined} />
                   <span className="text-[10px] font-black text-emerald-100">{role}</span>
                   <select aria-label={"Jogador na posição " + role} value={currentId} onChange={e => setLineupSelections(old => ({...old,[slot]:e.target.value}))} className="mt-1 w-full rounded border border-emerald-600 bg-emerald-950 px-1 py-2 text-center text-[11px] font-bold text-white">
                     <option value="">Escolher atleta</option>
