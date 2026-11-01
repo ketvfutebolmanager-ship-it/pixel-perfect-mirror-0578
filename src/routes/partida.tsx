@@ -12,12 +12,22 @@ export const Route = createFileRoute("/partida")({
 });
 
 type MatchSpeed = "slow" | "medium" | "fast";
-type Formation = "4-4-2" | "4-3-3" | "3-5-2" | "4-2-3-1";
+type Formation = "4-4-2" | "4-3-3" | "3-5-2" | "4-2-3-1" | "3-3-4" | "5-3-2" | "4-5-1" | "3-1-4-2" | "4-2-4" | "4-3-2-1" | "3-4-3" | "5-4-1" | "4-1-4-1";
 function formationRows(formation: Formation): string[][] {
-  if (formation === "4-4-2") return [["GOL"], ["LAT", "ZAG", "ZAG", "LAT"], ["MEI", "VOL", "VOL", "MEI"], ["ATA", "ATA"]];
+  const backFour = ["LAT", "ZAG", "ZAG", "LAT"];
+  if (formation === "4-4-2") return [["GOL"], backFour, ["MEI", "VOL", "VOL", "MEI"], ["ATA", "ATA"]];
   if (formation === "3-5-2") return [["GOL"], ["ZAG", "ZAG", "ZAG"], ["LAT", "VOL", "MEI", "VOL", "LAT"], ["ATA", "ATA"]];
-  if (formation === "4-2-3-1") return [["GOL"], ["LAT", "ZAG", "ZAG", "LAT"], ["VOL", "VOL"], ["MEI", "MEI", "MEI"], ["ATA"]];
-  return [["GOL"], ["LAT", "ZAG", "ZAG", "LAT"], ["VOL", "MEI", "MEI"], ["ATA", "ATA", "ATA"]];
+  if (formation === "4-2-3-1") return [["GOL"], backFour, ["VOL", "VOL"], ["MEI", "MEI", "MEI"], ["ATA"]];
+  if (formation === "3-3-4") return [["GOL"], ["ZAG", "ZAG", "ZAG"], ["VOL", "MEI", "VOL"], ["ATA", "ATA", "ATA", "ATA"]];
+  if (formation === "5-3-2") return [["GOL"], ["LAT", "ZAG", "ZAG", "ZAG", "LAT"], ["VOL", "MEI", "VOL"], ["ATA", "ATA"]];
+  if (formation === "4-5-1") return [["GOL"], backFour, ["VOL", "MEI", "VOL", "MEI", "VOL"], ["ATA"]];
+  if (formation === "3-1-4-2") return [["GOL"], ["ZAG", "ZAG", "ZAG"], ["VOL"], ["LAT", "MEI", "MEI", "LAT"], ["ATA", "ATA"]];
+  if (formation === "4-2-4") return [["GOL"], backFour, ["VOL", "VOL"], ["ATA", "MEI", "MEI", "ATA"]];
+  if (formation === "4-3-2-1") return [["GOL"], backFour, ["VOL", "MEI", "VOL"], ["MEI", "MEI"], ["ATA"]];
+  if (formation === "3-4-3") return [["GOL"], ["ZAG", "ZAG", "ZAG"], ["LAT", "VOL", "VOL", "LAT"], ["ATA", "ATA", "ATA"]];
+  if (formation === "5-4-1") return [["GOL"], ["LAT", "ZAG", "ZAG", "ZAG", "LAT"], ["VOL", "MEI", "MEI", "VOL"], ["ATA"]];
+  if (formation === "4-1-4-1") return [["GOL"], backFour, ["VOL"], ["MEI", "MEI", "MEI", "MEI"], ["ATA"]];
+  return [["GOL"], backFour, ["VOL", "MEI", "MEI"], ["ATA", "ATA", "ATA"]];
 }
 type PlayerMorale = Record<string, number>;
 const PLAYER_MORALE_KEY = "ketvfm-player-morale";
@@ -554,7 +564,7 @@ function Page() {
     return <section className="mt-5 rounded-xl border-2 border-primary bg-card p-5">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div><p className="text-xs font-bold uppercase tracking-widest text-primary">{withSubstitutions ? "Intervalo · ajustes do treinador" : "Pré-jogo · escalação"}</p><h2 className="mt-1 font-display text-2xl font-black uppercase">Campo tático · {formation}</h2><p className="mt-1 text-sm text-muted-foreground">Escolha a formação e defina quem joga em cada posição antes de entrar em campo.</p></div>
-        <label className="text-sm font-semibold">Esquema tático<select value={formation} onChange={e => setFormation(e.target.value as Formation)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-2"><option>4-4-2</option><option>4-3-3</option><option>3-5-2</option><option>4-2-3-1</option></select></label>
+        <label className="text-sm font-semibold">Esquema tático<select value={formation} onChange={e => setFormation(e.target.value as Formation)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-2"><option>4-4-2</option><option>4-3-3</option><option>3-5-2</option><option>4-2-3-1</option><option>3-3-4</option><option>5-3-2</option><option>4-5-1</option><option>3-1-4-2</option><option>4-2-4</option><option>4-3-2-1</option><option>3-4-3</option><option>5-4-1</option><option>4-1-4-1</option></select></label>
       </div>
       <div className="mt-4 rounded-xl border-2 border-emerald-700 bg-emerald-950 p-3 sm:p-5">
         <div className="rounded-lg border border-emerald-600/70 bg-emerald-900/30 p-3">
