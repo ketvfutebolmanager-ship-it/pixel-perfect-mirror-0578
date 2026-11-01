@@ -579,6 +579,7 @@ function Page() {
         else { home.points += 1; away.points += 1; }
       });
       const champion = [...table.entries()].sort((a,b) => b[1].points-a[1].points || (b[1].goalsFor-b[1].goalsAgainst)-(a[1].goalsFor-a[1].goalsAgainst) || b[1].goalsFor-a[1].goalsFor)[0];
+      const clubId = career.club.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
       if (champion?.[0] === clubId) {
         const prizeByDivision: Record<string, number> = { "Série A": 30000000, "Série B": 12000000, "Série C": 5000000, "Série D": 2000000 };
         const prize = prizeByDivision[career.division] ?? 1000000;
@@ -632,7 +633,7 @@ function Page() {
       </div>
       <div className="mt-4 rounded-xl border-2 border-emerald-700 bg-emerald-950 p-3 sm:p-5">
         <div className="rounded-lg border border-emerald-600/70 bg-emerald-900/30 p-3">
-          <div className="mb-3 flex justify-between text-[10px] font-bold uppercase tracking-widest text-emerald-100"><span>{career.club}</span><span>Seu time</span></div>
+          <div className="mb-3 flex justify-between text-[10px] font-bold uppercase tracking-widest text-emerald-100"><span>{career?.club}</span><span>Seu time</span></div>
           <div className="space-y-3">
             {tacticalRows.map((row,rowIndex) => <div key={rowIndex} className="flex flex-wrap justify-center gap-2 sm:gap-4">
               {row.map((role,index) => {
@@ -806,7 +807,7 @@ function Page() {
         {!careerFixture && <p className="mt-4 text-sm text-muted-foreground">Seu clube não tem jogo nesta rodada.</p>}
       </div>
 
-      {halftime && result && <>{renderTacticalBoard(true)}<section className="mt-4"><button onClick={() => { if (!result) return; const selectedPlayers = Object.values(lineupSelections).filter(Boolean).map(id => availableSubstitutionPlayers.find(player => player.id === id)).filter((player): player is typeof availableSubstitutionPlayers[number] => Boolean(player)).map(({id,name}) => ({id,name})); const adjustedHome = { ...result.home, approach: tacticalApproach, players: selectedPlayers.length ? selectedPlayers : result.home.players }; const secondHalf = simulateMatch(adjustedHome, result.away, Math.random, 46, 90); setResult(current => current ? ({ ...current, home: adjustedHome, homeGoals: current.homeGoals + secondHalf.homeGoals, awayGoals: current.awayGoals + secondHalf.awayGoals, events: [...current.events, ...secondHalf.events] }) : current); setHalftime(false); setPlaying(true); }} className="rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground">Começar segundo tempo</button></section></>}
+      {halftime && result && <>{renderTacticalBoard(true)}<section className="mt-4"><button onClick={() => { if (!result) return; const selectedPlayers = Object.values(lineupSelections).filter(Boolean).map(id => availableSubstitutionPlayers.find(player => player.id === id)).filter((player): player is typeof availableSubstitutionPlayers[number] => Boolean(player)).map(({id,name}) => ({id,name})); const adjustedHome = { ...result.home, approach: tacticalApproach, players: selectedPlayers.length ? selectedPlayers : (result.home.players ?? []) }; const secondHalf = simulateMatch(adjustedHome, result.away, Math.random, 46, 90); setResult(current => current ? ({ ...current, home: adjustedHome, homeGoals: current.homeGoals + secondHalf.homeGoals, awayGoals: current.awayGoals + secondHalf.awayGoals, events: [...current.events, ...secondHalf.events] }) : current); setHalftime(false); setPlaying(true); }} className="rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground">Começar segundo tempo</button></section></>}
 
       {result && <section className="mt-4 rounded-md border border-border bg-card p-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
