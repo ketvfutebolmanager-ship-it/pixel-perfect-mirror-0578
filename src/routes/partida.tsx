@@ -552,6 +552,11 @@ function Page() {
     }
   }, [career?.club, careerFixture?.home.id, result]);
   const [speed, setSpeed] = useState<MatchSpeed>("medium");
+  const [difficulty, setDifficulty] = useState<"easy" | "medium" | "hard">(() => {
+    const saved = window.localStorage.getItem("ketvfm-difficulty");
+    return saved === "easy" || saved === "hard" ? saved : "medium";
+  });
+  useEffect(() => { window.localStorage.setItem("ketvfm-difficulty", difficulty); }, [difficulty]);
   const [ticketPrice, setTicketPrice] = useState(() => {
     const saved = Number(window.localStorage.getItem("ketvfm-ticket-price"));
     return Number.isFinite(saved) && saved > 0 ? saved : 50;
@@ -793,7 +798,8 @@ function Page() {
         </div>
       </div>
       <p className="mt-2 text-xs text-muted-foreground">A base de elencos é parcial. Se não houver atleta compatível com uma posição, ela ficará sem escalação até o cadastro do jogador.</p>
-      <div className="mt-4 grid gap-4 sm:grid-cols-2">
+      <div className="mt-4 grid gap-4 sm:grid-cols-3">
+        <label className="text-sm font-semibold">Dificuldade do jogo<select value={difficulty} onChange={e => setDifficulty(e.target.value as typeof difficulty)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3"><option value="easy">Fácil</option><option value="medium">Médio</option><option value="hard">Difícil</option></select><span className="mt-1 block text-xs font-normal text-muted-foreground">{difficulty === "easy" ? "Adversário menos forte." : difficulty === "hard" ? "Adversário mais forte e desafio maior." : "Forças equilibradas."}</span></label>
         <label className="text-sm font-semibold">Postura<select value={tacticalApproach} onChange={e => setTacticalApproach(e.target.value as typeof tacticalApproach)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3"><option value="defensive">Defensiva</option><option value="balanced">Equilibrada</option><option value="attacking">Ofensiva</option></select></label>
         <label className="text-sm font-semibold">Pressão<select value={pressure} onChange={e => setPressure(e.target.value as Pressure)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3"><option>Baixa</option><option>Média</option><option>Alta</option></select></label>
       </div>
@@ -835,7 +841,9 @@ function Page() {
     const rival: MatchTeam = {
       id: fixtureOpponent.id,
       name: fixtureOpponent.name,
-      attack: 70, midfield: 70, defense: 70,
+      attack: difficulty === "easy" ? 58 : difficulty === "hard" ? 82 : 70,
+      midfield: difficulty === "easy" ? 58 : difficulty === "hard" ? 82 : 70,
+      defense: difficulty === "easy" ? 58 : difficulty === "hard" ? 82 : 70,
       players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixtureOpponent.id).map(({ id, name }) => ({ id, name })),
     };
     const selectedPlayers = Object.values(lineupSelections).filter(Boolean).map(id => availableSubstitutionPlayers.find(player => player.id === id)).filter((player): player is typeof availableSubstitutionPlayers[number] => Boolean(player)).map(({id,name}) => ({id,name}));
