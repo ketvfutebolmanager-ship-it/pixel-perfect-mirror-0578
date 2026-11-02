@@ -424,11 +424,17 @@ function Jersey({ club, sponsor, compact = false, kit = "home" }: JerseyProps) {
   const short = label.length > 17 ? label.slice(0, 16) + "…" : label;
   const filename = KIT_IMAGE_FILES[club];
   const folder = kit === "home" ? "camisas" : kit === "away" ? "camisas/camisas2" : "camisas3";
-  const imageSrc = filename ? `/uniformes/2023/${folder}/${filename}` : undefined;
-  const [failedImage, setFailedImage] = useState<string | undefined>(undefined);
-  const showHistoricalImage = !!imageSrc && failedImage !== imageSrc;
+  const imageCandidates = filename
+    ? [
+        `/uniformes/2023/${folder}/${filename}`,
+        ...(kit === "away" ? [`/uniformes/2023/camisas2/${filename}`] : []),
+      ]
+    : [];
+  const [imageAttempt, setImageAttempt] = useState(0);
+  const imageSrc = imageCandidates[imageAttempt];
+  const showHistoricalImage = !!imageSrc;
   return <div className={compact ? "flex shrink-0 items-center justify-center" : "flex flex-col items-center gap-1"}>
-    {showHistoricalImage ? <img src={imageSrc} alt={`Uniforme histórico de 2023 de ${club}`} width={compact ? 34 : 94} height={compact ? 38 : 104} loading="lazy" onError={() => setFailedImage(imageSrc)} className={compact ? "h-[38px] w-[34px] shrink-0 object-contain" : "h-[104px] w-[94px] object-contain"} /> : <svg viewBox="0 0 100 110" width={compact ? 34 : 94} height={compact ? 38 : 104} role="img" aria-label={"Camisa ilustrativa de " + club + (sponsor ? " com patrocínio " + sponsor : " sem patrocinador master")}>
+    {showHistoricalImage ? <img src={imageSrc} alt={`Uniforme histórico de 2023 de ${club}`} width={compact ? 34 : 94} height={compact ? 38 : 104} loading="lazy" onError={() => setImageAttempt((current) => current + 1)} className={compact ? "h-[38px] w-[34px] shrink-0 object-contain" : "h-[104px] w-[94px] object-contain"} /> : <svg viewBox="0 0 100 110" width={compact ? 34 : 94} height={compact ? 38 : 104} role="img" aria-label={"Camisa ilustrativa de " + club + (sponsor ? " com patrocínio " + sponsor : " sem patrocinador master")}>
       <path d="M29 9 12 18 3 42l17 8 7-13v62h46V37l7 13 17-8-9-24L71 9 61 4H39z" fill={color} stroke="#d1d5db" strokeWidth="2" strokeLinejoin="round"/>
       <path d="M39 5q11 15 22 0" fill="none" stroke={ink} strokeWidth="4"/>
       <path d="M27 18 20 40M73 18l7 22" stroke={ink} strokeWidth="3" opacity=".75"/>
