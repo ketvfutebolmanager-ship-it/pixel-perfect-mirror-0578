@@ -11,12 +11,19 @@ const FOOTYLOGOS_SLUGS: Record<string, string> = {
   "América Mineiro":"america-mineiro","Athletic Club":"athletic","Atlético Goianiense":"atletico-goianiense","Avaí":"avai-fc","Botafogo de Ribeirão Preto":"botafogo-sp","Ceará":"ceara-sc","CRB":"crb","Criciúma":"criciuma","Novorizontino":"gremio-novorizontino","Operário Ferroviário":"operario-ferroviario","Botafogo da Paraíba":"botafogo-pb","Ferroviária":"ferroviaria","Inter de Limeira":"inter-de-limeira","Maranhão":"maranhao","Paysandu":"paysandu","Volta Redonda":"volta-redonda","Ypiranga":"ypiranga",
   "ABC":"abc-fc","ABECAT":"abecat-ouvidorense","Água Santa":"agua-santa","Águia de Marabá":"aguia-de-maraba","Altos":"altos","America-RJ":"america-rj","América-RN":"america-rn","Aparecidense":"aparecidense","Araguaína":"araguaina","ASA":"asa-al","Atlético-BA":"atletico-de-alagoinhas","Atlético-CE":"futebol-clube-atletico-cearense","Azuriz":"azuriz","Betim":"betim","Blumenau":"blumenau","Brasil-RS":"brasil-de-pelotas","Brasiliense":"brasiliense","Capital":"capital-cf","Ceilândia":"ceilandia","Central":"central-sport-club","Cianorte":"cianorte","CRAC":"crac","CSA":"csa","CSE":"cse","Decisão":"decisao","Democrata GV":"democrata-gv","FC Cascavel":"fc-cascavel","Ferroviário":"ferroviario-ce","Fluminense-PI":"fluminense-pi","Galvez":"galvez","Gama":"gama","GAS":"gremio-atletico-sampaio","Goiatuba":"goiatuba","Guaporé":"guapore","Guarany de Bagé":"guarany-de-bage","Humaitá":"humaita-ac","IAPE":"iape","Iguatu":"iguatu","Imperatriz":"imperatriz","Ivinhema":"ivinhema","Independência":"independencia-ac","Inhumas":"inhumas","Jacuipense":"jacuipense","Joinville":"joinville","Juazeirense":"juazeirense","Lagarto":"lagarto","Laguna":"laguna","Luverdense":"luverdense","Madureira":"madureira","Maguary":"maguary-pe","Manaus":"manaus","Manauara":"manauara","Marcílio Dias":"marcilio-dias","Maracanã":"maracana","Maricá":"marica","Mixto":"mixto","Monte Roraima":"monte-roraima","Moto Club":"moto-club-sao-luis","Nacional-AM":"nacional-am","Noroeste":"noroeste","Nova Iguaçu":"nova-iguacu","Operário-MS":"operario-ms","Operário-MT":"varzea-grande","Oratório":"oratorio","Parnahyba":"parnahyba","Piauí":"piaui","Porto":"porto-ba","Porto Velho":"porto-velho","Portuguesa":"portuguesa-sp","Portuguesa-RJ":"portuguesa-rj","Pouso Alegre":"pouso-alegre","Primavera":"primavera","Real Noroeste":"real-noroeste","Retrô":"retro","Rio Branco-ES":"rio-branco-es","Sampaio Corrêa-MA":"sampaio-correa-ma","Sampaio Corrêa-RJ":"sampaio-correa-rj","Santa Catarina":"santa-catarina","São José-RS":"sao-jose-rs","São Joseense":"sao-joseense","São Luiz":"sao-luiz","São Raimundo-RR":"sao-raimundo-rr","Serra Branca":"serra-branca","Sergipe":"sergipe","Sousa":"sousa","Tirol":"tirol","Tocantinópolis":"tocantinopolis","Tombense":"tombense","Treze":"treze","Trem":"trem","Tuna Luso":"tuna-luso","Uberlândia":"uberlandia","União Rondonópolis":"uniao-rondonopolis","Velo Clube":"velo-clube","Vitória-ES":"vitoria-es","XV de Piracicaba":"xv-de-piracicaba"
 };
-function crestUrl(name: string) {
-  const file = CREST_FILES[name];
-  if (file) return `https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(file)}`;
-  const slug = FOOTYLOGOS_SLUGS[name] ?? name.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-  return `https://www.footylogos.com/dls/logo/${slug}.png`;
+function logoSlug(name: string) {
+  return FOOTYLOGOS_SLUGS[name] ?? name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
+function crestSources(name: string) {
+  const file = CREST_FILES[name];
+  const slug = logoSlug(name);
+  return [
+    ...(file ? [`https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(file)}`] : []),
+    `https://www.footylogos.com/dls/logo/${slug}.png`,
+    `https://www.footylogos.com/dls/logo/rgba-v1/${slug}.png`,
+  ];
+}
+
 export const Route = createFileRoute("/classificacao")({
   head: () => ({
     meta: [
@@ -34,26 +41,30 @@ type ClubStanding = { played: number; wins: number; draws: number; losses: numbe
 function readStandings(division: BrazilianDivision, season: number, groupName?: string): Map<string, ClubStanding> {
   const prefix = "ketvfm-season-results:" + division + ":" + season + ":";
   const standings = new Map<string, ClubStanding>();
-  getClubsByDivision(division)
-    .filter((club) => !groupName || club.group === groupName)
+  getClubsByDivision(division).filter((club) => !groupName || club.group === groupName)
     .forEach((club) => standings.set(club.id, { played: 0, wins: 0, draws: 0, losses: 0, goalsFor: 0, goalsAgainst: 0, points: 0 }));
-  for (let index = 0; index < window.localStorage.length; index += 1) {
-    const key = window.localStorage.key(index);
-    if (!key?.startsWith(prefix) || (groupName && !key.endsWith(":" + groupName)) || (!groupName && division === "Série D")) continue;
-    let results: Record<string, MatchResult> = {};
-    try { results = JSON.parse(window.localStorage.getItem(key) ?? "{}"); } catch { results = {}; }
-    Object.values(results).forEach((match) => {
-      const home = standings.get(match.home.id);
-      const away = standings.get(match.away.id);
-      if (!home || !away) return;
-      home.played += 1; away.played += 1;
-      home.goalsFor += match.homeGoals; home.goalsAgainst += match.awayGoals;
-      away.goalsFor += match.awayGoals; away.goalsAgainst += match.homeGoals;
-      if (match.homeGoals > match.awayGoals) { home.wins += 1; home.points += 3; away.losses += 1; }
-      else if (match.awayGoals > match.homeGoals) { away.wins += 1; away.points += 3; home.losses += 1; }
-      else { home.draws += 1; away.draws += 1; home.points += 1; away.points += 1; }
-    });
-  }
+  try {
+    for (let index = 0; index < window.localStorage.length; index += 1) {
+      const key = window.localStorage.key(index);
+      if (!key?.startsWith(prefix) || (groupName && !key.endsWith(":" + groupName)) || (!groupName && division === "Série D")) continue;
+      let results: unknown;
+      try { results = JSON.parse(window.localStorage.getItem(key) ?? "{}"); } catch { continue; }
+      if (!results || typeof results !== "object" || Array.isArray(results)) continue;
+      Object.values(results as Record<string, unknown>).forEach((raw) => {
+        if (!raw || typeof raw !== "object") return;
+        const match = raw as Partial<MatchResult>;
+        if (!match.home?.id || !match.away?.id || !Number.isFinite(match.homeGoals) || !Number.isFinite(match.awayGoals)) return;
+        const home = standings.get(match.home.id), away = standings.get(match.away.id);
+        if (!home || !away) return;
+        home.played += 1; away.played += 1;
+        home.goalsFor += match.homeGoals!; home.goalsAgainst += match.awayGoals!;
+        away.goalsFor += match.awayGoals!; away.goalsAgainst += match.homeGoals!;
+        if (match.homeGoals! > match.awayGoals!) { home.wins += 1; home.points += 3; away.losses += 1; }
+        else if (match.awayGoals! > match.homeGoals!) { away.wins += 1; away.points += 3; home.losses += 1; }
+        else { home.draws += 1; away.draws += 1; home.points += 1; away.points += 1; }
+      });
+    }
+  } catch { /* A tabela inicial continua disponível mesmo sem acesso ao armazenamento local. */ }
   return standings;
 }
 
@@ -100,7 +111,7 @@ function Page() {
         const groupClubs = group ? clubs.filter((club) => club.group === group) : clubs;
         const stats = readStandings(division, 2026, group);
         const orderedClubs = [...groupClubs].sort((a, b) => {
-          const x = stats.get(a.id)!; const y = stats.get(b.id)!;
+          const empty = { played: 0, wins: 0, draws: 0, losses: 0, goalsFor: 0, goalsAgainst: 0, points: 0 }; const x = stats.get(a.id) ?? empty; const y = stats.get(b.id) ?? empty;
           return y.points - x.points || (y.goalsFor - y.goalsAgainst) - (x.goalsFor - x.goalsAgainst) || y.goalsFor - x.goalsFor || y.wins - x.wins || a.name.localeCompare(b.name, "pt-BR");
         });
         return (
@@ -119,17 +130,18 @@ function Page() {
                 </thead>
                 <tbody>
                   {orderedClubs.map((club, index) => {
-                    const row = stats.get(club.id)!;
+                    const row = stats.get(club.id) ?? { played: 0, wins: 0, draws: 0, losses: 0, goalsFor: 0, goalsAgainst: 0, points: 0 };
                     const highlighted = division === "Série A" ? index >= orderedClubs.length - 4 : division !== "Série D" && (index < 4 || index >= orderedClubs.length - 4);
                     return <tr key={club.id} className={`border-t border-border/70 transition-colors hover:bg-primary/5 ${highlighted ? (division === "Série A" || index >= orderedClubs.length - 4 ? "bg-red-500/10" : "bg-emerald-500/10") : ""}`}>
                       <td className="px-3 py-3 text-center font-bold tabular-nums text-muted-foreground">{index + 1}</td>
                       <td className="px-3 py-3"><div className="flex items-center gap-3">
-                        <img src={crestUrl(club.name)} alt={`Escudo do ${club.name}`} loading="lazy" onError={(event) => {
+                        <img src={crestSources(club.name)[0]} data-source-index="0" alt={`Escudo do ${club.name}`} loading="lazy" onError={(event) => {
                           const image = event.currentTarget;
-                          if (image.dataset.retry !== "1") {
-                            image.dataset.retry = "1";
-                            const slug = FOOTYLOGOS_SLUGS[club.name] ?? club.name.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-                            image.src = `https://www.footylogos.com/dls/logo/rgba-v1/${slug}.png`;
+                          const sources = crestSources(club.name);
+                          const next = Number(image.dataset.sourceIndex ?? "0") + 1;
+                          if (next < sources.length) {
+                            image.dataset.sourceIndex = String(next);
+                            image.src = sources[next];
                             return;
                           }
                           image.style.display = "none";
