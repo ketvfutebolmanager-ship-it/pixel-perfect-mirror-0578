@@ -644,10 +644,11 @@ function Page() {
     const careerRoundResults = Object.fromEntries(
       allDivisionRoundFixtures
         .filter((fixture) => fixture.division === career.division && (fixture.groupName ?? undefined) === group)
-        .map((fixture) => {
+        .flatMap((fixture) => {
           const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id;
-          return [key, completedRoundResults[key]].filter((entry) => entry[1]) as [string, MatchResult][];
-        }).flat()
+          const match = completedRoundResults[key];
+          return match ? [[key, match] as [string, MatchResult]] : [];
+        })
     );
     const seasonResults = { ...previousResults, ...careerRoundResults };
     if (currentRound === totalRounds) {
