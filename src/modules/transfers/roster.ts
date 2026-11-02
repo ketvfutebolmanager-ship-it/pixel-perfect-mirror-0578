@@ -13,7 +13,7 @@ export function readPlayerContracts(): PlayerContract[] {
   }
 }
 
-/** Applies active contracts to the verified player list without inventing profiles. */
+/** Applies active contracts to verified players; unknown profiles are never fabricated. */
 export function getDivisionRoster(
   division: PlayerRecord["division"],
   verifiedPlayers: PlayerRecord[],
@@ -21,24 +21,24 @@ export function getDivisionRoster(
 ): PlayerRecord[] {
   const activeContracts = contracts.filter((contract) => contract.status === "active");
   const playersById = new Map(verifiedPlayers.map((player) => [player.id, player]));
-  const activeByPlayer = new Map(activeContracts.map((contract) => [contract.playerId, contract]));
+  const contractByPlayer = new Map(activeContracts.map((contract) => [contract.playerId, contract]));
 
-  return verifiedPlayers
-    .filter((player) => player.division === division)
-    .flatMap((player) => {
-      const contract = activeByPlayer.get(player.id);
-      if (!contract) return [player];
-      if (contract.clubId === player.clubId) return [player];
-      return [{
-        ...player,
-        clubId: contract.clubId,
-        clubName: contract.clubName,
-      }];
-    })
-    .filter((player) => player.division === division)
-    .filter((player) => {
-      const original = playersById.get(player.id);
-      const contract = activeByPlayer.get(player.id);
-      return !contract || !original || contract.clubId === player.clubId;
-    });
+  const originalPlayers = verifiedPlayers.filter((player) => {
+    if (player.division !== division) return false;
+    const contract = contractByPlayer.get(player.id);
+    return !contract || contract.clubId === player.clubId;
+  });
+
+  const signedPlayers = activeContracts.flatMap((contract) => {
+    const original = playersById.get(contract.playerId);
+    if (!original || contract.clubId === original.clubId || (contract.division ?? original.division) !== division) return [];
+    return [{
+      ...original,
+      clubId: contract.clubId,
+      clubName: contract.clubName,
+      division: contract.division ?? original.division,
+    }];
+  });
+
+  return [...originalPlayers, ...signedPlayers];
 }
