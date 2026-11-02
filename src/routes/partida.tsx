@@ -622,11 +622,34 @@ function Page() {
         if (!completedRoundResults[key]) completedRoundResults[key] = simulateMatch(homeTeam, awayTeam);
       });
     if (careerFixture) completedRoundResults[careerMatchKey] = result;
+    // Persiste os placares por divisão e grupo, não apenas na divisão do treinador.
+    const resultsByCompetition = new Map<string, Record<string, MatchResult>>();
+    allDivisionRoundFixtures.forEach((fixture) => {
+      const matchKey = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id;
+      const match = completedRoundResults[matchKey];
+      if (!match) return;
+      const competitionKey = "ketvfm-season-results:" + fixture.division + ":" + career.season + ":" + (fixture.groupName ?? "geral");
+      const bucket = resultsByCompetition.get(competitionKey) ?? {};
+      bucket[matchKey] = match;
+      resultsByCompetition.set(competitionKey, bucket);
+    });
+    resultsByCompetition.forEach((roundMatches, competitionKey) => {
+      let previous: Record<string, MatchResult> = {};
+      try { previous = JSON.parse(window.localStorage.getItem(competitionKey) ?? "{}"); } catch { previous = {}; }
+      window.localStorage.setItem(competitionKey, JSON.stringify({ ...previous, ...roundMatches }));
+    });
     const seasonKey = "ketvfm-season-results:" + career.division + ":" + career.season + ":" + (group ?? "geral");
     let previousResults: Record<string, MatchResult> = {};
     try { previousResults = JSON.parse(window.localStorage.getItem(seasonKey) ?? "{}"); } catch { previousResults = {}; }
-    const seasonResults = { ...previousResults, ...completedRoundResults };
-    window.localStorage.setItem(seasonKey, JSON.stringify(seasonResults));
+    const careerRoundResults = Object.fromEntries(
+      allDivisionRoundFixtures
+        .filter((fixture) => fixture.division === career.division && (fixture.groupName ?? undefined) === group)
+        .map((fixture) => {
+          const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id;
+          return [key, completedRoundResults[key]].filter((entry) => entry[1]) as [string, MatchResult][];
+        }).flat()
+    );
+    const seasonResults = { ...previousResults, ...careerRoundResults };
     if (currentRound === totalRounds) {
       const table = new Map<string, { name: string; points: number; goalsFor: number; goalsAgainst: number }>();
       participatingClubs.forEach((club) => table.set(club.id, { name: club.name, points: 0, goalsFor: 0, goalsAgainst: 0 }));
@@ -825,7 +848,7 @@ function Page() {
         {visibleEvents.length ? <ol className="mt-3 space-y-2">{visibleEvents.map((event, index) => <li key={`${event.minute}-${index}`} className="flex flex-wrap justify-between gap-2 rounded bg-card px-3 py-2 text-sm"><span>⚽ {event.clubName} · <strong>{event.playerName ? `Gol de ${event.playerName}` : "Autor ainda não cadastrado para este clube"}</strong></span><strong>{event.minute}'</strong></li>)}</ol> : <p className="mt-3 text-sm text-muted-foreground">{minute === 90 ? "Nenhum gol nesta partida." : "A partida está rolando. Os lances aparecerão aqui conforme o relógio avançar."}</p>}
         <p className="mt-3 text-xs text-amber-600">Os autores dos gols dependem do cadastro de elencos reais. O jogo não atribui gols a nomes inventados.</p>
         <p className="mt-5 text-sm text-muted-foreground">Partidas disputadas nesta carreira: {career.played}. A simulação ainda não altera a classificação oficial.</p>
-        {minute === 90 && <button onClick={resetMatch} className="mt-4 rounded-md border border-border px-4 py-2 text-sm font-semibold hover:border-primary">Preparar nova partida</button>}
+        {minute === 90 && <button onClick={resetMatch} className="mt-4 rounded-md border border-border px-4 py-2 text-sm font-semibold hover:border-primary">Próxima partida</button>}
       </section>}
       {result && <section className="mt-4 rounded-md border border-primary/60 bg-card p-5">
         <p className="text-xs font-bold uppercase tracking-widest text-primary">Comando tático</p>
