@@ -3284,6 +3284,250 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     id: "rene-vitoria-ata-vitoria", name: "Renê", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ATA", shirtNumber: 91,
     source: "Bússola do Futebol — elenco Vitória 2026, conferido em 31/10/2026", verifiedAt: "2026-10-31"
   },
+  {
+    id: "renan-braganca-america-rn", name: "Renan Bragança", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "GOL",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "lucas-araujo-america-rn", name: "Lucas Araújo", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "GOL",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "guilherme-paraiba-america-rn", name: "Guilherme Paraíba", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "ZAG",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "renzo-america-rn", name: "Renzo", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "ZAG",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "lucas-rodrigues-america-rn", name: "Lucas Rodrigues", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "ZAG",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "pedro-jorge-america-rn", name: "Pedro Jorge", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "ZAG",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "pedrao-america-rn", name: "Pedrão", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "ZAG",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "gustavo-america-rn", name: "Gustavo", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "ZAG",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "elias-america-rn", name: "Elias", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "LAT",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "evandro-america-rn", name: "Evandro", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "LAT",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "brenno-america-rn", name: "Brenno", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "MEI",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "balotelli-america-rn", name: "Balotelli", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "VOL",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "antonio-villa-america-rn", name: "Antônio Villa", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "MEI",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "allan-america-rn", name: "Allan", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "MEI",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "henrique-america-rn", name: "Henrique", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "MEI",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "jadson-america-rn", name: "Jadson", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "VOL",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "copetti-america-rn", name: "Copetti", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "VOL",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "caue-america-rn", name: "Cauê", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "MEI",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "joaozinho-america-rn", name: "Joãozinho", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "ATA",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "galvan-america-rn", name: "Galvan", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "ATA",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "luiz-thiago-america-rn", name: "Luiz Thiago", clubId: "america-rn", clubName: "América-RN", division: "Série D", position: "ATA",
+    source: "https://www.americadenatalsaf.com.br/jogadores/elenco-principal", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "lucas-amaral-central", name: "Lucas Amaral", clubId: "central", clubName: "Central", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "luiz-ricardo-central", name: "Luiz Ricardo", clubId: "central", clubName: "Central", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "eduardo-elias-central", name: "Eduardo Elias", clubId: "central", clubName: "Central", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "romulo-central", name: "Rômulo", clubId: "central", clubName: "Central", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "wellington-central", name: "Wellington", clubId: "central", clubName: "Central", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "jadson-sergipano-central", name: "Jadson Sergipano", clubId: "central", clubName: "Central", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "guilherme-lucena-central", name: "Guilherme Lucena", clubId: "central", clubName: "Central", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "polegar-central", name: "Polegar", clubId: "central", clubName: "Central", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "filipe-ramon-central", name: "Filipe Ramon", clubId: "central", clubName: "Central", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "gilmar-central", name: "Gilmar", clubId: "central", clubName: "Central", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "henrique-silva-central", name: "Henrique Silva", clubId: "central", clubName: "Central", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "leo-carvalho-central", name: "Léo Carvalho", clubId: "central", clubName: "Central", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "claudevan-central", name: "Claudevan", clubId: "central", clubName: "Central", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "alisson-santana-central", name: "Alisson Santana", clubId: "central", clubName: "Central", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "michel-chuva-central", name: "Michel Chuva", clubId: "central", clubName: "Central", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "emerson-bacas-central", name: "Emerson Bacas", clubId: "central", clubName: "Central", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "bruninho-central", name: "Bruninho", clubId: "central", clubName: "Central", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "leandro-costa-central", name: "Leandro Costa", clubId: "central", clubName: "Central", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "caio-vinicius-central", name: "Caio Vinícius", clubId: "central", clubName: "Central", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "henrique-alves-central", name: "Henrique Alves", clubId: "central", clubName: "Central", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "caxito-central", name: "Caxito", clubId: "central", clubName: "Central", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "maicon-central", name: "Maicon", clubId: "central", clubName: "Central", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "william-anicete-central", name: "William Anicete", clubId: "central", clubName: "Central", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "romario-central", name: "Romário", clubId: "central", clubName: "Central", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/central/noticia/2026/09/28/central-anuncia-volante-e-chega-a-25-reforcos-para-disputa-do-campeonato-pernambucano.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "da-moroni-laguna", name: "Dã Moroni", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/60415?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "breninho-laguna", name: "Breninho", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/60415?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "mario-silva-laguna", name: "Mario Silva", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/60415?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "everton-luiz-laguna", name: "Everton Luiz", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/60415?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "ryan-laguna", name: "Ryan", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/60415?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "gustavinho-laguna", name: "Gustavinho", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/60415?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "vini-luiz-laguna", name: "Vini Luiz", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/60415?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "guilherme-sampaio-laguna", name: "Guilherme Sampaio", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/60415?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "joao-vitor-laguna", name: "João Vítor", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/60415?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "kaike-wallace-laguna", name: "Kaike Wallace", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ZAG",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/60415?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "joao-vitor-batista-maguary", name: "João Vitor Batista", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/59116?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "julio-cesar-maguary", name: "Júlio César", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/59116?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "richardson-maguary", name: "Richardson", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "VOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/59116?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "rhuan-rodrigues-maguary", name: "Rhuan Rodrigues", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/59116?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "bruno-lopes-maguary", name: "Bruno Lopes", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "GOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/59116?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "italo-maguary", name: "Ítalo", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "VOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/59116?tab=atletas", verifiedAt: "2026-11-02"
+  },
 ];
-export const PLAYER_DATA_AS_OF = "2026-10-31";
+export const PLAYER_DATA_AS_OF = "2026-11-02";
 export const PLAYER_DATA_STATUS = "partial-verified";
