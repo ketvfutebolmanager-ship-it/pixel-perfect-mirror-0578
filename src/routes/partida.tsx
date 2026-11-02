@@ -799,7 +799,6 @@ function Page() {
       </div>
       <p className="mt-2 text-xs text-muted-foreground">A base de elencos é parcial. Se não houver atleta compatível com uma posição, ela ficará sem escalação até o cadastro do jogador.</p>
       <div className="mt-4 grid gap-4 sm:grid-cols-3">
-        <label className="text-sm font-semibold">Dificuldade do jogo<select value={difficulty} onChange={e => setDifficulty(e.target.value as typeof difficulty)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3"><option value="easy">Fácil</option><option value="medium">Médio</option><option value="hard">Difícil</option></select><span className="mt-1 block text-xs font-normal text-muted-foreground">{difficulty === "easy" ? "Adversário menos forte." : difficulty === "hard" ? "Adversário mais forte e desafio maior." : "Forças equilibradas."}</span></label>
         <label className="text-sm font-semibold">Postura<select value={tacticalApproach} onChange={e => setTacticalApproach(e.target.value as typeof tacticalApproach)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3"><option value="defensive">Defensiva</option><option value="balanced">Equilibrada</option><option value="attacking">Ofensiva</option></select></label>
         <label className="text-sm font-semibold">Pressão<select value={pressure} onChange={e => setPressure(e.target.value as Pressure)} className="mt-2 w-full rounded-md border border-input bg-background px-3 py-3"><option>Baixa</option><option>Média</option><option>Alta</option></select></label>
       </div>
@@ -888,6 +887,15 @@ function Page() {
       <PageHeader kicker={`${career.division} · Temporada ${career.season}`} title="Central da partida">
         Treinador: {career.coach} · Clube: {career.club}
       </PageHeader>
+      {!result && careerFixture && <section className="mt-4 rounded-xl border-2 border-primary bg-card p-5">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div><p className="text-xs font-black uppercase tracking-widest text-primary">Configuração da partida</p><h2 className="mt-1 font-display text-xl font-black uppercase">Escolha o nível de dificuldade</h2><p className="mt-1 text-sm text-muted-foreground">Defina o desafio antes de iniciar o jogo.</p></div>
+          <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-black uppercase text-primary">{difficulty === "easy" ? "Modo fácil" : difficulty === "hard" ? "Modo difícil" : "Modo médio"}</span>
+        </div>
+        <div className="mt-4 grid gap-3 sm:grid-cols-3" role="group" aria-label="Escolher dificuldade">
+          {([{value:"easy",label:"Fácil",description:"Adversário menos forte."},{value:"medium",label:"Médio",description:"Forças equilibradas."},{value:"hard",label:"Difícil",description:"Adversário mais forte."}] as const).map(option => <button key={option.value} type="button" aria-pressed={difficulty === option.value} onClick={() => setDifficulty(option.value)} className={`rounded-lg border-2 p-4 text-left transition-colors ${difficulty === option.value ? "border-primary bg-primary/15 ring-2 ring-primary/30" : "border-border bg-background hover:border-primary"}`}><span className="block text-base font-black uppercase">{option.label}</span><span className="mt-1 block text-xs text-muted-foreground">{option.description}</span></button>)}
+        </div>
+      </section>}
       {halftime && result && <div className="sticky top-0 z-30 mt-3 flex flex-wrap items-center justify-between gap-3 rounded-lg border-2 border-primary bg-card p-3 shadow-lg">
         <div><p className="text-xs font-black uppercase tracking-widest text-primary">Intervalo · 45 minutos</p><p className="text-sm text-muted-foreground">Faça substituições e ajuste a tática antes do segundo tempo.</p></div>
         <button type="button" onClick={() => setShowHalftimeModal(true)} className="rounded-md bg-primary px-5 py-3 text-sm font-black uppercase text-primary-foreground shadow-md">Abrir ajustes do intervalo</button>
