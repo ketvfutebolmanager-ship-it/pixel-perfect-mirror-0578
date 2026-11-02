@@ -726,8 +726,9 @@ function Page() {
   }
 
   const visibleEvents = result?.events.filter((event) => event.minute <= minute) ?? [];
-  // O placar desta simulação sempre usa o clube do treinador como mandante; o estádio deve seguir o time exibido no lado esquerdo do placar, não o mando original do calendário.
-  const stadium = STADIUMS[result?.home.name ?? careerFixture?.home.name ?? career.club] ?? "Estádio não cadastrado";
+  // O estádio sempre pertence ao mandante oficial do confronto no calendário.
+  // A simulação pode inverter a ordem visual para destacar o clube do treinador, mas isso não altera o mando nem o estádio.
+  const stadium = STADIUMS[careerFixture?.home.name ?? career.club] ?? "Estádio não cadastrado";
   const progress = (minute / 90) * 100;
   const careerClubId = career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
   const availableSubstitutionPlayers = VERIFIED_PLAYERS_2026.filter((player) => player.clubId === careerClubId);
