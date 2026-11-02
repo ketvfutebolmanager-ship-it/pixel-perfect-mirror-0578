@@ -3528,6 +3528,165 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     id: "italo-maguary", name: "Ítalo", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "VOL",
     source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/59116?tab=atletas", verifiedAt: "2026-11-02"
   },
+  {
+    id: "gabriel-razera-ituano", name: "Gabriel Razera", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "ATA", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "vinicius-de-oliveira-pinto-ituano", name: "Vinícius de Oliveira Pinto", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "ATA", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "lucas-leandro-wingert-ituano", name: "Lucas Leandro Wingert", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "GOL", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "lucas-soares-stefanello-ituano", name: "Lucas Soares Stefanello", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "MEI", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "marlon-yan-cavalcanti-da-silva-ituano", name: "Marlon Yan Cavalcanti da Silva", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "MEI", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "gabriel-rodrigues-marques-ituano", name: "Gabriel Rodrigues Marques", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "ATA", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "victor-silva-dos-reis-ituano", name: "Victor Silva dos Reis", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "LAT", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "wesley-borges-da-silva-ituano", name: "Wesley Borges da Silva", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "LAT", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "pedro-barbosa-malheiros-ituano", name: "Pedro Barbosa Malheiros", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "MEI", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "joao-vinicius-chiduben-paulino-tahi-ituano", name: "João Vinicius Chiduben Paulino Tahi", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "ATA", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "bruno-teruel-ituano", name: "Bruno Teruel", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "MEI", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "leonardo-souza-de-oliveira-ituano", name: "Leonardo Souza de Oliveira", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "ZAG", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "kauan-richard-leal-silva-ituano", name: "Kauan Richard Leal Silva", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "LAT", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "guilherme-xavier-de-oliveira-ituano", name: "Guilherme Xavier de Oliveira", clubId: "ituano", clubName: "Ituano", division: "Série C", position: "MEI", source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/64742", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "eduardo-moura-confianca", name: "Eduardo Moura", clubId: "confianca", clubName: "Confiança", division: "Série C", position: "ZAG", source: "https://ge.globo.com/se/futebol/times/confianca/noticia/2025/11/18/confianca-anuncia-trio-de-jogadores-para-elenco-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "icaro-confianca", name: "Ícaro", clubId: "confianca", clubName: "Confiança", division: "Série C", position: "ZAG", source: "https://ge.globo.com/se/futebol/times/confianca/noticia/2025/11/18/confianca-anuncia-trio-de-jogadores-para-elenco-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "adryan-confianca", name: "Adryan", clubId: "confianca", clubName: "Confiança", division: "Série C", position: "ZAG", source: "https://ge.globo.com/se/futebol/times/confianca/noticia/2025/11/18/confianca-anuncia-trio-de-jogadores-para-elenco-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "renilson-confianca", name: "Renilson", clubId: "confianca", clubName: "Confiança", division: "Série C", position: "ZAG", source: "https://ge.globo.com/se/futebol/times/confianca/noticia/2025/11/18/confianca-anuncia-trio-de-jogadores-para-elenco-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "weriton-confianca", name: "Weriton", clubId: "confianca", clubName: "Confiança", division: "Série C", position: "LAT", source: "https://ge.globo.com/se/futebol/times/confianca/noticia/2025/11/18/confianca-anuncia-trio-de-jogadores-para-elenco-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "guilherme-nunes-confianca", name: "Guilherme Nunes", clubId: "confianca", clubName: "Confiança", division: "Série C", position: "VOL", source: "https://ge.globo.com/se/futebol/times/confianca/noticia/2025/11/18/confianca-anuncia-trio-de-jogadores-para-elenco-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "lorran-confianca", name: "Lorran", clubId: "confianca", clubName: "Confiança", division: "Série C", position: "VOL", source: "https://ge.globo.com/se/futebol/times/confianca/noticia/2025/11/18/confianca-anuncia-trio-de-jogadores-para-elenco-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "kelvyn-confianca", name: "Kelvyn", clubId: "confianca", clubName: "Confiança", division: "Série C", position: "MEI", source: "https://ge.globo.com/se/futebol/times/confianca/noticia/2025/11/18/confianca-anuncia-trio-de-jogadores-para-elenco-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "nicholas-confianca", name: "Nicholas", clubId: "confianca", clubName: "Confiança", division: "Série C", position: "MEI", source: "https://ge.globo.com/se/futebol/times/confianca/noticia/2025/11/18/confianca-anuncia-trio-de-jogadores-para-elenco-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "danielzinho-confianca", name: "Danielzinho", clubId: "confianca", clubName: "Confiança", division: "Série C", position: "ATA", source: "https://ge.globo.com/se/futebol/times/confianca/noticia/2025/11/18/confianca-anuncia-trio-de-jogadores-para-elenco-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "iago-silva-confianca", name: "Iago Silva", clubId: "confianca", clubName: "Confiança", division: "Série C", position: "ATA", source: "https://ge.globo.com/se/futebol/times/confianca/noticia/2025/11/18/confianca-anuncia-trio-de-jogadores-para-elenco-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "renanzinho-confianca", name: "Renanzinho", clubId: "confianca", clubName: "Confiança", division: "Série C", position: "ATA", source: "https://ge.globo.com/se/futebol/times/confianca/noticia/2025/11/18/confianca-anuncia-trio-de-jogadores-para-elenco-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "maikon-aquino-confianca", name: "Maikon Aquino", clubId: "confianca", clubName: "Confiança", division: "Série C", position: "ATA", source: "https://ge.globo.com/se/futebol/times/confianca/noticia/2025/11/18/confianca-anuncia-trio-de-jogadores-para-elenco-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "jefferson-itabaiana", name: "Jefferson", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "GOL", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "julio-cesar-itabaiana", name: "Júlio Cesar", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "GOL", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "william-itabaiana", name: "William", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "GOL", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "leo-souza-itabaiana", name: "Léo Souza", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "GOL", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "betao-itabaiana", name: "Betão", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "ZAG", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "dequinha-itabaiana", name: "Dequinha", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "ZAG", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "gustavo-cintra-itabaiana", name: "Gustavo Cintra", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "ZAG", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "gustavo-fagundes-itabaiana", name: "Gustavo Fagundes", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "ZAG", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "caio-felipe-itabaiana", name: "Caio Felipe", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "LAT", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "isaque-itabaiana", name: "Isaque", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "LAT", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "manoel-itabaiana", name: "Manoel", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "LAT", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "tarcisio-itabaiana", name: "Tarcísio", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "LAT", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "gustavo-crecci-itabaiana", name: "Gustavo Crecci", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "VOL", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "jair-itabaiana", name: "Jair", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "VOL", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "karl-itabaiana", name: "Karl", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "VOL", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "dudu-itabaiana", name: "Dudu", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "VOL", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "victor-luis-itabaiana", name: "Victor Luis", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "VOL", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "yago-henrique-itabaiana", name: "Yago Henrique", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "VOL", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "dione-itabaiana", name: "Dione", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "MEI", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "igor-lemos-itabaiana", name: "Igor Lemos", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "MEI", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "vitinho-itabaiana", name: "Vitinho", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "MEI", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "kayan-itabaiana", name: "Kayan", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "MEI", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "elimar-itabaiana", name: "Elimar", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "ATA", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "jonata-bastos-itabaiana", name: "Jonata Bastos", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "ATA", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "leilson-itabaiana", name: "Leilson", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "ATA", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "luan-silva-itabaiana", name: "Luan Silva", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "ATA", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
+  },
 ];
 export const PLAYER_DATA_AS_OF = "2026-11-02";
 export const PLAYER_DATA_STATUS = "partial-verified";
