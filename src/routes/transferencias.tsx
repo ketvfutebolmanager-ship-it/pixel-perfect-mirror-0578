@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
 import { BRAZILIAN_CLUBS_2026 } from "@/modules/clubs/brazilian-clubs-2026";
 import { VERIFIED_PLAYERS_2026 } from "@/modules/players/database";
@@ -24,7 +24,7 @@ function windowStatus(date = new Date()) {
 }
 
 function Page() {
-  const [career, setCareer] = useState(() => {
+  const [career] = useState(() => {
     try { return JSON.parse(window.localStorage.getItem("ketvfm-career") ?? "null") as { club: string; season?: number; coach?: string } | null; } catch { return null; }
   });
   const club = BRAZILIAN_CLUBS_2026.find(c => c.name === career?.club);
@@ -43,6 +43,19 @@ function Page() {
   const ownPlayers = VERIFIED_PLAYERS_2026.filter(p => p.clubId === club?.id || contracts.some(c => c.playerId === p.id && c.clubId === club?.id && c.status === "active"));
   const pendingReceived = offers.filter(o => o.direction === "received" && o.status === "pending");
   const pendingSent = offers.filter(o => o.direction === "sent");
+  useEffect(() => {
+    if (!windowInfo.open || !club || ownPlayers.length === 0) return;
+    const generationKey = "ketvfm-ai-offers:" + club.id + ":" + new Date().getFullYear() + ":" + new Date().getMonth();
+    if (window.localStorage.getItem(generationKey)) return;
+    const otherClubs = BRAZILIAN_CLUBS_2026.filter(item => item.id !== club.id);
+    const generated = ownPlayers.slice(0, 2).map((player, index) => {
+      const destination = otherClubs[(Math.floor(Math.random() * otherClubs.length) + index) % otherClubs.length];
+      return { id: "ai-offer-" + Date.now() + "-" + index, playerId: player.id, playerName: player.name, fromClubId: destination.id, fromClubName: destination.name, toClubId: club.id, toClubName: club.name, type: (index === 0 ? "purchase" : "loan") as "purchase" | "loan", amount: index === 0 ? 7000000 : 1800000, status: "pending" as const, direction: "received" as const, createdAt: new Date().toISOString(), loanMonths: 6 };
+    });
+    const next = [...offers, ...generated];
+    saveOffers(next);
+    window.localStorage.setItem(generationKey, "1");
+  }, [windowInfo.open, club?.id, ownPlayers.length]);
 
   function saveOffers(next: Offer[]) { setOffers(next); window.localStorage.setItem(OFFERS_KEY, JSON.stringify(next)); }
   function sendOffer() {
