@@ -585,8 +585,10 @@ function Page() {
 
   useEffect(() => {
     if (!career || minute !== 90 || !result || matchFinalized) return;
-    const won = result.homeGoals > result.awayGoals;
-    const drew = result.homeGoals === result.awayGoals;
+    const ownGoals = result.home.id === career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-") ? result.homeGoals : result.awayGoals;
+    const opponentGoals = result.home.id === career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-") ? result.awayGoals : result.homeGoals;
+    const won = ownGoals > opponentGoals;
+    const drew = ownGoals === opponentGoals;
     const clubId = career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
     const financeKey = "ketvfm-finances:" + clubId;
     const sponsorKey = "ketvfm-sponsor-contracts:" + clubId;
@@ -607,7 +609,7 @@ function Page() {
     const clubPlayers = VERIFIED_PLAYERS_2026.filter((player) => player.clubId === clubId);
     const nextMorale = { ...readPlayerMorale() };
     clubPlayers.forEach((player) => {
-      const scored = result.events.filter((event) => event.minute <= 90 && event.clubId === result.home.id && event.playerId === player.id).length;
+      const scored = result.events.filter((event) => event.minute <= 90 && event.clubId === clubId && event.playerId === player.id).length;
       const delta = (won ? 4 : drew ? 1 : -3) + (scored * 5) + 1;
       nextMorale[player.id] = clampMorale((nextMorale[player.id] ?? 65) + delta);
     });
@@ -788,7 +790,12 @@ function Page() {
           if (slot) setLineupSelections(old => ({...old,[slot]:incoming.id}));
           setSubstitutions(n => n + 1);
           setSubstitutionNote("Sai " + outgoing.name + "; entra " + incoming.name + ".");
-          setResult(current => current ? ({...current,home:{...current.home,players:[...(current.home.players ?? []).filter(p => p.id !== outgoing.id),{id:incoming.id,name:incoming.name}]}}) : current);
+          setResult(current => {
+            if (!current) return current;
+            const ownSide = current.home.id === careerClubId ? "home" : "away";
+            const team = current[ownSide];
+            return { ...current, [ownSide]: { ...team, players: [...(team.players ?? []).filter(p => p.id !== outgoing.id), { id: incoming.id, name: incoming.name }] } };
+          });
           setPlayerOutId(""); setPlayerInId("");
         }} className="mt-4 rounded-md border border-primary px-4 py-2 text-sm font-bold text-primary disabled:opacity-40">Confirmar substituição</button>
         {substitutionNote && <p className="mt-2 text-sm font-semibold text-primary">{substitutionNote}</p>}
@@ -812,7 +819,12 @@ function Page() {
     };
     const selectedPlayers = Object.values(lineupSelections).filter(Boolean).map(id => availableSubstitutionPlayers.find(player => player.id === id)).filter((player): player is typeof availableSubstitutionPlayers[number] => Boolean(player)).map(({id,name}) => ({id,name}));
     if (selectedPlayers.length) own.players = selectedPlayers;
-    const next = simulateMatch(own, rival, Math.random, 1, 45);
+    const simulated = simulateMatch(own, rival, Math.random, 1, 45);
+    // A simulação recebe o clube do treinador primeiro; a exibição respeita o mando oficial do calendário.
+    const isCareerHome = careerFixture.home.name === career!.club;
+    const next: MatchResult = isCareerHome
+      ? simulated
+      : { ...simulated, home: simulated.away, away: simulated.home, homeGoals: simulated.awayGoals, awayGoals: simulated.homeGoals };
     // Os demais confrontos só recebem resultado depois que a partida do treinador terminar.
     // Assim, a rodada não revela placares futuros no início do jogo.
     setRoundResults({});
@@ -945,9 +957,12 @@ function Page() {
             <button type="button" onClick={() => {
               if (!result) return;
               const selectedPlayers = Object.values(lineupSelections).filter(Boolean).map(id => availableSubstitutionPlayers.find(player => player.id === id)).filter((player): player is typeof availableSubstitutionPlayers[number] => Boolean(player)).map(({id,name}) => ({id,name}));
-              const adjustedHome = { ...result.home, approach: tacticalApproach, players: selectedPlayers.length ? selectedPlayers : (result.home.players ?? []) };
-              const secondHalf = simulateMatch(adjustedHome, result.away, Math.random, 46, 90);
-              setResult(current => current ? ({ ...current, home: adjustedHome, homeGoals: current.homeGoals + secondHalf.homeGoals, awayGoals: current.awayGoals + secondHalf.awayGoals, events: [...current.events, ...secondHalf.events] }) : current);
+              const ownIsHome = result.home.id === careerClubId;
+              const ownTeam = ownIsHome ? result.home : result.away;
+              const opponentTeam = ownIsHome ? result.away : result.home;
+              const adjustedOwn = { ...ownTeam, approach: tacticalApproach, players: selectedPlayers.length ? selectedPlayers : (ownTeam.players ?? []) };
+              const secondHalf = simulateMatch(ownIsHome ? adjustedOwn : opponentTeam, ownIsHome ? opponentTeam : adjustedOwn, Math.random, 46, 90);
+              setResult(current => current ? ({ ...current, homeGoals: current.homeGoals + secondHalf.homeGoals, awayGoals: current.awayGoals + secondHalf.awayGoals, events: [...current.events, ...secondHalf.events] }) : current);
               setShowHalftimeModal(false);
               setHalftime(false);
               setPlaying(true);
