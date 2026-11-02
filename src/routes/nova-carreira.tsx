@@ -24,6 +24,13 @@ export type CareerSave = {
   boardConfidence?: number;
 };
 
+function clubCrestSources(name: string) {
+  const aliases: Record<string, string> = { "ASA": "asa-al", "Atlético-BA": "atletico-de-alagoinhas", "Jacuipense": "jacuipense" };
+  const slug = aliases[name] ?? name.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const preferred = name === "Atlético-BA" || name === "Jacuipense" ? "rgba-v1/" : "";
+  return [`https://www.footylogos.com/dls/logo/${preferred}${slug}.png`, `https://www.footylogos.com/dls/logo/${preferred ? "" : "rgba-v1/"}${slug}.png`];
+}
+
 function Page() {
   const navigate = useNavigate();
   const [coach, setCoach] = useState("");
@@ -62,6 +69,16 @@ function Page() {
             <label htmlFor="coach" className="mb-2 block text-sm font-semibold">Nome do treinador</label>
             <input id="coach" value={coach} onChange={(e) => setCoach(e.target.value)} placeholder="Ex.: Carlos Silva" className="w-full rounded-md border border-input bg-background px-3 py-3 text-foreground outline-none focus:border-primary" />
           </div>
+          {selectedClub && <div className="flex items-center gap-4 rounded-md border border-border bg-background p-4">
+            <img src={clubCrestSources(selectedClub.name)[0]} data-source-index="0" alt={"Escudo do " + selectedClub.name} className="h-16 w-16 object-contain" onError={(event) => {
+              const image = event.currentTarget;
+              const sources = clubCrestSources(selectedClub.name);
+              const next = Number(image.dataset.sourceIndex ?? "0") + 1;
+              if (next < sources.length) { image.dataset.sourceIndex = String(next); image.src = sources[next]; }
+              else image.style.display = "none";
+            }} />
+            <div><p className="text-xs font-bold uppercase tracking-widest text-primary">Clube selecionado</p><p className="text-lg font-black">{selectedClub.name}</p><p className="text-sm text-muted-foreground">{selectedClub.division} · {selectedClub.state}</p></div>
+          </div>}
           <div>
             <label htmlFor="club" className="mb-2 block text-sm font-semibold">Escolha seu clube ({clubs.length} opções disponíveis)</label>
             <select id="club" value={selectedClub?.id ?? ""} onChange={(e) => setClubId(e.target.value)} className="w-full rounded-md border border-input bg-background px-3 py-3 text-foreground">
