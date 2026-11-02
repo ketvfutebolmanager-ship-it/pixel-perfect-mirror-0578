@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
 import { BRAZILIAN_CLUBS_2026 } from "@/modules/clubs/brazilian-clubs-2026";
 import { VERIFIED_PLAYERS_2026 } from "@/modules/players/database";
@@ -16,10 +16,8 @@ function Page() {
     try { return JSON.parse(window.localStorage.getItem("ketvfm-career") ?? "null") as { club: string } | null; } catch { return null; }
   });
   const club = BRAZILIAN_CLUBS_2026.find(c => c.name === career?.club);
-  const market = useMemo(() => {
-    const signedIds = new Set(readPlayerContracts().filter(contract => contract.status === "active").map(contract => contract.playerId));
-    return VERIFIED_PLAYERS_2026.filter(p => p.clubId !== club?.id && !signedIds.has(p.id));
-  }, [club]);
+  const signedIds = new Set(readPlayerContracts().filter(contract => contract.status === "active").map(contract => contract.playerId));
+  const market = VERIFIED_PLAYERS_2026.filter(p => p.clubId !== club?.id && !signedIds.has(p.id));
   const [playerId, setPlayerId] = useState("");
   const [years, setYears] = useState<ContractYears>(2);
   const [fine, setFine] = useState<DismissalFinePercent>(20);
