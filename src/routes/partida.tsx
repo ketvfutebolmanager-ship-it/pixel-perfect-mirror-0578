@@ -54,6 +54,26 @@ const KICKOFF_SLOTS = [
   { weekday: "Segunda-feira", kickoff: "20:00" },
 ];
 type DivisionFixture = Fixture & { division: BrazilianDivision; groupName: string | undefined };
+type BroadcastChannel = { name: string; logo: string };
+const SERIE_A_BROADCASTS: BroadcastChannel[] = [
+  { name: "Globo", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdAy7X2pTvdasJ1kezMDwgdgY7hFweX8gqCei93bchYg&s=10" },
+  { name: "Record", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_J-S3dDSOsSGhbSTxaeJgrIuR4-VuWysN8EHmrKDKxA&s=10" },
+  { name: "CazéTV", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ338_5aH6YrxGtECXfcmHwN90EwXxLsvNI-aCbw31zBw&s=10" },
+  { name: "SporTV", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbmpRoLDbxBvcPp2e38_SRQiHvi5bwKkgdQSP--dkfBw&s=10" },
+  { name: "Prime Video", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVw4n39gNLPdiDbSLrZDaLC5xVlIFYN8pXesbWaeaecQ&s=10" },
+  { name: "GE TV", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-N7gmi3JtCq4vr3zPNZaI0ctRkga4og-7YHcsEz9pSA&s=10" },
+  { name: "Premiere", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh4geEzZgwLWo90yp7F80b2EV8mnUhp7bq7W7pMzQZXw&s=10" },
+  { name: "KE TV Sports", logo: "" },
+];
+function broadcastForFixture(fixture: DivisionFixture, fixtures: DivisionFixture[]) {
+  if (fixture.division !== "Série A") return null;
+  const round = fixtures.filter((item) => item.division === "Série A" && item.round === fixture.round);
+  const index = round.findIndex((item) => item.home.id === fixture.home.id && item.away.id === fixture.away.id);
+  const assignment = ["Globo", "Record", "CazéTV", "SporTV", "Prime Video", "GE TV", "Premiere", "Premiere", "KE TV Sports", "KE TV Sports"];
+  const channelName = assignment[index];
+  return SERIE_A_BROADCASTS.find((channel) => channel.name === channelName) ?? null;
+}
+
 function buildFixtures(clubs: Array<{id:string;name:string;state:string}>, maxRounds: number): Fixture[] {
   if (clubs.length < 2) return [];
   const teams = [...clubs];
@@ -880,6 +900,7 @@ function Page() {
           {allDivisionRoundFixtures.map((fixture, fixtureIndex) => {
             const isCareerMatch = fixture.division === career.division && (fixture.home.name === career.club || fixture.away.name === career.club);
             const startsDivision = fixtureIndex === 0 || allDivisionRoundFixtures[fixtureIndex - 1]?.division !== fixture.division || allDivisionRoundFixtures[fixtureIndex - 1]?.groupName !== fixture.groupName;
+            const broadcast = broadcastForFixture(fixture, allDivisionRoundFixtures);
             return <Fragment key={fixture.division + "-" + (fixture.groupName ?? "geral") + "-" + fixture.round + "-" + fixture.home.id}>
               {startsDivision && <div className="col-span-full flex items-center gap-3 py-3"><div className="h-px flex-1 bg-primary/60" /><h3 className="rounded-md border border-primary/50 bg-primary/10 px-5 py-2 font-display text-lg font-black uppercase tracking-wider text-primary">{fixture.division}{fixture.groupName ? " · Grupo " + fixture.groupName : ""}</h3><div className="h-px flex-1 bg-primary/60" /></div>}
               <div className={`rounded-md border p-3 ${isCareerMatch ? "border-primary bg-primary/5 ring-1 ring-primary/20" : "border-border bg-background"}`}>
@@ -891,6 +912,10 @@ function Page() {
               </div>
               {(() => { const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id; const matchResult = isCareerMatch ? result : roundResults[key]; const shownEvents = matchResult?.events.filter((event) => event.minute <= minute) ?? []; return shownEvents.length > 0 ? <div className="mt-2 rounded bg-background/70 px-3 py-2 text-xs"><p className="mb-1 font-bold uppercase tracking-wide text-primary">Gols da partida</p><div className="flex flex-wrap gap-x-4 gap-y-1">{shownEvents.map((event, index) => <span key={event.minute + "-" + index} className="text-muted-foreground">{event.minute}' · <strong className="text-foreground">{event.playerName ?? "Autor não cadastrado"}</strong> ({event.clubName})</span>)}</div></div> : null; })()}
               <div className="mt-2 flex justify-center"><span className={`rounded-full px-3 py-1 text-[11px] font-black uppercase tracking-wide ${minute === 45 ? "bg-amber-500/15 text-amber-400" : minute >= 90 ? "bg-muted text-muted-foreground" : minute > 0 ? "bg-primary/10 text-primary" : "bg-muted text-muted-foreground"}`}>{minute === 0 ? "Aguardando início" : minute === 45 ? "Intervalo · 45'" : minute >= 90 ? "Encerrado · 90'" : `Ao vivo · ${minute}' / 90'`}</span></div>
+              {broadcast && <div className="mt-3 flex items-center justify-center gap-3 rounded-md border border-primary/30 bg-card px-3 py-2">
+                {broadcast.logo ? <img src={broadcast.logo} alt={"Logo " + broadcast.name} loading="lazy" className="h-9 max-w-24 object-contain" /> : <div className="rounded bg-slate-950 px-3 py-2 text-sm font-black italic text-white"><span className="text-yellow-400">KE</span> TV SPORTS</div>}
+                <div className="text-left"><p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Transmissão</p><p className="text-sm font-black">{broadcast.name}</p></div>
+              </div>}
               
               <div className="mt-3 rounded-md border border-primary/40 bg-primary/5 px-3 py-2 text-center"><p className="font-display text-sm font-black uppercase tracking-wide text-primary">{STADIUMS[fixture.home.name] ?? "Estádio a confirmar"}</p><p className="mt-1 text-xs font-semibold text-muted-foreground">Público simulado: {estimatedAttendance(fixture.home.id, fixture.away.id).toLocaleString("pt-BR")} torcedores</p></div>
               <div className="col-span-3 mt-2 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-2"><span className="text-xs font-semibold text-muted-foreground">Estádio do mandante: <strong className="text-foreground">{STADIUMS[fixture.home.name] ?? "Local de mando a confirmar"}</strong></span>{isCareerMatch && <button type="button" onClick={() => { if (result && minute < 90 && !halftime) setPlaying(true); else if (!result) play(); }} disabled={playing || (!!result && minute >= 90) || halftime} className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-primary-foreground disabled:opacity-50">{playing ? "Partida em andamento..." : result && minute < 90 ? "Retomar partida" : result ? "Partida realizada" : "Jogar partida"}</button>}</div>
