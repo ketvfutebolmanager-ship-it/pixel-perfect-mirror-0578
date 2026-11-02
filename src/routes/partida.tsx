@@ -66,11 +66,11 @@ const SERIE_A_BROADCASTS: BroadcastChannel[] = [
   { name: "KE TV Sports", logo: "/ketv-sports-logo.jpg" },
 ];
 const SERIE_B_BROADCASTS: BroadcastChannel[] = [
-  { name: "RedeTV!", logo: "" },
+  { name: "RedeTV!", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGEl0SdKxtDdS_aJGyhvHLLcGQgTVgZQDYdgs7UmRAAA&s=10" },
   { name: "Xsports", logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Logo-xsports-ago-2025.png" },
-  { name: "Canal GOAT", logo: "" },
-  { name: "SportyNet", logo: "" },
-  { name: "Disney+", logo: "" },
+  { name: "Canal GOAT", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh_dKqkYe4AOKMwap6CIrikLhsFFipueH25X28sDU_aw&s=10" },
+  { name: "SportyNet", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbhQFW3wW2cPN_UY5qT7eet6PNL0GW-Xhg3LL2vASL8Q&s=10" },
+  { name: "Disney+", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFwG32up6Gw0KvGo75vQTgyuINV7EXd6oldzqoLS8fCA&s=10" },
   { name: "ESPN", logo: "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_Brasil_logo.svg" },
   { name: "KE TV Sports", logo: "/ketv-sports-logo.jpg" },
 ];
