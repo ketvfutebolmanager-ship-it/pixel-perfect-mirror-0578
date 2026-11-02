@@ -525,6 +525,12 @@ function Page() {
   const [playerInId, setPlayerInId] = useState(() => readMatchSession().playerInId ?? "");
   const [lineupSelections, setLineupSelections] = useState<Record<string, string>>(() => readMatchSession().lineupSelections ?? {});
   const [matchFinalized, setMatchFinalized] = useState(() => readMatchSession().finalized ?? false);
+  const [showHalftimeModal, setShowHalftimeModal] = useState(false);
+
+  useEffect(() => {
+    if (halftime) setShowHalftimeModal(true);
+    else setShowHalftimeModal(false);
+  }, [halftime]);
 
   useEffect(() => {
     if (!playing) return;
@@ -789,6 +795,10 @@ function Page() {
       <PageHeader kicker={`${career.division} · Temporada ${career.season}`} title="Central da partida">
         Treinador: {career.coach} · Clube: {career.club}
       </PageHeader>
+      {halftime && result && <div className="sticky top-0 z-30 mt-3 flex flex-wrap items-center justify-between gap-3 rounded-lg border-2 border-primary bg-card p-3 shadow-lg">
+        <div><p className="text-xs font-black uppercase tracking-widest text-primary">Intervalo · 45 minutos</p><p className="text-sm text-muted-foreground">Faça substituições e ajuste a tática antes do segundo tempo.</p></div>
+        <button type="button" onClick={() => setShowHalftimeModal(true)} className="rounded-md bg-primary px-5 py-3 text-sm font-black uppercase text-primary-foreground shadow-md">Abrir ajustes do intervalo</button>
+      </div>}
       {!result && careerFixture && renderTacticalBoard(false)}
       {result && <section className="mt-6 rounded-md border border-primary bg-hero p-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
@@ -864,7 +874,28 @@ function Page() {
         {!careerFixture && <p className="mt-4 text-sm text-muted-foreground">Seu clube não tem jogo nesta rodada.</p>}
       </div>
 
-      {halftime && result && <>{renderTacticalBoard(true)}<section className="mt-4"><button onClick={() => { if (!result) return; const selectedPlayers = Object.values(lineupSelections).filter(Boolean).map(id => availableSubstitutionPlayers.find(player => player.id === id)).filter((player): player is typeof availableSubstitutionPlayers[number] => Boolean(player)).map(({id,name}) => ({id,name})); const adjustedHome = { ...result.home, approach: tacticalApproach, players: selectedPlayers.length ? selectedPlayers : (result.home.players ?? []) }; const secondHalf = simulateMatch(adjustedHome, result.away, Math.random, 46, 90); setResult(current => current ? ({ ...current, home: adjustedHome, homeGoals: current.homeGoals + secondHalf.homeGoals, awayGoals: current.awayGoals + secondHalf.awayGoals, events: [...current.events, ...secondHalf.events] }) : current); setHalftime(false); setPlaying(true); }} className="rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground">Começar segundo tempo</button></section></>}
+      {halftime && result && showHalftimeModal && <div className="fixed inset-0 z-[100] overflow-y-auto bg-black/80 p-3 backdrop-blur-sm sm:p-6" role="dialog" aria-modal="true" aria-labelledby="halftime-modal-title">
+        <div className="mx-auto my-3 max-w-6xl rounded-xl border-2 border-primary bg-background p-4 shadow-2xl sm:my-6 sm:p-6">
+          <div className="sticky top-0 z-10 -mx-4 -mt-4 mb-4 flex flex-wrap items-center justify-between gap-3 border-b border-primary/40 bg-background/95 px-4 py-4 backdrop-blur sm:-mx-6 sm:-mt-6 sm:px-6">
+            <div><p className="text-xs font-black uppercase tracking-widest text-primary">Intervalo · 45 minutos</p><h2 id="halftime-modal-title" className="font-display text-2xl font-black uppercase">Ajustes do treinador</h2></div>
+            <button type="button" onClick={() => setShowHalftimeModal(false)} className="rounded-md border border-border px-4 py-2 text-sm font-bold hover:border-primary">Fechar ajustes</button>
+          </div>
+          {renderTacticalBoard(true)}
+          <div className="mt-5 flex flex-wrap justify-end gap-3 border-t border-border pt-4">
+            <button type="button" onClick={() => setShowHalftimeModal(false)} className="rounded-md border border-border px-5 py-3 text-sm font-bold">Continuar no intervalo</button>
+            <button type="button" onClick={() => {
+              if (!result) return;
+              const selectedPlayers = Object.values(lineupSelections).filter(Boolean).map(id => availableSubstitutionPlayers.find(player => player.id === id)).filter((player): player is typeof availableSubstitutionPlayers[number] => Boolean(player)).map(({id,name}) => ({id,name}));
+              const adjustedHome = { ...result.home, approach: tacticalApproach, players: selectedPlayers.length ? selectedPlayers : (result.home.players ?? []) };
+              const secondHalf = simulateMatch(adjustedHome, result.away, Math.random, 46, 90);
+              setResult(current => current ? ({ ...current, home: adjustedHome, homeGoals: current.homeGoals + secondHalf.homeGoals, awayGoals: current.awayGoals + secondHalf.awayGoals, events: [...current.events, ...secondHalf.events] }) : current);
+              setShowHalftimeModal(false);
+              setHalftime(false);
+              setPlaying(true);
+            }} className="rounded-md bg-primary px-6 py-3 text-sm font-black uppercase text-primary-foreground">Salvar alterações e começar 2º tempo</button>
+          </div>
+        </div>
+      </div>}
 
       {result && <section className="mt-4 rounded-md border border-border bg-card p-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
