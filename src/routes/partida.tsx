@@ -69,7 +69,10 @@ function broadcastForFixture(fixture: DivisionFixture, fixtures: DivisionFixture
   if (fixture.division !== "Série A") return null;
   const round = fixtures.filter((item) => item.division === "Série A" && item.round === fixture.round);
   const index = round.findIndex((item) => item.home.id === fixture.home.id && item.away.id === fixture.away.id);
-  const assignment = ["Globo", "Record", "CazéTV", "SporTV", "Prime Video", "GE TV", "Premiere", "Premiere", "KE TV Sports", "KE TV Sports"];
+  // Mantém a quantidade de jogos por emissora, mas gira a ordem a cada rodada.
+  const baseAssignment = ["Globo", "Record", "CazéTV", "SporTV", "Prime Video", "GE TV", "Premiere", "Premiere", "KE TV Sports", "KE TV Sports"];
+  const rotation = (fixture.round - 1) % baseAssignment.length;
+  const assignment = [...baseAssignment.slice(rotation), ...baseAssignment.slice(0, rotation)];
   const channelName = assignment[index];
   return SERIE_A_BROADCASTS.find((channel) => channel.name === channelName) ?? null;
 }
