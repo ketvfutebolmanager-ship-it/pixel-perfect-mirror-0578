@@ -4,6 +4,7 @@ import { PageHeader } from "@/components/layout/AppShell";
 import { BRAZILIAN_CLUBS_2026 } from "@/modules/clubs/brazilian-clubs-2026";
 import { VERIFIED_PLAYERS_2026 } from "@/modules/players/database";
 import { makeContract, type ContractYears, type DismissalFinePercent, type PlayerContract } from "@/modules/transfers/contracts";
+import { PLAYER_CONTRACTS_KEY, readPlayerContracts } from "@/modules/transfers/roster";
 
 export const Route = createFileRoute("/transferencias")({
   head: () => ({ meta: [{ title: "Transferências — KE TV Football Manager" }, { name: "description", content: "Mercado de jogadores, contratações e contratos." }] }),
@@ -15,20 +16,23 @@ function Page() {
     try { return JSON.parse(window.localStorage.getItem("ketvfm-career") ?? "null") as { club: string } | null; } catch { return null; }
   });
   const club = BRAZILIAN_CLUBS_2026.find(c => c.name === career?.club);
-  const market = useMemo(() => VERIFIED_PLAYERS_2026.filter(p => p.clubId !== club?.id), [club]);
+  const market = useMemo(() => {
+    const signedIds = new Set(readPlayerContracts().filter(contract => contract.status === "active").map(contract => contract.playerId));
+    return VERIFIED_PLAYERS_2026.filter(p => p.clubId !== club?.id && !signedIds.has(p.id));
+  }, [club]);
   const [playerId, setPlayerId] = useState("");
   const [years, setYears] = useState<ContractYears>(2);
   const [fine, setFine] = useState<DismissalFinePercent>(20);
   const [contracts, setContracts] = useState<PlayerContract[]>(() => {
-    try { return JSON.parse(window.localStorage.getItem("ketvfm-contracts") ?? "[]") as PlayerContract[]; } catch { return []; }
+    return readPlayerContracts();
   });
   const [notice, setNotice] = useState("");
   function sign() {
     const player = market.find(p => p.id === playerId);
     if (!player || !club) { setNotice("Selecione um atleta disponível e tenha uma carreira ativa."); return; }
-    const contract = makeContract({ ...player, clubId: club.id, clubName: club.name }, years, fine);
+    const contract = makeContract({ ...player, clubId: club.id, clubName: club.name, division: club.division }, years, fine);
     const next = [...contracts, contract];
-    window.localStorage.setItem("ketvfm-contracts", JSON.stringify(next));
+    window.localStorage.setItem(PLAYER_CONTRACTS_KEY, JSON.stringify(next));
     setContracts(next);
     setNotice(`${player.name} contratado por ${years} ano(s).`);
     setPlayerId("");
