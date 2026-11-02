@@ -101,7 +101,7 @@ function Page() {
                 <tbody>
                   {orderedClubs.map((club, index) => {
                     const row = stats.get(club.id)!;
-                    const highlighted = division === "Série A" ? index >= orderedClubs.length - 4 : division !== "Série D" && index < 4;
+                    const highlighted = division === "Série A" ? index >= orderedClubs.length - 4 : division !== "Série D" && (index < 4 || index >= orderedClubs.length - 4);
                     return <tr key={club.id} className={`border-t border-border/70 transition-colors hover:bg-primary/5 ${highlighted ? (division === "Série A" || index >= orderedClubs.length - 4 ? "bg-red-500/10" : "bg-emerald-500/10") : ""}`}>
                       <td className="px-3 py-3 text-center font-bold tabular-nums text-muted-foreground">{index + 1}</td>
                       <td className="px-3 py-3"><div className="flex items-center gap-3">
