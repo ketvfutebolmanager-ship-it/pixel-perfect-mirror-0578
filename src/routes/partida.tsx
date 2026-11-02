@@ -410,15 +410,25 @@ function Crest({ club }: { club: string }) {
   return <img src={sources[sourceIndex]!} alt={`Escudo do ${club}`} loading="lazy" onError={() => setSourceIndex((current) => current + 1)} className="h-12 w-12 shrink-0 object-contain" />;
 }
 
-type JerseyProps = { club: string; sponsor?: string; compact?: boolean };
+type JerseyProps = { club: string; sponsor?: string; compact?: boolean; kit?: "home" | "away" | "third" };
 const KIT_COLORS: Record<string, string> = { Flamengo: "#c8102e", Corinthians: "#f2f2f2", Palmeiras: "#087a42", "São Paulo": "#ffffff", Santos: "#ffffff", Grêmio: "#1686c7", Internacional: "#c8102e", Vasco: "#171717", Botafogo: "#171717", Fluminense: "#7a172b", Cruzeiro: "#0756a5", "Atlético Mineiro": "#171717", Bahia: "#0877c9", Vitória: "#c8102e", "Athletico Paranaense": "#c8102e", Coritiba: "#087a42", "América Mineiro": "#087a42", "Vila Nova": "#c8102e", Goiás: "#087a42", Remo: "#0756a5" };
-function Jersey({ club, sponsor, compact = false }: JerseyProps) {
+const KIT_IMAGE_FILES: Record<string, string> = {
+  "Athletico Paranaense": "atleticopr_bra.png", "Atlético Mineiro": "atleticomg_bra.png", Bahia: "bahia.png", Botafogo: "botafogorj_bra.png", Chapecoense: "chapecoense_bra.png", Corinthians: "corinthians_bra.png", Coritiba: "coritiba_bra.png", Cruzeiro: "cruzeiro_bra.png", Flamengo: "flarj.png", Fluminense: "flurj.png", Grêmio: "gremio.png", Internacional: "internacional_bra.png", Mirassol: "miirassol_sp.png", Palmeiras: "palmeiras.png", "Red Bull Bragantino": "bragantino_bra.png", Remo: "remo.png", Santos: "santos.png", "São Paulo": "saopaulo_bra.png", "Vasco da Gama": "vasco.png", Vitória: "vitoria.png",
+  "América Mineiro": "americamg_bra.png", "Atlético Goianiense": "atleticogo_bra.png", Avaí: "avai_bra.png", "Botafogo de Ribeirão Preto": "botafogosp_bra.png", Ceará: "ceara_bra.png", CRB: "crb_bra.png", Criciúma: "criciuma_bra.png", Cuiabá: "cuiaba_bra.png", Fortaleza: "fortaleza.png", Goiás: "goias.png", Juventude: "juventude.png", Londrina: "londrina_pr.png", Náutico: "nautico.png", Novorizontino: "novorinzontino_sp.png", "Operário Ferroviário": "operario_pr.png", "Ponte Preta": "pontepreta_bra.png", "São Bernardo": "saobernardo_sp.png", "Sport Recife": "sport.png", "Vila Nova": "vilago.png",
+  Amazonas: "amazonas_am.png", Anápolis: "anapolisgo_bra.png", "Botafogo da Paraíba": "botafogopb_bra.png", Brusque: "brusquesc_bra.png", Caxias: "caxias.png", Confiança: "confianca_se.png", Ferroviária: "ferroviaria_sp.png", Figueirense: "figueirense.png", Floresta: "florestace.png", Guarani: "guaranisp_bra.png", "Inter de Limeira": "interlimeirasp_bra.png", Ituano: "ituano_sp.png", Maranhão: "maranhao_ma.png", "Santa Cruz": "santa.png"
+};
+function Jersey({ club, sponsor, compact = false, kit = "home" }: JerseyProps) {
   const color = KIT_COLORS[club] ?? "#2457a6";
   const ink = ["#ffffff", "#f2f2f2", "#f5f5f5"].includes(color) ? "#171717" : "#ffffff";
   const label = sponsor?.trim() || "SEM PATROCÍNIO";
   const short = label.length > 17 ? label.slice(0, 16) + "…" : label;
+  const filename = KIT_IMAGE_FILES[club];
+  const folder = kit === "home" ? "camisas" : kit === "away" ? "camisas/camisas2" : "camisas3";
+  const imageSrc = filename ? `/uniformes/2023/${folder}/${filename}` : undefined;
+  const [failedImage, setFailedImage] = useState<string | undefined>(undefined);
+  const showHistoricalImage = !!imageSrc && failedImage !== imageSrc;
   return <div className={compact ? "flex shrink-0 items-center justify-center" : "flex flex-col items-center gap-1"}>
-    <svg viewBox="0 0 100 110" width={compact ? 34 : 94} height={compact ? 38 : 104} role="img" aria-label={"Camisa de " + club + (sponsor ? " com patrocínio " + sponsor : " sem patrocinador master")}>
+    {showHistoricalImage ? <img src={imageSrc} alt={`Uniforme histórico de 2023 de ${club}`} width={compact ? 34 : 94} height={compact ? 38 : 104} loading="lazy" onError={() => setFailedImage(imageSrc)} className={compact ? "h-[38px] w-[34px] shrink-0 object-contain" : "h-[104px] w-[94px] object-contain"} /> : <svg viewBox="0 0 100 110" width={compact ? 34 : 94} height={compact ? 38 : 104} role="img" aria-label={"Camisa ilustrativa de " + club + (sponsor ? " com patrocínio " + sponsor : " sem patrocinador master")}>
       <path d="M29 9 12 18 3 42l17 8 7-13v62h46V37l7 13 17-8-9-24L71 9 61 4H39z" fill={color} stroke="#d1d5db" strokeWidth="2" strokeLinejoin="round"/>
       <path d="M39 5q11 15 22 0" fill="none" stroke={ink} strokeWidth="4"/>
       <path d="M27 18 20 40M73 18l7 22" stroke={ink} strokeWidth="3" opacity=".75"/>
@@ -426,8 +436,8 @@ function Jersey({ club, sponsor, compact = false }: JerseyProps) {
       <rect x="17" y="55" width="66" height="18" rx="3" fill="#ffffff" opacity=".94"/>
       <text x="50" y="67" textAnchor="middle" fontSize={short.length > 12 ? "6" : "7"} fontWeight="900" fill="#111827" textLength="60" lengthAdjust="spacingAndGlyphs">{short.toUpperCase()}</text>
       <text x="50" y="87" textAnchor="middle" fontSize="8" fontWeight="900" fill={ink}>KE TV FM</text>
-    </svg>
-    {!compact && <span className="max-w-28 text-center text-[10px] font-bold uppercase text-muted-foreground">{sponsor || "Espaço master livre"}</span>}
+    </svg>}
+    {!compact && <span className="max-w-28 text-center text-[10px] font-bold uppercase text-muted-foreground">{showHistoricalImage ? "Modelo histórico 2023" : sponsor || "Modelo ilustrativo KE TV FM"}</span>}
   </div>;
 }
 function sponsorForClub(club: string, season: number) {
