@@ -66,13 +66,13 @@ const SERIE_A_BROADCASTS: BroadcastChannel[] = [
   { name: "KE TV Sports", logo: "/ketv-sports-logo.jpg" },
 ];
 const SERIE_B_BROADCASTS: BroadcastChannel[] = [
-  { name: "RedeTV!", logo: "/broadcasts/redetv.jpg" },
+  { name: "RedeTV!", logo: "" },
   { name: "Xsports", logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Logo-xsports-ago-2025.png" },
-  { name: "Canal GOAT", logo: "/broadcasts/canal-goat.png" },
-  { name: "SportyNet", logo: "/broadcasts/sportynet.jpg" },
+  { name: "Canal GOAT", logo: "" },
+  { name: "SportyNet", logo: "" },
   { name: "Disney+", logo: "" },
   { name: "ESPN", logo: "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_Brasil_logo.svg" },
-  { name: "KE TV Sports", logo: "/broadcasts/ketv-sports.jpg" },
+  { name: "KE TV Sports", logo: "/ketv-sports-logo.jpg" },
 ];
 function broadcastForFixture(fixture: DivisionFixture, fixtures: DivisionFixture[]) {
   if (fixture.division !== "Série A" && fixture.division !== "Série B") return null;
