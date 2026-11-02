@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
 import { getClubsByDivision, type BrazilianDivision } from "@/modules/clubs/brazilian-clubs-2026";
 import type { MatchResult } from "@/modules/matches/simulate";
@@ -55,6 +55,20 @@ function readStandings(division: BrazilianDivision, season: number, groupName?: 
 
 function Page() {
   const [division, setDivision] = useState<BrazilianDivision>("Série A");
+  const [, setRefreshTick] = useState(0);
+  useEffect(() => {
+    const refresh = () => setRefreshTick((value) => value + 1);
+    const timer = window.setInterval(refresh, 2000);
+    window.addEventListener("storage", refresh);
+    window.addEventListener("focus", refresh);
+    window.addEventListener("pageshow", refresh);
+    return () => {
+      window.clearInterval(timer);
+      window.removeEventListener("storage", refresh);
+      window.removeEventListener("focus", refresh);
+      window.removeEventListener("pageshow", refresh);
+    };
+  }, []);
   const clubs = getClubsByDivision(division);
   const groups = division === "Série D"
     ? [...new Set(clubs.map((club) => club.group).filter(Boolean))].sort()
