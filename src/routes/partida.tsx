@@ -530,6 +530,14 @@ function Page() {
   });
   const careerFixture = roundFixtures.find((fixture) => fixture.home.name === career?.club || fixture.away.name === career?.club);
   const fixtureOpponent = careerFixture ? (careerFixture.home.name === career?.club ? careerFixture.away : careerFixture.home) : null;
+  // Corrige também sessões salvas antes desta atualização, que podem ter o clube do treinador no lado errado.
+  useEffect(() => {
+    if (!career || !careerFixture || !result) return;
+    const ownId = career.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
+    if (careerFixture.home.id !== ownId && result.home.id === ownId && result.away.id === careerFixture.home.id) {
+      setResult({ ...result, home: result.away, away: result.home, homeGoals: result.awayGoals, awayGoals: result.homeGoals });
+    }
+  }, [career?.club, careerFixture?.home.id, result]);
   const [speed, setSpeed] = useState<MatchSpeed>("medium");
   const [ticketPrice, setTicketPrice] = useState(() => {
     const saved = Number(window.localStorage.getItem("ketvfm-ticket-price"));
