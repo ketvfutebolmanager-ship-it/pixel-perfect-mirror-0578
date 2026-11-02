@@ -160,14 +160,22 @@ const FOOTYLOGOS_SLUGS: Record<string, string> = {
 function logoSlug(name: string) {
   return FOOTYLOGOS_SLUGS[name] ?? name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
+const VERIFIED_CRESTS: Record<string, string[]> = {
+  "Maringá": ["https://www.footylogos.com/dls/logo/maringa.png", "https://www.footylogos.com/dls/logo/rgba-v1/maringa.png"],
+  "Central": ["https://www.footylogos.com/dls/logo/rgba-v1/central-pe.png", "https://www.footylogos.com/dls/logo/central-pe.png"],
+  "Laguna": ["https://www.footylogos.com/dls/logo/laguna-rn.png", "https://www.footylogos.com/dls/logo/rgba-v1/laguna-rn.png"],
+};
 function ClubCrest({ name }: { name: string }) {
-  const [failed, setFailed] = useState(false);
+  const [sourceIndex, setSourceIndex] = useState(0);
   const localFile = CREST_FILES[name];
-  const src = localFile
-    ? `https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(localFile)}`
-    : `https://www.footylogos.com/dls/logo/rgba-v1/${logoSlug(name)}.png`;
-  if (failed) return <span aria-label={`Escudo de ${name} indisponível`} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-xs font-black text-primary">{name.split(/\s+/).map(part => part[0]).slice(0, 3).join("")}</span>;
-  return <img src={src} alt={`Escudo do ${name}`} loading="lazy" onError={() => setFailed(true)} className="h-11 w-11 shrink-0 object-contain" />;
+  const sources = [
+    ...(VERIFIED_CRESTS[name] ?? []),
+    ...(localFile ? [`https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(localFile)}`] : []),
+    `https://www.footylogos.com/dls/logo/rgba-v1/${logoSlug(name)}.png`,
+    `https://www.footylogos.com/dls/logo/${logoSlug(name)}.png`,
+  ];
+  if (sourceIndex >= sources.length) return <span aria-label={`Escudo de ${name} indisponível`} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-xs font-black text-primary">{name.split(/\s+/).map(part => part[0]).slice(0, 3).join("")}</span>;
+  return <span className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full ${name === "Maringá" ? "bg-white p-1" : ""}`}><img src={sources[sourceIndex]} alt={`Escudo do ${name}`} loading="lazy" onError={() => setSourceIndex(index => index + 1)} className="h-full w-full object-contain" /></span>;
 }
 
 function Page() {
