@@ -621,7 +621,11 @@ function Page() {
         const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id;
         if (!completedRoundResults[key]) completedRoundResults[key] = simulateMatch(homeTeam, awayTeam);
       });
-    if (careerFixture) completedRoundResults[careerMatchKey] = result;
+    if (careerFixture) {
+      completedRoundResults[careerMatchKey] = careerFixture.home.name === career.club
+        ? result
+        : { ...result, home: result.away, away: result.home, homeGoals: result.awayGoals, awayGoals: result.homeGoals };
+    }
     // Persiste os placares por divisão e grupo, não apenas na divisão do treinador.
     const resultsByCompetition = new Map<string, Record<string, MatchResult>>();
     allDivisionRoundFixtures.forEach((fixture) => {
