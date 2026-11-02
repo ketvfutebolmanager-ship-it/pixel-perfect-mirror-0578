@@ -15,7 +15,7 @@ function crestUrl(name: string) {
   const file = CREST_FILES[name];
   if (file) return `https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(file)}`;
   const slug = FOOTYLOGOS_SLUGS[name] ?? name.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-  return `https://www.footylogos.com/dls/logo/rgba-v1/${slug}.png`;
+  return `https://www.footylogos.com/dls/logo/${slug}.png`;
 }
 export const Route = createFileRoute("/classificacao")({
   head: () => ({
@@ -124,7 +124,18 @@ function Page() {
                     return <tr key={club.id} className={`border-t border-border/70 transition-colors hover:bg-primary/5 ${highlighted ? (division === "Série A" || index >= orderedClubs.length - 4 ? "bg-red-500/10" : "bg-emerald-500/10") : ""}`}>
                       <td className="px-3 py-3 text-center font-bold tabular-nums text-muted-foreground">{index + 1}</td>
                       <td className="px-3 py-3"><div className="flex items-center gap-3">
-                        <img src={crestUrl(club.name)} alt={`Escudo do ${club.name}`} loading="lazy" onError={(event) => { event.currentTarget.style.display = "none"; const fallback = event.currentTarget.nextElementSibling as HTMLElement | null; if (fallback) fallback.style.display = "flex"; }} className="h-8 w-8 shrink-0 object-contain" />
+                        <img src={crestUrl(club.name)} alt={`Escudo do ${club.name}`} loading="lazy" onError={(event) => {
+                          const image = event.currentTarget;
+                          if (image.dataset.retry !== "1") {
+                            image.dataset.retry = "1";
+                            const slug = FOOTYLOGOS_SLUGS[club.name] ?? club.name.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+                            image.src = `https://www.footylogos.com/dls/logo/rgba-v1/${slug}.png`;
+                            return;
+                          }
+                          image.style.display = "none";
+                          const fallback = image.nextElementSibling as HTMLElement | null;
+                          if (fallback) fallback.style.display = "flex";
+                        }} className="h-8 w-8 shrink-0 object-contain" />
                         <span style={{ display: "none" }} className="h-7 w-7 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-[10px] font-black text-primary">{club.name.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>
                         <span className="font-semibold">{club.name}</span><span className="text-xs text-muted-foreground">{club.state}</span>
                       </div></td>
