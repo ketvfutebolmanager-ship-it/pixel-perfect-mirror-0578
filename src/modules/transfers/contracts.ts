@@ -1,4 +1,5 @@
 import type { PlayerRecord } from "@/modules/players/database";
+import type { BrazilianDivision } from "@/modules/clubs/brazilian-clubs-2026";
 
 export type ContractYears = 1 | 2 | 3;
 export type DismissalFinePercent = 10 | 20 | 30;
@@ -8,6 +9,7 @@ export type PlayerContract = {
   playerName: string;
   clubId: string;
   clubName: string;
+  division?: BrazilianDivision;
   years: ContractYears;
   dismissalFinePercent: DismissalFinePercent;
   signedAt: string;
@@ -37,6 +39,7 @@ export function makeContract(player: PlayerRecord, years: ContractYears, fine: D
     playerName: player.name,
     clubId: player.clubId,
     clubName: player.clubName,
+    division: player.division,
     years,
     dismissalFinePercent: fine,
     signedAt,
