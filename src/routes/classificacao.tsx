@@ -14,10 +14,16 @@ const FOOTYLOGOS_SLUGS: Record<string, string> = {
 function logoSlug(name: string) {
   return FOOTYLOGOS_SLUGS[name] ?? name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
+const VERIFIED_D_CRESTS: Record<string, string[]> = {
+  "ASA": ["https://www.footylogos.com/dls/logo/asa-al.png"],
+  "Atlético-BA": ["https://www.footylogos.com/dls/logo/rgba-v1/atletico-de-alagoinhas.png"],
+  "Jacuipense": ["https://www.footylogos.com/dls/logo/rgba-v1/jacuipense.png"],
+};
 function crestSources(name: string) {
   const file = CREST_FILES[name];
   const slug = logoSlug(name);
   return [
+    ...(VERIFIED_D_CRESTS[name] ?? []),
     ...(file ? [`https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(file)}`] : []),
     `https://www.footylogos.com/dls/logo/${slug}.png`,
     `https://www.footylogos.com/dls/logo/rgba-v1/${slug}.png`,
