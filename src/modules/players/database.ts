@@ -3687,6 +3687,162 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
   {
     id: "luan-silva-itabaiana", name: "Luan Silva", clubId: "itabaiana", clubName: "Itabaiana", division: "Série C", position: "ATA", source: "https://ge.globo.com/se/futebol/times/itabaiana/noticia/2025/12/23/itabaiana-apresenta-elenco-e-novos-uniformes-para-2026.ghtml", verifiedAt: "2026-11-02"
   },
+  {
+    id: "jean-drosny-paysandu", name: "Jean Drosny", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "GOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "gabriel-mesquita-paysandu", name: "Gabriel Mesquita", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "GOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "levi-trindade-paysandu", name: "Levi Silva Trindade", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "GOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "marcao-paysandu", name: "Marcos Vinicius Nascimento da Silva", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "GOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "edilson-paysandu", name: "Edilson José da Silva Júnior", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "LAT",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "jp-galvao-paysandu", name: "João Pedro Galvão de Carvalho", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "LAT",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "matheus-capixaba-paysandu", name: "Matheus Cardoso de Souza", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "LAT",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "caua-dias-paysandu", name: "Cauã Dias Dias", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "LAT",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "facundo-bonifazi-paysandu", name: "Facundo Bonifazi Castro", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "LAT",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "luciano-taboca-paysandu", name: "Luciano Souza Santos", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "LAT",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "bruno-bispo-paysandu", name: "Bruno Bispo dos Anjos", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ZAG",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "castro-paysandu", name: "Luiz Felipe Castro Neto", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ZAG",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "pedro-carrerette-paysandu", name: "Pedro Henrique Carrerette Lima", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ZAG",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "iarley-paysandu", name: "Iarley Brito Gonçalves", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ZAG",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "caua-libonati-paysandu", name: "Cauã Libonati do Nascimento", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ZAG",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "gustavo-henrique-paysandu", name: "Gustavo Henrique Santos", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ZAG",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "lucas-rodrigues-paysandu", name: "Lucas Rodrigues dos Santos", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ZAG",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "renan-castro-paysandu", name: "Renan Santos de Castro", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "LAT",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "brian-macapa-paysandu", name: "Brian Wendell Melo de Souza", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "VOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "caio-mello-paysandu", name: "Caio de Mello Vianna Pedrosa Galvão", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "VOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "henrico-paysandu", name: "Alvaro Henrico Brasil Aleixo de Paiva", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "VOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "pedro-henrique-paysandu", name: "Pedro Henrique Gonçalves da Silva", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "VOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "tiago-indio-paysandu", name: "Tiago Costa de Sousa", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "VOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "matheus-vargas-paysandu", name: "Matheus de Vargas", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "VOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "henrique-salomoni-paysandu", name: "Henrique Viana Salomoni", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "lucas-cardoso-paysandu", name: "Lucas Cardoso Moreira", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "marcinho-paysandu", name: "Marcio Barbosa Vieira Junior", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "radsley-paysandu", name: "Radsley Eduardo Gonçalves Ramos", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "pablo-baianinho-paysandu", name: "Pablo Santos de Alcantara", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "danilo-peu-paysandu", name: "Danilo de Souza Lima", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "italo-carvalho-paysandu", name: "Italo de Carvalho Rocha Lima", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "juninho-paysandu", name: "Jose Romualdo Pedro Junior", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "kleiton-pego-paysandu", name: "Kleiton Pego Duarte", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "thayllon-paysandu", name: "Thayllon Lopes Medeiros", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "thalyson-paysandu", name: "Thalyson Ricardo de Souza Gonçalves", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "kaua-hinkel-paysandu", name: "Kaua Hinkel Santos Vieira", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "miguel-angelo-paysandu", name: "Miguel Angelo Braga da Silva", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "nicolas-schiappacasse-paysandu", name: "Nicolas Augusto Rocha dos Santos", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  },
+  {
+    id: "kukri-paysandu", name: "Krowakreti Viviane Kajipok", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
+  }
 ];
 export const PLAYER_DATA_AS_OF = "2026-11-02";
 export const PLAYER_DATA_STATUS = "partial-verified";
