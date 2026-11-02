@@ -3,6 +3,7 @@ import { useMemo, useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
 import { getClubsByDivision, type BrazilianDivision } from "@/modules/clubs/brazilian-clubs-2026";
 import { PLAYER_DATA_AS_OF, PLAYER_DATA_STATUS, VERIFIED_PLAYERS_2026 } from "@/modules/players/database";
+import { getDivisionRoster, readPlayerContracts } from "@/modules/transfers/roster";
 
 export const Route = createFileRoute("/jogadores")({
   head: () => ({ meta: [{ title: "Jogadores — KE TV Futebol Manager" }, { name: "description", content: "Elencos e estatísticas individuais dos jogadores." }] }),
@@ -37,7 +38,8 @@ function Page() {
     window.localStorage.setItem(PLAYER_MORALE_KEY, JSON.stringify(next));
   };
   const clubs = getClubsByDivision(division);
-  const players = useMemo(() => VERIFIED_PLAYERS_2026.filter(p => p.division === division && (clubId === "all" || p.clubId === clubId)), [division, clubId]);
+  const contracts = readPlayerContracts();
+  const players = useMemo(() => getDivisionRoster(division, VERIFIED_PLAYERS_2026, contracts).filter(p => clubId === "all" || p.clubId === clubId), [division, clubId, contracts.length]);
   const selected = players.find(player => player.id === selectedPlayer);
   const lineupUsed = new Set<string>();
   const tacticalLineup = formationRows(formation).map(row => row.map(role => {
