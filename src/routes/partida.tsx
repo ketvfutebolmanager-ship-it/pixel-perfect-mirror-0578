@@ -63,7 +63,7 @@ const SERIE_A_BROADCASTS: BroadcastChannel[] = [
   { name: "Prime Video", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVw4n39gNLPdiDbSLrZDaLC5xVlIFYN8pXesbWaeaecQ&s=10" },
   { name: "GE TV", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-N7gmi3JtCq4vr3zPNZaI0ctRkga4og-7YHcsEz9pSA&s=10" },
   { name: "Premiere", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh4geEzZgwLWo90yp7F80b2EV8mnUhp7bq7W7pMzQZXw&s=10" },
-  { name: "KE TV Sports", logo: "" },
+  { name: "KE TV Sports", logo: "/ketv-sports-logo.jpg" },
 ];
 function broadcastForFixture(fixture: DivisionFixture, fixtures: DivisionFixture[]) {
   if (fixture.division !== "Série A") return null;
