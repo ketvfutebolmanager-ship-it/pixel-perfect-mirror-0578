@@ -13,35 +13,32 @@ export function readPlayerContracts(): PlayerContract[] {
   }
 }
 
-/**
- * Builds the visible division roster from verified players and active contracts.
- * A player with an active contract at another club is removed from the former club
- * and attached to the contracting club without changing the verified source record.
- */
+/** Applies active contracts to the verified player list without inventing profiles. */
 export function getDivisionRoster(
   division: PlayerRecord["division"],
   verifiedPlayers: PlayerRecord[],
   contracts: PlayerContract[],
 ): PlayerRecord[] {
   const activeContracts = contracts.filter((contract) => contract.status === "active");
-  const contractedPlayerIds = new Set(activeContracts.map((contract) => contract.playerId));
-  const movedPlayers = new Map(activeContracts.map((contract) => [contract.playerId, contract]));
+  const playersById = new Map(verifiedPlayers.map((player) => [player.id, player]));
+  const activeByPlayer = new Map(activeContracts.map((contract) => [contract.playerId, contract]));
 
-  const roster = verifiedPlayers
+  return verifiedPlayers
+    .filter((player) => player.division === division)
+    .flatMap((player) => {
+      const contract = activeByPlayer.get(player.id);
+      if (!contract) return [player];
+      if (contract.clubId === player.clubId) return [player];
+      return [{
+        ...player,
+        clubId: contract.clubId,
+        clubName: contract.clubName,
+      }];
+    })
     .filter((player) => player.division === division)
     .filter((player) => {
-      const contract = movedPlayers.get(player.id);
-      return !contract || contract.clubId === player.clubId;
-    })
-    .map((player) => {
-      const contract = movedPlayers.get(player.id);
-      return contract
-        ? { ...player, clubId: contract.clubId, clubName: contract.clubName }
-        : player;
+      const original = playersById.get(player.id);
+      const contract = activeByPlayer.get(player.id);
+      return !contract || !original || contract.clubId === player.clubId;
     });
-
-  // Keep this guard explicit: contracts for players not present in the verified
-  // database are not fabricated into full player profiles.
-  void contractedPlayerIds;
-  return roster;
 }
