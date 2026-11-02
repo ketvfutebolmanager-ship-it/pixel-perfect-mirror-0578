@@ -588,18 +588,34 @@ function Page() {
     setMatchFinalized(true);
   }, [minute, result, matchFinalized, career]);
 
+  // Os demais confrontos recebem placares assim que a partida do treinador começa.
   useEffect(() => {
-    if (!career || minute !== 90 || !result || Object.keys(roundResults).length > 0) return;
-    const completedRoundResults: Record<string, MatchResult> = {};
+    if (!career || !result || Object.keys(roundResults).length > 0) return;
+    const scheduledResults: Record<string, MatchResult> = {};
     allDivisionRoundFixtures
       .filter((fixture) => fixture.home.name !== career.club && fixture.away.name !== career.club)
       .forEach((fixture) => {
         const homeTeam: MatchTeam = { id: fixture.home.id, name: fixture.home.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.home.id).map(({ id, name }) => ({ id, name })) };
         const awayTeam: MatchTeam = { id: fixture.away.id, name: fixture.away.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.away.id).map(({ id, name }) => ({ id, name })) };
         const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id;
-        completedRoundResults[key] = simulateMatch(homeTeam, awayTeam);
+        scheduledResults[key] = simulateMatch(homeTeam, awayTeam);
       });
-    if (careerFixture) completedRoundResults[currentRound + "-" + careerFixture.home.id + "-" + careerFixture.away.id] = result;
+    setRoundResults(scheduledResults);
+  }, [result, career, roundResults, allDivisionRoundFixtures]);
+
+  useEffect(() => {
+    const careerMatchKey = careerFixture ? currentRound + "-" + careerFixture.home.id + "-" + careerFixture.away.id : "";
+    if (!career || minute !== 90 || !result || (careerMatchKey && roundResults[careerMatchKey])) return;
+    const completedRoundResults: Record<string, MatchResult> = { ...roundResults };
+    allDivisionRoundFixtures
+      .filter((fixture) => fixture.home.name !== career.club && fixture.away.name !== career.club)
+      .forEach((fixture) => {
+        const homeTeam: MatchTeam = { id: fixture.home.id, name: fixture.home.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.home.id).map(({ id, name }) => ({ id, name })) };
+        const awayTeam: MatchTeam = { id: fixture.away.id, name: fixture.away.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.away.id).map(({ id, name }) => ({ id, name })) };
+        const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id;
+        if (!completedRoundResults[key]) completedRoundResults[key] = simulateMatch(homeTeam, awayTeam);
+      });
+    if (careerFixture) completedRoundResults[careerMatchKey] = result;
     const seasonKey = "ketvfm-season-results:" + career.division + ":" + career.season + ":" + (group ?? "geral");
     let previousResults: Record<string, MatchResult> = {};
     try { previousResults = JSON.parse(window.localStorage.getItem(seasonKey) ?? "{}"); } catch { previousResults = {}; }
