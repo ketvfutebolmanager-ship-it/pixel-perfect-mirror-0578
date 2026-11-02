@@ -70,6 +70,7 @@ const SERIE_B_BROADCASTS: BroadcastChannel[] = [
   { name: "Xsports", logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Logo-xsports-ago-2025.png" },
   { name: "Canal GOAT", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh_dKqkYe4AOKMwap6CIrikLhsFFipueH25X28sDU_aw&s=10" },
   { name: "SportyNet", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbhQFW3wW2cPN_UY5qT7eet6PNL0GW-Xhg3LL2vASL8Q&s=10" },
+  { name: "Disney+", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFwG32up6Gw0KvGo75vQTgyuINV7EXd6oldzqoLS8fCA&s=10" },
   { name: "GE TV", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-N7gmi3JtCq4vr3zPNZaI0ctRkga4og-7YHcsEz9pSA&s=10" },
   { name: "ESPN", logo: "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_Brasil_logo.svg" },
   { name: "KE TV Sports", logo: "/ketv-sports-logo.jpg" },
