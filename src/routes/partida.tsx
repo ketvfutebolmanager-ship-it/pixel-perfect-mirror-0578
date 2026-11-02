@@ -65,16 +65,28 @@ const SERIE_A_BROADCASTS: BroadcastChannel[] = [
   { name: "Premiere", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh4geEzZgwLWo90yp7F80b2EV8mnUhp7bq7W7pMzQZXw&s=10" },
   { name: "KE TV Sports", logo: "/ketv-sports-logo.jpg" },
 ];
+const SERIE_B_BROADCASTS: BroadcastChannel[] = [
+  { name: "RedeTV!", logo: "/broadcasts/redetv.jpg" },
+  { name: "Xsports", logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Logo-xsports-ago-2025.png" },
+  { name: "Canal GOAT", logo: "/broadcasts/canal-goat.png" },
+  { name: "SportyNet", logo: "/broadcasts/sportynet.jpg" },
+  { name: "Disney+", logo: "" },
+  { name: "ESPN", logo: "https://commons.wikimedia.org/wiki/Special:FilePath/ESPN_Brasil_logo.svg" },
+  { name: "KE TV Sports", logo: "/broadcasts/ketv-sports.jpg" },
+];
 function broadcastForFixture(fixture: DivisionFixture, fixtures: DivisionFixture[]) {
-  if (fixture.division !== "Série A") return null;
-  const round = fixtures.filter((item) => item.division === "Série A" && item.round === fixture.round);
+  if (fixture.division !== "Série A" && fixture.division !== "Série B") return null;
+  const round = fixtures.filter((item) => item.division === fixture.division && item.round === fixture.round);
   const index = round.findIndex((item) => item.home.id === fixture.home.id && item.away.id === fixture.away.id);
-  // Mantém a quantidade de jogos por emissora, mas gira a ordem a cada rodada.
-  const baseAssignment = ["Globo", "Record", "CazéTV", "SporTV", "Prime Video", "GE TV", "Premiere", "Premiere", "KE TV Sports", "KE TV Sports"];
+  // Cada divisão possui pacote independente; a rotação preserva as cotas por rodada.
+  const baseAssignment = fixture.division === "Série A"
+    ? ["Globo", "Record", "CazéTV", "SporTV", "Prime Video", "GE TV", "Premiere", "Premiere", "KE TV Sports", "KE TV Sports"]
+    : ["RedeTV!", "Xsports", "Canal GOAT", "SportyNet", "SportyNet", "Disney+", "Disney+", "ESPN", "KE TV Sports", "KE TV Sports"];
   const rotation = (fixture.round - 1) % baseAssignment.length;
   const assignment = [...baseAssignment.slice(rotation), ...baseAssignment.slice(0, rotation)];
   const channelName = assignment[index];
-  return SERIE_A_BROADCASTS.find((channel) => channel.name === channelName) ?? null;
+  const channels = fixture.division === "Série A" ? SERIE_A_BROADCASTS : SERIE_B_BROADCASTS;
+  return channels.find((channel) => channel.name === channelName) ?? null;
 }
 
 function buildFixtures(clubs: Array<{id:string;name:string;state:string}>, maxRounds: number): Fixture[] {
@@ -883,7 +895,7 @@ function Page() {
           <p className="text-4xl font-black tabular-nums sm:text-5xl">{visibleEvents.filter((event) => event.clubId === result.home.id).length} × {visibleEvents.filter((event) => event.clubId === result.away.id).length}</p>
           <div className="flex flex-col items-center gap-2"><div className="flex items-center justify-center gap-2"><Jersey compact club={result.away.name} sponsor={sponsorForClub(result.away.name, career.season)} kit="away" /><Crest club={result.away.name} /></div><p className="font-display text-sm font-bold uppercase sm:text-lg">{result.away.name}</p><p className="text-[10px] font-semibold uppercase tracking-wide text-muted-foreground">Uniforme do visitante</p></div>
         </div>
-        {careerFixture && career.division === "Série A" && (() => { const liveFixture = allDivisionRoundFixtures.find((fixture) => fixture.division === "Série A" && fixture.round === careerFixture.round && fixture.home.id === careerFixture.home.id && fixture.away.id === careerFixture.away.id); const liveBroadcast = liveFixture ? broadcastForFixture(liveFixture, allDivisionRoundFixtures) : null; return liveBroadcast ? <div className="mt-4 flex items-center justify-center gap-3 rounded-md border border-primary/40 bg-card px-4 py-3">{liveBroadcast.logo && <img src={liveBroadcast.logo} alt={"Logo " + liveBroadcast.name} loading="lazy" className="h-10 max-w-28 object-contain" />}<div className="text-left"><p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Transmissão desta partida</p><p className="text-base font-black">{liveBroadcast.name}</p></div></div> : null; })()}
+        {careerFixture && (career.division === "Série A" || career.division === "Série B") && (() => { const liveFixture = allDivisionRoundFixtures.find((fixture) => fixture.division === career.division && fixture.round === careerFixture.round && fixture.home.id === careerFixture.home.id && fixture.away.id === careerFixture.away.id); const liveBroadcast = liveFixture ? broadcastForFixture(liveFixture, allDivisionRoundFixtures) : null; return liveBroadcast ? <div className="mt-4 flex items-center justify-center gap-3 rounded-md border border-primary/40 bg-card px-4 py-3">{liveBroadcast.logo && <img src={liveBroadcast.logo} alt={"Logo " + liveBroadcast.name} loading="lazy" className="h-10 max-w-28 object-contain" />}<div className="text-left"><p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Transmissão desta partida</p><p className="text-base font-black">{liveBroadcast.name}</p></div></div> : null; })()}
         <div className="mt-4 rounded-md border-2 border-primary bg-primary/10 px-4 py-3 text-center"><p className="font-display text-xl font-black uppercase tracking-wider text-primary">{stadium}</p><p className="mt-1 text-sm font-bold">Público simulado: {estimatedAttendance(result.home.id, result.away.id).toLocaleString("pt-BR")} torcedores</p><p className="mt-1 text-sm text-muted-foreground">Renda estimada: {money(estimatedAttendance(result.home.id, result.away.id) * ticketPrice)}</p></div>
         <div className="mt-6 grid gap-2 rounded-md border border-border bg-card p-4 text-sm sm:grid-cols-2">
           <p><span className="text-muted-foreground">Estádio:</span> {stadium}</p>
