@@ -18784,6 +18784,1167 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
     "verifiedAt": "2026-11-08"
   }
+,
+  {
+    "id": "mayconaraujosilva-atletico-ba",
+    "name": "Maycon Araújo Silva",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juanclaudiodefariaxavier-atletico-ba",
+    "name": "Juan Claudio de Faria Xavier",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "edsondossantossilva-atletico-ba",
+    "name": "Edson dos Santos Silva",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leumasdonascimentosantos-atletico-ba",
+    "name": "Leumas do Nascimento Santos",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "higoraugustofariasdeoliveira-atletico-ba",
+    "name": "Higor Augusto Farias de Oliveira",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kevinchavessilva-atletico-ba",
+    "name": "Kevin Chaves Silva",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leonardosiqueiradepaivabezerra-atletico-ba",
+    "name": "Leonardo Siqueira de Paiva Bezerra",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermequeirozlima-atletico-ba",
+    "name": "Guilherme Queiroz Lima",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ryanrochadiasborges-atletico-ba",
+    "name": "Ryan Rocha Dias Borges",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eversonribeirodejesus-atletico-ba",
+    "name": "Everson Ribeiro de Jesus",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "samuelalmeidadasilva-atletico-ba",
+    "name": "Samuel Almeida da Silva",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nalbertcauasantosgoncalves-atletico-ba",
+    "name": "Nalbert Cauã Santos Gonçalves",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ruanribeiroteles-atletico-ba",
+    "name": "Ruan Ribeiro Teles",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "evertondeaquinofelipe-atletico-ba",
+    "name": "Everton de Aquino Felipe",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vinicyusfrancasantos-atletico-ba",
+    "name": "Vinicyus França Santos",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafaelaugustodelima-atletico-ba",
+    "name": "Rafael Augusto de Lima",
+    "clubId": "atletico-ba",
+    "clubName": "Atlético de Alagoinhas",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juandanielpalaciomosquera-atletico-ce",
+    "name": "Juan Daniel Palacio Mosquera",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "emersonrochadacosta-atletico-ce",
+    "name": "Emerson Rocha da Costa",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luismiguelassuncaomalheiros-atletico-ce",
+    "name": "Luis Miguel Assunção Malheiros",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaquimdaconceicaoalencar-atletico-ce",
+    "name": "Joaquim da Conceição Alencar",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kauanbernardodasilva-atletico-ce",
+    "name": "Kauan Bernardo da Silva",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leonardocavalcantewalraven-atletico-ce",
+    "name": "Leonardo Cavalcante Walraven",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carlosandrecarneirodemelo-atletico-ce",
+    "name": "Carlos André Carneiro de Melo",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "andreluizdeoliveiraararuna-atletico-ce",
+    "name": "André Luiz de Oliveira Araruna",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leonardoferreirasoares-atletico-ce",
+    "name": "Leonardo Ferreira Soares",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "franciscowellingtonmarcosdasilvafilho-atletico-ce",
+    "name": "Francisco Wellington Marcos da Silva Filho",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucassousaqueiroz-atletico-ce",
+    "name": "Lucas Sousa Queiroz",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaquimrarisonsalanmacedofreitassilva-atletico-ce",
+    "name": "Joaquim Rarison Salan Macedo Freitas Silva",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luanvictorcantanhedecardoso-atletico-ce",
+    "name": "Luan Victor Cantanhede Cardoso",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipegabrielsousadasilva-atletico-ce",
+    "name": "Felipe Gabriel Sousa da Silva",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "franciscoluidysousasilva-atletico-ce",
+    "name": "Francisco Luidy Sousa Silva",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carlosgabrielsousamoura-atletico-ce",
+    "name": "Carlos Gabriel Sousa Moura",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabrieldeoliveiracastro-atletico-ce",
+    "name": "Gabriel de Oliveira Castro",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "sauloviniciuslagorodrigues-atletico-ce",
+    "name": "Saulo Vinicius Lago Rodrigues",
+    "clubId": "atletico-ce",
+    "clubName": "Atlético-CE",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "viniciusdeoliveiraguimaraesdias-azuriz",
+    "name": "Vinicius de Oliveira Guimaraes Dias",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "brunogoncalvesdoprado-azuriz",
+    "name": "Bruno Gonçalves do Prado",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "reginaldodelimanunesjunior-azuriz",
+    "name": "Reginaldo de Lima Nunes Junior",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavobatistaferraz-azuriz",
+    "name": "Gustavo Batista Ferraz",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "aryeduardogarcialima-azuriz",
+    "name": "Ary Eduardo Garcia Lima",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucasmatheusferreiradossantos-azuriz",
+    "name": "Lucas Matheus Ferreira dos Santos",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kauagianclermachadodasilva-azuriz",
+    "name": "Kaua Giancler Machado da Silva",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcosviniciusnayssinho-azuriz",
+    "name": "Marcos Vinicius Nayssinho",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcoshenriquetavaresdacruz-azuriz",
+    "name": "Marcos Henrique Tavares da Cruz",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "danielgomesdasilva-azuriz",
+    "name": "Daniel Gomes da Silva",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cauapietrosantossantana-azuriz",
+    "name": "Caua Pietro Santos Santana",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "antonnyluizdeassismartins-azuriz",
+    "name": "Antonny Luiz de Assis Martins",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "arthurgabrielbrandodelima-azuriz",
+    "name": "Arthur Gabriel Brando de Lima",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedroocamposgomesxavier-azuriz",
+    "name": "Pedro Ocampos Gomes Xavier",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "elissonmaxsueldasilvafeitosa-azuriz",
+    "name": "Elisson Maxsuel da Silva Feitosa",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cauajorisgorgen-azuriz",
+    "name": "Caua Joris Gorgen",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "freddydamiancastenedamontano-azuriz",
+    "name": "Freddy Damian Casteneda Montano",
+    "clubId": "azuriz",
+    "clubName": "Azuriz",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jeancarlosrodrigues-betim",
+    "name": "Jean Carlos Rodrigues",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "victormichellmendoncacosta-betim",
+    "name": "Victor Michell Mendonça Costa",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedrorobertosilvabotelho-betim",
+    "name": "Pedro Roberto Silva Botelho",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaovitorfuhr-betim",
+    "name": "João Vitor Fuhr",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheusmascarenhasdossantosraimundo-betim",
+    "name": "Matheus Mascarenhas dos Santos Raimundo",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gleisonferreiradeoliveiraandrade-betim",
+    "name": "Gleison Ferreira de Oliveira Andrade",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "denivyswilldavitoriajunior-betim",
+    "name": "Denivys Will da Vitoria Junior",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedrohenriquedasilvaferreira-betim",
+    "name": "Pedro Henrique da Silva Ferreira",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cauamarangonidossantos-betim",
+    "name": "Cauã Marangoni dos Santos",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diegomiticovrocha-betim",
+    "name": "Diego Miticov Rocha",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "riquelmymendesaraujo-betim",
+    "name": "Riquelmy Mendes Araujo",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabrielmarquesdesouzabatista-betim",
+    "name": "Gabriel Marques de Souza Batista",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "danilojosebelao-betim",
+    "name": "Danilo José Belão",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bryansilvagarcia-betim",
+    "name": "Bryan Silva Garcia",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "michaelmatiasfracaro-betim",
+    "name": "Michael Matias Fracaro",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juandavidmaciasalcivar-betim",
+    "name": "Juan David Macias Alcivar",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "victorhugobaptistamafra-betim",
+    "name": "Victor Hugo Baptista Mafra",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ericklendersalles-betim",
+    "name": "Erick Lender Salles",
+    "clubId": "betim",
+    "clubName": "Betim",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaopedrooliveirabezerradasilva-blumenau",
+    "name": "João Pedro Oliveira Bezerra da Silva",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "andreandradedecastro-blumenau",
+    "name": "Andre Andrade de Castro",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wesleybarbosagamasilva-blumenau",
+    "name": "Wesley Barbosa Gama Silva",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaovitorramos-blumenau",
+    "name": "Joao Vitor Ramos",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cauefelippoinacio-blumenau",
+    "name": "Cauê Felippo Inacio",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caiomotadasilva-blumenau",
+    "name": "Caio Mota da Silva",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jonathanmirandadasilvamendes-blumenau",
+    "name": "Jonathan Miranda da Silva Mendes",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "anthoniosergiobrancodecamargo-blumenau",
+    "name": "Anthonio Sérgio Branco de Camargo",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wellissonalmeidanunes-blumenau",
+    "name": "Wellisson Almeida Nunes",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcoseduardocosta-blumenau",
+    "name": "Marcos Eduardo Costa",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaoaugustorodriguesdossantos-blumenau",
+    "name": "Joao Augusto Rodrigues dos Santos",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcosgarbellottosilveirapedroso-blumenau",
+    "name": "Marcos Garbellotto Silveira Pedroso",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "henriqueristowzen-blumenau",
+    "name": "Henrique Ristow Zen",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheusjoaquimalmeida-blumenau",
+    "name": "Matheus Joaquim Almeida",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "julianogildasilva-blumenau",
+    "name": "Juliano Gil da Silva",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "viniciusdelimaferreira-blumenau",
+    "name": "Vinicius de Lima Ferreira",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "josuesilvadefreitas-blumenau",
+    "name": "Josue Silva de Freitas",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gledsonribeirodossantos-blumenau",
+    "name": "Gledson Ribeiro dos Santos",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kevyndasilvasoares-blumenau",
+    "name": "Kevyn da Silva Soares",
+    "clubId": "blumenau",
+    "clubName": "Blumenau",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e escalações oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaovitor-brasil-rs",
+    "name": "João Vitor",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabrieloliveira-brasil-rs",
+    "name": "Gabriel Oliveira",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcelopitol-brasil-rs",
+    "name": "Marcelo Pitol",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "murilo-brasil-rs",
+    "name": "Murilo",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "iago-brasil-rs",
+    "name": "Iago",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaopedro-brasil-rs",
+    "name": "João Pedro",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marlon-brasil-rs",
+    "name": "Marlon",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "patrick-brasil-rs",
+    "name": "Patrick",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-brasil-rs",
+    "name": "Rafael",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "micael-brasil-rs",
+    "name": "Micael",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "anderson-brasil-rs",
+    "name": "Anderson",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcelinho-brasil-rs",
+    "name": "Marcelinho",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulinho-brasil-rs",
+    "name": "Paulinho",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rone-brasil-rs",
+    "name": "Rone",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-brasil-rs",
+    "name": "Guilherme",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "adilsonbahia-brasil-rs",
+    "name": "Adilson Bahia",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juniorvicosa-brasil-rs",
+    "name": "Júnior Viçosa",
+    "clubId": "brasil-rs",
+    "clubName": "Brasil de Pelotas",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, escalações oficiais da competição",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "davidbrazdeoliveirafilho-brasiliense",
+    "name": "David Braz de Oliveira Filho",
+    "clubId": "brasiliense",
+    "clubName": "Brasiliense",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e estatísticas oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabiopizarrosanches-brasiliense",
+    "name": "Fabio Pizarro Sanches",
+    "clubId": "brasiliense",
+    "clubName": "Brasiliense",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e estatísticas oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "evaldonascimentolamaurneto-brasiliense",
+    "name": "Evaldo Nascimento Lamaur Neto",
+    "clubId": "brasiliense",
+    "clubName": "Brasiliense",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "CBF — Série D 2026, atletas inscritos e estatísticas oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "victorsallinasribeiro-brasiliense",
+    "name": "Victor Sallinas Ribeiro",
+    "clubId": "brasiliense",
+    "clubName": "Brasiliense",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e estatísticas oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "danielvancan-brasiliense",
+    "name": "Daniel Vancan",
+    "clubId": "brasiliense",
+    "clubName": "Brasiliense",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e estatísticas oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wallacesouzaferreira-brasiliense",
+    "name": "Wallace Souza Ferreira",
+    "clubId": "brasiliense",
+    "clubName": "Brasiliense",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — Série D 2026, atletas inscritos e estatísticas oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "reginonascimento-brasiliense",
+    "name": "Regino Nascimento",
+    "clubId": "brasiliense",
+    "clubName": "Brasiliense",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e estatísticas oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "netinho-brasiliense",
+    "name": "Netinho",
+    "clubId": "brasiliense",
+    "clubName": "Brasiliense",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e estatísticas oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rene-brasiliense",
+    "name": "Rene",
+    "clubId": "brasiliense",
+    "clubName": "Brasiliense",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — Série D 2026, atletas inscritos e estatísticas oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jeanpyerre-brasiliense",
+    "name": "Jean Pyerre",
+    "clubId": "brasiliense",
+    "clubName": "Brasiliense",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e estatísticas oficiais",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marlone-brasiliense",
+    "name": "Marlone",
+    "clubId": "brasiliense",
+    "clubName": "Brasiliense",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — Série D 2026, atletas inscritos e estatísticas oficiais",
+    "verifiedAt": "2026-11-08"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
