@@ -43,7 +43,12 @@ function Page() {
   const selected = players.find(player => player.id === selectedPlayer);
   const lineupUsed = new Set<string>();
   const tacticalLineup = formationRows(formation).map(row => row.map(role => {
-    const player = players.find(candidate => !lineupUsed.has(candidate.id) && (candidate.position === role || (role === "LAT" && candidate.position === "DEF")));
+    const compatible = (position: string) =>
+      position === role ||
+      (role === "LAT" && (position === "DEF" || position === "ZAG")) ||
+      (role === "ZAG" && position === "DEF") ||
+      ((role === "VOL" || role === "MEI") && (position === "VOL" || position === "MEI"));
+    const player = players.find(candidate => !lineupUsed.has(candidate.id) && compatible(candidate.position));
     if (player) lineupUsed.add(player.id);
     return { role, player };
   }));
