@@ -18788,7 +18788,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "mayconaraujosilva-atletico-ba",
     "name": "Maycon Araújo Silva",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "MEI",
@@ -18798,7 +18798,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "juanclaudiodefariaxavier-atletico-ba",
     "name": "Juan Claudio de Faria Xavier",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "ZAG",
@@ -18808,7 +18808,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "edsondossantossilva-atletico-ba",
     "name": "Edson dos Santos Silva",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "ZAG",
@@ -18818,7 +18818,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "leumasdonascimentosantos-atletico-ba",
     "name": "Leumas do Nascimento Santos",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "ZAG",
@@ -18828,7 +18828,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "higoraugustofariasdeoliveira-atletico-ba",
     "name": "Higor Augusto Farias de Oliveira",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "ATA",
@@ -18838,7 +18838,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "kevinchavessilva-atletico-ba",
     "name": "Kevin Chaves Silva",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "ATA",
@@ -18848,7 +18848,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "leonardosiqueiradepaivabezerra-atletico-ba",
     "name": "Leonardo Siqueira de Paiva Bezerra",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "GOL",
@@ -18858,7 +18858,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "guilhermequeirozlima-atletico-ba",
     "name": "Guilherme Queiroz Lima",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "ATA",
@@ -18868,7 +18868,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "ryanrochadiasborges-atletico-ba",
     "name": "Ryan Rocha Dias Borges",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "ATA",
@@ -18878,7 +18878,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "eversonribeirodejesus-atletico-ba",
     "name": "Everson Ribeiro de Jesus",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "MEI",
@@ -18888,7 +18888,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "samuelalmeidadasilva-atletico-ba",
     "name": "Samuel Almeida da Silva",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "ATA",
@@ -18898,7 +18898,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "nalbertcauasantosgoncalves-atletico-ba",
     "name": "Nalbert Cauã Santos Gonçalves",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "ATA",
@@ -18908,7 +18908,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "ruanribeiroteles-atletico-ba",
     "name": "Ruan Ribeiro Teles",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "ATA",
@@ -18918,7 +18918,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "evertondeaquinofelipe-atletico-ba",
     "name": "Everton de Aquino Felipe",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "MEI",
@@ -18928,7 +18928,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "vinicyusfrancasantos-atletico-ba",
     "name": "Vinicyus França Santos",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "GOL",
@@ -18938,7 +18938,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "rafaelaugustodelima-atletico-ba",
     "name": "Rafael Augusto de Lima",
-    "clubId": "atletico-ba",
+    "clubId": "atletico-de-alagoinhas",
     "clubName": "Atlético de Alagoinhas",
     "division": "Série D",
     "position": "GOL",
@@ -18948,7 +18948,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "juandanielpalaciomosquera-atletico-ce",
     "name": "Juan Daniel Palacio Mosquera",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "ATA",
@@ -18958,7 +18958,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "emersonrochadacosta-atletico-ce",
     "name": "Emerson Rocha da Costa",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "ZAG",
@@ -18968,7 +18968,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "luismiguelassuncaomalheiros-atletico-ce",
     "name": "Luis Miguel Assunção Malheiros",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "GOL",
@@ -18978,7 +18978,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "joaquimdaconceicaoalencar-atletico-ce",
     "name": "Joaquim da Conceição Alencar",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "ZAG",
@@ -18988,7 +18988,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "kauanbernardodasilva-atletico-ce",
     "name": "Kauan Bernardo da Silva",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "MEI",
@@ -18998,7 +18998,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "leonardocavalcantewalraven-atletico-ce",
     "name": "Leonardo Cavalcante Walraven",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "MEI",
@@ -19008,7 +19008,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "carlosandrecarneirodemelo-atletico-ce",
     "name": "Carlos André Carneiro de Melo",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "ATA",
@@ -19018,7 +19018,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "andreluizdeoliveiraararuna-atletico-ce",
     "name": "André Luiz de Oliveira Araruna",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "MEI",
@@ -19028,7 +19028,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "leonardoferreirasoares-atletico-ce",
     "name": "Leonardo Ferreira Soares",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "ZAG",
@@ -19038,7 +19038,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "franciscowellingtonmarcosdasilvafilho-atletico-ce",
     "name": "Francisco Wellington Marcos da Silva Filho",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "ATA",
@@ -19048,7 +19048,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "lucassousaqueiroz-atletico-ce",
     "name": "Lucas Sousa Queiroz",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "MEI",
@@ -19058,7 +19058,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "joaquimrarisonsalanmacedofreitassilva-atletico-ce",
     "name": "Joaquim Rarison Salan Macedo Freitas Silva",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "ATA",
@@ -19068,7 +19068,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "luanvictorcantanhedecardoso-atletico-ce",
     "name": "Luan Victor Cantanhede Cardoso",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "ATA",
@@ -19078,7 +19078,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "felipegabrielsousadasilva-atletico-ce",
     "name": "Felipe Gabriel Sousa da Silva",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "MEI",
@@ -19088,7 +19088,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "franciscoluidysousasilva-atletico-ce",
     "name": "Francisco Luidy Sousa Silva",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "ATA",
@@ -19098,7 +19098,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "carlosgabrielsousamoura-atletico-ce",
     "name": "Carlos Gabriel Sousa Moura",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "ATA",
@@ -19108,7 +19108,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "gabrieldeoliveiracastro-atletico-ce",
     "name": "Gabriel de Oliveira Castro",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "GOL",
@@ -19118,7 +19118,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     "id": "sauloviniciuslagorodrigues-atletico-ce",
     "name": "Saulo Vinicius Lago Rodrigues",
-    "clubId": "atletico-ce",
+    "clubId": "atletico-cearense",
     "clubName": "Atlético-CE",
     "division": "Série D",
     "position": "GOL",
