@@ -15291,6 +15291,817 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     "source": "https://maringafc.com.br/elenco/",
     "verifiedAt": "2026-11-08"
   }
+,
+  {
+    "id": "caiquefranca-guarani",
+    "name": "Caíque França",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "ge — elenco Guarani para a Série C 2026 (26/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dudu-guarani",
+    "name": "Dudu",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "ge — elenco Guarani para a Série C 2026 (26/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "emersonbarbosa-guarani",
+    "name": "Emerson Barbosa",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "ge — elenco Guarani para a Série C 2026 (26/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucasrafael-guarani",
+    "name": "Lucas Rafael",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "ge — elenco Guarani para a Série C 2026 (26/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "samuel-guarani",
+    "name": "Samuel",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "ge — elenco Guarani para a Série C 2026 (26/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheusguilherme-guarani",
+    "name": "Matheus Guilherme",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "ge — elenco Guarani para a Série C 2026 (26/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabrielgoncalvesdesouza-santa-cruz",
+    "name": "Gabriel Gonçalves de Souza",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rokenedydossantos-santa-cruz",
+    "name": "Rokenedy dos Santos",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thiagorodriguescoelho-santa-cruz",
+    "name": "Thiago Rodrigues Coelho",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thiagohenriquecarvalhodeoliveira-santa-cruz",
+    "name": "Thiago Henrique Carvalho de Oliveira",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alexruanvasconcelosferreira-santa-cruz",
+    "name": "Alex Ruan Vasconcelos Ferreira",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "denis-santa-cruz",
+    "name": "Denis",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "edsonalvesmirandajunior-santa-cruz",
+    "name": "Edson Alves Miranda Júnior",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eurico-santa-cruz",
+    "name": "Eurico",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jefinhobahia-santa-cruz",
+    "name": "Jefinho Bahia",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheusviniciusdasilva-santa-cruz",
+    "name": "Matheus Vinicius da Silva",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabrielmartinsrodrigues-santa-cruz",
+    "name": "Gabriel Martins Rodrigues",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thiagoennesmoreira-santa-cruz",
+    "name": "Thiago Ennes Moreira",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "williamaugustoalvesconserva-santa-cruz",
+    "name": "William Augusto Alves Conserva",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "zemario-santa-cruz",
+    "name": "Zé Mário",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "andreyramosdonascimento-santa-cruz",
+    "name": "Andrey Ramos do Nascimento",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "arilsoncarlosalvesbaptista-santa-cruz",
+    "name": "Arílson Carlos Alves Baptista",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabiogoncalves-santa-cruz",
+    "name": "Fábio Gonçalves",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jhoninha-santa-cruz",
+    "name": "Jhoninha",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaopedroflorenciobarbosa-santa-cruz",
+    "name": "João Pedro Florêncio Barbosa",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leonardodeoliveiracosta-santa-cruz",
+    "name": "Leonardo de Oliveira Costa",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheusaugustodemelo-santa-cruz",
+    "name": "Matheus Augusto de Melo",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nilton-santa-cruz",
+    "name": "Nilton",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "patrickallandasilvamolgoncalves-santa-cruz",
+    "name": "Patrick Allan da Silva Mol Gonçalves",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedroantoniomatheusmartinsfavela-santa-cruz",
+    "name": "Pedro Antonio Matheus Martins Favela",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "regisaugustosalmazzo-santa-cruz",
+    "name": "Régis Augusto Salmazzo",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "silva-santa-cruz",
+    "name": "Silva",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "willianjunior-santa-cruz",
+    "name": "Willian Junior",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alexsandrodeoliveira-santa-cruz",
+    "name": "Alex Sandro de Oliveira",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cassiano-santa-cruz",
+    "name": "Cassiano",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eronildodossantosrocha-santa-cruz",
+    "name": "Eronildo dos Santos Rocha",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "everaldosilvadonascimento-santa-cruz",
+    "name": "Everaldo Silva do Nascimento",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "horavini-santa-cruz",
+    "name": "Hora Vini",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheusalfredocadorinidasilva-santa-cruz",
+    "name": "Matheus Alfredo Cadorini da Silva",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joserenatodasilvajunior-santa-cruz",
+    "name": "José Renato da Silva Júnior",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "franciscowellingtonbarbosadelisboa-santa-cruz",
+    "name": "Francisco Wellington Barbosa de Lisboa",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ronaldsantannarodrigues-santa-cruz",
+    "name": "Ronald Sant'anna Rodrigues",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "tiagomarquesrezende-santa-cruz",
+    "name": "Tiago Marques Rezende",
+    "clubId": "santa-cruz",
+    "clubName": "Santa Cruz",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Santa Cruz 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "avelino-volta-redonda",
+    "name": "Avelino",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yagooliveira-volta-redonda",
+    "name": "Yago Oliveira",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermenunes-volta-redonda",
+    "name": "Guilherme Nunes",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "deivity-volta-redonda",
+    "name": "Deivity",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "heitorsilva-volta-redonda",
+    "name": "Heitor Silva",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wellingtonsilva-volta-redonda",
+    "name": "Wellington Silva",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucasadell-volta-redonda",
+    "name": "Lucas Adell",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jeanvictor-volta-redonda",
+    "name": "Jean Victor",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jfaria-volta-redonda",
+    "name": "J. Faria",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alan-volta-redonda",
+    "name": "Alan",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabriciosilvadornellas-volta-redonda",
+    "name": "Fabrício Silva Dornellas",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafaelcastro-volta-redonda",
+    "name": "Rafael Castro",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaovalenca-volta-redonda",
+    "name": "João Valença",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucasrocha-volta-redonda",
+    "name": "Lucas Rocha",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "henry-volta-redonda",
+    "name": "Henry",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juninho-volta-redonda",
+    "name": "Juninho",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ddasilva-volta-redonda",
+    "name": "D. Da Silva",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lpinto-volta-redonda",
+    "name": "L. Pinto",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedrocosta-volta-redonda",
+    "name": "Pedro Costa",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "brunobarra-volta-redonda",
+    "name": "Bruno Barra",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caiosilva-volta-redonda",
+    "name": "Caio Silva",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dener-volta-redonda",
+    "name": "Dener",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucianonaninho-volta-redonda",
+    "name": "Luciano Naninho",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bcarvalho-volta-redonda",
+    "name": "B. Carvalho",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wagninho-volta-redonda",
+    "name": "Wagninho",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "henriquesilva-volta-redonda",
+    "name": "Henrique Silva",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dufernandes-volta-redonda",
+    "name": "Du Fernandes",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "julianofabro-volta-redonda",
+    "name": "Juliano Fabro",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caetano-volta-redonda",
+    "name": "Caetano",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juninhoramos-volta-redonda",
+    "name": "Juninho Ramos",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marquinhos-volta-redonda",
+    "name": "Marquinhos",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yzuniga-volta-redonda",
+    "name": "Y. Zuniga",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheusregis-volta-redonda",
+    "name": "Matheus Régis",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "andrey-volta-redonda",
+    "name": "Andrey",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "levi-volta-redonda",
+    "name": "Levi",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wendel-volta-redonda",
+    "name": "Wendel",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "miguelteixeira-volta-redonda",
+    "name": "Miguel Teixeira",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafaelfurtado-volta-redonda",
+    "name": "Rafael Furtado",
+    "clubId": "volta-redonda",
+    "clubName": "Volta Redonda",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
+    "verifiedAt": "2026-11-08"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
