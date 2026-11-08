@@ -13705,6 +13705,536 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[
     "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
     "verifiedAt": "2026-11-08"
   },
+  {
+    "id": "leo-lang-caxias",
+    "name": "Léo Lang",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavo-busatto-caxias",
+    "name": "Gustavo Busatto",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-caxias",
+    "name": "Pedro",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitor-gabriel-caxias",
+    "name": "Vitor Gabriel",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitinho-caxias",
+    "name": "Vitinho",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dija-caxias",
+    "name": "Dija",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thiago-ennes-caxias",
+    "name": "Thiago Ennes",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "andres-robles-caxias",
+    "name": "Andrés Robles",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "moraes-caxias",
+    "name": "Moraes",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carlos-henrique-caxias",
+    "name": "Carlos Henrique",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "andre-dantas-caxias",
+    "name": "André Dantas",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcelo-freitas-caxias",
+    "name": "Marcelo Freitas",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dudu-vieira-caxias",
+    "name": "Dudu Vieira",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wellington-reis-caxias",
+    "name": "Wellington Reis",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "grigor-caxias",
+    "name": "Grigor",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luis-fernando-caxias",
+    "name": "Luis Fernando",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-candido-caxias",
+    "name": "Lucas Cândido",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-anjos-caxias",
+    "name": "Matheus Anjos",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yan-rolim-caxias",
+    "name": "Yan Rolim",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "tomas-bastos-caxias",
+    "name": "Tomas Bastos",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-lucas-caxias",
+    "name": "João Lucas",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dentinho-caxias",
+    "name": "Dentinho",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "douglas-skilo-caxias",
+    "name": "Douglas Skilo",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "andrew-caxias",
+    "name": "Andrew",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavo-nescau-caxias",
+    "name": "Gustavo Nescau",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luis-miguel-caxias",
+    "name": "Luis Miguel",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaio-torres-caxias",
+    "name": "Kaio Torres",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gaspar-caxias",
+    "name": "Gaspar",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leozinho-caxias",
+    "name": "Leozinho",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jeam-caxias",
+    "name": "Jeam",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "arthur-viana-caxias",
+    "name": "Arthur Viana",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2026/09/mais-de-50-jogadores-passaram-pelo-caxias-na-temporada-de-2026-veja-a-lista-cmtiz09j100mx011jiyv1sb7s.html",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cadu-confianca",
+    "name": "Cadu",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcos-paulo-confianca",
+    "name": "Marcos Paulo",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-emiliano-confianca",
+    "name": "Matheus Emiliano",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "icaro-confianca",
+    "name": "Ícaro",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "adryan-confianca",
+    "name": "Adryan",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eduardo-moura-confianca",
+    "name": "Eduardo Moura",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "renilson-confianca",
+    "name": "Renilson",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "weriton-confianca",
+    "name": "Weriton",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcelo-nunes-confianca",
+    "name": "Marcelo Nunes",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "natan-confianca",
+    "name": "Natan",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alisson-confianca",
+    "name": "Alisson",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lorran-confianca",
+    "name": "Lorran",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-nunes-confianca",
+    "name": "Guilherme Nunes",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-teixeira-confianca",
+    "name": "Guilherme Teixeira",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-ryan-confianca",
+    "name": "Guilherme Ryan",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "benjamim-confianca",
+    "name": "Benjamim",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pk-confianca",
+    "name": "PK",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "maikon-aquino-confianca",
+    "name": "Maikon Aquino",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "danielzinho-confianca",
+    "name": "Danielzinho",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "welder-confianca",
+    "name": "Welder",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "keirrison-confianca",
+    "name": "Keirrison",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thiago-luiz-confianca",
+    "name": "Thiago Luiz",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
+    "verifiedAt": "2026-11-08"
+  },
 ];
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
