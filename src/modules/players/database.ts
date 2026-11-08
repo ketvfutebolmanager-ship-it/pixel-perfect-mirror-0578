@@ -4941,6 +4941,407 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
     "verifiedAt": "2026-11-08"
   }
+,
+  {
+    "id": "wladimir-atletico-goianiense",
+    "name": "Wladimir",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulo-vitor-atletico-goianiense",
+    "name": "Paulo Vitor",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-atletico-goianiense",
+    "name": "Léo",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulo-henrique-atletico-goianiense",
+    "name": "Paulo Henrique",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yuri-atletico-goianiense",
+    "name": "Yuri",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "adriano-martins-atletico-goianiense",
+    "name": "Adriano Martins",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "tito-atletico-goianiense",
+    "name": "Tito",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nata-felipe-atletico-goianiense",
+    "name": "Natã Felipe",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "junior-barreto-atletico-goianiense",
+    "name": "Junior Barreto",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-bebeto-atletico-goianiense",
+    "name": "Matheus Bebeto",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavo-daniel-atletico-goianiense",
+    "name": "Gustavo Daniel",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-lopes-atletico-goianiense",
+    "name": "Guilherme Lopes",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jampierre-atletico-goianiense",
+    "name": "Jampierre",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ewerthon-atletico-goianiense",
+    "name": "Ewerthon",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipe-guimaraes-atletico-goianiense",
+    "name": "Felipe Guimarães",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaua-henrique-atletico-goianiense",
+    "name": "Kauã Henrique",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "warley-atletico-goianiense",
+    "name": "Warley",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yuri-silva-atletico-goianiense",
+    "name": "Yuri Silva",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lima-atletico-goianiense",
+    "name": "Lima",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "klebert-atletico-goianiense",
+    "name": "Klebert",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "igor-henrique-atletico-goianiense",
+    "name": "Igor Henrique",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "geovane-atletico-goianiense",
+    "name": "Geovane",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-marques-atletico-goianiense",
+    "name": "Guilherme Marques",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leandro-vilela-atletico-goianiense",
+    "name": "Leandro Vilela",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cristiano-atletico-goianiense",
+    "name": "Cristiano",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "daniel-peixoto-atletico-goianiense",
+    "name": "Daniel Peixoto",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "henrique-freitas-atletico-goianiense",
+    "name": "Henrique Freitas",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "netinho-atletico-goianiense",
+    "name": "Netinho",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marrony-atletico-goianiense",
+    "name": "Marrony",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheusinho-atletico-goianiense",
+    "name": "Matheusinho",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavo-maia-atletico-goianiense",
+    "name": "Gustavo Maia",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "david-terans-atletico-goianiense",
+    "name": "David Terans",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bruno-jose-atletico-goianiense",
+    "name": "Bruno José",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-tocantins-atletico-goianiense",
+    "name": "Léo Tocantins",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "geovany-soares-atletico-goianiense",
+    "name": "Geovany Soares",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "brenno-atletico-goianiense",
+    "name": "Brenno",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-pae-atletico-goianiense",
+    "name": "Gabriel Paê",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-pedro-atletico-goianiense",
+    "name": "João Pedro",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kahiser-atletico-goianiense",
+    "name": "Kahiser",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaua-marley-atletico-goianiense",
+    "name": "Kauã Marley",
+    "clubId": "atletico-goianiense",
+    "clubName": "Atlético Goianiense",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://atleticogoianiense.com.br/",
+    "verifiedAt": "2026-11-08"
+  }
 ];
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
