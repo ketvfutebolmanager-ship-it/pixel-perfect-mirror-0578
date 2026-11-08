@@ -141,7 +141,7 @@ function Page() {
                     return <tr key={club.id} className={`border-t border-border/70 transition-colors hover:bg-primary/5 ${highlighted ? (division === "Série A" || index >= orderedClubs.length - 4 ? "bg-red-500/10" : "bg-emerald-500/10") : ""}`}>
                       <td className="px-3 py-3 text-center font-bold tabular-nums text-muted-foreground">{index + 1}</td>
                       <td className="px-3 py-3"><div className="flex items-center gap-3">
-                        <img src={crestSources(club.name)[0]} data-source-index="0" alt={`Escudo do ${club.name}`} loading="lazy" onError={(event) => {
+                        <img src={crestSources(club.name)[0]} data-source-index="0" alt={`Escudo do ${club.name}`} loading="lazy" style={club.name === "Maringá" ? { backgroundColor: "#ffffff", padding: "4px", borderRadius: "9999px", filter: "none" } : undefined} onError={(event) => {
                           const image = event.currentTarget;
                           const sources = crestSources(club.name);
                           const next = Number(image.dataset.sourceIndex ?? "0") + 1;
