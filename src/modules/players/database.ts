@@ -4060,6 +4060,887 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     "source": "https://interdelimeira.com/player/getulio/",
     "verifiedAt": "2026-11-08"
   }
+,
+  {
+    "id": "gustavo-america-mineiro",
+    "name": "Gustavo",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "william-america-mineiro",
+    "name": "William",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cassio-america-mineiro",
+    "name": "Cássio",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "italo-brito-america-mineiro",
+    "name": "Ítalo Brito",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bruno-brigido-america-mineiro",
+    "name": "Bruno Brígido",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-sena-pereira-america-mineiro",
+    "name": "Gabriel Sena Pereira",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-couto-simoes-america-mineiro",
+    "name": "Matheus Couto Simões",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "emerson-santos-america-mineiro",
+    "name": "Emerson Santos",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-sosa-america-mineiro",
+    "name": "Lucas Sosa",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-barcelos-america-mineiro",
+    "name": "Rafael Barcelos",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "heitor-america-mineiro",
+    "name": "Heitor",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alex-america-mineiro",
+    "name": "Alex",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "tobias-ostchega-america-mineiro",
+    "name": "Tobías Ostchega",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "manoel-america-mineiro",
+    "name": "Manoel",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luidy-america-mineiro",
+    "name": "Luidy",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabio-america-mineiro",
+    "name": "Fábio",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "filipe-dahora-america-mineiro",
+    "name": "Filipe Dahora",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thallyson-america-mineiro",
+    "name": "Thallyson",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ricardo-silva-america-mineiro",
+    "name": "Ricardo Silva",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-de-oliveira-da-silva-america-mineiro",
+    "name": "Gabriel De Oliveira Da Silva",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cristian-do-espirito-santo-rodrigues-america-mineiro",
+    "name": "Cristian Do Espirito Santo Rodrigues",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-vinicius-da-rosa-kappel-america-mineiro",
+    "name": "Pedro Vinicius Da Rosa Kappel",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rian-henrique-de-melo-rodrigues-america-mineiro",
+    "name": "Rian Henrique De Melo Rodrigues",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ruan-victor-pereira-santana-america-mineiro",
+    "name": "Ruan Victor Pereira Santana",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fernando-elizari-america-mineiro",
+    "name": "Fernando Elizari",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-domingos-america-mineiro",
+    "name": "Gabriel Domingos",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipe-amaral-america-mineiro",
+    "name": "Felipe Amaral",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ale-america-mineiro",
+    "name": "Alê",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eduardo-luiz-person-america-mineiro",
+    "name": "Eduardo Luiz Person",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "julio-cesar-leme-do-nascimento-america-mineiro",
+    "name": "Julio César Leme Do Nascimento",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "murilo-rodrigues-povoa-america-mineiro",
+    "name": "Murilo Rodrigues Povoa",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "otavio-goncalves-america-mineiro",
+    "name": "Otávio Gonçalves",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "barreto-america-mineiro",
+    "name": "Barreto",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jorge-roa-america-mineiro",
+    "name": "Jorge Roa",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "derick-martins-pereira-america-mineiro",
+    "name": "Derick Martins Pereira",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-oliveira-santos-america-mineiro",
+    "name": "Gabriel Oliveira Santos",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-felipe-campos-pereira-america-mineiro",
+    "name": "Luiz Felipe Campos Pereira",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-parede-america-mineiro",
+    "name": "Guilherme Parede",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "willian-america-mineiro",
+    "name": "Willian",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodrigo-pineiro-america-mineiro",
+    "name": "Rodrigo Piñeiro",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gonzalo-mastriani-america-mineiro",
+    "name": "Gonzalo Mastriani",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulo-victor-america-mineiro",
+    "name": "Paulo Victor",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "italo-gabriel-charbaje-de-souza-america-mineiro",
+    "name": "Italo Gabriel Charbaje De Souza",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaique-zizero-america-mineiro",
+    "name": "Kaique Zizero",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matias-segovia-america-mineiro",
+    "name": "Matías Segovia",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-geovane-paranhos-santos-america-mineiro",
+    "name": "Pedro Geovane Paranhos Santos",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcelo-macola-america-mineiro",
+    "name": "Marcelo Maçola",
+    "clubId": "america-mineiro",
+    "clubName": "América Mineiro",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.golmates.com/pt/brasil/time/america-mineiro/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jhonatan-luiz-athletic-club",
+    "name": "Jhonatan Luiz",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luan-polli-athletic-club",
+    "name": "Luan Polli",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "glauco-athletic-club",
+    "name": "Glauco",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eduardo-freire-athletic-club",
+    "name": "Eduardo Freire",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jhonatan-silva-athletic-club",
+    "name": "Jhonatan Silva",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-belezi-athletic-club",
+    "name": "Lucas Belezi",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-indio-athletic-club",
+    "name": "Gabriel Índio",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipe-vieira-athletic-club",
+    "name": "Felipe Vieira",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diogo-batista-athletic-club",
+    "name": "Diogo Batista",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "zeca-athletic-club",
+    "name": "Zeca",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcelo-henrique-athletic-club",
+    "name": "Marcelo Henrique",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "DEF",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavinho-athletic-club",
+    "name": "Gustavinho",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ian-luccas-athletic-club",
+    "name": "Ian Luccas",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipe-negrucci-athletic-club",
+    "name": "Felipe Negrucci",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gian-cabezas-athletic-club",
+    "name": "Gian Cabezas",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eduardo-filipe-athletic-club",
+    "name": "Eduardo Filipe",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "david-braga-athletic-club",
+    "name": "David Braga",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kauan-lindes-athletic-club",
+    "name": "Kauan Lindes",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alexandre-pena-athletic-club",
+    "name": "Alexandre Pena",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jota-athletic-club",
+    "name": "Jota",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "copete-athletic-club",
+    "name": "Copete",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-miguel-athletic-club",
+    "name": "João Miguel",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kauan-rodrigues-athletic-club",
+    "name": "Kauan Rodrigues",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-oliveira-athletic-club",
+    "name": "Pedro Oliveira",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yago-santos-athletic-club",
+    "name": "Yago Santos",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "assis-athletic-club",
+    "name": "Assis",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "douglas-pele-athletic-club",
+    "name": "Douglas Pelé",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-fernando-athletic-club",
+    "name": "Luiz Fernando",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yarlen-athletic-club",
+    "name": "Yarlen",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dixon-vera-athletic-club",
+    "name": "Dixon Vera",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carlinhos-athletic-club",
+    "name": "Carlinhos",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ronaldo-tavares-athletic-club",
+    "name": "Ronaldo Tavares",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavao-athletic-club",
+    "name": "Gustavão",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ruan-assis-athletic-club",
+    "name": "Ruan Assis",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "max-athletic-club",
+    "name": "Max",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-carioca-athletic-club",
+    "name": "Gabriel Carioca",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-chu-athletic-club",
+    "name": "Léo Chú",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carlito-athletic-club",
+    "name": "Carlito",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wili-aponza-athletic-club",
+    "name": "Wili Aponzá",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "otusanya-athletic-club",
+    "name": "Otusanya",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-moyses-athletic-club",
+    "name": "Gabriel Moysés",
+    "clubId": "athletic-club",
+    "clubName": "Athletic Club",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/athletic-club/elenco",
+    "verifiedAt": "2026-11-08"
+  }
 ];
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
