@@ -17433,6 +17433,1357 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
     "verifiedAt": "2026-11-08"
   }
+,
+  {
+    "id": "joaogabriel-america-rj",
+    "name": "João Gabriel",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermeeiras-america-rj",
+    "name": "Guilherme Eiras",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leosilva-america-rj",
+    "name": "Leo Silva",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alanpires-america-rj",
+    "name": "Alan Pires",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaduribeiro-america-rj",
+    "name": "Kadu Ribeiro",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yanvictor-america-rj",
+    "name": "Yan Victor",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ryancouto-america-rj",
+    "name": "Ryan Couto",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juliocesar-america-rj",
+    "name": "Júlio César",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "raphinha-america-rj",
+    "name": "Raphinha",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yanjesus-america-rj",
+    "name": "Yan Jesus",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "arthurdemoura-america-rj",
+    "name": "Arthur de Moura",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermeaguiar-america-rj",
+    "name": "Guilherme Aguiar",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "octavioassis-america-rj",
+    "name": "Octávio Assis",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermegarre-america-rj",
+    "name": "Guilherme Garré",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mateusnascimento-america-rj",
+    "name": "Mateus Nascimento",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "laranjeira-america-rj",
+    "name": "Laranjeira",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipemanoel-america-rj",
+    "name": "Felipe Manoel",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alexmoretti-america-rj",
+    "name": "Alex Moretti",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "henriqueevangelista-america-rj",
+    "name": "Henrique Evangelista",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "romarinho-america-rj",
+    "name": "Romarinho",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cafe-america-rj",
+    "name": "Café",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caiorangel-america-rj",
+    "name": "Caio Rangel",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodrigofumaca-america-rj",
+    "name": "Rodrigo Fumaça",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nathan-america-rj",
+    "name": "Nathan",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lualucio-america-rj",
+    "name": "Luã Lúcio",
+    "clubId": "america-rj",
+    "clubName": "America-RJ",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "365Scores — elenco 2026; CBF — atletas inscritos na Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "renanbraganca-america-rn",
+    "name": "Renan Bragança",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "aydhan-america-rn",
+    "name": "Aydhan",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "anthony-america-rn",
+    "name": "Anthony",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luz-america-rn",
+    "name": "Luz",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "elias-america-rn",
+    "name": "Elias",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caiohila-america-rn",
+    "name": "Caio Hila",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "evandro-america-rn",
+    "name": "Evandro",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafinha-america-rn",
+    "name": "Rafinha",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermeparaiba-america-rn",
+    "name": "Guilherme Paraíba",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "renzo-america-rn",
+    "name": "Renzo",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucasrodrigues-america-rn",
+    "name": "Lucas Rodrigues",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedrojorge-america-rn",
+    "name": "Pedro Jorge",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavo-america-rn",
+    "name": "Gustavo",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ismael-america-rn",
+    "name": "Ismael",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "balotelli-america-rn",
+    "name": "Balotelli",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jadson-america-rn",
+    "name": "Jadson",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "coppetti-america-rn",
+    "name": "Coppetti",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wallacecamilo-america-rn",
+    "name": "Wallace Camilo",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wendel-america-rn",
+    "name": "Wendel",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dudu-america-rn",
+    "name": "Dudu",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "henrique-america-rn",
+    "name": "Henrique",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "allancesar-america-rn",
+    "name": "Allan César",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "augustogalvan-america-rn",
+    "name": "Augusto Galván",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luizthiago-america-rn",
+    "name": "Luiz Thiago",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vinnifaria-america-rn",
+    "name": "Vinni Faria",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "denilson-america-rn",
+    "name": "Denilson",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "klayver-america-rn",
+    "name": "Klayver",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "brandao-america-rn",
+    "name": "Brandão",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaozinho-america-rn",
+    "name": "Joãozinho",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "brenno-america-rn",
+    "name": "Brenno",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaiky-america-rn",
+    "name": "Kaiky",
+    "clubId": "america-rn",
+    "clubName": "América-RN",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco atualizado e jogadores com vínculo confirmado em 22/10/2026; site oficial América SAF",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipepitaluga-aparecidense",
+    "name": "Felipe Pitaluga",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedromoreira-aparecidense",
+    "name": "Pedro Moreira",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cleuber-aparecidense",
+    "name": "Cleuber",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "renahn-aparecidense",
+    "name": "Renahn",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thierry-aparecidense",
+    "name": "Thierry",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedrovictor-aparecidense",
+    "name": "Pedro Victor",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luisfilipe-aparecidense",
+    "name": "Luis Filipe",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bruninho-aparecidense",
+    "name": "Bruninho",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "victorhugopimenta-aparecidense",
+    "name": "Victor Hugo Pimenta",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dourado-aparecidense",
+    "name": "Dourado",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diogoabdalla-aparecidense",
+    "name": "Diogo Abdalla",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "raphaelluz-aparecidense",
+    "name": "Raphael Luz",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luandhonnatas-aparecidense",
+    "name": "Luan Dhonnatas",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mariohenrique-aparecidense",
+    "name": "Mario Henrique",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitao-aparecidense",
+    "name": "Vitão",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carlosgabriel-aparecidense",
+    "name": "Carlos Gabriel",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jefferson-aparecidense",
+    "name": "Jefferson",
+    "clubId": "aparecidense",
+    "clubName": "Aparecidense",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — atletas da Série D 2026 com clube atual Aparecidense",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "aglailsonjunior-araguaina",
+    "name": "Aglailson Junior",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabrielviniciusalves-araguaina",
+    "name": "Gabriel Vinicius Alves",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alissondakawazerekwa-araguaina",
+    "name": "Alisson Dakawazerekwa",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaiogustavo-araguaina",
+    "name": "Kaio Gustavo",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "murillobarbosa-araguaina",
+    "name": "Murillo Barbosa",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eduardoleite-araguaina",
+    "name": "Eduardo Leite",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "viana-araguaina",
+    "name": "Viana",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kennedybaloteli-araguaina",
+    "name": "Kennedy Baloteli",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thalyson-araguaina",
+    "name": "Thalyson",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ailtonjunior-araguaina",
+    "name": "Ailton Junior",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "giovani-araguaina",
+    "name": "Giovani",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "andredalomo-araguaina",
+    "name": "Andre Dal Omo",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "zeelias-araguaina",
+    "name": "Ze Elias",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luizhenrique-araguaina",
+    "name": "Luiz Henrique",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafaelleandro-araguaina",
+    "name": "Rafael Leandro",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "barrozo-araguaina",
+    "name": "Barrozo",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luizneto-araguaina",
+    "name": "Luiz Neto",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaio-araguaina",
+    "name": "Kaio",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "douglaspantera-araguaina",
+    "name": "Douglas Pantera",
+    "clubId": "araguaina",
+    "clubName": "Araguaína",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "CBF — atletas e artilharia da Série D 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafaelmariano-asa",
+    "name": "Rafael Mariano",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dida-asa",
+    "name": "Dida",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cris-asa",
+    "name": "Cris",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leoprincipe-asa",
+    "name": "Leo Principe",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jackson-asa",
+    "name": "Jackson",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cristianlucca-asa",
+    "name": "Cristian Lucca",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabioaguiar-asa",
+    "name": "Fábio Aguiar",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ailtonferreirasilva-asa",
+    "name": "Aílton Ferreira Silva",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wesleycosta-asa",
+    "name": "Wesley Costa",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "danilomendes-asa",
+    "name": "Danilo Mendes",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "davibomfim-asa",
+    "name": "Davi Bomfim",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vjbatistasantos-asa",
+    "name": "V. J. Batista Santos",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ronilobo-asa",
+    "name": "Roni Lobo",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "arthurzinho-asa",
+    "name": "Arthurzinho",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "filiperamon-asa",
+    "name": "Filipe Ramon",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alysson-asa",
+    "name": "Alysson",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulinho-asa",
+    "name": "Paulinho",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "allefdefreitasrodrigues-asa",
+    "name": "Allef de Freitas Rodrigues",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "higorleite-asa",
+    "name": "Higor Leite",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitordelima-asa",
+    "name": "Vitor de Lima",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedrocolina-asa",
+    "name": "Pedro Colina",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "frichard-asa",
+    "name": "F. Richard",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rfranco-asa",
+    "name": "R. Franco",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leocarvalho-asa",
+    "name": "Leo Carvalho",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-asa",
+    "name": "Leo",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yohan-asa",
+    "name": "Yohan",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jefersonlopes-asa",
+    "name": "Jeferson Lopes",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "sammuel-asa",
+    "name": "Sammuel",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "edjailsonnascimento-asa",
+    "name": "Edjailson Nascimento",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vinilocatelli-asa",
+    "name": "Vini Locatelli",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "motta-asa",
+    "name": "Motta",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alexbruno-asa",
+    "name": "Alex Bruno",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "micheldouglas-asa",
+    "name": "Michel Douglas",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wandson-asa",
+    "name": "Wandson",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "porfirioleo-asa",
+    "name": "Porfirio Leo",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marquinhosbrazion-asa",
+    "name": "Marquinhos Brazion",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dududaconceicao-asa",
+    "name": "Dudu da Conceição",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jonata-asa",
+    "name": "Jonata",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "viniciusalves-asa",
+    "name": "Vinícius Alves",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "iago-asa",
+    "name": "Iago",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "iarleybarros-asa",
+    "name": "Iarley Barros",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavoramos-asa",
+    "name": "Gustavo Ramos",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juniorvicosa-asa",
+    "name": "Júnior Viçosa",
+    "clubId": "asa",
+    "clubName": "ASA",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "TerFaro — elenco Série D 2026; ge — renovações e elenco 2026",
+    "verifiedAt": "2026-11-08"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
