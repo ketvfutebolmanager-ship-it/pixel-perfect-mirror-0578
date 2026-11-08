@@ -8212,6 +8212,2027 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[
       "source": "https://esportes.portalinside.com/time/juventude/elenco",
       "verifiedAt": "2026-11-08"
     }
+,
+  {
+    "id": "mauricio-kozlinski-londrina",
+    "name": "Maurício Kozlinski",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luan-ribeiro-londrina",
+    "name": "Luan Ribeiro",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thiago-parente-londrina",
+    "name": "Thiago Parente",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eduardo-zanella-londrina",
+    "name": "Eduardo Zanella",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "andre-dhominique-londrina",
+    "name": "André Dhominique",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kevyn-londrina",
+    "name": "Kevyn",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-monteiro-londrina",
+    "name": "Rafael Monteiro",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caio-londrina",
+    "name": "Caio",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-lacerda-londrina",
+    "name": "Gabriel Lacerda",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "heron-londrina",
+    "name": "Heron",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wallace-londrina",
+    "name": "Wallace",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yago-lincoln-londrina",
+    "name": "Yago Lincoln",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yuri-lima-londrina",
+    "name": "Yuri Lima",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "andre-cardoso-londrina",
+    "name": "André Cardoso",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "andre-luiz-londrina",
+    "name": "André Luiz",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabiano-londrina",
+    "name": "Fabiano",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-tavares-londrina",
+    "name": "João Tavares",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-marques-londrina",
+    "name": "Lucas Marques",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "murilo-chico-londrina",
+    "name": "Murilo Chico",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "chumbinho-londrina",
+    "name": "Chumbinho",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caio-maia-londrina",
+    "name": "Caio Maia",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabricio-londrina",
+    "name": "Fabrício",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gilberto-londrina",
+    "name": "Gilberto",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "iago-teles-londrina",
+    "name": "Iago Teles",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juninho-londrina",
+    "name": "Juninho",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulinho-moccelin-londrina",
+    "name": "Paulinho Moccelin",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitinho-londrina",
+    "name": "Vitinho",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitor-jacare-londrina",
+    "name": "Vitor Jacaré",
+    "clubId": "londrina",
+    "clubName": "Londrina",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.londrinaesporteclube.com.br/futebol/profissional/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gaston-guruceaga-nautico",
+    "name": "Gastón Guruceaga",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "muriel-nautico",
+    "name": "Muriel",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "betao-nautico",
+    "name": "Betão",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavo-henrique-nautico",
+    "name": "Gustavo Henrique",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "igor-fernandes-nautico",
+    "name": "Igor Fernandes",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-indio-nautico",
+    "name": "Léo Índio",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mateus-silva-nautico",
+    "name": "Mateus Silva",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wanderson-nautico",
+    "name": "Wanderson",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "arnaldo-nautico",
+    "name": "Arnaldo",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "emanuel-nautico",
+    "name": "Emanuel",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-ribeiro-nautico",
+    "name": "Matheus Ribeiro",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "reginaldo-nautico",
+    "name": "Reginaldo",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-paulo-nautico",
+    "name": "Luiz Paulo",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-jance-nautico",
+    "name": "Léo Jance",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ryan-carlos-nautico",
+    "name": "Ryan Carlos",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "auremir-nautico",
+    "name": "Auremir",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "halanzinho-nautico",
+    "name": "Halanzinho",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-felipe-nautico",
+    "name": "Luiz Felipe",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "samuel-nautico",
+    "name": "Samuel",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wenderson-nautico",
+    "name": "Wenderson",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jean-carlos-nautico",
+    "name": "Jean Carlos",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pato-nunez-nautico",
+    "name": "Pato Nuñez",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipe-redaelli-nautico",
+    "name": "Felipe Redaelli",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "danielzinho-nautico",
+    "name": "Danielzinho",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "derek-nautico",
+    "name": "Derek",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "benjamin-borasi-nautico",
+    "name": "Benjamín Borasi",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "junior-todinho-nautico",
+    "name": "Junior Todinho",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaua-maranhao-nautico",
+    "name": "Kauã Maranhão",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-claudio-nautico",
+    "name": "Luiz Claudio",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulo-sergio-nautico",
+    "name": "Paulo Sérgio",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rosa-nautico",
+    "name": "Rosa",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "victor-andrade-nautico",
+    "name": "Victor Andrade",
+    "clubId": "nautico",
+    "clubName": "Náutico",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://clubenauticocapibaribe.com.br/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-ribeiro-novorizontino",
+    "name": "Lucas Ribeiro",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-scapin-novorizontino",
+    "name": "João Scapin",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulo-fagundes-novorizontino",
+    "name": "Paulo Fagundes",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cesar-novorizontino",
+    "name": "César",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jordi-novorizontino",
+    "name": "Jordi",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "madson-novorizontino",
+    "name": "Madson",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carlinhos-novorizontino",
+    "name": "Carlinhos",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "patrick-novorizontino",
+    "name": "Patrick",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "sander-novorizontino",
+    "name": "Sander",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eduardo-brock-novorizontino",
+    "name": "Eduardo Brock",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "k-alemao-novorizontino",
+    "name": "K. Alemão",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "a-alvarino-novorizontino",
+    "name": "A. Alvariño",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "j-lora-novorizontino",
+    "name": "J. Lora",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bruninho-novorizontino",
+    "name": "Bruninho",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "renato-novorizontino",
+    "name": "Renato",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mayk-novorizontino",
+    "name": "Mayk",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luis-oyama-novorizontino",
+    "name": "Luis Oyama",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "c-ortiz-novorizontino",
+    "name": "C. Ortíz",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diego-galo-novorizontino",
+    "name": "Diego Galo",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-gabriel-novorizontino",
+    "name": "Luiz Gabriel",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dantas-novorizontino",
+    "name": "Dantas",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-bahia-novorizontino",
+    "name": "Gabriel Bahia",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juninho-novorizontino",
+    "name": "Juninho",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "tavinho-novorizontino",
+    "name": "Tavinho",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "tiago-novorizontino",
+    "name": "Tiago",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "airton-novorizontino",
+    "name": "Airton",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caio-dantas-novorizontino",
+    "name": "Caio Dantas",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carlao-novorizontino",
+    "name": "Carlão",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diego-mathias-novorizontino",
+    "name": "Diego Mathias",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "helio-borges-novorizontino",
+    "name": "Hélio Borges",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "reidiney-novorizontino",
+    "name": "Reidiney",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ronald-barcellos-novorizontino",
+    "name": "Ronald Barcellos",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vinicius-novorizontino",
+    "name": "Vinícius",
+    "clubId": "novorizontino",
+    "clubName": "Novorizontino",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://keplerquant.com/pt-br/clubs/novorizontino/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vagner-operario-ferroviario",
+    "name": "Vagner",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pablo-operario-ferroviario",
+    "name": "Pablo",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-trindade-operario-ferroviario",
+    "name": "Matheus Trindade",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "charles-operario-ferroviario",
+    "name": "Charles",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paraiba-operario-ferroviario",
+    "name": "Paraíba",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "moraes-operario-ferroviario",
+    "name": "Moraes",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "maguinho-operario-ferroviario",
+    "name": "Maguinho",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bruno-operario-ferroviario",
+    "name": "Bruno",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "aylon-operario-ferroviario",
+    "name": "Aylon",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "klaus-operario-ferroviario",
+    "name": "Klaus",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "elias-operario-ferroviario",
+    "name": "Elias",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caio-operario-ferroviario",
+    "name": "Caio",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-boschilia-operario-ferroviario",
+    "name": "Gabriel Boschilia",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "talles-operario-ferroviario",
+    "name": "Talles",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joseph-mauricio-operario-ferroviario",
+    "name": "Joseph Mauricio",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "maranhao-operario-ferroviario",
+    "name": "Maranhão",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wendell-operario-ferroviario",
+    "name": "Wendell",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dudu-operario-ferroviario",
+    "name": "Dudu",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedrinho-operario-ferroviario",
+    "name": "Pedrinho",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "brenno-operario-ferroviario",
+    "name": "Brenno",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "samuel-operario-ferroviario",
+    "name": "Samuel",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mikael-operario-ferroviario",
+    "name": "Mikael",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "igor-fernandes-operario-ferroviario",
+    "name": "Igor Fernandes",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "zuluaga-operario-ferroviario",
+    "name": "Zuluaga",
+    "clubId": "operario-ferroviario",
+    "clubName": "Operário Ferroviário",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20106",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "william-ponte-preta",
+    "name": "William",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-rocha-ponte-preta",
+    "name": "Pedro Rocha",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luan-ribeiro-ponte-preta",
+    "name": "Luan Ribeiro",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-vianna-ponte-preta",
+    "name": "Guilherme Vianna",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joilson-ponte-preta",
+    "name": "Joilson",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "edson-ponte-preta",
+    "name": "Edson",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "castro-ponte-preta",
+    "name": "Castro",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luis-haquin-ponte-preta",
+    "name": "Luís Haquín",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mateus-silva-ponte-preta",
+    "name": "Mateus Silva",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nilson-junior-ponte-preta",
+    "name": "Nilson Júnior",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "sergio-raphael-ponte-preta",
+    "name": "Sérgio Raphael",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-risso-patron-ponte-preta",
+    "name": "Gabriel Risso Patrón",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-nicolodi-ponte-preta",
+    "name": "Guilherme Nicolodi",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-gabriel-ponte-preta",
+    "name": "João Gabriel",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-felipe-ponte-preta",
+    "name": "Luiz Felipe",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diego-domene-ponte-preta",
+    "name": "Diego Domene",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diogo-mora-ponte-preta",
+    "name": "Diogo Mora",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "elvis-ponte-preta",
+    "name": "Elvis",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "emerson-ponte-preta",
+    "name": "Emerson",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "emerson-santos-ponte-preta",
+    "name": "Emerson Santos",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaue-ponte-preta",
+    "name": "Kauê",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ramon-carvalho-ponte-preta",
+    "name": "Ramon Carvalho",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "everton-brito-ponte-preta",
+    "name": "Everton Brito",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "iago-dias-ponte-preta",
+    "name": "Iago Dias",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jeh-ponte-preta",
+    "name": "Jeh",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lua-rodrigues-ponte-preta",
+    "name": "Luã Rodrigues",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-regis-ponte-preta",
+    "name": "Matheus Régis",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "renato-ponte-preta",
+    "name": "Renato",
+    "clubId": "ponte-preta",
+    "clubName": "Ponte Preta",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://pontepreta.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jr-oliveira-sao-bernardo",
+    "name": "Jr. Oliveira",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alex-alves-sao-bernardo",
+    "name": "Alex Alves",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodrigo-ferreira-sao-bernardo",
+    "name": "Rodrigo Ferreira",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mario-sergio-sao-bernardo",
+    "name": "Mário Sérgio",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "hugo-sanches-sao-bernardo",
+    "name": "Hugo Sanches",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "para-sao-bernardo",
+    "name": "Pará",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "helder-sao-bernardo",
+    "name": "Helder",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "augusto-sao-bernardo",
+    "name": "Augusto",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-salustiano-sao-bernardo",
+    "name": "Matheus Salustiano",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pablo-sao-bernardo",
+    "name": "Pablo",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "junior-urso-sao-bernardo",
+    "name": "Júnior Urso",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcao-sao-bernardo",
+    "name": "Marcão",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "foguinho-sao-bernardo",
+    "name": "Foguinho",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "romisson-sao-bernardo",
+    "name": "Romisson",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-paulo-sao-bernardo",
+    "name": "João Paulo",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabricio-daniel-sao-bernardo",
+    "name": "Fabrício Daniel",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "neto-costa-sao-bernardo",
+    "name": "Neto Costa",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-vitor-sao-bernardo",
+    "name": "Pedro Vitor",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-rian-sao-bernardo",
+    "name": "Lucas Rian",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "victor-andrade-sao-bernardo",
+    "name": "Victor Andrade",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "echapora-sao-bernardo",
+    "name": "Echaporã",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipe-garcia-sao-bernardo",
+    "name": "Felipe Garcia",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-reis-sao-bernardo",
+    "name": "Lucas Reis",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "anderson-para-sao-bernardo",
+    "name": "Anderson Pará",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-pedro-sao-bernardo",
+    "name": "João Pedro",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "w-manzoli-sao-bernardo",
+    "name": "W. Manzoli",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luizao-sao-bernardo",
+    "name": "Luizão",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jemerson-sao-bernardo",
+    "name": "Jemerson",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "hyoran-sao-bernardo",
+    "name": "Hyoran",
+    "clubId": "sao-bernardo",
+    "clubName": "São Bernardo",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://saobernardofutebolclube.com.br/elenco.php",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dalberson-vila-nova",
+    "name": "Dalberson",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "helton-vila-nova",
+    "name": "Helton",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caio-marcelo-vila-nova",
+    "name": "Caio Marcelo",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "anderson-jesus-vila-nova",
+    "name": "Anderson Jesus",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "breno-bora-vila-nova",
+    "name": "Breno Bora",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-vila-nova",
+    "name": "Rafael",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-vieira-vila-nova",
+    "name": "João Vieira",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-vila-nova",
+    "name": "Lucas",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bruno-vila-nova",
+    "name": "Bruno",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marquinhos-gabriel-vila-nova",
+    "name": "Marquinhos Gabriel",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavo-lemos-vila-nova",
+    "name": "Gustavo Lemos",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "willian-maranhao-vila-nova",
+    "name": "Willian Maranhão",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ryan-vila-nova",
+    "name": "Ryan",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "igor-carius-vila-nova",
+    "name": "Igor Carius",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-dias-vila-nova",
+    "name": "Gabriel Dias",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "higor-vila-nova",
+    "name": "Higor",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caique-vila-nova",
+    "name": "Caíque",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "samuel-vila-nova",
+    "name": "Samuel",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "emerson-vila-nova",
+    "name": "Emerson",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-atila-vila-nova",
+    "name": "Gabriel Átila",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dudu-vila-nova",
+    "name": "Dudu",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kerlon-vila-nova",
+    "name": "Kerlon",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "willian-vila-nova",
+    "name": "Willian",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "weverton-vila-nova",
+    "name": "Weverton",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "enzo-vila-nova",
+    "name": "Enzo",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "tiago-pagnussat-vila-nova",
+    "name": "Tiago Pagnussat",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nathan-camargo-vila-nova",
+    "name": "Nathan Camargo",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-romano-vila-nova",
+    "name": "Pedro Romano",
+    "clubId": "vila-nova",
+    "clubName": "Vila Nova",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
+    "verifiedAt": "2026-11-08"
+  }
 ];
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
