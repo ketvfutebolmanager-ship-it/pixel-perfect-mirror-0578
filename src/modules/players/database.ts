@@ -3843,6 +3843,152 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     id: "kukri-paysandu", name: "Krowakreti Viviane Kajipok", clubId: "paysandu", clubName: "Paysandu", division: "Série C", position: "MEI",
     source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/20017?tab=atletas", verifiedAt: "2026-11-02"
   }
+,
+  {
+    id: "mikael-crb", name: "Mikael", clubId: "crb", clubName: "CRB", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 34, minutes: 2690, goals: 16, assists: 4, yellowCards: 1, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "robson-novorizontino", name: "Robson", clubId: "novorizontino", clubName: "Novorizontino", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 33, minutes: 2541, goals: 16, assists: 5, yellowCards: 5, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "perotti-sport-recife", name: "Perotti", clubId: "sport-recife", clubName: "Sport Recife", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 36, minutes: 2849, goals: 14, assists: 1, yellowCards: 2, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "boschilia-operario-ferroviario", name: "Boschilia", clubId: "operario-ferroviario", clubName: "Operário Ferroviário", division: "Série B", position: "MEI",
+    seasonStats: { appearances: 28, minutes: 2424, goals: 13, assists: 4, yellowCards: 8, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "gustavo-coutinho-atletico-goianiense", name: "Gustavo Coutinho", clubId: "atletico-goianiense", clubName: "Atlético Goianiense", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 31, minutes: 2272, goals: 13, assists: 0, yellowCards: 7, secondYellowCards: 0, redCards: 1 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "bruno-santos-londrina", name: "Bruno Santos", clubId: "londrina", clubName: "Londrina", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 16, minutes: 1433, goals: 11, assists: 3, yellowCards: 1, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "hygor-botafogo-de-ribeirao-preto", name: "Hygor", clubId: "botafogo-de-ribeirao-preto", clubName: "Botafogo de Ribeirão Preto", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 30, minutes: 2126, goals: 11, assists: 0, yellowCards: 0, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "kadu-goias", name: "Kadu", clubId: "goias", clubName: "Goiás", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 25, minutes: 1837, goals: 11, assists: 1, yellowCards: 4, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "romulo-novorizontino", name: "Romulo", clubId: "novorizontino", clubName: "Novorizontino", division: "Série B", position: "MEI",
+    seasonStats: { appearances: 36, minutes: 2804, goals: 11, assists: 9, yellowCards: 2, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "everton-morelli-botafogo-de-ribeirao-preto", name: "Everton Morelli", clubId: "botafogo-de-ribeirao-preto", clubName: "Botafogo de Ribeirão Preto", division: "Série B", position: "MEI",
+    seasonStats: { appearances: 35, minutes: 2941, goals: 10, assists: 4, yellowCards: 6, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "janderson-vila-nova", name: "Janderson", clubId: "vila-nova", clubName: "Vila Nova", division: "Série B", position: "MEI",
+    seasonStats: { appearances: 35, minutes: 2926, goals: 10, assists: 8, yellowCards: 4, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "andre-luis-vila-nova", name: "André Luís", clubId: "vila-nova", clubName: "Vila Nova", division: "Série B", position: "MEI",
+    seasonStats: { appearances: 26, minutes: 1785, goals: 9, assists: 2, yellowCards: 5, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "mailton-fortaleza", name: "Maílton", clubId: "fortaleza", clubName: "Fortaleza", division: "Série B", position: "DEF",
+    seasonStats: { appearances: 31, minutes: 2435, goals: 9, assists: 3, yellowCards: 6, secondYellowCards: 0, redCards: 1 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "rai-juventude", name: "Raí", clubId: "juventude", clubName: "Juventude", division: "Série B", position: "MEI",
+    seasonStats: { appearances: 35, minutes: 2693, goals: 9, assists: 5, yellowCards: 3, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "vinicius-nautico", name: "Vinícius", clubId: "nautico", clubName: "Náutico", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 28, minutes: 2295, goals: 9, assists: 3, yellowCards: 2, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "alisson-safira-juventude", name: "Alisson Safira", clubId: "juventude", clubName: "Juventude", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 34, minutes: 2077, goals: 7, assists: 3, yellowCards: 4, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "crystopher-crb", name: "Crystopher", clubId: "crb", clubName: "CRB", division: "Série B", position: "MEI",
+    seasonStats: { appearances: 32, minutes: 2727, goals: 7, assists: 8, yellowCards: 2, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "vinicius-diniz-operario-ferroviario", name: "Vinícius Diniz", clubId: "operario-ferroviario", clubName: "Operário Ferroviário", division: "Série B", position: "MEI",
+    seasonStats: { appearances: 34, minutes: 2826, goals: 7, assists: 1, yellowCards: 8, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "dada-belmonte-crb", name: "Dadá Belmonte", clubId: "crb", clubName: "CRB", division: "Série B", position: "MEI",
+    seasonStats: { appearances: 34, minutes: 2843, goals: 6, assists: 6, yellowCards: 3, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "daniel-penha-avai", name: "Daniel Penha", clubId: "avai", clubName: "Avaí", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 24, minutes: 1801, goals: 6, assists: 1, yellowCards: 4, secondYellowCards: 0, redCards: 1 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "fellipe-mateus-criciuma", name: "Fellipe Mateus", clubId: "criciuma", clubName: "Criciúma", division: "Série B", position: "MEI",
+    seasonStats: { appearances: 33, minutes: 2511, goals: 6, assists: 0, yellowCards: 3, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "kauan-cuiaba", name: "Kauan", clubId: "cuiaba", clubName: "Cuiabá", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 32, minutes: 1881, goals: 6, assists: 3, yellowCards: 1, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "matheus-bianqui-novorizontino", name: "Matheus Bianqui", clubId: "novorizontino", clubName: "Novorizontino", division: "Série B", position: "MEI",
+    seasonStats: { appearances: 28, minutes: 1650, goals: 6, assists: 0, yellowCards: 5, secondYellowCards: 1, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "melk-ceara", name: "Melk", clubId: "ceara", clubName: "Ceará", division: "Série B", position: "MEI",
+    seasonStats: { appearances: 30, minutes: 1719, goals: 6, assists: 5, yellowCards: 1, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "pedrinho-sao-bernardo", name: "Pedrinho", clubId: "sao-bernardo", clubName: "São Bernardo", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 25, minutes: 1497, goals: 6, assists: 0, yellowCards: 0, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "vitinho-fortaleza", name: "Vitinho", clubId: "fortaleza", clubName: "Fortaleza", division: "Série B", position: "MEI",
+    seasonStats: { appearances: 28, minutes: 1706, goals: 6, assists: 0, yellowCards: 3, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "anselmo-ramon-goias", name: "Anselmo Ramon", clubId: "goias", clubName: "Goiás", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 23, minutes: 1177, goals: 5, assists: 3, yellowCards: 1, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "brandao-ponte-preta", name: "Brandão", clubId: "ponte-preta", clubName: "Ponte Preta", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 25, minutes: 1718, goals: 5, assists: 1, yellowCards: 1, secondYellowCards: 1, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  },
+  {
+    id: "caio-dantas-operario-ferroviario", name: "Caio Dantas", clubId: "operario-ferroviario", clubName: "Operário Ferroviário", division: "Série B", position: "ATA",
+    seasonStats: { appearances: 31, minutes: 1335, goals: 5, assists: 0, yellowCards: 1, secondYellowCards: 0, redCards: 0 },
+    source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
+  }
 ];
-export const PLAYER_DATA_AS_OF = "2026-11-02";
+export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
