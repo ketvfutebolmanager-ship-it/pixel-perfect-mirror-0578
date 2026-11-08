@@ -13384,7 +13384,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[
     "position": "ATA",
     "source": "https://interdelimeira.com/elenco/",
     "verifiedAt": "2026-11-08"
-  }
+  },
   {
     "id": "maxwalef-botafogo-da-paraiba",
     "name": "Max Walef",
