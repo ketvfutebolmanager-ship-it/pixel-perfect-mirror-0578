@@ -13385,6 +13385,326 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[
     "source": "https://interdelimeira.com/elenco/",
     "verifiedAt": "2026-11-08"
   }
+  {
+    "id": "maxwalef-botafogo-da-paraiba",
+    "name": "Max Walef",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "edilson-botafogo-da-paraiba",
+    "name": "Edilson",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leandromathias-botafogo-da-paraiba",
+    "name": "Leandro Mathias",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luizdaniel-botafogo-da-paraiba",
+    "name": "Luiz Daniel",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "erick-botafogo-da-paraiba",
+    "name": "Erick",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucassena-botafogo-da-paraiba",
+    "name": "Lucas Sena",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diogomatheus-botafogo-da-paraiba",
+    "name": "Diogo Matheus",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leopereira-botafogo-da-paraiba",
+    "name": "Léo Pereira",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juliovaz-botafogo-da-paraiba",
+    "name": "Júlio Vaz",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "igormorais-botafogo-da-paraiba",
+    "name": "Igor Morais",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "octaviometzker-botafogo-da-paraiba",
+    "name": "Octávio Metzker",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yansouto-botafogo-da-paraiba",
+    "name": "Yan Souto",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "saimonpains-botafogo-da-paraiba",
+    "name": "Saimon Pains",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "patriccalmon-botafogo-da-paraiba",
+    "name": "Patric Calmon",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bull-botafogo-da-paraiba",
+    "name": "Bull",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "igormaduro-botafogo-da-paraiba",
+    "name": "Igor Maduro",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thallyson-botafogo-da-paraiba",
+    "name": "Thallyson",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jhonatavarela-botafogo-da-paraiba",
+    "name": "Jhonata Varela",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucascandido-botafogo-da-paraiba",
+    "name": "Lucas Cândido",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucascouto-botafogo-da-paraiba",
+    "name": "Lucas Couto",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucasmatheus-botafogo-da-paraiba",
+    "name": "Lucas Matheus",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caiogarcia-botafogo-da-paraiba",
+    "name": "Caio Garcia",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "edcarlos-botafogo-da-paraiba",
+    "name": "Ed Carlos",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "giovani-botafogo-da-paraiba",
+    "name": "Giovani",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavosilva-botafogo-da-paraiba",
+    "name": "Gustavo Silva",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "henriquedourado-botafogo-da-paraiba",
+    "name": "Henrique Dourado",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavobalotelli-botafogo-da-paraiba",
+    "name": "Gustavo Balotelli",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kayon-botafogo-da-paraiba",
+    "name": "Kayon",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodolfo-botafogo-da-paraiba",
+    "name": "Rodolfo",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diegotavares-botafogo-da-paraiba",
+    "name": "Diego Tavares",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "duduhatamoto-botafogo-da-paraiba",
+    "name": "Dudu Hatamoto",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jonastoro-botafogo-da-paraiba",
+    "name": "Jonas Toró",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
+    "verifiedAt": "2026-11-08"
+  },
 ];
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
