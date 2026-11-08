@@ -5342,6 +5342,347 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     "source": "https://atleticogoianiense.com.br/",
     "verifiedAt": "2026-11-08"
   }
+,
+  {
+    "id": "kaua-santos-avai",
+    "name": "Kauã Santos",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "filipinho-avai",
+    "name": "Filipinho",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rildo-avai",
+    "name": "Rildo",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vinicius-immig-avai",
+    "name": "Vinícius Immig",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caio-suassuna-avai",
+    "name": "Caio Suassuna",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-cipriano-avai",
+    "name": "Gabriel Cipriano",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-chu-avai",
+    "name": "Léo Chú",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juan-rocha-avai",
+    "name": "Juan Rocha",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-gamalho-avai",
+    "name": "Léo Gamalho",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "william-avai",
+    "name": "William",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-vitor-avai",
+    "name": "João Vitor",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedrao-avai",
+    "name": "Pedrão",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "reynaldo-avai",
+    "name": "Reynaldo",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bruno-ferreira-avai",
+    "name": "Bruno Ferreira",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "isaias-avai",
+    "name": "Isaías",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wenderson-avai",
+    "name": "Wenderson",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jefferson-maciel-avai",
+    "name": "Jefferson Maciel",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulo-vitor-avai",
+    "name": "Paulo Vitor",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-henrique-avai",
+    "name": "Luiz Henrique",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-aquino-avai",
+    "name": "Guilherme Aquino",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "hyan-avai",
+    "name": "Hyan",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kevin-avai",
+    "name": "Kevin",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-cuiaba-avai",
+    "name": "Pedro Cuiabá",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-simples-avai",
+    "name": "Gabriel Simples",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "allyson-avai",
+    "name": "Allyson",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wallison-avai",
+    "name": "Wallison",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "del-piage-avai",
+    "name": "Del Piage",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "douglas-teixeira-avai",
+    "name": "Douglas Teixeira",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "quaresma-avai",
+    "name": "Quaresma",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ze-ricardo-avai",
+    "name": "Zé Ricardo",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jean-lucas-avai",
+    "name": "Jean Lucas",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gaspar-avai",
+    "name": "Gaspar",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "otavio-avai",
+    "name": "Otávio",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "igor-bohn-avai",
+    "name": "Igor Bohn",
+    "clubId": "avai",
+    "clubName": "Avaí",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://avai.com.br/futebol/profissional/",
+    "verifiedAt": "2026-11-08"
+  }
 ];
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
