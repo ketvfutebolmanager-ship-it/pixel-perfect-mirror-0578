@@ -17,9 +17,8 @@ export type PlayerRecord = {
 
 // Importação inicial parcial: jogadores com estatísticas individuais identificadas na fonte.
 // Não representa os elencos completos; idade e camisa ficam vazias quando não confirmadas.
-export const VERIFIED_PLAYERS_2026: PlayerRecord[
-
-] = [
+// Tipagem individual evita a inferência de uma união excessiva para elencos grandes.
+export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
       "id": "k-viveros-athletico-paranaense",
       "name": "K. Viveros",
@@ -13705,6 +13704,6 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[
     "source": "https://jornaldaparaiba.com.br/esportes/botafogo-pb-calendario-jogos-2026",
     "verifiedAt": "2026-11-08"
   },
-];
+);
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
