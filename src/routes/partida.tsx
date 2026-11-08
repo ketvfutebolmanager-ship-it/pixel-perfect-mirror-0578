@@ -672,8 +672,8 @@ function Page() {
     allDivisionRoundFixtures
       .filter((fixture) => fixture.home.name !== career.club && fixture.away.name !== career.club)
       .forEach((fixture) => {
-        const homeTeam: MatchTeam = { id: fixture.home.id, name: fixture.home.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.home.id).map(({ id, name }) => ({ id, name })) };
-        const awayTeam: MatchTeam = { id: fixture.away.id, name: fixture.away.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.away.id).map(({ id, name }) => ({ id, name })) };
+        const homeTeam: MatchTeam = { id: fixture.home.id, name: fixture.home.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.home.id).map(({ id, name, position }) => ({ id, name, position })) };
+        const awayTeam: MatchTeam = { id: fixture.away.id, name: fixture.away.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.away.id).map(({ id, name, position }) => ({ id, name, position })) };
         const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id;
         scheduledResults[key] = simulateMatch(homeTeam, awayTeam);
       });
@@ -687,8 +687,8 @@ function Page() {
     allDivisionRoundFixtures
       .filter((fixture) => fixture.home.name !== career.club && fixture.away.name !== career.club)
       .forEach((fixture) => {
-        const homeTeam: MatchTeam = { id: fixture.home.id, name: fixture.home.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.home.id).map(({ id, name }) => ({ id, name })) };
-        const awayTeam: MatchTeam = { id: fixture.away.id, name: fixture.away.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.away.id).map(({ id, name }) => ({ id, name })) };
+        const homeTeam: MatchTeam = { id: fixture.home.id, name: fixture.home.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.home.id).map(({ id, name, position }) => ({ id, name, position })) };
+        const awayTeam: MatchTeam = { id: fixture.away.id, name: fixture.away.name, attack: 70, midfield: 70, defense: 70, players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixture.away.id).map(({ id, name, position }) => ({ id, name, position })) };
         const key = fixture.round + "-" + fixture.home.id + "-" + fixture.away.id;
         if (!completedRoundResults[key]) completedRoundResults[key] = simulateMatch(homeTeam, awayTeam);
       });
@@ -855,7 +855,7 @@ function Page() {
       id: career!.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-"),
       name: career!.club,
       attack: 70, midfield: 70, defense: 70, approach: tacticalApproach,
-      players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === career!.club.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-")).map(({ id, name }) => ({ id, name })),
+      players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === career!.club.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-")).map(({ id, name, position }) => ({ id, name, position })),
     };
     const rival: MatchTeam = {
       id: fixtureOpponent.id,
@@ -863,7 +863,7 @@ function Page() {
       attack: difficulty === "easy" ? 58 : difficulty === "hard" ? 82 : 70,
       midfield: difficulty === "easy" ? 58 : difficulty === "hard" ? 82 : 70,
       defense: difficulty === "easy" ? 58 : difficulty === "hard" ? 82 : 70,
-      players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixtureOpponent.id).map(({ id, name }) => ({ id, name })),
+      players: VERIFIED_PLAYERS_2026.filter((player) => player.clubId === fixtureOpponent.id).map(({ id, name, position }) => ({ id, name, position })),
     };
     const selectedPlayers = Object.values(lineupSelections).filter(Boolean).map(id => availableSubstitutionPlayers.find(player => player.id === id)).filter((player): player is typeof availableSubstitutionPlayers[number] => Boolean(player)).map(({id,name}) => ({id,name}));
     if (selectedPlayers.length) own.players = selectedPlayers;
