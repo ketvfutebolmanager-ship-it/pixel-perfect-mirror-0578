@@ -14234,6 +14234,1067 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
     "verifiedAt": "2026-11-08"
   },
+,
+  {
+    "id": "giovannitiepo-floresta",
+    "name": "Giovanni Tiepo",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitorgabriel-floresta",
+    "name": "Vitor Gabriel",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bruno-floresta",
+    "name": "Bruno",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jullyo-floresta",
+    "name": "Jullyo",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaovictor-floresta",
+    "name": "João Victor",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "valdo-floresta",
+    "name": "Valdo",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "zulu-floresta",
+    "name": "Zulu",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafaelindio-floresta",
+    "name": "Rafael Índio",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "danrley-floresta",
+    "name": "Danrley",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermeborges-floresta",
+    "name": "Guilherme Borges",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "natancosta-floresta",
+    "name": "Natan Costa",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luizhyago-floresta",
+    "name": "Luiz Hyago",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bismark-floresta",
+    "name": "Bismark",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheusinho-floresta",
+    "name": "Matheusinho",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitinho-floresta",
+    "name": "Vitinho",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "emerson-floresta",
+    "name": "Emerson",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavinho-floresta",
+    "name": "Gustavinho",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaoceleri-floresta",
+    "name": "João Celeri",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafamarcos-floresta",
+    "name": "Rafa Marcos",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcelinho-floresta",
+    "name": "Marcelinho",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thailor-floresta",
+    "name": "Thailor",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheuslima-floresta",
+    "name": "Matheus Lima",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "baianinho-floresta",
+    "name": "Baianinho",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafinha-floresta",
+    "name": "Rafinha",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diogomourao-floresta",
+    "name": "Diogo Mourão",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheussimplicio-floresta",
+    "name": "Matheus Simplicio",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fernandomendes-floresta",
+    "name": "Fernando Mendes",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ryan-floresta",
+    "name": "Ryan",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alanalves-floresta",
+    "name": "Alan Alves",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nicolas-floresta",
+    "name": "Nicolas",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavosilveira-floresta",
+    "name": "Gustavo Silveira",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodrigopacuja-floresta",
+    "name": "Rodrigo Pacuja",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "davi-floresta",
+    "name": "Davi",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedroilkson-floresta",
+    "name": "Pedro Ilkson",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "victor-floresta",
+    "name": "Victor",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "saulo-floresta",
+    "name": "Saulo",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-c/2026/35322",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fredconte-guarani",
+    "name": "Fred Conte",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/03/27/guarani-usa-janela-interna-para-repor-carencias-com-reforcos-pontuais-veja-como-fica-o-elenco.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yanhenrique-guarani",
+    "name": "Yan Henrique",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/03/27/guarani-usa-janela-interna-para-repor-carencias-com-reforcos-pontuais-veja-como-fica-o-elenco.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jonathancosta-guarani",
+    "name": "Jonathan Costa",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/03/27/guarani-usa-janela-interna-para-repor-carencias-com-reforcos-pontuais-veja-como-fica-o-elenco.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "edson-guarani",
+    "name": "Edson",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/03/27/guarani-usa-janela-interna-para-repor-carencias-com-reforcos-pontuais-veja-como-fica-o-elenco.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nathanmelo-guarani",
+    "name": "Nathan Melo",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/03/27/guarani-usa-janela-interna-para-repor-carencias-com-reforcos-pontuais-veja-como-fica-o-elenco.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "igorpereira-guarani",
+    "name": "Igor Pereira",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/03/27/guarani-usa-janela-interna-para-repor-carencias-com-reforcos-pontuais-veja-como-fica-o-elenco.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kauajesus-guarani",
+    "name": "Kauã Jesus",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/03/27/guarani-usa-janela-interna-para-repor-carencias-com-reforcos-pontuais-veja-como-fica-o-elenco.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermeparede-guarani",
+    "name": "Guilherme Parede",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/03/27/guarani-usa-janela-interna-para-repor-carencias-com-reforcos-pontuais-veja-como-fica-o-elenco.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mirandinha-guarani",
+    "name": "Mirandinha",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/03/27/guarani-usa-janela-interna-para-repor-carencias-com-reforcos-pontuais-veja-como-fica-o-elenco.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafaelfreitas-guarani",
+    "name": "Rafael Freitas",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/03/27/guarani-usa-janela-interna-para-repor-carencias-com-reforcos-pontuais-veja-como-fica-o-elenco.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dentinho-guarani",
+    "name": "Dentinho",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/03/27/guarani-usa-janela-interna-para-repor-carencias-com-reforcos-pontuais-veja-como-fica-o-elenco.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermecachoeira-guarani",
+    "name": "Guilherme Cachoeira",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/03/27/guarani-usa-janela-interna-para-repor-carencias-com-reforcos-pontuais-veja-como-fica-o-elenco.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caue-maranhao",
+    "name": "Cauê",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jeandemelopereira-maranhao",
+    "name": "Jean de Melo Pereira",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitao-maranhao",
+    "name": "Vitão",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "almeida-maranhao",
+    "name": "Almeida",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "andreradija-maranhao",
+    "name": "André Radija",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bal-maranhao",
+    "name": "Bal",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "edson-maranhao",
+    "name": "Edson",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "iransidnyfreitasdealmeida-maranhao",
+    "name": "Iran Sidny Freitas de Almeida",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucao-maranhao",
+    "name": "Lucão",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucassantos-maranhao",
+    "name": "Lucas Santos",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "peu-maranhao",
+    "name": "Peu",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caiovictor-maranhao",
+    "name": "Caio Victor",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jorgerocha-maranhao",
+    "name": "Jorge Rocha",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "willyammaranhao-maranhao",
+    "name": "Willyam Maranhão",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedrolucas-maranhao",
+    "name": "Pedro Lucas",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "railson-maranhao",
+    "name": "Railson",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodrigovasconcelosoliveira-maranhao",
+    "name": "Rodrigo Vasconcelos Oliveira",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vagalume-maranhao",
+    "name": "Vagalume",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "erverson-maranhao",
+    "name": "Erverson",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kessinho-maranhao",
+    "name": "Kessinho",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luisgustavo-maranhao",
+    "name": "Luís Gustavo",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "makalysten-maranhao",
+    "name": "Makalysten",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "andersonwanderllandemoraesrodrigues-maranhao",
+    "name": "Anderson Wanderllan de Moraes Rodrigues",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafaelteixeira-maranhao",
+    "name": "Rafael Teixeira",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "richarlesferreirabaldez-maranhao",
+    "name": "Richarles Ferreira Baldez",
+    "clubId": "maranhao",
+    "clubName": "Maranhão",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7832/maranhao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabrielaffonso-maringa",
+    "name": "Gabriel Affonso",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "romario-maringa",
+    "name": "Romário",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermeneto-maringa",
+    "name": "Guilherme Neto",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mateus-maringa",
+    "name": "Mateus",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabrielsouza-maringa",
+    "name": "Gabriel Souza",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipe-maringa",
+    "name": "Felipe",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jhowalecxander-maringa",
+    "name": "Jhow Alecxander",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diegosousa-maringa",
+    "name": "Diego Sousa",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kevenhenrique-maringa",
+    "name": "Keven Henrique",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lomar-maringa",
+    "name": "Lomar",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thiagorosa-maringa",
+    "name": "Thiago Rosa",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wallace-maringa",
+    "name": "Wallace",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ronaldcarvalho-maringa",
+    "name": "Ronald Carvalho",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "travassos-maringa",
+    "name": "Travassos",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jesielmiranda-maringa",
+    "name": "Jesiel Miranda",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "brunocheron-maringa",
+    "name": "Bruno Cheron",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "adeilsonmaranhao-maringa",
+    "name": "Adeílson Maranhão",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "danielzinho-maringa",
+    "name": "Danielzinho",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "iagosantana-maringa",
+    "name": "Iago Santana",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kelvi-maringa",
+    "name": "Kelvi",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucasbonifacio-maringa",
+    "name": "Lucas Bonifácio",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulinho-maringa",
+    "name": "Paulinho",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "zepedro-maringa",
+    "name": "Zé Pedro",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "serginho-maringa",
+    "name": "Serginho",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-maringa",
+    "name": "Rafael",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caiquecalito-maringa",
+    "name": "Caíque Calito",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "giovanegomez-maringa",
+    "name": "Giovane Gomez",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermepira-maringa",
+    "name": "Guilherme Pira",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "negueba-maringa",
+    "name": "Negueba",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedrinho-maringa",
+    "name": "Pedrinho",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ronaldcamarao-maringa",
+    "name": "Ronald Camarão",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rainatalino-maringa",
+    "name": "Rai Natalino",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rianpatric-maringa",
+    "name": "Rian Patric",
+    "clubId": "maringa",
+    "clubName": "Maringá",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://maringafc.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
