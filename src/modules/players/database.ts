@@ -16102,6 +16102,1337 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     "source": "Guíagol — elenco inscrito na Série C 2026 (atualizado em 01/11/2026)",
     "verifiedAt": "2026-11-08"
   }
+,
+  {
+    "id": "vanderleifariasdasilva-agua-santa",
+    "name": "Vanderlei Farias da Silva",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheussantosnovaes-agua-santa",
+    "name": "Matheus Santos Novaes",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucasbento-agua-santa",
+    "name": "Lucas Bento",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alisson-agua-santa",
+    "name": "Alisson",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "hiago-agua-santa",
+    "name": "Hiago",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "verrone-agua-santa",
+    "name": "Verrone",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "willianjesusdossantos-agua-santa",
+    "name": "Willian Jesus dos Santos",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leopereira-agua-santa",
+    "name": "Léo Pereira",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rikelmy-agua-santa",
+    "name": "Rikelmy",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "douglas-agua-santa",
+    "name": "Douglas",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "michelbennechvercino-agua-santa",
+    "name": "Michel Bennech Vercino",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rogerfellipo-agua-santa",
+    "name": "Roger Fellipo",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "victorguilherme-agua-santa",
+    "name": "Victor Guilherme",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jonathan-agua-santa",
+    "name": "Jonathan",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabrielvidalantoniomiguel-agua-santa",
+    "name": "Gabriel Vidal Antonio Miguel",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ederlimadossantos-agua-santa",
+    "name": "Éder Lima dos Santos",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alissonsilva-agua-santa",
+    "name": "Alisson Silva",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alisonjosedasilva-agua-santa",
+    "name": "Alison José da Silva",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mariocesarbelli-agua-santa",
+    "name": "Mario Cesar Belli",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diogomarzagao-agua-santa",
+    "name": "Diogo Marzagão",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "netinho-agua-santa",
+    "name": "Netinho",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "villianguilhermegoncalvesvieira-agua-santa",
+    "name": "Villian Guilherme Gonçalves Vieira",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcellimanovaessilva-agua-santa",
+    "name": "Marcel Lima Novaes Silva",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nicholas-agua-santa",
+    "name": "Nicholas",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wesleydias-agua-santa",
+    "name": "Wesley Dias",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jairkonmateuscruzcosta-agua-santa",
+    "name": "Jairkon Mateus Cruz Costa",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipebarretodesouza-agua-santa",
+    "name": "Felipe Barreto de Souza",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nenebonilha-agua-santa",
+    "name": "Nenê Bonilha",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diegosilvasouzadosanjos-agua-santa",
+    "name": "Diego Silva Souza dos Anjos",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitao-agua-santa",
+    "name": "Vitão",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavinho-agua-santa",
+    "name": "Gustavinho",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leviaraujooliveira-agua-santa",
+    "name": "Levi Araujo Oliveira",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cristiano-agua-santa",
+    "name": "Cristiano",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nicolascruz-agua-santa",
+    "name": "Nicolas Cruz",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "antoniogabriel-agua-santa",
+    "name": "Antônio Gabriel",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitinho-agua-santa",
+    "name": "Vitinho",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ryanrodriguessantos-agua-santa",
+    "name": "Ryan Rodrigues Santos",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "richardbirkheun-agua-santa",
+    "name": "Richard Birkheun",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marquinhos-agua-santa",
+    "name": "Marquinhos",
+    "clubId": "agua-santa",
+    "clubName": "Água Santa",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "APWin — elenco Água Santa 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luizvitor-abc",
+    "name": "Luiz Vitor",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheusalvesdasilvacardoso-abc",
+    "name": "Matheus Alves da Silva Cardoso",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodolfopereiradecastro-abc",
+    "name": "Rodolfo Pereira de Castro",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wallace-abc",
+    "name": "Wallace",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cayohenriquenascimentoferreira-abc",
+    "name": "Cayo Henrique Nascimento Ferreira",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eduardomandairodrigues-abc",
+    "name": "Eduardo Mandai Rodrigues",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabao-abc",
+    "name": "Fabão",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaovictoralvesdebritomartins-abc",
+    "name": "João Victor Alves de Brito Martins",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucasalexandremarquesotaviano-abc",
+    "name": "Lucas Alexandre Marques Otaviano",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucasdocarmosouza-abc",
+    "name": "Lucas do Carmo Souza",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wellingtoncarvalhodossantos-abc",
+    "name": "Wellington Carvalho dos Santos",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "edsonfelipedacruz-abc",
+    "name": "Édson Felipe da Cruz",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "geilsoncerqueiraalmeida-abc",
+    "name": "Geilson Cerqueira Almeida",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jhoseferraphaeljanuario-abc",
+    "name": "Jhosefer Raphael Januario",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermenatandelima-abc",
+    "name": "Guilherme Natan de Lima",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "randersondesousaalmeida-abc",
+    "name": "Randerson de Sousa Almeida",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wellingtonrodriguesdosreis-abc",
+    "name": "Wellington Rodrigues dos Reis",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wallysonricardomacielmonteiro-abc",
+    "name": "Wallyson Ricardo Maciel Monteiro",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rikelmi-abc",
+    "name": "Rikelmi",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "esquerdinha-abc",
+    "name": "Esquerdinha",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermesantos-abc",
+    "name": "Guilherme Santos",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marciomaranhao-abc",
+    "name": "Márcio Maranhão",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaoguilherme-abc",
+    "name": "João Guilherme",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodrigoalves-abc",
+    "name": "Rodrigo Alves",
+    "clubId": "abc",
+    "clubName": "ABC",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco ABC 2026 (05/11/2026); ge — contratação de Wallace (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "brunopianissolla-abecat",
+    "name": "Bruno Pianissolla",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucasalves-abecat",
+    "name": "Lucas Alves",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ryansantos-abecat",
+    "name": "Ryan Santos",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cleitinho-abecat",
+    "name": "Cleitinho",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leoalves-abecat",
+    "name": "Leo Alves",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafaeldumas-abecat",
+    "name": "Rafael Dumas",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcilio-abecat",
+    "name": "Marcílio",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dionatan-abecat",
+    "name": "Dionatan",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pablo-abecat",
+    "name": "Pablo",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lazaro-abecat",
+    "name": "Lázaro",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "douglascarvalho-abecat",
+    "name": "Douglas Carvalho",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alanbald-abecat",
+    "name": "Alan Bald",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaogabriel-abecat",
+    "name": "Joao Gabriel",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucassilva-abecat",
+    "name": "Lucas Silva",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaio-abecat",
+    "name": "Kaio",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wellingtonoliveira-abecat",
+    "name": "Wellington Oliveira",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pmatielo-abecat",
+    "name": "P. Matielo",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafinha-abecat",
+    "name": "Rafinha",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "uesleygaucho-abecat",
+    "name": "Uesley Gaucho",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "victorjoao-abecat",
+    "name": "Victor Joao",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pingo-abecat",
+    "name": "Pingo",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jackson-abecat",
+    "name": "Jackson",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheusinho-abecat",
+    "name": "Matheusinho",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "emersonmachado-abecat",
+    "name": "Emerson Machado",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alanjunior-abecat",
+    "name": "Alan Junior",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "roney-abecat",
+    "name": "Roney",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "maycon-abecat",
+    "name": "Maycon",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juliano-abecat",
+    "name": "Juliano",
+    "clubId": "abecat",
+    "clubName": "ABECAT",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Jogo Hoje — elenco ABECAT Ouvidorense 2026 (consulta em 08/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "xandao-aguia-de-maraba",
+    "name": "Xandão",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "brunoalvesgadelha-aguia-de-maraba",
+    "name": "Bruno Alves Gadelha",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cassio-aguia-de-maraba",
+    "name": "Cassio",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dede-aguia-de-maraba",
+    "name": "Dedé",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wendeldearaujodelfino-aguia-de-maraba",
+    "name": "Wendel de Araújo Delfino",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "weslley-aguia-de-maraba",
+    "name": "Weslley",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carloseduardomaiadonascimento-aguia-de-maraba",
+    "name": "Carlos Eduardo Maia do Nascimento",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diogocarlossantos-aguia-de-maraba",
+    "name": "Diogo Carlos Santos",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kukri-aguia-de-maraba",
+    "name": "Kukri",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "tiagorodolfoferrazdecastro-aguia-de-maraba",
+    "name": "Tiago Rodolfo Ferraz de Castro",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wendell-aguia-de-maraba",
+    "name": "Wendell",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "williandaltro-aguia-de-maraba",
+    "name": "Willian Daltro",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yagodemelochimendes-aguia-de-maraba",
+    "name": "Yago de Melo Chimendes",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dineysilvadacosta-aguia-de-maraba",
+    "name": "Diney Silva da Costa",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "erickbahia-aguia-de-maraba",
+    "name": "Erick Bahia",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaiquebrunocarvalho-aguia-de-maraba",
+    "name": "Kaique Bruno Carvalho",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulohenriquedossantosdomingos-aguia-de-maraba",
+    "name": "Paulo Henrique dos Santos Domingos",
+    "clubId": "aguia-de-maraba",
+    "clubName": "Águia de Marabá",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "Classificação Geral — elenco Águia de Marabá 2026 (05/11/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "allanthiago-altos",
+    "name": "Allan Thiago",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vinicius-altos",
+    "name": "Vinícius",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheusinacio-altos",
+    "name": "Matheus Inácio",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "GOL",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "julioferrari-altos",
+    "name": "Júlio Ferrari",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaquin-altos",
+    "name": "Joaquin",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "LAT",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "sidneypara-altos",
+    "name": "Sidney Pará",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "geninho-altos",
+    "name": "Geninho",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leosantos-altos",
+    "name": "Léo Santos",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "ZAG",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ray-altos",
+    "name": "Ray",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedroleonardo-altos",
+    "name": "Pedro Leonardo",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "netinho-altos",
+    "name": "Netinho",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joaobraga-altos",
+    "name": "João Braga",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "VOL",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabrielchina-altos",
+    "name": "Gabriel China",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matias-altos",
+    "name": "Matías",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "samuel-altos",
+    "name": "Samuel",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alanpedro-altos",
+    "name": "Alan Pedro",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "MEI",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jeffinho-altos",
+    "name": "Jeffinho",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ronald-altos",
+    "name": "Ronald",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wagner-altos",
+    "name": "Wagner",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilhermepires-altos",
+    "name": "Guilherme Pires",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "betinho-altos",
+    "name": "Betinho",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joelson-altos",
+    "name": "Joelson",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mikaelraitz-altos",
+    "name": "Mikael Raitz",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leandrinho-altos",
+    "name": "Leandrinho",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "robinho-altos",
+    "name": "Robinho",
+    "clubId": "altos",
+    "clubName": "Altos",
+    "division": "Série D",
+    "position": "ATA",
+    "source": "ge — elenco do Altos para a Série D 2026 (23/03/2026)",
+    "verifiedAt": "2026-11-08"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
