@@ -1,3 +1,4 @@
+import maringaCrest from "@/assets/crests/maringa-fc-2026.png.asset.json";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
@@ -161,7 +162,7 @@ function logoSlug(name: string) {
   return FOOTYLOGOS_SLUGS[name] ?? name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 const VERIFIED_CRESTS: Record<string, string[]> = {
-  "Maringá": ["https://www.footylogos.com/dls/logo/maringa.png", "https://www.footylogos.com/dls/logo/rgba-v1/maringa.png"],
+  "Maringá": [maringaCrest.url],
   "Central": ["https://www.footylogos.com/dls/logo/rgba-v1/central-pe.png", "https://www.footylogos.com/dls/logo/central-pe.png"],
   "Laguna": ["https://www.footylogos.com/dls/logo/laguna-rn.png", "https://www.footylogos.com/dls/logo/rgba-v1/laguna-rn.png"],
 };

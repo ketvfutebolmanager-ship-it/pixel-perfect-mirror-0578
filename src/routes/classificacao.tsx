@@ -1,3 +1,4 @@
+import maringaCrest from "@/assets/crests/maringa-fc-2026.png.asset.json";
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
@@ -26,7 +27,7 @@ const VERIFIED_D_CRESTS: Record<string, string[]> = {
   "São Luiz": ["https://www.footylogos.com/dls/logo/sao-luiz.png"],
 };
 function crestSources(name: string) {
-  if (name === "Maringá") return ["https://commons.wikimedia.org/wiki/Special:FilePath/Maring%C3%A1%20Futebol%20Clube%20logo.svg"];
+  if (name === "Maringá") return [maringaCrest.url];
   const file = CREST_FILES[name];
   const slug = logoSlug(name);
   return [
@@ -151,10 +152,10 @@ function Page() {
                         <img src={crestSources(club.name)[0]} data-source-index="0" alt={`Escudo do ${club.name}`} loading="lazy" style={club.name === "Maringá" ? { backgroundColor: "#ffffff", padding: "4px", borderRadius: "9999px", filter: "none" } : undefined} onError={(event) => {
                           const image = event.currentTarget;
                           const sources = crestSources(club.name);
-                          const next = Number(image.dataset.sourceIndex ?? "0") + 1;
+                          const next = Number(image.dataset["sourceIndex"] ?? "0") + 1;
                           if (next < sources.length) {
-                            image.dataset.sourceIndex = String(next);
-                            image.src = sources[next];
+                            image.dataset["sourceIndex"] = String(next);
+                            image.src = sources[next] ?? "";
                             return;
                           }
                           image.style.display = "none";

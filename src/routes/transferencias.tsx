@@ -49,7 +49,7 @@ function Page() {
     if (window.localStorage.getItem(generationKey)) return;
     const otherClubs = BRAZILIAN_CLUBS_2026.filter(item => item.id !== club.id);
     const generated = ownPlayers.slice(0, 2).map((player, index) => {
-      const destination = otherClubs[(Math.floor(Math.random() * otherClubs.length) + index) % otherClubs.length];
+      const destination = otherClubs[(Math.floor(Math.random() * otherClubs.length) + index) % otherClubs.length]!;
       return { id: "ai-offer-" + Date.now() + "-" + index, playerId: player.id, playerName: player.name, fromClubId: destination.id, fromClubName: destination.name, toClubId: club.id, toClubName: club.name, type: (index === 0 ? "purchase" : "loan") as "purchase" | "loan", amount: index === 0 ? 7000000 : 1800000, status: "pending" as const, direction: "received" as const, createdAt: new Date().toISOString(), loanMonths: 6 };
     });
     const next = [...offers, ...generated];
