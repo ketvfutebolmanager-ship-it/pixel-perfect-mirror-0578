@@ -17,7 +17,9 @@ export type PlayerRecord = {
 
 // Importação inicial parcial: jogadores com estatísticas individuais identificadas na fonte.
 // Não representa os elencos completos; idade e camisa ficam vazias quando não confirmadas.
-export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
+export const VERIFIED_PLAYERS_2026: PlayerRecord[
+
+] = [
   {
     "id": "k-viveros-athletico-paranaense",
     "name": "K. Viveros",
