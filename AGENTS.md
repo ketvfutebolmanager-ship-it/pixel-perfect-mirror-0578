@@ -15,3 +15,4 @@
 - Pages without real data render `DataPending`; never ship fictional data presented as real.
 - Planned DB schema lives in `database/schema.sql` until the cloud database is enabled, then becomes migrations.
 - Club crests come only from `src/modules/clubs/crests.ts` (CDN-hosted copies); pages must check it before any external URL — external crest hosts proved unreliable.
+- Construct the large verified player dataset with `Array<PlayerRecord>(...)` and comma-separated records; contextual argument typing avoids TypeScript's excessive array-union inference while preserving record validation.
