@@ -7014,6 +7014,1327 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
     "verifiedAt": "2026-11-08"
   }
+,
+  {
+    "id": "joao-carlos-cuiaba",
+    "name": "João Carlos",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavo-busatto-cuiaba",
+    "name": "Gustavo Busatto",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jean-carlos-cuiaba",
+    "name": "Jean Carlos",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcelo-carne-cuiaba",
+    "name": "Marcelo Carné",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luis-soares-cuiaba",
+    "name": "Luís Soares",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alan-empereur-cuiaba",
+    "name": "Alan Empereur",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitor-mendes-cuiaba",
+    "name": "Vitor Mendes",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-basso-cuiaba",
+    "name": "João Basso",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "igor-inocencio-cuiaba",
+    "name": "Igor Inocêncio",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "raylan-cuiaba",
+    "name": "Raylan",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eric-melo-cuiaba",
+    "name": "Eric Melo",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lorenzo-cuiaba",
+    "name": "Lorenzo",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "calebe-cuiaba",
+    "name": "Calebe",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "weverson-cuiaba",
+    "name": "Weverson",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wesley-dias-cuiaba",
+    "name": "Wesley Dias",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-otavio-cuiaba",
+    "name": "Luiz Otávio",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "david-miguel-cuiaba",
+    "name": "David Miguel",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pepe-cuiaba",
+    "name": "Pepê",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "raul-cuiaba",
+    "name": "Raul",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eliel-cuiaba",
+    "name": "Eliel",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kauan-cristtyan-cuiaba",
+    "name": "Kauan Cristtyan",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcos-junior-cuiaba",
+    "name": "Marcos Júnior",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "peixoto-cuiaba",
+    "name": "Peixoto",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jean-dias-cuiaba",
+    "name": "Jean Dias",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-henrique-cuiaba",
+    "name": "Pedro Henrique",
+    "clubId": "cuiaba",
+    "clubName": "Cuiabá",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cuiabaesporteclube.com.br/futebol/5/time-profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-ricardo-fortaleza",
+    "name": "João Ricardo",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vinicius-silvestre-fortaleza",
+    "name": "Vinícius Silvestre",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "magrao-fortaleza",
+    "name": "Magrão",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cassio-fortaleza",
+    "name": "Cássio",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "neris-fortaleza",
+    "name": "Neris",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "britez-fortaleza",
+    "name": "Brítez",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-gazal-fortaleza",
+    "name": "Lucas Gazal",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luan-freitas-fortaleza",
+    "name": "Luan Freitas",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "tomas-cardona-fortaleza",
+    "name": "Tomás Cardona",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaua-rocha-fortaleza",
+    "name": "Kauã Rocha",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mauricio-mucuri-fortaleza",
+    "name": "Maurício Mucuri",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-fuentes-fortaleza",
+    "name": "Gabriel Fuentes",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulinho-fortaleza",
+    "name": "Paulinho",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaio-henrique-fortaleza",
+    "name": "Kaio Henrique",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pierre-fortaleza",
+    "name": "Pierre",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pochettino-fortaleza",
+    "name": "Pochettino",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ronald-fortaleza",
+    "name": "Ronald",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-crispim-fortaleza",
+    "name": "Lucas Crispim",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-emanoel-fortaleza",
+    "name": "Lucas Emanoel",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-rossetto-fortaleza",
+    "name": "Matheus Rossetto",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jailson-fortaleza",
+    "name": "Jailson",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodrigo-santos-fortaleza",
+    "name": "Rodrigo Santos",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bruninho-fortaleza",
+    "name": "Bruninho",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ryan-fortaleza",
+    "name": "Ryan",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucca-prior-fortaleza",
+    "name": "Lucca Prior",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodriguinho-fortaleza",
+    "name": "Rodriguinho",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-sasha-fortaleza",
+    "name": "Lucas Sasha",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "miritello-fortaleza",
+    "name": "Miritello",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-henrique-fortaleza",
+    "name": "Pedro Henrique",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nathan-fogaca-fortaleza",
+    "name": "Nathan Fogaça",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gb-fortaleza",
+    "name": "GB",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juan-cantillo-fortaleza",
+    "name": "Juan Cantillo",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "welliton-fortaleza",
+    "name": "Welliton",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-fernando-fortaleza",
+    "name": "Luiz Fernando",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulo-baya-fortaleza",
+    "name": "Paulo Baya",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "chico-da-costa-fortaleza",
+    "name": "Chico da Costa",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kayke-queiroz-fortaleza",
+    "name": "Kayke Queiroz",
+    "clubId": "fortaleza",
+    "clubName": "Fortaleza",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://fortaleza1918.com.br/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodrigo-soares-goias",
+    "name": "Rodrigo Soares",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "brayann-goias",
+    "name": "Brayann",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ezequiel-goias",
+    "name": "Ezequiel",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wellington-rato-goias",
+    "name": "Wellington Rato",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "tadeu-goias",
+    "name": "Tadeu",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "murilo-goias",
+    "name": "Murilo",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-felipe-goias",
+    "name": "Luiz Felipe",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "geirton-goias",
+    "name": "Geirton",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jean-carlos-goias",
+    "name": "Jean Carlos",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-fernandes-goias",
+    "name": "Lucas Fernandes",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nicolas-goias",
+    "name": "Nicolas",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ramon-menezes-goias",
+    "name": "Ramon Menezes",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "djalma-goias",
+    "name": "Djalma",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "willie-goias",
+    "name": "Willie",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "julio-gouvea-goias",
+    "name": "Júlio Gouvea",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-baldoria-goias",
+    "name": "Guilherme Baldória",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcos-vinicius-goias",
+    "name": "Marcos Vinicius",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thiago-rodrigues-goias",
+    "name": "Thiago Rodrigues",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cadu-goias",
+    "name": "Cadu",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "esli-garcia-goias",
+    "name": "Esli Garcia",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pablo-goias",
+    "name": "Pablo",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-lima-goias",
+    "name": "Lucas Lima",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-ribeiro-goias",
+    "name": "Lucas Ribeiro",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedrinho-goias",
+    "name": "Pedrinho",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "filipe-machado-goias",
+    "name": "Filipe Machado",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juninho-goias",
+    "name": "Juninho",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fonseca-goias",
+    "name": "Fonseca",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "hygor-goias",
+    "name": "Hygor",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "assis-goias",
+    "name": "Assis",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-guilherme-goias",
+    "name": "João Guilherme",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lourenco-goias",
+    "name": "Lourenço",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "halerrandrio-goias",
+    "name": "Halerrandrio",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-rodrigues-goias",
+    "name": "Lucas Rodrigues",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "danilo-goias",
+    "name": "Danilo",
+    "clubId": "goias",
+    "clubName": "Goiás",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20028",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-rocha-juventude",
+    "name": "Pedro Rocha",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ruan-carneiro-juventude",
+    "name": "Ruan Carneiro",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jandrei-juventude",
+    "name": "Jandrei",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "titi-juventude",
+    "name": "Titi",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "messias-juventude",
+    "name": "Messias",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodrigo-sam-juventude",
+    "name": "Rodrigo Sam",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcos-paulo-juventude",
+    "name": "Marcos Paulo",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-pinheiro-juventude",
+    "name": "Gabriel Pinheiro",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "aderlan-juventude",
+    "name": "Aderlan",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "patryck-juventude",
+    "name": "Patryck",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rai-ramos-juventude",
+    "name": "Raí Ramos",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wadson-juventude",
+    "name": "Wadson",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diogo-barbosa-juventude",
+    "name": "Diogo Barbosa",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nathan-santos-juventude",
+    "name": "Nathan Santos",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luan-martins-juventude",
+    "name": "Luan Martins",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pablo-roberto-juventude",
+    "name": "Pablo Roberto",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-mineiro-juventude",
+    "name": "Lucas Mineiro",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-indio-juventude",
+    "name": "Léo Índio",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "iba-ly-juventude",
+    "name": "Iba Ly",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ray-breno-juventude",
+    "name": "Ray Breno",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-pires-juventude",
+    "name": "Gabriel Pires",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luis-mandaca-juventude",
+    "name": "Luis Mandaca",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaynan-juventude",
+    "name": "Kaynan",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rai-silva-juventude",
+    "name": "Raí Silva",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "davi-goes-juventude",
+    "name": "Davi Góes",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alan-kardec-juventude",
+    "name": "Alan Kardec",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mp-juventude",
+    "name": "MP",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabio-lima-juventude",
+    "name": "Fábio Lima",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "manuel-castro-juventude",
+    "name": "Manuel Castro",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luis-amarilla-juventude",
+    "name": "Luis Amarilla",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-taliari-juventude",
+    "name": "Gabriel Taliari",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "allanzinho-juventude",
+    "name": "Allanzinho",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carlinhos-juventude",
+    "name": "Carlinhos",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juan-christian-juventude",
+    "name": "Juan Christian",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-alves-juventude",
+    "name": "Lucas Alves",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-scatolin-juventude",
+    "name": "João Scatolin",
+    "clubId": "juventude",
+    "clubName": "Juventude",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/juventude/elenco",
+    "verifiedAt": "2026-11-08"
+  }
 ];
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
