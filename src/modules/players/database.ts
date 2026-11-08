@@ -11774,6 +11774,1617 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[
     "source": "https://classificacaogeral.com.br/clube/7770/caxias",
     "verifiedAt": "2026-11-08"
   }
+,
+  {
+    "id": "andrey-confianca",
+    "name": "Andrey",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "breyner-camilo-confianca",
+    "name": "Breyner Camilo",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "enzo-rocha-confianca",
+    "name": "Enzo Rocha",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabricio-confianca",
+    "name": "Fabricio",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabricio-oya-confianca",
+    "name": "Fabrício Oya",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-zeca-confianca",
+    "name": "Gabriel Zeca",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavo-nicola-confianca",
+    "name": "Gustavo Nicola",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "iago-confianca",
+    "name": "Iago",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-fernandes-confianca",
+    "name": "João Fernandes",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-pedro-confianca",
+    "name": "João Pedro",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-cunha-confianca",
+    "name": "Lucas Cunha",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mandovani-confianca",
+    "name": "Mandovani",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcelo-confianca",
+    "name": "Marcelo",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mateus-ludke-confianca",
+    "name": "Mateus Ludke",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-juliao-confianca",
+    "name": "Matheus Juliao",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-silva-confianca",
+    "name": "Matheus Silva",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "moises-confianca",
+    "name": "Moises",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "patrick-confianca",
+    "name": "Patrick",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulo-henrique-confianca",
+    "name": "Paulo Henrique",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-pascoal-confianca",
+    "name": "Rafael Pascoal",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "renan-confianca",
+    "name": "Renan",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "sassa-confianca",
+    "name": "Sassá",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "valdir-junior-confianca",
+    "name": "Valdir Júnior",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wendel-rosas-confianca",
+    "name": "Wendel Rosas",
+    "clubId": "confianca",
+    "clubName": "Confiança",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/confianca",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-wall-ferroviaria",
+    "name": "Léo Wall",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-ferroviaria",
+    "name": "Lucas",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-f-ferroviaria",
+    "name": "Guilherme F.",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ricardinho-ferroviaria",
+    "name": "Ricardinho",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "edson-l-ferroviaria",
+    "name": "Edson L.",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fau-ferroviaria",
+    "name": "Fau",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alencar-ferroviaria",
+    "name": "Alencar",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "denilson-ferroviaria",
+    "name": "Denilson",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "albano-ferroviaria",
+    "name": "Albano",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "medina-ferroviaria",
+    "name": "Medina",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jhonatan-ferroviaria",
+    "name": "Jhonatan",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "meireles-ferroviaria",
+    "name": "Meireles",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cantarelli-ferroviaria",
+    "name": "Cantarelli",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thiago-ferroviaria",
+    "name": "Thiago",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "david-ferroviaria",
+    "name": "David",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "filipi-ferroviaria",
+    "name": "Filipi",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipe-r-ferroviaria",
+    "name": "Felipe R.",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "schilling-ferroviaria",
+    "name": "Schilling",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "igor-ferroviaria",
+    "name": "Igor",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eduardo-ferroviaria",
+    "name": "Eduardo",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "raoni-ferroviaria",
+    "name": "Raoni",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "denis-jr-ferroviaria",
+    "name": "Denis Jr",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "abner-ferroviaria",
+    "name": "Abner",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-e-ferroviaria",
+    "name": "Pedro E.",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jundi-ferroviaria",
+    "name": "Jundi",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marco-antonio-ferroviaria",
+    "name": "Marco Antonio",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gadu-ferroviaria",
+    "name": "Gadu",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ze-vitor-ferroviaria",
+    "name": "Zé Vitor",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/02/18/ferroviaria-oficializa-numeracao-fixa-para-temporada-2026-veja.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabricio-figueirense",
+    "name": "Fabrício",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "antonio-figueirense",
+    "name": "Antônio",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vava-figueirense",
+    "name": "Vavá",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "igo-gabriel-figueirense",
+    "name": "Igo Gabriel",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vinicius-barreta-figueirense",
+    "name": "Vinícius Barreta",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leonan-figueirense",
+    "name": "Leonan",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "anderson-conceicao-figueirense",
+    "name": "Anderson Conceição",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jhonnathan-figueirense",
+    "name": "Jhonnathan",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ze-luiz-figueirense",
+    "name": "Zé Luiz",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-maia-figueirense",
+    "name": "Léo Maia",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitor-ricardo-figueirense",
+    "name": "Vitor Ricardo",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ezequiel-figueirense",
+    "name": "Ezequiel",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "arthur-henrique-figueirense",
+    "name": "Arthur Henrique",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wesley-costa-figueirense",
+    "name": "Wesley Costa",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "breno-figueirense",
+    "name": "Breno",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-renz-figueirense",
+    "name": "Léo Renz",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafinha-potiguar-figueirense",
+    "name": "Rafinha Potiguar",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "flavio-figueirense",
+    "name": "Flávio",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-melo-figueirense",
+    "name": "Pedro Melo",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "raynan-figueirense",
+    "name": "Raynan",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dudu-figueirense",
+    "name": "Dudu",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-choco-figueirense",
+    "name": "João Choco",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nicolas-porto-figueirense",
+    "name": "Nicolas Porto",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "arthur-martins-figueirense",
+    "name": "Arthur Martins",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mailson-figueirense",
+    "name": "Mailson",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-marcos-figueirense",
+    "name": "João Marcos",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gui-vieira-figueirense",
+    "name": "Gui Vieira",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thyerry-figueirense",
+    "name": "Thyerry",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "igor-bolt-figueirense",
+    "name": "Igor Bolt",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pablo-figueirense",
+    "name": "Pablo",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ze-carlos-figueirense",
+    "name": "Zé Carlos",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "silvinho-figueirense",
+    "name": "Silvinho",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "emerson-galego-figueirense",
+    "name": "Emerson Galego",
+    "clubId": "figueirense",
+    "clubName": "Figueirense",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://pt.wikipedia.org/wiki/Figueirense_Futebol_Clube",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dheimison-floresta",
+    "name": "Dheimison",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jeferson-souza-floresta",
+    "name": "Jeferson Souza",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "islan-floresta",
+    "name": "Islan",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "afonso-floresta",
+    "name": "Afonso",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caique-floresta",
+    "name": "Caique",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diego-matos-floresta",
+    "name": "Diego Matos",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eduardo-floresta",
+    "name": "Eduardo",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-floresta",
+    "name": "Guilherme",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-martins-floresta",
+    "name": "Matheus Martins",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "celeri-floresta",
+    "name": "Celeri",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jeam-floresta",
+    "name": "Jeam",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "garrati-floresta",
+    "name": "GARRATI",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nonato-floresta",
+    "name": "Nonato",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "daniel-troiano-floresta",
+    "name": "Daniel Troiano",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-floresta",
+    "name": "Matheus",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jhony-douglas-floresta",
+    "name": "Jhony Douglas",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cedric-floresta",
+    "name": "Cedric",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marco-antonio-da-silva-carvalho-floresta",
+    "name": "Marco Antonio da Silva Carvalho",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eliandro-floresta",
+    "name": "Eliandro",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcelo-maia-floresta",
+    "name": "Marcelo Maia",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caique-calito-floresta",
+    "name": "Caique Calito",
+    "clubId": "floresta",
+    "clubName": "Floresta",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caique-guarani",
+    "name": "Caique",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mateus-claus-guarani",
+    "name": "Mateus Claus",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-donato-guarani",
+    "name": "Rafael Donato",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "raphael-guarani",
+    "name": "Raphael",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mauricio-antonio-guarani",
+    "name": "Mauricio Antonio",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "renan-castro-guarani",
+    "name": "Renan Castro",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaua-guarani",
+    "name": "Kauã",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "emerson-guarani",
+    "name": "Emerson",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "willian-farias-guarani",
+    "name": "Willian Farias",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ralf-guarani",
+    "name": "Ralf",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-paulo-guarani",
+    "name": "João Paulo",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diego-torres-guarani",
+    "name": "Diego Torres",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nathan-guarani",
+    "name": "Nathan",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ynaia-guarani",
+    "name": "Ynaia",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "isaque-guarani",
+    "name": "Isaque",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucca-guarani",
+    "name": "Lucca",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cachoeira-guarani",
+    "name": "Cachoeira",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carlos-eduardo-guarani",
+    "name": "Carlos Eduardo",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "herbert-guarani",
+    "name": "Herbert",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "g-parede-guarani",
+    "name": "G. Parede",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rian-guarani",
+    "name": "Rian",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kewen-guarani",
+    "name": "Kewen",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "neto-costa-guarani",
+    "name": "Neto Costa",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "maranhao-guarani",
+    "name": "Maranhão",
+    "clubId": "guarani",
+    "clubName": "Guarani",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/figueirense-x-guarani/834807?view=escalacao",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-victor-inter-de-limeira",
+    "name": "João Victor",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ronaldo-henrique-inter-de-limeira",
+    "name": "Ronaldo Henrique",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-santos-inter-de-limeira",
+    "name": "Lucas Santos",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yan-silva-inter-de-limeira",
+    "name": "Yan Silva",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "saulo-inter-de-limeira",
+    "name": "Saulo",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipe-saraiva-inter-de-limeira",
+    "name": "Felipe Saraiva",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fagner-alemao-inter-de-limeira",
+    "name": "Fagner Alemão",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "romarinho-inter-de-limeira",
+    "name": "Romarinho",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-paraiso-inter-de-limeira",
+    "name": "Léo Paraíso",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "richard-inter-de-limeira",
+    "name": "Richard",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "emerson-santos-inter-de-limeira",
+    "name": "Emerson Santos",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "robson-inter-de-limeira",
+    "name": "Robson",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "heitor-roca-inter-de-limeira",
+    "name": "Heitor Roca",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-santiago-inter-de-limeira",
+    "name": "Gabriel Santiago",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marco-antonio-inter-de-limeira",
+    "name": "Marco Antônio",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-buchecha-inter-de-limeira",
+    "name": "Lucas Buchecha",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "renan-braganca-inter-de-limeira",
+    "name": "Renan Bragança",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "emerson-junior-inter-de-limeira",
+    "name": "Emerson Junior",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nabil-inter-de-limeira",
+    "name": "Nabil",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-dias-inter-de-limeira",
+    "name": "Gabriel Dias",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabricio-dias-inter-de-limeira",
+    "name": "Fabricio Dias",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitor-leque-inter-de-limeira",
+    "name": "Vitor Leque",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "robinho-inter-de-limeira",
+    "name": "Robinho",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nassom-inter-de-limeira",
+    "name": "Nassom",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-nagel-inter-de-limeira",
+    "name": "Pedro Nagel",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavo-bochecha-inter-de-limeira",
+    "name": "Gustavo Bochecha",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "claudinho-inter-de-limeira",
+    "name": "Claudinho",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "miguel-bianconi-inter-de-limeira",
+    "name": "Miguel Bianconi",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-guilherme-inter-de-limeira",
+    "name": "Luiz Guilherme",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-oller-inter-de-limeira",
+    "name": "Rafael Oller",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ze-eduardo-inter-de-limeira",
+    "name": "Zé Eduardo",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://interdelimeira.com/elenco/",
+    "verifiedAt": "2026-11-08"
+  }
 ];
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
