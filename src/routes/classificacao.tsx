@@ -1,5 +1,4 @@
 import { getClubCrest, CREST_NEEDS_LIGHT_BG } from "@/modules/clubs/crests";
-import maringaCrest from "@/assets/crests/maringa-fc-2026.png.asset.json";
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
