@@ -17,7 +17,13 @@ function logoSlug(name: string) {
 const VERIFIED_D_CRESTS: Record<string, string[]> = {
   "ASA": ["https://www.footylogos.com/dls/logo/asa-al.png"],
   "Atlético-BA": ["https://www.footylogos.com/dls/logo/rgba-v1/atletico-de-alagoinhas.png"],
+  "Betim": ["https://www.footylogos.com/dls/logo/rgba-v1/betim.png", "https://www.footylogos.com/dls/logo/betim.png"],
+  "Brasil-RS": ["https://www.footylogos.com/dls/logo/rgba-v1/brasil-de-pelotas.png"],
+  "Democrata GV": ["https://www.footylogos.com/dls/logo/rgba-v1/democrata-gv.png"],
   "Jacuipense": ["https://www.footylogos.com/dls/logo/rgba-v1/jacuipense.png"],
+  "Portuguesa": ["https://www.footylogos.com/dls/logo/rgba-v1/portuguesa.png", "https://www.footylogos.com/dls/logo/portuguesa.png"],
+  "São José-RS": ["https://www.footylogos.com/dls/logo/sao-jose-rs.png"],
+  "São Luiz": ["https://www.footylogos.com/dls/logo/sao-luiz.png"],
 };
 function crestSources(name: string) {
   const file = CREST_FILES[name];
