@@ -10233,6 +10233,1547 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[
     "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
     "verifiedAt": "2026-11-08"
   }
+,
+  {
+    "id": "axel-bernardes-lopes-amazonas",
+    "name": "Axel Bernardes Lopes",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-vitor-lopes-da-silva-amazonas",
+    "name": "João Vitor Lopes da Silva",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lube-victor-amazonas",
+    "name": "Lube Victor",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "renan-dos-santos-amazonas",
+    "name": "Renan dos Santos",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alyson-vinicius-almeida-neves-amazonas",
+    "name": "Alyson Vinicius Almeida Neves",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "neuciano-de-jesus-gusmao-amazonas",
+    "name": "Neuciano de Jesus Gusmão",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diego-ivo-pires-amazonas",
+    "name": "Diego Ivo Pires",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabiano-da-silva-souza-amazonas",
+    "name": "Fabiano da Silva Souza",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "geuvanio-santos-silva-amazonas",
+    "name": "Geuvânio Santos Silva",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "italo-silva-amazonas",
+    "name": "Italo Silva",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "iury-de-oliveira-nascimento-amazonas",
+    "name": "Iury de Oliveira Nascimento",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jackson-de-souza-amazonas",
+    "name": "Jackson de Souza",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joilson-de-jesus-cardoso-amazonas",
+    "name": "Joilson de Jesus Cardoso",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jonas-amazonas",
+    "name": "Jonas",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kauan-firmo-amazonas",
+    "name": "Kauan Firmo",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "l-abbade-amazonas",
+    "name": "L. Abbade",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcondes-de-jesus-santos-junior-amazonas",
+    "name": "Marcondes de Jesus Santos Junior",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-furlan-soares-amazonas",
+    "name": "Rafael Furlan Soares",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "raylison-amazonas",
+    "name": "Raylison",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carlinhos-amazonas",
+    "name": "Carlinhos",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabio-alexander-freitas-de-almeida-amazonas",
+    "name": "Fabio Alexander Freitas de Almeida",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guga-amazonas",
+    "name": "Guga",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jhonny-lucas-flora-barbosa-amazonas",
+    "name": "Jhonny Lucas Flora Barbosa",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "p-campos-amazonas",
+    "name": "P. Campos",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-castro-amazonas",
+    "name": "Pedro Castro",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-aparecido-de-paulo-tavares-amazonas",
+    "name": "Rafael Aparecido de Paulo Tavares",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "riquelme-amazonas",
+    "name": "Riquelme",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "y-mena-amazonas",
+    "name": "Y. Mena",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "adrien-graffin-amazonas",
+    "name": "Adrien Graffin",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bernardo-daciolo-amazonas",
+    "name": "Bernardo Daciolo",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcelo-cirino-da-silva-amazonas",
+    "name": "Marcelo Cirino da Silva",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ronaldo-henrique-silva-amazonas",
+    "name": "Ronaldo Henrique Silva",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ronan-amazonas",
+    "name": "Ronan",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vinicius-leite-silva-amazonas",
+    "name": "Vinícius Leite Silva",
+    "clubId": "amazonas",
+    "clubName": "Amazonas",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/10862/amazonas",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "b-araujo-silva-anapolis",
+    "name": "B. Araujo Silva",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-ribeiro-anapolis",
+    "name": "Gabriel Ribeiro",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcio-defendi-anapolis",
+    "name": "Marcio Defendi",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ravel-pelegrini-anapolis",
+    "name": "Ravel Pelegrini",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "victor-hugo-anapolis",
+    "name": "Victor Hugo",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ygor-anapolis",
+    "name": "Ygor",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "darlisson-anapolis",
+    "name": "Darlisson",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "helder-anapolis",
+    "name": "Helder",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "igor-souza-anapolis",
+    "name": "Igor Souza",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "julio-cesar-anapolis",
+    "name": "Julio Cesar",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kaik-anapolis",
+    "name": "Kaik",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kauan-martins-anapolis",
+    "name": "Kauan Martins",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leonan-anapolis",
+    "name": "Leonan",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mayron-anapolis",
+    "name": "Mayron",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-costa-anapolis",
+    "name": "Rafael Costa",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "robson-reis-anapolis",
+    "name": "Robson Reis",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rubinho-anapolis",
+    "name": "Rubinho",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipe-alves-anapolis",
+    "name": "Felipe Alves",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gharib-anapolis",
+    "name": "Gharib",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "giva-anapolis",
+    "name": "Giva",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-kauan-anapolis",
+    "name": "Guilherme Kauan",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-borim-anapolis",
+    "name": "Joao Borim",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juninho-anapolis",
+    "name": "Juninho",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-kallyel-anapolis",
+    "name": "Lucas Kallyel",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-mila-anapolis",
+    "name": "Lucas Mila",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-felipe-anapolis",
+    "name": "Luiz Felipe",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "patrick-anapolis",
+    "name": "Patrick",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "samuel-anapolis",
+    "name": "Samuel",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vinicius-lucas-anapolis",
+    "name": "Vinicius Lucas",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitinho-anapolis",
+    "name": "Vitinho",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fernandinho-anapolis",
+    "name": "Fernandinho",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fernando-viana-anapolis",
+    "name": "Fernando Viana",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gonzalo-fornari-anapolis",
+    "name": "Gonzalo Fornari",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavo-henrique-anapolis",
+    "name": "Gustavo Henrique",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-lagoa-anapolis",
+    "name": "Matheus Lagoa",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodriguinho-anapolis",
+    "name": "Rodriguinho",
+    "clubId": "anapolis",
+    "clubName": "Anápolis",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/anapolis",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ewerton-barra",
+    "name": "Ewerton",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabian-volpi-barra",
+    "name": "Fabian Volpi",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-vinicius-barra",
+    "name": "João Vinícius",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavo-dalmina-barra",
+    "name": "Gustavo Dalmina",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jean-pierre-barra",
+    "name": "Jean Pierre",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "everton-alemao-barra",
+    "name": "Everton Alemão",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vava-barra",
+    "name": "Vavá",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitao-barra",
+    "name": "Vitão",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-jesus-barra",
+    "name": "Gabriel Jesus",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jackson-barra",
+    "name": "Jackson",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thiago-barra",
+    "name": "Thiago",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kayque-barra",
+    "name": "Kayque",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabio-barra",
+    "name": "Fábio",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-duarte-barra",
+    "name": "Léo Duarte",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-lazaroni-barra",
+    "name": "Guilherme Lazaroni",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "da-rocha-barra",
+    "name": "Da Rocha",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pecanha-barra",
+    "name": "Peçanha",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "augusto-barra",
+    "name": "Augusto",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "tete-barra",
+    "name": "Tetê",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "natan-barra",
+    "name": "Natan",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pablo-gabriel-barra",
+    "name": "Pablo Gabriel",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "dionathan-barra",
+    "name": "Dionathan",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "elvinho-barra",
+    "name": "Elvinho",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "warley-barra",
+    "name": "Warley",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cleo-silva-barra",
+    "name": "Cléo Silva",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-silva-barra",
+    "name": "Gabriel Silva",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bernabe-barra",
+    "name": "Bernabé",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "saymon-barra",
+    "name": "Saymon",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nicolas-barra",
+    "name": "Nicolas",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-vargas-barra",
+    "name": "Lucas Vargas",
+    "clubId": "barra",
+    "clubName": "Barra",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.barrafc.com.br/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "paulo-gianezini-brusque",
+    "name": "Paulo Gianezini",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-nogueira-brusque",
+    "name": "Matheus Nogueira",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jose-vinicius-brusque",
+    "name": "José Vinícius",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-maistro-brusque",
+    "name": "João Maistro",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-vitor-brusque",
+    "name": "João Vitor",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "frank-salas-brusque",
+    "name": "Frank Salas",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "italo-lucas-brusque",
+    "name": "Ítalo Lucas",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-ataide-brusque",
+    "name": "Léo Ataíde",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alisson-cassiano-brusque",
+    "name": "Alisson Cassiano",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cipriano-brusque",
+    "name": "Cipriano",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "davi-gabriel-brusque",
+    "name": "Davi Gabriel",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jeferson-brusque",
+    "name": "Jeferson",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-milhorim-brusque",
+    "name": "Rafael Milhorim",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ryan-santos-brusque",
+    "name": "Ryan Santos",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "raimar-brusque",
+    "name": "Raimar",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ariel-brusque",
+    "name": "Ariel",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bernardo-lemes-brusque",
+    "name": "Bernardo Lemes",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-gazao-brusque",
+    "name": "Gabriel Gazão",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jonatan-lucca-brusque",
+    "name": "Jonatan Lucca",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-martins-brusque",
+    "name": "Pedro Martins",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alex-paulino-brusque",
+    "name": "Alex Paulino",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-prado-brusque",
+    "name": "João Prado",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leonardo-brusque",
+    "name": "Leonardo",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-medeiros-brusque",
+    "name": "Pedro Medeiros",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "VOL",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafa-fonseca-brusque",
+    "name": "Rafa Fonseca",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marlyson-brusque",
+    "name": "Marlyson",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "udeh-clinton-brusque",
+    "name": "Udeh Clinton",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "renan-henrique-brusque",
+    "name": "Renan Henrique",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "heber-dos-santos-brusque",
+    "name": "Heber dos Santos",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-pedro-brusque",
+    "name": "João Pedro",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "petterson-brusque",
+    "name": "Petterson",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "adriano-brusque",
+    "name": "Adriano",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "macario-brusque",
+    "name": "Macário",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alvaro-brusque",
+    "name": "Álvaro",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.365scores.com/pt-br/football/team/brusque-9149/squad",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcelo-de-bem-dal-soler-caxias",
+    "name": "Marcelo de Bem Dal Soler",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "toebe-gabriel-caxias",
+    "name": "Toebe Gabriel",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "GOL",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipe-albuquerque-felippi-caxias",
+    "name": "Felipe Albuquerque Felippi",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ianson-acosta-soares-caxias",
+    "name": "Ianson Acosta Soares",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "mauricio-ribeiro-caxias",
+    "name": "Mauricio Ribeiro",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "roberto-heuchayer-santos-de-araujo-caxias",
+    "name": "Roberto Heuchayer Santos de Araújo",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ronei-gebing-caxias",
+    "name": "Ronei Gebing",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "LAT",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "windson-airez-neves-caxias",
+    "name": "Windson Airez Neves",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ZAG",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-luft-caxias",
+    "name": "Joao Luft",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nunes-matheus-caxias",
+    "name": "Nunes Matheus",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ravanelli-ferreira-dos-santos-caxias",
+    "name": "Ravanelli Ferreira dos Santos",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "victor-sa-caxias",
+    "name": "Victor Sa",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "calyson-rubens-santiago-rosa-caxias",
+    "name": "Calyson Rubens Santiago Rosa",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-baptista-felix-caxias",
+    "name": "Lucas Baptista Félix",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diego-de-souza-quirino-caxias",
+    "name": "Diego de Souza Quirino",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipe-rangel-dos-santos-caxias",
+    "name": "Felipe Rangel dos Santos",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jhonatan-ribeiro-de-araujo-caxias",
+    "name": "Jhonatan Ribeiro de Araujo",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "k-c-portela-torres-caxias",
+    "name": "K. C. Portela Torres",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "salatiel-de-oliveira-gabriel-junior-caxias",
+    "name": "Salatiel de Oliveira Gabriel Júnior",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitor-correia-da-silva-caxias",
+    "name": "Vitor Correia da Silva",
+    "clubId": "caxias",
+    "clubName": "Caxias",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://classificacaogeral.com.br/clube/7770/caxias",
+    "verifiedAt": "2026-11-08"
+  }
 ];
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
