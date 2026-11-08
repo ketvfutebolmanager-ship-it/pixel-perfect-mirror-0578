@@ -5683,6 +5683,1337 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     "source": "https://avai.com.br/futebol/profissional/",
     "verifiedAt": "2026-11-08"
   }
+,
+  {
+    "id": "victor-souza-botafogo-de-ribeirao-preto",
+    "name": "Victor Souza",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jordan-botafogo-de-ribeirao-preto",
+    "name": "Jordan",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "brenno-botafogo-de-ribeirao-preto",
+    "name": "Brenno",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "adriano-botafogo-de-ribeirao-preto",
+    "name": "Adriano",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ericson-botafogo-de-ribeirao-preto",
+    "name": "Ericson",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vilar-botafogo-de-ribeirao-preto",
+    "name": "Vilar",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wallace-botafogo-de-ribeirao-preto",
+    "name": "Wallace",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carlos-eduardo-botafogo-de-ribeirao-preto",
+    "name": "Carlos Eduardo",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-mariano-botafogo-de-ribeirao-preto",
+    "name": "Guilherme Mariano",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "darlan-botafogo-de-ribeirao-preto",
+    "name": "Darlan",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "badaro-botafogo-de-ribeirao-preto",
+    "name": "Badaró",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jonathan-botafogo-de-ribeirao-preto",
+    "name": "Jonathan",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "patrick-brey-botafogo-de-ribeirao-preto",
+    "name": "Patrick Brey",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-inocencio-botafogo-de-ribeirao-preto",
+    "name": "Gabriel Inocêncio",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedrinho-botafogo-de-ribeirao-preto",
+    "name": "Pedrinho",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "felipe-vieira-botafogo-de-ribeirao-preto",
+    "name": "Felipe Vieira",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "henrique-teles-botafogo-de-ribeirao-preto",
+    "name": "Henrique Teles",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leandro-maciel-botafogo-de-ribeirao-preto",
+    "name": "Leandro Maciel",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "morelli-botafogo-de-ribeirao-preto",
+    "name": "Morelli",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-gava-botafogo-de-ribeirao-preto",
+    "name": "Rafael Gava",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-sales-botafogo-de-ribeirao-preto",
+    "name": "Matheus Sales",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marquinho-botafogo-de-ribeirao-preto",
+    "name": "Marquinho",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marco-antonio-botafogo-de-ribeirao-preto",
+    "name": "Marco Antônio",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yuri-felipe-botafogo-de-ribeirao-preto",
+    "name": "Yuri Felipe",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thiago-moraes-botafogo-de-ribeirao-preto",
+    "name": "Thiago Moraes",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ze-hugo-botafogo-de-ribeirao-preto",
+    "name": "Zé Hugo",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "erik-rebello-botafogo-de-ribeirao-preto",
+    "name": "Erik Rebello",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kelvin-botafogo-de-ribeirao-preto",
+    "name": "Kelvin",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jefferson-nem-botafogo-de-ribeirao-preto",
+    "name": "Jefferson Nem",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-queiroz-botafogo-de-ribeirao-preto",
+    "name": "Guilherme Queiroz",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "arthur-caike-botafogo-de-ribeirao-preto",
+    "name": "Arthur Caíke",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcio-maranhao-botafogo-de-ribeirao-preto",
+    "name": "Márcio Maranhão",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jadson-botafogo-de-ribeirao-preto",
+    "name": "Jadson",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luizao-botafogo-de-ribeirao-preto",
+    "name": "Luizão",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wesley-santos-botafogo-de-ribeirao-preto",
+    "name": "Wesley Santos",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thalles-botafogo-de-ribeirao-preto",
+    "name": "Thalles",
+    "clubId": "botafogo-de-ribeirao-preto",
+    "clubName": "Botafogo de Ribeirão Preto",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://esportes.portalinside.com/time/botafogo-sp/elenco",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caique-franca-ceara",
+    "name": "Caíque França",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gustavo-martins-ceara",
+    "name": "Gustavo Martins",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-nogueira-ceara",
+    "name": "Matheus Nogueira",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "richard-ceara",
+    "name": "Richard",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eder-ceara",
+    "name": "Éder",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "julio-cesar-ceara",
+    "name": "Júlio César",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-otavio-ceara",
+    "name": "Luiz Otávio",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luizao-ceara",
+    "name": "Luizão",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-gilmar-ceara",
+    "name": "Pedro Gilmar",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thalisson-ceara",
+    "name": "Thalisson",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bryan-borges-ceara",
+    "name": "Bryan Borges",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rafael-ramos-ceara",
+    "name": "Rafael Ramos",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "sanchez-ceara",
+    "name": "Sanchez",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "savio-ceara",
+    "name": "Sávio",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "giovanni-pavani-ceara",
+    "name": "Giovanni Pavani",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-gabriel-ceara",
+    "name": "João Gabriel",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-mugni-ceara",
+    "name": "Lucas Mugni",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-araujo-ceara",
+    "name": "Matheus Araújo",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-esli-ceara",
+    "name": "Pedro Esli",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "richardson-ceara",
+    "name": "Richardson",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vina-ceara",
+    "name": "Vina",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vinicius-zanocelo-ceara",
+    "name": "Vinicius Zanocelo",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "enzo-lodovico-ceara",
+    "name": "Enzo Lodovico",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gabriel-amaral-ceara",
+    "name": "Gabriel Amaral",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lenny-lobato-ceara",
+    "name": "Lenny Lobato",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucca-ceara",
+    "name": "Lucca",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nico-ferreira-ceara",
+    "name": "Nico Ferreira",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "renzo-lopez-ceara",
+    "name": "Renzo López",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rian-santana-ceara",
+    "name": "Rian Santana",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "saulo-mineiro-ceara",
+    "name": "Saulo Mineiro",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wendel-silva-ceara",
+    "name": "Wendel Silva",
+    "clubId": "ceara",
+    "clubName": "Ceará",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://midia.cearasc.com/elenco/Profissional/",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabio-crb",
+    "name": "Fábio",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "matheus-crb",
+    "name": "Matheus",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pablo-crb",
+    "name": "Pablo",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitor-caetano-crb",
+    "name": "Vitor Caetano",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "anderson-crb",
+    "name": "Anderson",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bressan-crb",
+    "name": "Bressan",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "fabio-alemao-crb",
+    "name": "Fábio Alemão",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "heitor-brissantt-crb",
+    "name": "Heitor Brissantt",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "henri-crb",
+    "name": "Henri",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "kevin-crb",
+    "name": "Kevin",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lyncon-crb",
+    "name": "Lyncon",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ruy-crb",
+    "name": "Ruy",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "wallace-crb",
+    "name": "Wallace",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "hereda-crb",
+    "name": "Hereda",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "leo-campos-crb",
+    "name": "Léo Campos",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "lucas-lovat-crb",
+    "name": "Lucas Lovat",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "carlos-avila-crb",
+    "name": "Carlos Avila",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caua-carvalho-crb",
+    "name": "Cauã Carvalho",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "daniel-crb",
+    "name": "Daniel",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "david-braw-crb",
+    "name": "David Braw",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "de-lucca-crb",
+    "name": "De Lucca",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "e-mecena-crb",
+    "name": "E. Mecena",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "geovane-crb",
+    "name": "Geovane",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-estrella-crb",
+    "name": "Guilherme Estrella",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luizao-crb",
+    "name": "Luizão",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "maycon-crb",
+    "name": "Maycon",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-castro-crb",
+    "name": "Pedro Castro",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rian-crb",
+    "name": "Rian",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thiaguinho-crb",
+    "name": "Thiaguinho",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "anthony-crb",
+    "name": "Anthony",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cipriano-sampaio-crb",
+    "name": "Cipriano Sampaio",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "douglas-baggio-crb",
+    "name": "Douglas Baggio",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-crb",
+    "name": "Guilherme",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "guilherme-pato-crb",
+    "name": "Guilherme Pato",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "hiago-crb",
+    "name": "Hiago",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-neto-crb",
+    "name": "João Neto",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "luiz-phellype-crb",
+    "name": "Luiz Phellype",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vinicius-barata-crb",
+    "name": "Vinicius Barata",
+    "clubId": "crb",
+    "clubName": "CRB",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://tudosobrefutebol.com.br/club/crb",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "alisson-criciuma",
+    "name": "Alisson",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "airton-criciuma",
+    "name": "Airton",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "pedro-criciuma",
+    "name": "Pedro",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "GOL",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "rodrigo-criciuma",
+    "name": "Rodrigo",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "castan-criciuma",
+    "name": "Castán",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "cesar-martins-criciuma",
+    "name": "César Martins",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "bruno-alves-criciuma",
+    "name": "Bruno Alves",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "romulo-junior-criciuma",
+    "name": "Rômulo Júnior",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "octavio-criciuma",
+    "name": "Octávio",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ruan-criciuma",
+    "name": "Ruan",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ZAG",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcelo-hermes-criciuma",
+    "name": "Marcelo Hermes",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "marcinho-criciuma",
+    "name": "Marcinho",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "hiago-criciuma",
+    "name": "Hiago",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "willean-lepo-criciuma",
+    "name": "Willean Lepo",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "LAT",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "gui-lobo-criciuma",
+    "name": "Gui Lobo",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jean-irmer-criciuma",
+    "name": "Jean Irmer",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "ronald-criciuma",
+    "name": "Ronald",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "thiaguinho-criciuma",
+    "name": "Thiaguinho",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "VOL",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "eduardo-criciuma",
+    "name": "Eduardo",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "jhonata-robert-criciuma",
+    "name": "Jhonata Robert",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "otero-criciuma",
+    "name": "Otero",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "MEI",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "waguininho-criciuma",
+    "name": "Waguininho",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nicolas-criciuma",
+    "name": "Nicolas",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "diego-goncalves-criciuma",
+    "name": "Diego Gonçalves",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "yuri-tanque-criciuma",
+    "name": "Yuri Tanque",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "romarinho-criciuma",
+    "name": "Romarinho",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "caue-criciuma",
+    "name": "Cauê",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-carlos-criciuma",
+    "name": "João Carlos",
+    "clubId": "criciuma",
+    "clubName": "Criciúma",
+    "division": "Série B",
+    "position": "ATA",
+    "source": "https://criciuma.com.br/imprensa/servico-de-jogo/ficha/equipes/elenco-profissional",
+    "verifiedAt": "2026-11-08"
+  }
 ];
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
