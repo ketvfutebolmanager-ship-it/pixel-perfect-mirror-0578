@@ -8210,8 +8210,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
       "position": "ATA",
       "source": "https://esportes.portalinside.com/time/juventude/elenco",
       "verifiedAt": "2026-11-08"
-    }
-,
+    },
   {
     "id": "mauricio-kozlinski-londrina",
     "name": "Maurício Kozlinski",
@@ -10231,8 +10230,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     "position": "ZAG",
     "source": "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-b/2026/20079",
     "verifiedAt": "2026-11-08"
-  }
-,
+  },
   {
     "id": "axel-bernardes-lopes-amazonas",
     "name": "Axel Bernardes Lopes",
@@ -11772,8 +11770,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     "position": "ATA",
     "source": "https://classificacaogeral.com.br/clube/7770/caxias",
     "verifiedAt": "2026-11-08"
-  }
-,
+  },
   {
     "id": "andrey-confianca",
     "name": "Andrey",
@@ -14234,7 +14231,6 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
     "verifiedAt": "2026-11-08"
   },
-,
   {
     "id": "giovannitiepo-floresta",
     "name": "Giovanni Tiepo",
