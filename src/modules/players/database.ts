@@ -17,9 +17,8 @@ export type PlayerRecord = {
 
 // Importação inicial parcial: jogadores com estatísticas individuais identificadas na fonte.
 // Não representa os elencos completos; idade e camisa ficam vazias quando não confirmadas.
-export const VERIFIED_PLAYERS_2026: PlayerRecord[
-
-] = [
+// Contextual typing of each argument avoids excessive array-union inference.
+export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
       "id": "k-viveros-athletico-paranaense",
       "name": "K. Viveros",
@@ -13384,7 +13383,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[
     "position": "ATA",
     "source": "https://interdelimeira.com/elenco/",
     "verifiedAt": "2026-11-08"
-  }
+  },
   {
     "id": "maxwalef-botafogo-da-paraiba",
     "name": "Max Walef",
@@ -14235,6 +14234,6 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[
     "source": "https://www.365scores.com/pt-br/football/team/confianca-9210/squad",
     "verifiedAt": "2026-11-08"
   },
-];
+);
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
