@@ -7,7 +7,7 @@ export type MatchTeam = {
   midfield: number;
   defense: number;
   approach?: TacticalApproach;
-  players?: Array<{ id: string; name: string }>;
+  players?: Array<{ id: string; name: string; position?: "GOL" | "ZAG" | "LAT" | "VOL" | "MEI" | "ATA" | "DEF" }>;
 };
 
 export type MatchEvent = {
@@ -71,7 +71,7 @@ export function simulateMatch(
         type: "goal",
         clubId: attacker.id,
         clubName: attacker.name,
-        ...(attacker.players?.length ? (() => { const scorer = attacker.players[Math.floor(rng() * attacker.players.length)]!; return { playerId: scorer.id, playerName: scorer.name }; })() : {}),
+        ...(attacker.players?.length ? (() => { const eligible = attacker.players.filter((player) => player.position === "ATA" || player.position === "MEI"); const candidates = eligible.length ? eligible : attacker.players; const scorer = candidates[Math.floor(rng() * candidates.length)]!; return { playerId: scorer.id, playerName: scorer.name }; })() : {}),
       });
     }
   }
