@@ -73,8 +73,8 @@ function Page() {
             <img src={clubCrestSources(selectedClub.name)[0]} data-source-index="0" alt={"Escudo do " + selectedClub.name} className="h-16 w-16 object-contain" onError={(event) => {
               const image = event.currentTarget;
               const sources = clubCrestSources(selectedClub.name);
-              const next = Number(image.dataset.sourceIndex ?? "0") + 1;
-              if (next < sources.length) { image.dataset.sourceIndex = String(next); image.src = sources[next]; }
+              const next = Number(image.dataset["sourceIndex"] ?? "0") + 1;
+              if (next < sources.length) { image.dataset["sourceIndex"] = String(next); image.src = sources[next] ?? ""; }
               else image.style.display = "none";
             }} />
             <div><p className="text-xs font-bold uppercase tracking-widest text-primary">Clube selecionado</p><p className="text-lg font-black">{selectedClub.name}</p><p className="text-sm text-muted-foreground">{selectedClub.division} · {selectedClub.state}</p></div>

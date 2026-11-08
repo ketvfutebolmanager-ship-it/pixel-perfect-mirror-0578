@@ -152,10 +152,10 @@ function Page() {
                         <img src={crestSources(club.name)[0]} data-source-index="0" alt={`Escudo do ${club.name}`} loading="lazy" style={club.name === "Maringá" ? { backgroundColor: "#ffffff", padding: "4px", borderRadius: "9999px", filter: "none" } : undefined} onError={(event) => {
                           const image = event.currentTarget;
                           const sources = crestSources(club.name);
-                          const next = Number(image.dataset.sourceIndex ?? "0") + 1;
+                          const next = Number(image.dataset["sourceIndex"] ?? "0") + 1;
                           if (next < sources.length) {
-                            image.dataset.sourceIndex = String(next);
-                            image.src = sources[next];
+                            image.dataset["sourceIndex"] = String(next);
+                            image.src = sources[next] ?? "";
                             return;
                           }
                           image.style.display = "none";

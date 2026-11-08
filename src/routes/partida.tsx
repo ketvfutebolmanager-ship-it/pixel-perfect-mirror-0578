@@ -466,7 +466,7 @@ function Crest({ club }: { club: string }) {
   return <img src={sources[sourceIndex]!} alt={`Escudo do ${club}`} loading="lazy" onError={() => setSourceIndex((current) => current + 1)} className="h-12 w-12 shrink-0 object-contain" />;
 }
 
-type JerseyProps = { club: string; sponsor?: string; compact?: boolean; kit?: "home" | "away" | "third" };
+type JerseyProps = { club: string; sponsor?: string | undefined; compact?: boolean; kit?: "home" | "away" | "third" };
 const KIT_COLORS: Record<string, string> = { Flamengo: "#c8102e", Corinthians: "#f2f2f2", Palmeiras: "#087a42", "São Paulo": "#ffffff", Santos: "#ffffff", Grêmio: "#1686c7", Internacional: "#c8102e", Vasco: "#171717", Botafogo: "#171717", Fluminense: "#7a172b", Cruzeiro: "#0756a5", "Atlético Mineiro": "#171717", Bahia: "#0877c9", Vitória: "#c8102e", "Athletico Paranaense": "#c8102e", Coritiba: "#087a42", "América Mineiro": "#087a42", "Vila Nova": "#c8102e", Goiás: "#087a42", Remo: "#0756a5" };
 const KIT_IMAGE_FILES: Record<string, string> = {
   "Athletico Paranaense": "atleticopr_bra.png", "Atlético Mineiro": "atleticomg_bra.png", Bahia: "bahia.png", Botafogo: "botafogorj_bra.png", Chapecoense: "chapecoense_bra.png", Corinthians: "corinthians_bra.png", Coritiba: "coritiba_bra.png", Cruzeiro: "cruzeiro_bra.png", Flamengo: "flarj.png", Fluminense: "flurj.png", Grêmio: "gremio.png", Internacional: "internacional_bra.png", Mirassol: "miirassol_sp.png", Palmeiras: "palmeiras.png", "Red Bull Bragantino": "bragantino_bra.png", Remo: "remo.png", Santos: "santos.png", "São Paulo": "saopaulo_bra.png", "Vasco da Gama": "vasco.png", Vitória: "vitoria.png",
