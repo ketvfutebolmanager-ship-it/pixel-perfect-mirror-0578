@@ -12807,7 +12807,7 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     "clubId": "floresta",
     "clubName": "Floresta",
     "division": "Série C",
-    "position": "ATA",
+    "position": "DEF",
     "source": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-c/2026/inter-de-limeira-x-floresta/833158?view=escalacao",
     "verifiedAt": "2026-11-08"
   },
