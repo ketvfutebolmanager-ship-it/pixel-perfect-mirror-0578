@@ -1,4 +1,4 @@
-import maringaCrest from "@/assets/crests/maringa-fc-2026.png.asset.json";
+import { getClubCrest, CREST_NEEDS_LIGHT_BG } from "@/modules/clubs/crests";
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
@@ -149,13 +149,12 @@ function logoSlug(name: string) { return FOOTYLOGOS_SLUGS[name] ?? name.normaliz
 function ClubCrest({ name }: { name: string }) {
   const [failed, setFailed] = useState(false);
   const localFile = CREST_FILES[name];
-  const src = name === "Maringá"
-    ? maringaCrest.url
-    : localFile
+  const src = getClubCrest(name)
+    ?? (localFile
       ? `https://raw.githubusercontent.com/Lobobinho/Escudos-dos-Clubes-do-Brasileirao-2026/master/${encodeURIComponent(localFile)}`
-      : `https://www.footylogos.com/dls/logo/${logoSlug(name)}.png`;
+      : `https://www.footylogos.com/dls/logo/${logoSlug(name)}.png`);
   if (failed) return <span aria-label={`Escudo de ${name} indisponível`} className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-[10px] font-black text-primary">{name.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>;
-  if (name === "Maringá") return <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white p-1"><img src={src} alt={`Escudo do ${name}`} loading="lazy" onError={() => setFailed(true)} className="h-full w-full object-contain" /></span>;
+  if (CREST_NEEDS_LIGHT_BG.has(name)) return <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white p-1"><img src={src} alt={`Escudo do ${name}`} loading="lazy" onError={() => setFailed(true)} className="h-full w-full object-contain" /></span>;
   return <img src={src} alt={`Escudo do ${name}`} loading="lazy" onError={() => setFailed(true)} className="h-9 w-9 shrink-0 object-contain" />;
 }
 

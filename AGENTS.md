@@ -14,3 +14,4 @@
 - Main menu is defined only in `src/components/layout/navigation.ts`; every entry must point to an existing route.
 - Pages without real data render `DataPending`; never ship fictional data presented as real.
 - Planned DB schema lives in `database/schema.sql` until the cloud database is enabled, then becomes migrations.
+- Club crests come only from `src/modules/clubs/crests.ts` (CDN-hosted copies); pages must check it before any external URL — external crest hosts proved unreliable.
