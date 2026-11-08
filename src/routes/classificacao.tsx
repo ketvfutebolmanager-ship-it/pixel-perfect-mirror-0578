@@ -26,6 +26,7 @@ const VERIFIED_D_CRESTS: Record<string, string[]> = {
   "São Luiz": ["https://www.footylogos.com/dls/logo/sao-luiz.png"],
 };
 function crestSources(name: string) {
+  if (name === "Maringá") return ["https://commons.wikimedia.org/wiki/Special:FilePath/Maring%C3%A1%20Futebol%20Clube%20logo.svg"];
   const file = CREST_FILES[name];
   const slug = logoSlug(name);
   return [
