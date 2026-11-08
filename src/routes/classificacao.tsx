@@ -1,3 +1,4 @@
+import { getClubCrest, CREST_NEEDS_LIGHT_BG } from "@/modules/clubs/crests";
 import maringaCrest from "@/assets/crests/maringa-fc-2026.png.asset.json";
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
@@ -27,7 +28,8 @@ const VERIFIED_D_CRESTS: Record<string, string[]> = {
   "São Luiz": ["https://www.footylogos.com/dls/logo/sao-luiz.png"],
 };
 function crestSources(name: string) {
-  if (name === "Maringá") return [maringaCrest.url];
+  const local = getClubCrest(name);
+  if (local) return [local];
   const file = CREST_FILES[name];
   const slug = logoSlug(name);
   return [
@@ -149,7 +151,7 @@ function Page() {
                     return <tr key={club.id} className={`border-t border-border/70 transition-colors hover:bg-primary/5 ${highlighted ? (division === "Série A" || index >= orderedClubs.length - 4 ? "bg-red-500/10" : "bg-emerald-500/10") : ""}`}>
                       <td className="px-3 py-3 text-center font-bold tabular-nums text-muted-foreground">{index + 1}</td>
                       <td className="px-3 py-3"><div className="flex items-center gap-3">
-                        <img src={crestSources(club.name)[0]} data-source-index="0" alt={`Escudo do ${club.name}`} loading="lazy" style={club.name === "Maringá" ? { backgroundColor: "#ffffff", padding: "4px", borderRadius: "9999px", filter: "none" } : undefined} onError={(event) => {
+                        <img src={crestSources(club.name)[0]} data-source-index="0" alt={`Escudo do ${club.name}`} loading="lazy" style={CREST_NEEDS_LIGHT_BG.has(club.name) ? { backgroundColor: "#ffffff", padding: "4px", borderRadius: "9999px", filter: "none" } : undefined} onError={(event) => {
                           const image = event.currentTarget;
                           const sources = crestSources(club.name);
                           const next = Number(image.dataset["sourceIndex"] ?? "0") + 1;
@@ -161,7 +163,7 @@ function Page() {
                           image.style.display = "none";
                           const fallback = image.nextElementSibling as HTMLElement | null;
                           if (fallback) fallback.style.display = "flex";
-                        }} className={`h-8 w-8 shrink-0 object-contain ${club.name === "Maringá" ? "rounded-full bg-white p-1" : ""}`} />
+                        }} className={`h-8 w-8 shrink-0 object-contain ${CREST_NEEDS_LIGHT_BG.has(club.name) ? "rounded-full bg-white p-1" : ""}`} />
                         <span style={{ display: "none" }} className="h-7 w-7 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-[10px] font-black text-primary">{club.name.split(/\\s+/).map((part) => part[0]).slice(0, 3).join("")}</span>
                         <span className="font-semibold">{club.name}</span><span className="text-xs text-muted-foreground">{club.state}</span>
                       </div></td>
