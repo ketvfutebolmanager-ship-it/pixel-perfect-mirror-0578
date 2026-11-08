@@ -3989,6 +3989,77 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = [
     seasonStats: { appearances: 31, minutes: 1335, goals: 5, assists: 0, yellowCards: 1, secondYellowCards: 0, redCards: 0 },
     source: "https://classificacaogeral.com.br/jogadores/brasileirao-serie-b/2026", verifiedAt: "2026-11-08"
   }
+,
+  {
+    "id": "italo-carvalho-paysandu",
+    "name": "Ítalo Carvalho",
+    "clubId": "paysandu",
+    "clubName": "Paysandu",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/pa/futebol/times/paysandu/noticia/2026/09/04/italo-quer-acesso-e-titulo-da-serie-c-no-paysandu-para-fechar-melhor-ano-da-carreira.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "juninho-paysandu",
+    "name": "Juninho",
+    "clubId": "paysandu",
+    "clubName": "Paysandu",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/pa/futebol/times/paysandu/noticia/2026/10/23/paysandu-adquire-direitos-do-atacante-juninho-que-assina-por-mais-dois-anos.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nico-schiappacasse-paysandu",
+    "name": "Nico Schiappacasse",
+    "clubId": "paysandu",
+    "clubName": "Paysandu",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://ge.globo.com/pa/futebol/times/paysandu/noticia/2026/09/09/nico-schiappacasse-treina-com-paysandu-e-aguarda-detalhes-burocraticos-para-assinar.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "nene-botafogo-da-paraiba",
+    "name": "Nenê",
+    "clubId": "botafogo-da-paraiba",
+    "clubName": "Botafogo da Paraíba",
+    "division": "Série C",
+    "position": "MEI",
+    "source": "https://ge.globo.com/pb/futebol/noticia/2026/10/15/mais-um-ano-aos-45-nene-termina-temporada-no-botafogo-pb-sem-acesso-mas-projeta-futuro.ghtml",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "joao-pedro-martins-brusque",
+    "name": "João Pedro Martins",
+    "clubId": "brusque",
+    "clubName": "Brusque",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.transfermarkt.com.br/joao-pedro/profil/spieler/428787",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "vitor-barreto-ferroviaria",
+    "name": "Vitor Barreto",
+    "clubId": "ferroviaria",
+    "clubName": "Ferroviária",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://www.ogol.com.br/jogador/vitor-barreto/691669",
+    "verifiedAt": "2026-11-08"
+  },
+  {
+    "id": "getulio-inter-de-limeira",
+    "name": "Getúlio",
+    "clubId": "inter-de-limeira",
+    "clubName": "Inter de Limeira",
+    "division": "Série C",
+    "position": "ATA",
+    "source": "https://interdelimeira.com/player/getulio/",
+    "verifiedAt": "2026-11-08"
+  }
 ];
 export const PLAYER_DATA_AS_OF = "2026-11-08";
 export const PLAYER_DATA_STATUS = "partial-verified";
