@@ -48,7 +48,7 @@ const players = raw.map((row, index) => {
   if (!name || !club || !allowedPositions.has(position) || !source || !/^20\d{2}-\d{2}-\d{2}$/.test(verifiedAt)) {
     throw new Error(`Registro ${index + 1} inválido: nome, clubId, posição, fonte e verifiedAt são obrigatórios.`);
   }
-  const key = name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase() + "|" + club.id;
+  const key = name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim() + "|" + club.id;
   if (seen.has(key)) throw new Error(`Jogador duplicado no clube: ${name} / ${club.name}`);
   seen.add(key);
   const id = String(row.id ?? (name + "-" + club.id)).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
