@@ -22665,6 +22665,151 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "silas-guarany-de-bage", name: "Silas", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "MEI",
     source: "CBF — súmula e escalação Guarany de Bagé x Cianorte, Série D 2026; Jornal Minuano — elenco 2026", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "andre-luiz-humaita", name: "André Luiz", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ewerthon-humaita", name: "Ewerthon", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pisika-humaita", name: "Pisika", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitor-wallace-humaita", name: "Vitor Wallace", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rony-humaita", name: "Rony", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-victor-malveira-brandao-hassen-humaita", name: "João Victor Malveira Brandão Hassen", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thomaz-humaita", name: "Thomaz", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-felipe-de-sousa-da-silva-humaita", name: "Luiz Felipe de Sousa da Silva", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marquinho-humaita", name: "Marquinho", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-capelasso-humaita", name: "Matheus Capelasso", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodrigo-humaita", name: "Rodrigo", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sayuk-humaita", name: "Sayuk", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "e-ogbe-humaita", name: "E. Ogbe", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wallace-humaita", name: "Wallace", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-cassimiro-humaita", name: "Lucas Cassimiro", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "welder-humaita", name: "Welder", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulinho-humaita", name: "Paulinho", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lyrio-humaita", name: "Lyrio", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-humaita", name: "Vinicius", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "julio-humaita", name: "Julio", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-humaita", name: "Luis", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-ferst-humaita", name: "Felipe Ferst", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mateus-tk-humaita", name: "Mateus TK", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "asaf-humaita", name: "Asaf", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-victor-humaita", name: "Pedro Victor", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-donato-humaita", name: "Gabriel Donato", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-nego-humaita", name: "Matheus Nego", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-augusto-mota-de-lima-humaita", name: "Pedro Augusto Mota de Lima", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thalis-humaita", name: "Thalis", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "aldair-humaita", name: "Aldair", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-humaita", name: "Luan", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "l-lopez-humaita", name: "L. López", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-henrique-humaita", name: "Pedro Henrique", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-humaita", name: "Gustavo", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ale-humaita", name: "Alê", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaua-humaita", name: "Kauã", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
