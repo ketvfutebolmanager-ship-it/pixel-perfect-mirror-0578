@@ -21774,6 +21774,39 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "brayan-guapore", name: "Brayan", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "ATA",
     source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "marcos-junior-galvez", name: "Marcos Júnior", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
+    source: "Profissional — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "arthur-galvez", name: "Arthur", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ZAG",
+    source: "Base — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eric-gabriel-galvez", name: "Eric Gabriel", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ATA",
+    source: "Base — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juan-loboa-galvez", name: "Juan Loboa", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ZAG",
+    source: "Base — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "julian-rykelme-galvez", name: "Julian Rykelme", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
+    source: "Base — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-galvez", name: "Matheus", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
+    source: "Base — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sandeu-galvez", name: "Sandeu", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ATA",
+    source: "Base — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yhan-galvez", name: "Yhan", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
+    source: "Base — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
