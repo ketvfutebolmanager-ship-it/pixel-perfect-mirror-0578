@@ -19945,6 +19945,659 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     "source": "CBF — Série D 2026, atletas inscritos e estatísticas oficiais",
     "verifiedAt": "2026-11-08"
   }
+,
+  {
+    id: "jefferson-ribeiro-de-freitas-capital", name: "Jefferson Ribeiro de Freitas", clubId: "capital", clubName: "Capital", division: "Série D", position: "GOL",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "richardson-jussier-medeiros-cabral-capital", name: "Richardson Jussier Medeiros Cabral", clubId: "capital", clubName: "Capital", division: "Série D", position: "ZAG",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nicolas-alfredo-lugano-roncio-capital", name: "Nicolás Alfredo Lugano Roncio", clubId: "capital", clubName: "Capital", division: "Série D", position: "ZAG",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renan-luis-neves-dos-santos-eloy-capital", name: "Renan Luis Neves dos Santos Eloy", clubId: "capital", clubName: "Capital", division: "Série D", position: "ZAG",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eder-lima-dos-santos-capital", name: "Eder Lima dos Santos", clubId: "capital", clubName: "Capital", division: "Série D", position: "ZAG",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-oliveira-dos-santos-capital", name: "Lucas Oliveira dos Santos", clubId: "capital", clubName: "Capital", division: "Série D", position: "ZAG",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "genilson-marcelo-pereira-santos-capital", name: "Genilson Marcelo Pereira Santos", clubId: "capital", clubName: "Capital", division: "Série D", position: "ZAG",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jeremias-everton-de-almeida-santos-capital", name: "Jeremias Everton de Almeida Santos", clubId: "capital", clubName: "Capital", division: "Série D", position: "MEI",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "andrey-soares-almeida-capital", name: "Andrey Soares Almeida", clubId: "capital", clubName: "Capital", division: "Série D", position: "MEI",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-cotulio-bossa-capital", name: "Matheus Cotulio Bossa", clubId: "capital", clubName: "Capital", division: "Série D", position: "MEI",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ingro-marreiros-da-cruz-capital", name: "Ingro Marreiros da Cruz", clubId: "capital", clubName: "Capital", division: "Série D", position: "ATA",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "welesson-barreto-borges-capital", name: "Welesson Barreto Borges", clubId: "capital", clubName: "Capital", division: "Série D", position: "ATA",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "erick-daniel-soares-araujo-capital", name: "Erick Daniel Soares Araújo", clubId: "capital", clubName: "Capital", division: "Série D", position: "ATA",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alison-henrique-mira-capital", name: "Alison Henrique Mira", clubId: "capital", clubName: "Capital", division: "Série D", position: "ATA",
+    source: "APWin — elenco Capital 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "edmar-sucuri-ceilandia", name: "Edmar Sucuri", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "GOL",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "batista-ceilandia", name: "Batista", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "GOL",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-hugo-ceilandia", name: "Victor Hugo", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "GOL",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-ceilandia", name: "Felipe", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "GOL",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "badhuga-ceilandia", name: "Badhuga", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "ZAG",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "william-barao-ceilandia", name: "William Barão", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "ZAG",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "carlos-henrique-ceilandia", name: "Carlos Henrique", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "ZAG",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedrinho-ceilandia", name: "Pedrinho", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "ZAG",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-vermudt-ceilandia", name: "Henrique Vermudt", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "ZAG",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fernandinho-ceilandia", name: "Fernandinho", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "LAT",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "romario-ceilandia", name: "Romário", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "LAT",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-foguete-ceilandia", name: "Pedro Foguete", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "LAT",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "magdiel-ceilandia", name: "Magdiel", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "LAT",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "danillo-ribeiro-ceilandia", name: "Danillo Ribeiro", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "LAT",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulinho-ceilandia", name: "Paulinho", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "LAT",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitinho-ceilandia", name: "Vitinho", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "VOL",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bosco-ceilandia", name: "Bosco", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "VOL",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-azevedo-ceilandia", name: "Matheus Azevedo", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "VOL",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wellington-para-ceilandia", name: "Wellington Pará", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "VOL",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-vigia-ceilandia", name: "Henrique Vigia", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "VOL",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cabralzinho-ceilandia", name: "Cabralzinho", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "MEI",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cleyton-ceilandia", name: "Cleyton", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "MEI",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-ceilandia", name: "Vinícius", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "MEI",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheuzinho-ceilandia", name: "Matheuzinho", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "MEI",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "edson-reis-ceilandia", name: "Edson Reis", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "ATA",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "patrikao-ceilandia", name: "Patrikão", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "ATA",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "danillo-bala-ceilandia", name: "Danillo Bala", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "ATA",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "clesio-cebolinha-ceilandia", name: "Clésio Cebolinha", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "ATA",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabinho-ceilandia", name: "Fabinho", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "ATA",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-tanque-ceilandia", name: "Vinícius Tanque", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "ATA",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelinho-ceilandia", name: "Marcelinho", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "ATA",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marquinhos-ceilandia", name: "Marquinhos", clubId: "ceilandia", clubName: "Ceilândia", division: "Série D", position: "ATA",
+    source: "DF Esportes — Guia do Candangão 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-garcia-cianorte", name: "Felipe Garcia", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "igor-cianorte", name: "Igor", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-lopes-cianorte", name: "Guilherme Lopes", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabiano-luiz-cianorte", name: "Fabiano Luiz", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cristovam-cianorte", name: "Cristovam", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "allan-passos-cianorte", name: "Allan Passos", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jackson-cianorte", name: "Jackson", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wesley-cianorte", name: "Wesley", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sony-anderson-cianorte", name: "Sony Anderson", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ramom-soares-cianorte", name: "Ramom Soares", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulo-roberto-cianorte", name: "Paulo Roberto", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "iago-motta-cianorte", name: "Iago Motta", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-cabeca-cianorte", name: "David Cabeca", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-cianorte", name: "Pedro", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaka-cianorte", name: "Kaka", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ibson-cianorte", name: "Ibson", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-chagas-cianorte", name: "Gabriel Chagas", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-kaua-cianorte", name: "David Kauã", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hiago-cianorte", name: "Hiago", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wagner-manaus-cianorte", name: "Wagner Manaus", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dener-cianorte", name: "Dener", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "arthur-cianorte", name: "Arthur", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-silva-cianorte", name: "Gabriel Silva", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nicolas-moreira-cianorte", name: "Nicolas Moreira", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luciano-cianorte", name: "Luciano", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "reifit-cianorte", name: "Reifit", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "robinho-cianorte", name: "Robinho", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-dentinho-cianorte", name: "Bruno Dentinho", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-laurindo-cianorte", name: "Felipe Laurindo", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-aruba-cianorte", name: "Lucas Aruba", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-adisa-cianorte", name: "Daniel Adisa", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-fernando-cianorte", name: "Luiz Fernando", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "carlito-cianorte", name: "Carlito", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedoca-cianorte", name: "Pedoca", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "crysthyan-lucas-cianorte", name: "Crysthyan Lucas", clubId: "cianorte", clubName: "Cianorte", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cleriston-crac", name: "Cleriston", clubId: "crac", clubName: "CRAC", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-almeida-crac", name: "Vinicius Almeida", clubId: "crac", clubName: "CRAC", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-henrique-crac", name: "Luis Henrique", clubId: "crac", clubName: "CRAC", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-sales-crac", name: "Luan Sales", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-fontes-crac", name: "Gabriel Fontes", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "danrlei-santos-crac", name: "Danrlei Santos", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "da-silva-crac", name: "Da Silva", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-mendonca-crac", name: "Daniel Mendonça", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "airton-crac", name: "Airton", clubId: "crac", clubName: "CRAC", division: "Série D", position: "LAT",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-lima-crac", name: "Lucas Lima", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitor-mota-crac", name: "Vitor Mota", clubId: "crac", clubName: "CRAC", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-azevedo-crac", name: "Léo Azevedo", clubId: "crac", clubName: "CRAC", division: "Série D", position: "LAT",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "robson-alemao-crac", name: "Robson Alemão", clubId: "crac", clubName: "CRAC", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "menezes-crac", name: "Menezes", clubId: "crac", clubName: "CRAC", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tata-crac", name: "Tatá", clubId: "crac", clubName: "CRAC", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jefferson-crac", name: "Jefferson", clubId: "crac", clubName: "CRAC", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jair-crac", name: "Jair", clubId: "crac", clubName: "CRAC", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "riquelmo-crac", name: "Riquelmo", clubId: "crac", clubName: "CRAC", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-cunha-crac", name: "Caio Cunha", clubId: "crac", clubName: "CRAC", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "romario-crac", name: "Romario", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "a-choco-crac", name: "A. Choco", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucao-crac", name: "Lucão", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "robinho-crac", name: "Robinho", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-veras-crac", name: "João Veras", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitor-hugo-crac", name: "Vitor Hugo", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "reidiner-nascimento-de-jesus-crac", name: "Reidiner Nascimento de Jesus", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafhael-lucas-crac", name: "Rafhael Lucas", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-felipe-crac", name: "Luis Felipe", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "valter-bala-crac", name: "Valter Bala", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ruan-crac", name: "Ruan", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "iago-martins-crac", name: "Iago Martins", clubId: "crac", clubName: "CRAC", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wellerson-csa", name: "Wellerson", clubId: "csa", clubName: "CSA", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "arthur-silveira-csa", name: "Arthur Silveira", clubId: "csa", clubName: "CSA", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "calyl-csa", name: "Calyl", clubId: "csa", clubName: "CSA", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-csa", name: "Gustavo", clubId: "csa", clubName: "CSA", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marlon-lopes-csa", name: "Marlon Lopes", clubId: "csa", clubName: "CSA", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rayan-csa", name: "Rayan", clubId: "csa", clubName: "CSA", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaike-csa", name: "Kaike", clubId: "csa", clubName: "CSA", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucao-csa", name: "Lucão", clubId: "csa", clubName: "CSA", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felix-jorge-csa", name: "Felix Jorge", clubId: "csa", clubName: "CSA", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-ytalo-csa", name: "Marcos Ytalo", clubId: "csa", clubName: "CSA", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-serafini-csa", name: "Lucas Serafini", clubId: "csa", clubName: "CSA", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ailton-santos-csa", name: "Ailton Santos", clubId: "csa", clubName: "CSA", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "camacho-csa", name: "Camacho", clubId: "csa", clubName: "CSA", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "k-ferreira-csa", name: "K. Ferreira", clubId: "csa", clubName: "CSA", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabricio-costa-csa", name: "Fabrício Costa", clubId: "csa", clubName: "CSA", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-melo-csa", name: "Matheus Melo", clubId: "csa", clubName: "CSA", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wesley-csa", name: "Wesley", clubId: "csa", clubName: "CSA", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ramon-csa", name: "Ramon", clubId: "csa", clubName: "CSA", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renato-pitbull-csa", name: "Renato Pitbull", clubId: "csa", clubName: "CSA", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "igor-csa", name: "Igor", clubId: "csa", clubName: "CSA", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dudu-figueiredo-csa", name: "Dudu Figueiredo", clubId: "csa", clubName: "CSA", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ronaldo-mendes-csa", name: "Ronaldo Mendes", clubId: "csa", clubName: "CSA", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "l-lima-csa", name: "L. Lima", clubId: "csa", clubName: "CSA", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitinho-csa", name: "Vitinho", clubId: "csa", clubName: "CSA", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-silva-csa", name: "Lucas Silva", clubId: "csa", clubName: "CSA", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-souza-csa", name: "Matheus Souza", clubId: "csa", clubName: "CSA", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "santana-rian-csa", name: "Santana Rian", clubId: "csa", clubName: "CSA", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jeferson-cse", name: "Jeferson", clubId: "cse", clubName: "CSE", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-pereira-cse", name: "Bruno Pereira", clubId: "cse", clubName: "CSE", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pinheirinho-cse", name: "Pinheirinho", clubId: "cse", clubName: "CSE", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lima-cse", name: "Lima", clubId: "cse", clubName: "CSE", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eduardo-leite-cse", name: "Eduardo Leite", clubId: "cse", clubName: "CSE", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-vaz-cse", name: "Rafael Vaz", clubId: "cse", clubName: "CSE", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "carlos-henrique-cse", name: "Carlos Henrique", clubId: "cse", clubName: "CSE", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-alexandre-da-silva-cse", name: "João Alexandre da Silva", clubId: "cse", clubName: "CSE", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-victor-cse", name: "João Victor", clubId: "cse", clubName: "CSE", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jeferson-silva-cse", name: "Jeferson Silva", clubId: "cse", clubName: "CSE", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joedson-cse", name: "Joedson", clubId: "cse", clubName: "CSE", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "edvelton-cse", name: "Edvelton", clubId: "cse", clubName: "CSE", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "claudevan-cse", name: "Claudevan", clubId: "cse", clubName: "CSE", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "celestino-cse", name: "Celestino", clubId: "cse", clubName: "CSE", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jean-cleber-cse", name: "Jean Cléber", clubId: "cse", clubName: "CSE", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "anderson-montanha-cse", name: "Anderson Montanha", clubId: "cse", clubName: "CSE", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "erick-pitbull-cse", name: "Erick Pitbull", clubId: "cse", clubName: "CSE", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rai-cse", name: "Rai", clubId: "cse", clubName: "CSE", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-augusto-cse", name: "Pedro Augusto", clubId: "cse", clubName: "CSE", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jose-tarcisio-lima-martins-cse", name: "José Tarcísio Lima Martins", clubId: "cse", clubName: "CSE", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-bispo-moreira-junior-cse", name: "Pedro Bispo Moreira Júnior", clubId: "cse", clubName: "CSE", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "reinaldo-cse", name: "Reinaldo", clubId: "cse", clubName: "CSE", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedrinho-cse", name: "Pedrinho", clubId: "cse", clubName: "CSE", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-magno-cse", name: "Thiago Magno", clubId: "cse", clubName: "CSE", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  }
 );
-export const PLAYER_DATA_AS_OF = "2026-11-08";
+export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
