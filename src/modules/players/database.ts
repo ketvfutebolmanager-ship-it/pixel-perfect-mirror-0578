@@ -28044,6 +28044,330 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     id: "elias-carioca-sao-joseense", name: "Elias Carioca", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "ATA",
     source: "https://www.sofascore.com/pt/football/team/independente-sao-joseense/313924", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jhonnattan-daniel-mendes-vieira-pires-uniao-rondonopolis", name: "Jhonnattan Daniel Mendes Vieira Pires", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "GOL",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucio-hernandes-da-silva-souza-uniao-rondonopolis", name: "Lúcio Hernandes da Silva Souza", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "GOL",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-bez-uniao-rondonopolis", name: "Pedro Bez", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "GOL",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "andrey-gomes-ferreira-uniao-rondonopolis", name: "Andrey Gomes Ferreira", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ZAG",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-de-araujo-dos-santos-uniao-rondonopolis", name: "Felipe de Araújo dos Santos", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ZAG",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gilberto-marangoni-uniao-rondonopolis", name: "Gilberto Marangoni", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ZAG",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-mattos-dos-santos-uniao-rondonopolis", name: "Rafael Mattos dos Santos", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ZAG",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renan-carrasco-uniao-rondonopolis", name: "Renan Carrasco", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ZAG",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-uniao-rondonopolis", name: "Vinicius", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ZAG",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitor-da-rosa-dadalt-uniao-rondonopolis", name: "Vitor da Rosa Dadalt", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ZAG",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jhuan-gabriel-almeida-de-souza-uniao-rondonopolis", name: "Jhuan Gabriel Almeida de Souza", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "LAT",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-uniao-rondonopolis", name: "Marcos", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "LAT",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-silveira-uniao-rondonopolis", name: "Gustavo Silveira", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "LAT",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "iury-cabral-uniao-rondonopolis", name: "Iury Cabral", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "LAT",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "miguel-silva-uniao-rondonopolis", name: "Miguel Silva", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "LAT",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alex-uniao-rondonopolis", name: "Alex", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "MEI",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "geovanny-uniao-rondonopolis", name: "Geovanny", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "MEI",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-ribeiro-uniao-rondonopolis", name: "Guilherme Ribeiro", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "MEI",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-ruam-vieira-uniao-rondonopolis", name: "Guilherme Ruam Vieira", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "MEI",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jeferson-uniao-rondonopolis", name: "Jeferson", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "MEI",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-pedro-uniao-rondonopolis", name: "Joao Pedro", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "MEI",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ruan-torres-uniao-rondonopolis", name: "Ruan Torres", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "MEI",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nadson-uniao-rondonopolis", name: "Nadson", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "MEI",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-cruz-uniao-rondonopolis", name: "Daniel Cruz", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ATA",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-gabriel-uniao-rondonopolis", name: "Luiz Gabriel", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ATA",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-santana-uniao-rondonopolis", name: "Gabriel Santana", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ATA",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-bruscatto-de-faria-uniao-rondonopolis", name: "Guilherme Bruscatto de Faria", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ATA",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juninho-uniao-rondonopolis", name: "Juninho", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ATA",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaua-barcelos-uniao-rondonopolis", name: "Kauã Barcelos", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ATA",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-goiano-uniao-rondonopolis", name: "Matheus Goiano", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ATA",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitor-uniao-rondonopolis", name: "Vitor", clubId: "uniao-rondonopolis", clubName: "União Rondonópolis", division: "Série D", position: "ATA",
+    source: "https://www.uniaoesporteclube.com.br/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adriano-junior-velo-clube", name: "Adriano Júnior", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "MEI",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alberto-velo-clube", name: "Alberto", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "breno-lopes-velo-clube", name: "Breno Lopes", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caique-velo-clube", name: "Caique", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "MEI",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-amorim-velo-clube", name: "Daniel Amorim", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ATA",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-mancha-velo-clube", name: "Gabriel Mancha", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "islan-velo-clube", name: "Islan", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jhoninha-velo-clube", name: "Jhoninha", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ATA",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-lucas-velo-clube", name: "João Lucas", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ATA",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "karl-velo-clube", name: "Karl", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "MEI",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-steffen-velo-clube", name: "Léo Steffen", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "GOL",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-duni-velo-clube", name: "Lucas Duni", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ATA",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-mingoti-velo-clube", name: "Lucas Mingoti", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-otavio-velo-clube", name: "Luiz Otávio", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "MEI",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelo-augusto-velo-clube", name: "Marcelo Augusto", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelo-carne-velo-clube", name: "Marcelo Carné", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "GOL",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mateus-norton-velo-clube", name: "Mateus Norton", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "MEI",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulo-vitor-velo-clube", name: "Paulo Vitor", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "GOL",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rair-velo-clube", name: "Rair", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "MEI",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodrigo-alves-velo-clube", name: "Rodrigo Alves", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ATA",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodrigo-vasconcelos-velo-clube", name: "Rodrigo Vasconcelos", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "MEI",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ruan-velo-clube", name: "Ruan", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sillas-velo-clube", name: "Sillas", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ATA",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-timbo-velo-clube", name: "Thiago Timbo", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thomas-luciano-velo-clube", name: "Thomas Luciano", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "v-paulo-velo-clube", name: "V. Paulo", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "GOL",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ynaia-velo-clube", name: "Ynaiã", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "MEI",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-mario-velo-clube", name: "Zé Mário", clubId: "velo-clube", clubName: "Velo Clube", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/velo-clube", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-vasconcelos-vitoria", name: "Gabriel Vasconcelos", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "GOL",
+    source: "https://www.365scores.com/pt-br/football/team/vitoria-1228/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-marcos-vitoria", name: "Zé Marcos", clubId: "vitoria", clubName: "Vitória", division: "Série A", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/vitoria-1228/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-gaiotti-xv-de-piracicaba", name: "Pedro Gaiotti", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "GOL",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelo-dal-soler-xv-de-piracicaba", name: "Marcelo Dal Soler", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "GOL",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-severino-xv-de-piracicaba", name: "Pedro Severino", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "GOL",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "almir-luan-xv-de-piracicaba", name: "Almir Luan", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "ZAG",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mauricio-ribeiro-xv-de-piracicaba", name: "Maurício Ribeiro", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "ZAG",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "douglas-carvalho-xv-de-piracicaba", name: "Douglas Carvalho", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "ZAG",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lira-xv-de-piracicaba", name: "Lira", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "ZAG",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-salles-xv-de-piracicaba", name: "Gustavo Salles", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "LAT",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "roberto-xv-de-piracicaba", name: "Roberto", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "LAT",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dudu-vieira-xv-de-piracicaba", name: "Dudu Vieira", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "VOL",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-hebling-xv-de-piracicaba", name: "Gustavo Hebling", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "VOL",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "richard-almeida-xv-de-piracicaba", name: "Richard Almeida", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "VOL",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "richard-franco-xv-de-piracicaba", name: "Richard Franco", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "VOL",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "junior-caicara-xv-de-piracicaba", name: "Júnior Caiçara", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "MEI",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "keven-xv-de-piracicaba", name: "Keven", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "MEI",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-longuine-xv-de-piracicaba", name: "Rafael Longuine", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "MEI",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "serginho-xv-de-piracicaba", name: "Serginho", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "MEI",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "antonio-gabriel-xv-de-piracicaba", name: "Antônio Gabriel", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "ATA",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-cabral-xv-de-piracicaba", name: "Gustavo Cabral", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "ATA",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "richard-alexandre-xv-de-piracicaba", name: "Richard Alexandre", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "ATA",
+    source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
   }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
