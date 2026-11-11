@@ -21788,19 +21788,19 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     source: "Base — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
   },
   {
-    id: "juan-loboa-galvez", name: "Juan Loboa", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ZAG",
+    id: "juan-loboa-galvez", name: "Juan Loboa", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
     source: "Base — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
   },
   {
-    id: "julian-rykelme-galvez", name: "Julian Rykelme", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
+    id: "julian-rykelme-galvez", name: "Julian Rykelme", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ZAG",
     source: "Base — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
   },
   {
-    id: "matheus-galvez", name: "Matheus", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
+    id: "matheus-galvez", name: "Matheus", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "GOL",
     source: "Base — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
   },
   {
-    id: "sandeu-galvez", name: "Sandeu", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ATA",
+    id: "sandeu-galvez", name: "Sandeu", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
     source: "Base — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
   },
   {
