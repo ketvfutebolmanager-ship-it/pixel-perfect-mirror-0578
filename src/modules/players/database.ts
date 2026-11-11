@@ -24907,111 +24907,111 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "alvaro-operario-mt", name: "Álvaro", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "GOL",
+    id: "alvaro-operario-mt", name: "Álvaro", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "GOL",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "pedro-henz-operario-mt", name: "Pedro Henz", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "GOL",
+    id: "pedro-henz-operario-mt", name: "Pedro Henz", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "GOL",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "matheus-carioca-operario-mt", name: "Matheus Carioca", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    id: "matheus-carioca-operario-mt", name: "Matheus Carioca", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "ZAG",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "yago-ramon-operario-mt", name: "Yago Ramon", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    id: "yago-ramon-operario-mt", name: "Yago Ramon", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "ZAG",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "jeanderson-operario-mt", name: "Jeanderson", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    id: "jeanderson-operario-mt", name: "Jeanderson", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "ZAG",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "felipe-hulk-operario-mt", name: "Felipe Hulk", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    id: "felipe-hulk-operario-mt", name: "Felipe Hulk", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "ZAG",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "roque-junior-operario-mt", name: "Roque Júnior", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    id: "roque-junior-operario-mt", name: "Roque Júnior", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "ZAG",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "rayan-correa-operario-mt", name: "Rayan Corrêa", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    id: "rayan-correa-operario-mt", name: "Rayan Corrêa", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "ZAG",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "luciano-operario-mt", name: "Luciano", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    id: "luciano-operario-mt", name: "Luciano", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "ZAG",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "mastherson-operario-mt", name: "Mastherson", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "LAT",
+    id: "mastherson-operario-mt", name: "Mastherson", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "LAT",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "felipe-cruz-operario-mt", name: "Felipe Cruz", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "LAT",
+    id: "felipe-cruz-operario-mt", name: "Felipe Cruz", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "LAT",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "castanha-operario-mt", name: "Castanha", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "LAT",
+    id: "castanha-operario-mt", name: "Castanha", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "LAT",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "kaka-operario-mt", name: "Kaká", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    id: "kaka-operario-mt", name: "Kaká", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "VOL",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "nenem-operario-mt", name: "Neném", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    id: "nenem-operario-mt", name: "Neném", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "VOL",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "pepe-operario-mt", name: "Pepê", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    id: "pepe-operario-mt", name: "Pepê", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "VOL",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "maicky-operario-mt", name: "Maicky", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    id: "maicky-operario-mt", name: "Maicky", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "VOL",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "erick-lacerda-operario-mt", name: "Erick Lacerda", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    id: "erick-lacerda-operario-mt", name: "Erick Lacerda", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "VOL",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "keven-operario-mt", name: "Keven", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    id: "keven-operario-mt", name: "Keven", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "VOL",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "sidnei-neto-operario-mt", name: "Sidnei Neto", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    id: "sidnei-neto-operario-mt", name: "Sidnei Neto", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "VOL",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "lucas-lotto-operario-mt", name: "Lucas Lotto", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "MEI",
+    id: "lucas-lotto-operario-mt", name: "Lucas Lotto", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "MEI",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "leo-goncalves-operario-mt", name: "Léo Gonçalves", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "MEI",
+    id: "leo-goncalves-operario-mt", name: "Léo Gonçalves", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "MEI",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "lyncon-filipe-operario-mt", name: "Lyncon Filipe", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ATA",
+    id: "lyncon-filipe-operario-mt", name: "Lyncon Filipe", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "ATA",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "alisson-farias-operario-mt", name: "Alisson Farias", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ATA",
+    id: "alisson-farias-operario-mt", name: "Alisson Farias", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "ATA",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "luiz-gustavo-operario-mt", name: "Luiz Gustavo", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ATA",
+    id: "luiz-gustavo-operario-mt", name: "Luiz Gustavo", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "ATA",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "kaue-fernandes-operario-mt", name: "Kauê Fernandes", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ATA",
+    id: "kaue-fernandes-operario-mt", name: "Kauê Fernandes", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "ATA",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "wagner-marques-operario-mt", name: "Wagner Marques", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ATA",
+    id: "wagner-marques-operario-mt", name: "Wagner Marques", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "ATA",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "yago-operario-mt", name: "Yago", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ATA",
+    id: "yago-operario-mt", name: "Yago", clubId: "operario-de-varzea-grande", clubName: "Operário-MT", division: "Série D", position: "ATA",
     source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
   },
   {
