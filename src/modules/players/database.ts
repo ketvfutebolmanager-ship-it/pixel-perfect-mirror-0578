@@ -21081,6 +21081,699 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "ryan-fc-cascavel", name: "Ryan", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "ATA",
     source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "sivaldo-ferroviario", name: "Sivaldo", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "GOL",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-brasil-ferroviario", name: "Victor Brasil", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "GOL",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jeferson-geo-ferroviario", name: "Jeferson Geo", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "LAT",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "natanael-ferroviario", name: "Natanael", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "LAT",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pablo-maldini-ferroviario", name: "Pablo Maldini", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "LAT",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedrinho-ferroviario", name: "Pedrinho", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "LAT",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thomas-luciano-ferroviario", name: "Thomás Luciano", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "LAT",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-miranda-ferroviario", name: "Bruno Miranda", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "ZAG",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipinho-ferroviario", name: "Felipinho", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "ZAG",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "iago-ferroviario", name: "Iago", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "ZAG",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tiago-santana-ferroviario", name: "Tiago Santana", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "ZAG",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-black-ferroviario", name: "Lucas Black", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "VOL",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "raphael-freitas-ferroviario", name: "Raphael Freitas", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "VOL",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "brayan-ferroviario", name: "Brayan", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "MEI",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-ferroviario", name: "Luan", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "MEI",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thalisson-ferroviario", name: "Thalisson", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "MEI",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "camilo-ferroviario", name: "Camilo", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "ATA",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "carlinhos-ferroviario", name: "Carlinhos", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "ATA",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kiuan-ferroviario", name: "Kiuan", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "ATA",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pablinho-ferroviario", name: "Pablinho", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "ATA",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulo-ricardo-ferroviario", name: "Paulo Ricardo", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "ATA",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yair-mena-ferroviario", name: "Yair Mena", clubId: "ferroviario", clubName: "Ferroviário", division: "Série D", position: "ATA",
+    source: "https://www.ferroviario.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "italo-ribeiro-fluminense-do-piaui", name: "Ítalo Ribeiro", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-victor-fluminense-do-piaui", name: "João Victor", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mauro-iguatu-fluminense-do-piaui", name: "Mauro Iguatu", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "arthur-gazze-fluminense-do-piaui", name: "Arthur Gazze", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jerfesson-fluminense-do-piaui", name: "Jerfesson", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rhuan-fluminense-do-piaui", name: "Rhuan", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-manga-fluminense-do-piaui", name: "Lucas Manga", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ray-fluminense-do-piaui", name: "Ray", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alysson-diego-fluminense-do-piaui", name: "Alysson Diego", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-para-fluminense-do-piaui", name: "Gabriel Pará", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-biloca-fluminense-do-piaui", name: "Gabriel Biloca", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "durkheim-fluminense-do-piaui", name: "Durkheim", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucao-fluminense-do-piaui", name: "Lucão", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hebert-fluminense-do-piaui", name: "Hebert", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "branquinho-fluminense-do-piaui", name: "Branquinho", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "francisco-kelson-fluminense-do-piaui", name: "Francisco Kelson", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kelvin-moreira-sandim-fluminense-do-piaui", name: "Kelvin Moreira Sandim", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "keynan-fluminense-do-piaui", name: "Keynan", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheusinho-fluminense-do-piaui", name: "Matheusinho", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lusinho-fluminense-do-piaui", name: "Lusinho", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-macapa-fluminense-do-piaui", name: "Gabriel Macapá", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedrinho-fluminense-do-piaui", name: "Pedrinho", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "xexeu-fluminense-do-piaui", name: "Xexéu", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-gustavo-fluminense-do-piaui", name: "Felipe Gustavo", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-henrique-fluminense-do-piaui", name: "Gabriel Henrique", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dos-anjos-fluminense-do-piaui", name: "Dos Anjos", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "raulisson-fluminense-do-piaui", name: "Raulisson", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rian-renne-fluminense-do-piaui", name: "Rian Rennê", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "raimundinho-fluminense-do-piaui", name: "Raimundinho", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-fluminense-do-piaui", name: "Gustavo", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-taumaturgo-fluminense-do-piaui", name: "Matheus Taumaturgo", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "reny-fluminense-do-piaui", name: "Reny", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-carvalho-fluminense-do-piaui", name: "Léo Carvalho", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "antony-fluminense-do-piaui", name: "Antony", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fatel-fluminense-do-piaui", name: "Fatel", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adson-fluminense-do-piaui", name: "Adson", clubId: "fluminense-do-piaui", clubName: "Fluminense-PI", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kayllon-galvez", name: "Kayllon", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "passarinho-galvez", name: "Passarinho", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-galvez", name: "Diego", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dudu-galvez", name: "Dudu", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "geovani-silva-galvez", name: "Geovani Silva", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-gomes-galvez", name: "João Gomes", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leozinho-galvez", name: "Leozinho", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-galvez", name: "David", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-nego-galvez", name: "Matheus Nego", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniego-galvez", name: "Daniego", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alifi-galvez", name: "Alifi", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hiago-galvez", name: "Hiago", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-capixaba-galvez", name: "Lucas Capixaba", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ruan-galvez", name: "Ruan", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eduardo-galvez", name: "Eduardo", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ac/futebol/times/galvez/noticia/2026/06/12/galvez-relaciona-18-jogadores-e-viaja-nesta-sexta-feira-para-jogo-de-despedida-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renan-rinaldi-gama", name: "Renan Rinaldi", clubId: "gama", clubName: "Gama", division: "Série D", position: "GOL",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leandro-silva-gama", name: "Leandro Silva", clubId: "gama", clubName: "Gama", division: "Série D", position: "GOL",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "angelo-bedendo-gama", name: "Ângelo Bedendo", clubId: "gama", clubName: "Gama", division: "Série D", position: "GOL",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-gama", name: "Guilherme", clubId: "gama", clubName: "Gama", division: "Série D", position: "GOL",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "zulu-gama", name: "Zulu", clubId: "gama", clubName: "Gama", division: "Série D", position: "ZAG",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wellington-silva-gama", name: "Wellington Silva", clubId: "gama", clubName: "Gama", division: "Série D", position: "ZAG",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pv-gama", name: "PV", clubId: "gama", clubName: "Gama", division: "Série D", position: "ZAG",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "darlan-gama", name: "Darlan", clubId: "gama", clubName: "Gama", division: "Série D", position: "ZAG",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-piaui-gama", name: "Lucas Piauí", clubId: "gama", clubName: "Gama", division: "Série D", position: "LAT",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "michel-gama", name: "Michel", clubId: "gama", clubName: "Gama", division: "Série D", position: "LAT",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "toninho-gama", name: "Toninho", clubId: "gama", clubName: "Gama", division: "Série D", position: "LAT",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonathan-gama", name: "Jonathan", clubId: "gama", clubName: "Gama", division: "Série D", position: "LAT",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucao-gama", name: "Lucão", clubId: "gama", clubName: "Gama", division: "Série D", position: "LAT",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-lima-gama", name: "Gabriel Lima", clubId: "gama", clubName: "Gama", division: "Série D", position: "LAT",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "moises-ribeiro-gama", name: "Moisés Ribeiro", clubId: "gama", clubName: "Gama", division: "Série D", position: "VOL",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucio-gama", name: "Lúcio", clubId: "gama", clubName: "Gama", division: "Série D", position: "VOL",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-lucas-gama", name: "David Lucas", clubId: "gama", clubName: "Gama", division: "Série D", position: "VOL",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "russo-gama", name: "Russo", clubId: "gama", clubName: "Gama", division: "Série D", position: "VOL",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-lourenco-gama", name: "Lucas Lourenço", clubId: "gama", clubName: "Gama", division: "Série D", position: "MEI",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "danilinho-gama", name: "Danilinho", clubId: "gama", clubName: "Gama", division: "Série D", position: "MEI",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alvaro-gama", name: "Álvaro", clubId: "gama", clubName: "Gama", division: "Série D", position: "MEI",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renato-soares-gama", name: "Renato Soares", clubId: "gama", clubName: "Gama", division: "Série D", position: "MEI",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-gama", name: "Luan", clubId: "gama", clubName: "Gama", division: "Série D", position: "ATA",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-clemente-gama", name: "Felipe Clemente", clubId: "gama", clubName: "Gama", division: "Série D", position: "ATA",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kennedy-gama", name: "Kennedy", clubId: "gama", clubName: "Gama", division: "Série D", position: "ATA",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "klenisson-gama", name: "Klenisson", clubId: "gama", clubName: "Gama", division: "Série D", position: "ATA",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ramon-gama", name: "Ramon", clubId: "gama", clubName: "Gama", division: "Série D", position: "ATA",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-guerreiro-gama", name: "Daniel Guerreiro", clubId: "gama", clubName: "Gama", division: "Série D", position: "ATA",
+    source: "https://dfesportes.com/gama-mantem-a-base-campea-candanga-e-oxigena-o-elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "athos-gas", name: "Athos", clubId: "gas", clubName: "GAS", division: "Série D", position: "GOL",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kate-gas", name: "Katê", clubId: "gas", clubName: "GAS", division: "Série D", position: "GOL",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eliomar-jesus-gas", name: "Eliomar Jesus", clubId: "gas", clubName: "GAS", division: "Série D", position: "GOL",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-goncalves-gas", name: "Gabriel Gonçalves", clubId: "gas", clubName: "GAS", division: "Série D", position: "ZAG",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "albert-gonzales-gas", name: "Albert Gonzales", clubId: "gas", clubName: "GAS", division: "Série D", position: "ZAG",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "werick-gas", name: "Werick", clubId: "gas", clubName: "GAS", division: "Série D", position: "ZAG",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodolfo-gas", name: "Rodolfo", clubId: "gas", clubName: "GAS", division: "Série D", position: "ZAG",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "iarley-gas", name: "Iarley", clubId: "gas", clubName: "GAS", division: "Série D", position: "ZAG",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "patrick-gas", name: "Patrick", clubId: "gas", clubName: "GAS", division: "Série D", position: "LAT",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ely-jesus-gas", name: "Ely Jesus", clubId: "gas", clubName: "GAS", division: "Série D", position: "LAT",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-velasque-gas", name: "Matheus Velasque", clubId: "gas", clubName: "GAS", division: "Série D", position: "LAT",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitinho-gas", name: "Vitinho", clubId: "gas", clubName: "GAS", division: "Série D", position: "LAT",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ruan-gago-gas", name: "Ruan Gago", clubId: "gas", clubName: "GAS", division: "Série D", position: "LAT",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "chapa-gas", name: "Chapa", clubId: "gas", clubName: "GAS", division: "Série D", position: "VOL",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diguinho-gas", name: "Diguinho", clubId: "gas", clubName: "GAS", division: "Série D", position: "VOL",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-tiririca-gas", name: "Felipe Tiririca", clubId: "gas", clubName: "GAS", division: "Série D", position: "VOL",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "digao-gas", name: "Digão", clubId: "gas", clubName: "GAS", division: "Série D", position: "MEI",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-cardoso-gas", name: "João Cardoso", clubId: "gas", clubName: "GAS", division: "Série D", position: "MEI",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "railson-queiroz-gas", name: "Railson Queiroz", clubId: "gas", clubName: "GAS", division: "Série D", position: "MEI",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-enrique-conca-gas", name: "Luis Enrique Conca", clubId: "gas", clubName: "GAS", division: "Série D", position: "MEI",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-martins-gas", name: "Lucas Martins", clubId: "gas", clubName: "GAS", division: "Série D", position: "MEI",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "raylson-miranda-gas", name: "Raylson Miranda", clubId: "gas", clubName: "GAS", division: "Série D", position: "ATA",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabricio-gas", name: "Fabrício", clubId: "gas", clubName: "GAS", division: "Série D", position: "ATA",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "andinho-gas", name: "Andinho", clubId: "gas", clubName: "GAS", division: "Série D", position: "ATA",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eric-santos-gas", name: "Eric Santos", clubId: "gas", clubName: "GAS", division: "Série D", position: "ATA",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-vitor-gas", name: "João Vitor", clubId: "gas", clubName: "GAS", division: "Série D", position: "ATA",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "elmi-gas", name: "Elmi", clubId: "gas", clubName: "GAS", division: "Série D", position: "ATA",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vanilson-gas", name: "Vanílson", clubId: "gas", clubName: "GAS", division: "Série D", position: "ATA",
+    source: "https://www.folhabv.com.br/esporte/gas-apresenta-elenco-para-2026-e-mantem-base-do-bicampeonato-roraimense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-daniel-goiatuba", name: "Marcos Daniel", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "GOL",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "omar-reis-goiatuba", name: "Omar Reis", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "GOL",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "catula-goiatuba", name: "Catula", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "GOL",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renan-silva-goiatuba", name: "Renan Silva", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "LAT",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabio-sa-goiatuba", name: "Fábio Sá", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "LAT",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "frank-goiatuba", name: "Frank", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "LAT",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-castro-goiatuba", name: "Rafael Castro", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "LAT",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-alves-goiatuba", name: "Felipe Alves", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "LAT",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "roger-henrique-goiatuba", name: "Roger Henrique", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "ZAG",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "euller-viana-goiatuba", name: "Euller Viana", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "ZAG",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "erik-henrique-goiatuba", name: "Erik Henrique", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "ZAG",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "davi-cristovao-goiatuba", name: "Davi Cristóvão", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "ZAG",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fagner-goiatuba", name: "Fagner", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "VOL",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tsumita-goiatuba", name: "Tsumita", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "VOL",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-obina-goiatuba", name: "Matheus Obina", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "VOL",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-costa-goiatuba", name: "Daniel Costa", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "MEI",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thalles-goiatuba", name: "Thalles", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "MEI",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-silva-goiatuba", name: "Gabriel Silva", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "ATA",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jean-silva-goiatuba", name: "Jean Silva", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "ATA",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "higor-pardini-goiatuba", name: "Higor Pardini", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "ATA",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "julio-vitor-goiatuba", name: "Júlio Vitor", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "ATA",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "erick-monteiro-goiatuba", name: "Erick Monteiro", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "ATA",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alex-henrique-goiatuba", name: "Alex Henrique", clubId: "goiatuba", clubName: "Goiatuba", division: "Série D", position: "ATA",
+    source: "https://esportegoiano.com.br/goiatuba-anuncia-zagueiro-manaus-e-atacante-que-estava-na-aparecidense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lennon-guapore", name: "Lennon", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-guapore", name: "Luiz", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "arthur-guapore", name: "Arthur", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "markovic-guapore", name: "Markovic", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-guapore", name: "Daniel", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marlon-guapore", name: "Marlon", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nathan-guapore", name: "Nathan", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alex-guapore", name: "Alex", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gaucho-guapore", name: "Gaúcho", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-guapore", name: "Leo", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hoffman-guapore", name: "Hoffman", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "edson-caetano-guapore", name: "Edson Caetano", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-henrique-guapore", name: "Matheus Henrique", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marquinhos-guapore", name: "Marquinhos", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "antonio-guapore", name: "Antônio", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "igor-guapore", name: "Igor", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "robinho-guapore", name: "Robinho", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "watthimen-guapore", name: "Watthimen", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mano-guapore", name: "Mano", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "will-guapore", name: "Will", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "brayan-guapore", name: "Brayan", clubId: "guapore", clubName: "Guaporé", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ro/noticia/2026/01/05/guapore-apresenta-elenco-e-entra-confiante-no-rondoniense-2026.ghtml", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
