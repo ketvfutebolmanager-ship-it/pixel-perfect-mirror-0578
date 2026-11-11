@@ -21807,6 +21807,835 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "yhan-galvez", name: "Yhan", clubId: "galvez", clubName: "Galvez", division: "Série D", position: "MEI",
     source: "Base — relacionado para a Série D 2026", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "jean-carlos-guarany-de-bage", name: "Jean Carlos", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-vitor-guarany-de-bage", name: "João Vitor", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-goncalves-guarany-de-bage", name: "Thiago Gonçalves", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alberte-guarany-de-bage", name: "Alberte", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-cardoso-guarany-de-bage", name: "Bruno Cardoso", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "h-l-ribeiro-guarany-de-bage", name: "H. L. Ribeiro", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "higor-guarany-de-bage", name: "Higor", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-teixeira-guarany-de-bage", name: "João Teixeira", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "raphinha-guarany-de-bage", name: "Raphinha", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "allan-guarany-de-bage", name: "Allan", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bastos-emersonn-guarany-de-bage", name: "Bastos Emersonn", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alexandre-gomes-de-souza-paulo-guarany-de-bage", name: "Alexandre Gomes de Souza Paulo", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jean-martim-guarany-de-bage", name: "Jean Martim", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-antonio-guarany-de-bage", name: "Marcos Antonio", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-rodrigues-guarany-de-bage", name: "Pedro Rodrigues", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tony-junior-guarany-de-bage", name: "Tony Junior", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/10049/guarany-de-bage", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-ferreira-brandao-humaita", name: "Matheus Ferreira Brandão", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "GOL",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-pezao-humaita", name: "Gabriel Pezão", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "GOL",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelo-ribeiro-humaita", name: "Marcelo Ribeiro", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "GOL",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "danyllo-humaita", name: "Danyllo", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "GOL",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-borges-humaita", name: "Caio Borges", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "GOL",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "carlos-gabriel-da-conceicao-lima-humaita", name: "Carlos Gabriel da Conceição Lima", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-humaita", name: "Diego", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wellington-humaita", name: "Wellington", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luciano-indio-humaita", name: "Luciano Índio", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "f-lastra-humaita", name: "F. Lastra", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jose-humaita", name: "Jose", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tharlles-rodrigues-de-oliveira-humaita", name: "Tharlles Rodrigues de Oliveira", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "h-mpasso-humaita", name: "H. Mpasso", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-william-humaita", name: "Gabriel William", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "k-yoossef-humaita", name: "K. Yoossef", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juliano-humaita", name: "Juliano", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jefferson-humaita", name: "Jefferson", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cristian-humaita", name: "Cristian", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "willian-vicente-humaita", name: "Willian Vicente", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "neguete-humaita", name: "Neguete", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "DEF",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wallace-ruan-guedes-da-silva-humaita", name: "Wallace Ruan Guedes da Silva", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-pereira-donato-humaita", name: "Gustavo Pereira Donato", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-pereira-donato-humaita", name: "Gabriel Pereira Donato", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/humaita/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wenderson-iape", name: "Wenderson", clubId: "iape", clubName: "IAPE", division: "Série D", position: "GOL",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucio-igor-iape", name: "Lúcio Igor", clubId: "iape", clubName: "IAPE", division: "Série D", position: "GOL",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kassio-henrique-da-silva-dos-santos-iape", name: "Kássio Henrique da Silva dos Santos", clubId: "iape", clubName: "IAPE", division: "Série D", position: "GOL",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "claudyson-kennedy-iape", name: "Claudyson Kennedy", clubId: "iape", clubName: "IAPE", division: "Série D", position: "GOL",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pablo-roberto-iape", name: "Pablo Roberto", clubId: "iape", clubName: "IAPE", division: "Série D", position: "GOL",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-maranhao-iape", name: "Pedro Maranhão", clubId: "iape", clubName: "IAPE", division: "Série D", position: "DEF",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "romullo-carioca-iape", name: "Romullo Carioca", clubId: "iape", clubName: "IAPE", division: "Série D", position: "DEF",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "denilson-iape", name: "Denilson", clubId: "iape", clubName: "IAPE", division: "Série D", position: "DEF",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luciano-pina-iape", name: "Luciano Pina", clubId: "iape", clubName: "IAPE", division: "Série D", position: "DEF",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mimica-iape", name: "Mimica", clubId: "iape", clubName: "IAPE", division: "Série D", position: "DEF",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-rocha-iape", name: "Guilherme Rocha", clubId: "iape", clubName: "IAPE", division: "Série D", position: "DEF",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-felipe-iape", name: "João Felipe", clubId: "iape", clubName: "IAPE", division: "Série D", position: "DEF",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-iuri-da-silva-e-silva-iape", name: "Marcos Iuri da Silva e Silva", clubId: "iape", clubName: "IAPE", division: "Série D", position: "DEF",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "emerson-renan-iape", name: "Emerson Renan", clubId: "iape", clubName: "IAPE", division: "Série D", position: "DEF",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yozeff-iape", name: "Yozeff", clubId: "iape", clubName: "IAPE", division: "Série D", position: "DEF",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-gabriel-iape", name: "João Gabriel", clubId: "iape", clubName: "IAPE", division: "Série D", position: "DEF",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "patrick-gentil-sodre-costa-iape", name: "Patrick Gentil Sodre Costa", clubId: "iape", clubName: "IAPE", division: "Série D", position: "DEF",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "brenno-iape", name: "Brenno", clubId: "iape", clubName: "IAPE", division: "Série D", position: "DEF",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eloir-iape", name: "Eloir", clubId: "iape", clubName: "IAPE", division: "Série D", position: "MEI",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lawanderson-kawan-iape", name: "Lawanderson Kawan", clubId: "iape", clubName: "IAPE", division: "Série D", position: "MEI",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitao-iape", name: "Vitão", clubId: "iape", clubName: "IAPE", division: "Série D", position: "MEI",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "maykon-iape", name: "Maykon", clubId: "iape", clubName: "IAPE", division: "Série D", position: "MEI",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulo-victor-iape", name: "Paulo Victor", clubId: "iape", clubName: "IAPE", division: "Série D", position: "MEI",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jhonnatan-iape", name: "Jhonnatan", clubId: "iape", clubName: "IAPE", division: "Série D", position: "MEI",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "manrique-iape", name: "Manrique", clubId: "iape", clubName: "IAPE", division: "Série D", position: "MEI",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "davi-borel-iape", name: "Davi Borel", clubId: "iape", clubName: "IAPE", division: "Série D", position: "MEI",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pablo-souza-iape", name: "Pablo Souza", clubId: "iape", clubName: "IAPE", division: "Série D", position: "MEI",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jojo-iape", name: "Jojô", clubId: "iape", clubName: "IAPE", division: "Série D", position: "MEI",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luann-douglas-iape", name: "Luann Douglas", clubId: "iape", clubName: "IAPE", division: "Série D", position: "MEI",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "edu-iape", name: "Edu", clubId: "iape", clubName: "IAPE", division: "Série D", position: "MEI",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nathan-iape", name: "Nathan", clubId: "iape", clubName: "IAPE", division: "Série D", position: "MEI",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiaguinho-iape", name: "Thiaguinho", clubId: "iape", clubName: "IAPE", division: "Série D", position: "ATA",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaio-camara-iape", name: "Kaio Câmara", clubId: "iape", clubName: "IAPE", division: "Série D", position: "ATA",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "talisson-jorge-de-moura-brito-iape", name: "Talisson Jorge de Moura Brito", clubId: "iape", clubName: "IAPE", division: "Série D", position: "ATA",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adailton-rodrigues-barbosa-junior-iape", name: "Adailton Rodrigues Barbosa Junior", clubId: "iape", clubName: "IAPE", division: "Série D", position: "ATA",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "enzzo-iape", name: "Enzzo", clubId: "iape", clubName: "IAPE", division: "Série D", position: "ATA",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "erivelton-iape", name: "Erivelton", clubId: "iape", clubName: "IAPE", division: "Série D", position: "ATA",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-iape", name: "Henrique", clubId: "iape", clubName: "IAPE", division: "Série D", position: "ATA",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gleyson-da-conceicao-silva-iape", name: "Gleyson da Conceição Silva", clubId: "iape", clubName: "IAPE", division: "Série D", position: "ATA",
+    source: "https://guiagol.com/br/time/iape/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "geferson-fernandes-silva-iguatu", name: "Geferson Fernandes Silva", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ytalo-daniel-de-oliveira-silva-iguatu", name: "Ytalo Daniel de Oliveira Silva", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-rafael-iguatu", name: "Zé Rafael", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-jose-de-andrade-filho-iguatu", name: "João José de Andrade Filho", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eric-iguatu", name: "Eric", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-pedro-alves-de-souza-iguatu", name: "João Pedro Alves de Souza", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marquinhos-iguatu", name: "Marquinhos", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tafinha-iguatu", name: "Tafinha", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "talisson-diago-nascimento-oliveira-iguatu", name: "Talisson Diago Nascimento Oliveira", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-iguatu", name: "Caio", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "danilo-sousa-de-nazare-iguatu", name: "Danilo Sousa de Nazaré", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-neto-iguatu", name: "João Neto", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-menezes-cavalcante-de-souza-iguatu", name: "Bruno Menezes Cavalcante de Souza", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-henrique-da-silva-barros-iguatu", name: "Pedro Henrique da Silva Barros", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rogerio-antonio-siqueira-dos-santos-iguatu", name: "Rogério Antônio Siqueira dos Santos", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "uchoa-iguatu", name: "Uchoa", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-salvador-santos-iguatu", name: "Victor Salvador Santos", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-oliveira-iguatu", name: "Zé Oliveira", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "j-klaivert-iguatu", name: "J. Klaivert", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leandrinho-iguatu", name: "Leandrinho", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "otacilio-marcos-pereira-da-silva-iguatu", name: "Otacilio Marcos Pereira da Silva", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-lima-iguatu", name: "Matheus Lima", clubId: "iguatu", clubName: "Iguatu", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/15505/iguatu", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "junior-conceicao-imperatriz", name: "Junior Conceição", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "GOL",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mateus-machado-imperatriz", name: "Mateus Machado", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "GOL",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ronny-imperatriz", name: "Ronny", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "DEF",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-fernando-imperatriz", name: "Luís Fernando", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "DEF",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cassius-imperatriz", name: "Cassius", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "DEF",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-almeida-imperatriz", name: "Felipe Almeida", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "DEF",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-guilherme-imperatriz", name: "Luís Guilherme", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "DEF",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-lobo-imperatriz", name: "Gustavo Lobó", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "DEF",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wyldson-lima-imperatriz", name: "Wyldson Lima", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "DEF",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adriel-imperatriz", name: "Adriel", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "DEF",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gleidson-imperatriz", name: "Gleidson", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "VOL",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-macena-imperatriz", name: "Felipe Macena", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "VOL",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-victor-imperatriz", name: "João Victor", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "VOL",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bidely-imperatriz", name: "Bidely", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "VOL",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-daros-imperatriz", name: "Lucas Daros", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "VOL",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "patuta-imperatriz", name: "Patuta", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "MEI",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "doda-imperatriz", name: "Doda", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "MEI",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cafe-imperatriz", name: "Café", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "ATA",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "testinha-imperatriz", name: "Testinha", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "ATA",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "capote-imperatriz", name: "Capote", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "ATA",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wendel-bahia-imperatriz", name: "Wendel Bahia", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "ATA",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "flavio-rene-imperatriz", name: "Flávio Renê", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "ATA",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mateusao-imperatriz", name: "Mateusão", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "ATA",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "halef-pitbull-imperatriz", name: "Halef Pitbull", clubId: "imperatriz", clubName: "Imperatriz", division: "Série D", position: "ATA",
+    source: "https://imirante.com/esporte/maranhao/amp/2025/10/20/campeonato-maranhense-2026-confira-como-esta-o-planejamento-dos-oito-clubes", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "neto-ivinhema", name: "Neto", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "GOL",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "igor-ivinhema", name: "Igor", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "GOL",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "breno-ivinhema", name: "Breno", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "GOL",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-ivinhema", name: "Luan", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "LAT",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wallace-ivinhema", name: "Wallace", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "LAT",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "harison-ivinhema", name: "Harison", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "LAT",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-ivinhema", name: "Gustavo", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "LAT",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "furlan-ivinhema", name: "Furlan", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "ZAG",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mina-ivinhema", name: "Mina", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "ZAG",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaio-ivinhema", name: "Kaio", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "ZAG",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-ivinhema", name: "Matheus", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "ZAG",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bugarin-ivinhema", name: "Bugarin", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "VOL",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adson-ivinhema", name: "Adson", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "VOL",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-malheiro-ivinhema", name: "Guilherme Malheiro", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "VOL",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "julio-ivinhema", name: "Júlio", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "VOL",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ronald-ivinhema", name: "Ronald", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "VOL",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "esdras-ivinhema", name: "Esdras", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "MEI",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "william-ivinhema", name: "William", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "MEI",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonatas-ivinhema", name: "Jonatas", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "MEI",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tuninho-ivinhema", name: "Tuninho", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "ATA",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedrinho-ivinhema", name: "Pedrinho", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "ATA",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodolfo-ivinhema", name: "Rodolfo", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "ATA",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tiui-ivinhema", name: "Tiui", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "ATA",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wendel-ivinhema", name: "Wendel", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "ATA",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitao-ivinhema", name: "Vitão", clubId: "ivinhema", clubName: "Ivinhema", division: "Série D", position: "ATA",
+    source: "https://www.ivinoticias.com.br/noticia/163662/ivinhema-fc-da-largada-em-2026-com-elenco-reforcado-e-expectativa-por-calendario-nacional", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-patrick-ferreira-de-lima-independencia", name: "Daniel Patrick Ferreira de Lima", clubId: "independencia", clubName: "Independência", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "edivandro-lima-dos-santos-independencia", name: "Edivandro Lima dos Santos", clubId: "independencia", clubName: "Independência", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-wilque-bezerra-de-almeida-independencia", name: "Marcos Wilque Bezerra de Almeida", clubId: "independencia", clubName: "Independência", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sebastiao-braga-farias-independencia", name: "Sebastião Braga Farias", clubId: "independencia", clubName: "Independência", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "antonio-douglas-martins-da-silva-independencia", name: "Antônio Douglas Martins da Silva", clubId: "independencia", clubName: "Independência", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabricio-goncalves-dos-santos-independencia", name: "Fabricio Gonçalves dos Santos", clubId: "independencia", clubName: "Independência", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-candido-silverio-independencia", name: "Gustavo Cândido Silvério", clubId: "independencia", clubName: "Independência", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joardeson-mendes-de-oliveira-independencia", name: "Joardeson Mendes de Oliveira", clubId: "independencia", clubName: "Independência", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juan-costa-carvalho-independencia", name: "Juan Costa Carvalho", clubId: "independencia", clubName: "Independência", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leonardo-silva-de-oliveira-independencia", name: "Leonardo Silva de Oliveira", clubId: "independencia", clubName: "Independência", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-japao-independencia", name: "Léo Japão", clubId: "independencia", clubName: "Independência", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucca-schmidt-independencia", name: "Lucca Schmidt", clubId: "independencia", clubName: "Independência", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pablo-independencia", name: "Pablo", clubId: "independencia", clubName: "Independência", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "allison-pedro-salles-souza-independencia", name: "Allison Pedro Salles Souza", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ancelmo-de-holanda-bessa-junior-independencia", name: "Ancelmo de Holanda Bessa Júnior", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-vitor-pereira-coitinho-independencia", name: "João Vitor Pereira Coitinho", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-pereira-de-souza-independencia", name: "Diego Pereira de Souza", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eduardo-amancio-alves-lopes-independencia", name: "Eduardo Amâncio Alves Lopes", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "randerson-paiva-dos-santos-independencia", name: "Randerson Paiva dos Santos", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joel-campelo-lima-independencia", name: "Joel Campelo Lima", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "larusso-pablo-viana-da-silva-independencia", name: "Larusso Pablo Viana da Silva", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leandro-juca-da-silva-independencia", name: "Leandro Jucá da Silva", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-willard-rodrigues-de-albuquerque-independencia", name: "Marcos Willard Rodrigues de Albuquerque", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-henrique-lima-da-silva-independencia", name: "Luiz Henrique Lima da Silva", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "reginaldo-independencia", name: "Reginaldo", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "robert-braga-da-cunha-independencia", name: "Robert Braga da Cunha", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-gabriel-independencia", name: "Victor Gabriel", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wallace-ruan-guedes-da-silva-independencia", name: "Wallace Ruan Guedes da Silva", clubId: "independencia", clubName: "Independência", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucio-junior-rodrigues-venancio-independencia", name: "Lucio Júnior Rodrigues Venâncio", clubId: "independencia", clubName: "Independência", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alifi-filipe-oliveira-cavalcante-independencia", name: "Alifi Filipe Oliveira Cavalcante", clubId: "independencia", clubName: "Independência", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "anderson-brito-de-arruda-independencia", name: "Anderson Brito de Arruda", clubId: "independencia", clubName: "Independência", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bernardo-augusto-nogueira-cal-independencia", name: "Bernardo Augusto Nogueira Cal", clubId: "independencia", clubName: "Independência", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-ferreira-evangelista-independencia", name: "Felipe Ferreira Evangelista", clubId: "independencia", clubName: "Independência", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juan-douglas-teles-da-silva-independencia", name: "Juan Douglas Teles da Silva", clubId: "independencia", clubName: "Independência", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nicollas-rubens-costa-alves-independencia", name: "Nicollas Rubens Costa Alves", clubId: "independencia", clubName: "Independência", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jardson-almeida-monteiro-independencia", name: "Jardson Almeida Monteiro", clubId: "independencia", clubName: "Independência", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "weverton-da-luz-braz-independencia", name: "Weverton da Luz Braz", clubId: "independencia", clubName: "Independência", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/10853/independencia", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-vitor-souto-da-silva-inhumas", name: "João Vitor Souto da Silva", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wallace-inhumas", name: "Wallace", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "antonio-alan-bezerra-ferreira-inhumas", name: "Antonio Alan Bezerra Ferreira", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "einstein-davy-inhumas", name: "Einstein Davy", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fernando-augusto-rodrigues-de-araujo-inhumas", name: "Fernando Augusto Rodrigues de Araujo", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "selson-gomes-da-silva-paulo-inhumas", name: "Selson Gomes da Silva Paulo", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-salles-nogueira-joao-inhumas", name: "Victor Salles Nogueira Joao", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "everton-inhumas", name: "Everton", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-gabriel-moreira-de-souza-euphrasio-inhumas", name: "Luis Gabriel Moreira de Souza Euphrasio", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "maciel-gean-inhumas", name: "Maciel Gean", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "miguel-lucas-inhumas", name: "Miguel Lucas", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "neves-jonathan-inhumas", name: "Neves Jonathan", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ninho-inhumas", name: "Ninho", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafinha-inhumas", name: "Rafinha", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "robert-geannine-de-souza-campos-inhumas", name: "Robert Geannine de Souza Campos", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rosa-murilo-inhumas", name: "Rosa Murilo", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "igor-pedro-inhumas", name: "Igor Pedro", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-vinicius-inhumas", name: "Marcos Vinicius", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nicolas-ferreira-castro-inhumas", name: "Nicolas Ferreira Castro", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-lucas-inhumas", name: "Victor Lucas", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "waltinho-inhumas", name: "Waltinho", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
