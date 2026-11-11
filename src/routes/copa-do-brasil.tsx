@@ -1,83 +1,186 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
 import { simulateMatch } from "@/modules/matches/simulate";
 
-type FinalState = { played: boolean; homeGoals?: number; awayGoals?: number; champion?: string; penalties?: string };
-const KEY = "ketv-copa-do-brasil-2026-final";
-const teams = {
-  gremio: { id: "gremio", name: "Grêmio", attack: 82, midfield: 81, defense: 80 },
-  palmeiras: { id: "palmeiras", name: "Palmeiras", attack: 88, midfield: 87, defense: 87 },
-};
-function Page() {
-  const [result, setResult] = useState<FinalState>(() => {
-    if (typeof window === "undefined") return { played: false };
-    try { return JSON.parse(window.localStorage.getItem(KEY) || "null") || { played: false }; }
-    catch { return { played: false }; }
-  });
-  useEffect(() => { window.localStorage.setItem(KEY, JSON.stringify(result)); }, [result]);
-  function playFinal() {
-    if (result.played) return;
-    const match = simulateMatch(teams.gremio, teams.palmeiras);
-    const winner = match.homeGoals === match.awayGoals
-      ? (Math.random() < 0.5 ? "Grêmio" : "Palmeiras")
-      : match.homeGoals > match.awayGoals ? "Grêmio" : "Palmeiras";
-    setResult({
-      played: true,
-      homeGoals: match.homeGoals,
-      awayGoals: match.awayGoals,
-      champion: winner,
-      penalties: match.homeGoals === match.awayGoals ? "Decisão por pênaltis simulada" : undefined,
-    });
-  }
-  function reset() { if (window.confirm("Reiniciar a simulação da final?")) setResult({ played: false }); }
-  return <>
-    <PageHeader kicker="Temporada 2026 · Final · 6 de dezembro" title="Copa do Brasil">
-      Edição 2026 — estado atual da competição. A final será disputada em jogo único, na Arena BRB Mané Garrincha, em Brasília.
-    </PageHeader>
-    <section className="rounded-xl border border-primary/30 bg-card p-5">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <div><p className="text-xs font-bold uppercase tracking-widest text-primary">Finalistas oficiais</p><h2 className="mt-1 font-display text-2xl font-black uppercase">Decisão do título</h2></div>
-        <span className="rounded-full border border-primary/40 px-3 py-1 text-xs font-bold">06/12/2026</span>
-      </div>
-      <div className="mt-8 grid grid-cols-[1fr_auto_1fr] items-center gap-3 text-center">
-        <div className="rounded-lg border border-border bg-background p-4"><div className="text-4xl">🇪🇪</div><h3 className="mt-2 text-lg font-black">GRÊMIO</h3><p className="text-xs text-muted-foreground">Rio Grande do Sul</p></div>
-        <div className="font-display text-2xl font-black text-primary">VS</div>
-        <div className="rounded-lg border border-border bg-background p-4"><div className="text-4xl">🇳🇬</div><h3 className="mt-2 text-lg font-black">PALMEIRAS</h3><p className="text-xs text-muted-foreground">São Paulo</p></div>
-      </div>
-      <div className="mt-5 rounded-lg bg-background p-4 text-center">
-        <p className="text-sm text-muted-foreground">Arena BRB Mané Garrincha · Brasília (DF) · Jogo único</p>
-        {result.played ? <>
-          <p className="mt-4 text-xs font-bold uppercase tracking-widest text-primary">Resultado da simulação</p>
-          <p className="mt-1 font-display text-4xl font-black tabular-nums">{result.homeGoals} × {result.awayGoals}</p>
-          {result.penalties && <p className="mt-2 text-sm text-muted-foreground">{result.penalties}</p>}
-          <p className="mt-3 text-lg font-black uppercase">Campeão: {result.champion}</p>
-        </> : <p className="mt-4 text-sm font-semibold">Aguardando a partida decisiva no calendário do jogo.</p>}
-      </div>
-      <div className="mt-5 flex flex-wrap gap-2">
-        <button onClick={playFinal} disabled={result.played} className="rounded-md bg-primary px-5 py-3 text-sm font-black text-primary-foreground disabled:opacity-40">{result.played ? "Final simulada" : "Jogar final da Copa do Brasil"}</button>
-        {result.played && <button onClick={reset} className="rounded-md border border-border px-4 py-3 text-sm font-semibold">Refazer simulação</button>}
-      </div>
-    </section>
-    <section className="mt-6 rounded-xl border border-border bg-card p-5">
-      <h3 className="font-display text-xl font-black uppercase">Caminho até a final</h3>
-      <p className="mt-2 text-sm text-muted-foreground">A decisão reúne os vencedores das semifinais: Grêmio eliminou o Atlético-MG por 3 a 1 no placar agregado; Palmeiras eliminou o Vasco nos pênaltis, após empate agregado em 2 a 2.</p>
-      <div className="mt-4 grid gap-3 sm:grid-cols-2">
-        <div className="rounded-lg border border-border p-3"><p className="text-xs font-bold uppercase text-muted-foreground">Semifinal · Grêmio x Atlético-MG</p><p className="mt-1 font-bold">Ida: Grêmio 2 × 0 Atlético-MG</p><p className="font-bold">Volta: Atlético-MG 1 × 1 Grêmio</p><p className="mt-1 text-sm text-primary">Grêmio classificado · agregado 3 × 1</p></div>
-        <div className="rounded-lg border border-border p-3"><p className="text-xs font-bold uppercase text-muted-foreground">Semifinal · Palmeiras x Vasco</p><p className="mt-1 font-bold">Ida: Palmeiras 1 × 0 Vasco</p><p className="font-bold">Volta: Vasco 2 × 1 Palmeiras</p><p className="mt-1 text-sm text-primary">Palmeiras classificado nos pênaltis · agregado 2 × 2</p></div>
-      </div>
-      <p className="mt-4 text-xs text-muted-foreground">A simulação do KE TV Futebol Manager não altera os resultados oficiais registrados acima. Ela permite jogar uma versão própria da final e salvar o resultado localmente.</p>
-    </section>
-    <section className="mt-6 rounded-xl border border-border bg-card p-5">
-      <h3 className="font-display text-lg font-black uppercase">Formato oficial de 2026</h3>
-      <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-muted-foreground">
-        <li>126 clubes participantes e nove fases.</li>
-        <li>1ª à 4ª fase: jogo único; empate decidido nos pênaltis.</li>
-        <li>5ª à semifinal: ida e volta; empate em pontos no confronto decidido por saldo de gols e, persistindo, pênaltis.</li>
-        <li>Final: jogo único em 6 de dezembro de 2026.</li>
-      </ul>
-      <a className="mt-4 inline-flex text-sm font-semibold text-primary underline" href="https://www.cbf.com.br/futebol-brasileiro/tabelas/copa-do-brasil/masculino/2026/2002?doc=Tabela+Detalhada" target="_blank" rel="noreferrer">Consultar tabela oficial da CBF</a>
-    </section>
-  </>;
+type Club={id:string;name:string;state:string;criterion:1|2|3};
+type Leg={homeGoals?:number;awayGoals?:number};
+type Tie={id:string;home:Club;away:Club;legs:Leg[];winner?:Club;penalties?:boolean};
+type Cup={phase:number;rounds:Tie[][];champion?:Club};
+const KEY="ketv-copa-brasil-2026-career-v1";
+const parse=(raw:string,criterion:1|2|3):Club[]=>raw.trim().split("\n").map(line=>{const [name,state]=line.split("|");return {id:(name+"-"+state).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-"),name,state,criterion};});
+const A=parse(`Flamengo|RJ
+Corinthians|SP
+Palmeiras|SP
+Atlético Mineiro|MG
+São Paulo|SP
+Fluminense|RJ
+Botafogo|RJ
+Athletico Paranaense|PR
+Bahia|BA
+Vasco da Gama|RJ
+Cruzeiro|MG
+Grêmio|RS
+Internacional|RS
+Red Bull Bragantino|SP
+Santos|SP
+Vitória|BA
+Coritiba|PR
+Mirassol|SP
+Chapecoense|SC
+Remo|PA`,1);
+const B=parse(`Paysandu|PA
+Ponte Preta|SP
+Confiança|SE
+Barra|SC`,2);
+const C=parse(`Galvez|AC
+Independência|AC
+Vasco-AC|AC
+ASA|AL
+CRB|AL
+CSA|AL
+Penedense|AL
+Amazonas|AM
+Manauara|AM
+Manaus|AM
+Nacional-AM|AM
+Independente-AP|AP
+Oratório|AP
+Trem|AP
+Atlético de Alagoinhas|BA
+Jacuipense|BA
+Juazeirense|BA
+Porto Seguro|BA
+Ceará|CE
+Fortaleza|CE
+Maracanã|CE
+Tirol|CE
+Capital-DF|DF
+Ceilândia|DF
+Gama|DF
+Desportiva Ferroviária|ES
+Porto Vitória|ES
+Rio Branco-ES|ES
+Anápolis|GO
+Atlético-GO|GO
+Goiás|GO
+Vila Nova|GO
+IAPE|MA
+Imperatriz|MA
+Maranhão|MA
+América-MG|MG
+Athletic Club|MG
+Betim|MG
+Tombense|MG
+Uberlândia|MG
+FC Pantanal|MS
+Ivinhema|MS
+Operário-MS|MS
+Cuiabá|MT
+Mixto|MT
+Operário-VG|MT
+Primavera-MT|MT
+Águia de Marabá|PA
+Bragantino-PA|PA
+Castanhal|PA
+Tuna Luso|PA
+Botafogo-PB|PB
+Serra Branca|PB
+Sousa|PB
+Maguary|PE
+Retrô|PE
+Santa Cruz|PE
+Sport|PE
+Altos|PI
+Fluminense-PI|PI
+Piauí|PI
+Azuriz|PR
+Cianorte|PR
+Londrina|PR
+Maringá|PR
+Operário-PR|PR
+Boavista|RJ
+Madureira|RJ
+Nova Iguaçu|RJ
+Portuguesa-RJ|RJ
+Sampaio Corrêa-RJ|RJ
+Volta Redonda|RJ
+ABC|RN
+América-RN|RN
+Laguna|RN
+Guaporé|RO
+Ji-Paraná|RO
+Porto Velho|RO
+Baré|RR
+GAS|RR
+Monte Roraima|RR
+Caxias|RS
+Guarany de Bagé|RS
+Juventude|RS
+São Luiz|RS
+Ypiranga-RS|RS
+Avaí|SC
+Figueirense|SC
+Joinville|SC
+Santa Catarina|SC
+América de Propriá|SE
+Itabaiana|SE
+Lagarto|SE
+Guarani|SP
+Novorizontino|SP
+Portuguesa-SP|SP
+Primavera-SP|SP
+São Bernardo|SP
+Velo Clube|SP
+Araguaína|TO
+Capital-TO|TO
+Tocantinópolis|TO`,3);
+const CLUBS=[...A,...B,...C];
+const PHASES=["1ª fase","2ª fase","3ª fase","4ª fase","5ª fase","Oitavas de final","Quartas de final","Semifinal","Final"];
+const DATES=["18–19 fev","25 fev–5 mar","11–12 mar","18–19 mar","22–23 abr / 13–14 mai","1–6 ago","26 ago–3 set","1–8 nov","6 dez"];
+const rating=(c:Club,n:number)=>Math.max(38,Math.min(91,(c.criterion===1?78:c.criterion===2?66:57)+((c.id.length*(n+3))%13)-6));
+const team=(c:Club)=>({id:c.id,name:c.name,attack:rating(c,1),midfield:rating(c,2),defense:rating(c,3)});
+const shuffled=<T,>(xs:T[])=>{const a=[...xs];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j]!,a[i]!];}return a;};
+const ties=(xs:Club[],phase:number,legs:number)=>{const d=shuffled(xs);return Array.from({length:Math.floor(d.length/2)},(_,i)=>({id:"f"+phase+"-"+i,home:d[i*2]!,away:d[i*2+1]!,legs:Array.from({length:legs},()=>({}))}));};
+const firstPairs=[["Ji-Paraná|RO","FC Pantanal|MS"],["Ivinhema|MS","Independente-AP|AP"],["Baré|RR","Madureira|RJ"],["Gama|DF","Monte Roraima|RR"],["Galvez|AC","Guaporé|RO"],["Vasco-AC|AC","Velo Clube|SP"],["Araguaína|TO","Primavera-SP|SP"],["Sampaio Corrêa-RJ|RJ","Desportiva Ferroviária|ES"],["Betim|MG","Piauí|PI"],["América de Propriá|SE","Tirol|CE"],["Santa Catarina|SC","IAPE|MA"],["Porto Seguro|BA","Serra Branca|PB"],["Maguary|PE","Laguna|RN"],["Primavera-MT|MT","Bragantino-PA|PA"]];
+const clubByName=new Map(CLUBS.map(c=>[c.name+"|"+c.state,c]));
+const initial=():Cup=>({phase:0,rounds:[firstPairs.map((pair,i)=>({id:"r1-"+i,home:clubByName.get(pair[0])!,away:clubByName.get(pair[1])!,legs:[{}]}))]});
+function Page(){
+ const [cup,setCup]=useState<Cup>(()=>{if(typeof window==="undefined")return initial();try{return JSON.parse(localStorage.getItem(KEY)||"null")||initial()}catch{return initial()}});
+ const [notice,setNotice]=useState("Edição iniciada do começo: 126 participantes, com o Brasileirão mantido em paralelo.");
+ useEffect(()=>{localStorage.setItem(KEY,JSON.stringify(cup))},[cup]);
+ const current=cup.rounds[cup.phase]||[];
+ const allDone=current.length>0&&current.every(t=>t.winner);
+ const played=cup.rounds.flat().filter(t=>t.winner).length;
+ const counts=useMemo(()=>[28,88,48,24,32,16,8,4,2],[ ]);
+ function playTie(t:Tie){
+  setCup(old=>{const rounds=old.rounds.map(r=>r.map(x=>({...x,legs:x.legs.map(l=>({...l}))})));const row=rounds[old.phase]||[];const ix=row.findIndex(x=>x.id===t.id);if(ix<0||row[ix]!.winner)return old;
+   const one=simulateMatch(team(t.home),team(t.away));let legs:Leg[]=[{homeGoals:one.homeGoals,awayGoals:one.awayGoals}];let winner:Club;
+   if(old.phase<=3||old.phase===8){winner=one.homeGoals===one.awayGoals?(Math.random()<.5?t.home:t.away):one.homeGoals>one.awayGoals?t.home:t.away;}
+   else {const two=simulateMatch(team(t.away),team(t.home));legs=[...legs,{homeGoals:two.homeGoals,awayGoals:two.awayGoals}];const h=one.homeGoals+two.awayGoals,a=one.awayGoals+two.homeGoals;winner=h===a?(Math.random()<.5?t.home:t.away):h>a?t.home:t.away;}
+   row[ix]={...t,legs,winner,penalties:legs.length===1&&one.homeGoals===one.awayGoals};return {...old,rounds};});
+ }
+ function advance(){
+  if(!allDone)return;
+  const winners=current.map(t=>t.winner!);
+  if(cup.phase===8){setCup(o=>({...o,champion:winners[0]}));setNotice("Campeão definido!");return;}
+  const next=cup.phase+1;let entrants:Club[];
+  if(next===1){const firstIds=new Set(current.flatMap(t=>[t.home.id,t.away.id]));entrants=[...winners,...C.filter(c=>!firstIds.has(c.id))];}
+  else if(next===2){entrants=[...winners,...B];}
+  else if(next===4){entrants=[...winners,...A];}
+  else entrants=winners;
+  const legCount=next>=4&&next<=7?2:1;
+  setCup(o=>({...o,phase:next,rounds:[...o.rounds,ties(entrants,next,legCount)]}));
+  setNotice(PHASES[next]+" gerada. "+entrants.length+" clubes disputam esta etapa.");
+ }
+ function reset(){if(confirm("Apagar todos os resultados e reiniciar a Copa do Brasil 2026?")){setCup(initial());setNotice("Copa reiniciada desde a primeira fase.");}}
+ return <>
+  <PageHeader kicker="Temporada 2026 · Competição paralela ao Brasileirão" title="Copa do Brasil 2026">Edição completa em carreira: 126 clubes, nove fases, partidas jogáveis, classificação automática e calendário integrado à temporada nacional.</PageHeader>
+  <div className="mb-5 grid grid-cols-2 gap-3 sm:grid-cols-4"><div className="rounded-lg border border-border bg-card p-3"><p className="text-xs text-muted-foreground">Participantes</p><p className="text-2xl font-black">126</p></div><div className="rounded-lg border border-border bg-card p-3"><p className="text-xs text-muted-foreground">Fases</p><p className="text-2xl font-black">9</p></div><div className="rounded-lg border border-border bg-card p-3"><p className="text-xs text-muted-foreground">Partidas no formato</p><p className="text-2xl font-black">155</p></div><div className="rounded-lg border border-border bg-card p-3"><p className="text-xs text-muted-foreground">Jogos concluídos</p><p className="text-2xl font-black">{played}</p></div></div>
+  <section className="mb-5 rounded-xl border border-primary/30 bg-card p-5"><div className="flex flex-wrap items-center justify-between gap-2"><h2 className="font-display text-2xl font-black uppercase">{PHASES[cup.phase]}</h2><span className="rounded-full border border-primary/40 px-3 py-1 text-xs font-bold">{current.length} confrontos · {DATES[cup.phase]}</span></div><p className="mt-2 text-sm text-muted-foreground">{notice}</p><div className="mt-4 flex flex-wrap gap-2"><button onClick={()=>current.filter(t=>!t.winner).forEach(playTie)} disabled={allDone} className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-primary-foreground disabled:opacity-40">Simular todos os jogos restantes</button><button onClick={advance} disabled={!allDone} className="rounded-md border border-primary px-4 py-2 text-sm font-bold text-primary disabled:opacity-40">Avançar fase</button><button onClick={reset} className="rounded-md border border-border px-4 py-2 text-sm">Reiniciar Copa</button></div></section>
+  <div className="grid gap-3 sm:grid-cols-2">{current.map((t,i)=><article key={t.id} className="rounded-lg border border-border bg-card p-4"><p className="mb-3 text-xs uppercase tracking-widest text-muted-foreground">Confronto {i+1} · {t.legs.length===1?"jogo único":"ida e volta"}</p><div className="flex items-center justify-between gap-2"><span className="font-bold">{t.home.name}</span><b className="tabular-nums">{t.legs[0]?.homeGoals??"–"} : {t.legs[0]?.awayGoals??"–"}</b></div>{t.legs[1]&&<div className="mt-2 flex items-center justify-between gap-2"><span className="font-bold">{t.away.name}</span><b className="tabular-nums">{t.legs[1].homeGoals??"–"} : {t.legs[1].awayGoals??"–"}</b></div>}{!t.legs[1]&&<p className="mt-1 text-xs text-muted-foreground">Mandante: {t.home.state}</p>}{t.winner&&<p className="mt-3 text-sm font-bold text-primary">Classificado: {t.winner.name}{t.penalties?" · pênaltis":""}</p>}<button onClick={()=>playTie(t)} disabled={!!t.winner} className="mt-3 w-full rounded-md border border-primary/50 px-3 py-2 text-sm font-semibold text-primary disabled:opacity-40">{t.winner?"Confronto concluído":"Jogar confronto"}</button></article>)}</div>
+  {cup.champion&&<section className="mt-6 rounded-xl border border-primary bg-primary/10 p-6 text-center"><p className="text-xs font-bold uppercase tracking-widest text-primary">Campeão da Copa do Brasil 2026</p><h2 className="mt-2 font-display text-4xl font-black uppercase">{cup.champion.name}</h2></section>}
+  <section className="mt-6 rounded-xl border border-border bg-card p-5"><h3 className="font-display text-xl font-black uppercase">Calendário paralelo</h3><p className="mt-2 text-sm text-muted-foreground">A Copa usa suas janelas próprias, sem retirar o Brasileirão do calendário. As rodadas das Séries A, B, C e D continuam pertencendo às respectivas competições.</p><div className="mt-3 grid gap-2 sm:grid-cols-3">{PHASES.map((p,i)=><div key={p} className="rounded-md border border-border p-3"><p className="text-sm font-bold">{p}</p><p className="text-xs text-muted-foreground">{DATES[i]}</p><p className="mt-1 text-xs">{counts[i]} vagas/clubes na fase</p></div>)}</div><p className="mt-4 text-xs text-muted-foreground">Observação técnica: os participantes e o formato seguem o REC 2026. Os confrontos da 1ª fase usam os duelos divulgados pela CBF; as fases seguintes são sorteadas no jogo, não reproduzem todos os sorteios oficiais da edição real. Os resultados ficam salvos neste navegador.</p><a className="mt-3 inline-flex text-sm font-semibold text-primary underline" href="https://www.cbf.com.br/futebol-brasileiro/noticias/campeonato-brasileiro/serie-b/cbf-divulga-tabela-basica-plano-geral-de-acoes-e-regulamento-especifico-da-copa-do-brasil-2026" target="_blank" rel="noreferrer">Regulamento oficial da CBF</a></section>
+ </>;
 }
-export const Route = createFileRoute("/copa-do-brasil")({ component: Page });
+export const Route=createFileRoute("/copa-do-brasil")({component:Page});
