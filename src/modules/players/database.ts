@@ -28368,6 +28368,38 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     id: "richard-alexandre-xv-de-piracicaba", name: "Richard Alexandre", clubId: "xv-de-piracicaba", clubName: "XV de Piracicaba", division: "Série D", position: "ATA",
     source: "https://xvpiracicaba.com.br/noticias/elenco-comeca-a-pre-temporada-visando-2027-primeiro-desafio-e-a-disputa-do-paulistao-a2/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dhonata-tocantinopolis", name: "Dhonata", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "MEI",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tiago-bagagem-tocantinopolis", name: "Tiago Bagagem", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "MEI",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "elisfran-tocantinopolis", name: "Elisfran", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "MEI",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "emerson-tocantinopolis", name: "Emerson", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "MEI",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alemao-tocantinopolis", name: "Alemão", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "VOL",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jackson-tocantinopolis", name: "Jackson", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "VOL",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelo-tocantinopolis", name: "Marcelo", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "VOL",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "santa-helena-tocantinopolis", name: "Santa Helena", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "VOL",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
   }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
