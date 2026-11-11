@@ -26925,6 +26925,910 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
   },
   {
+    id: "filipe-goncalves-dos-santos-sergipe", name: "Filipe Gonçalves dos Santos", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "naldo-sergipe", name: "Naldo", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "biro-biro-sergipe", name: "Biro Biro", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-serra-sergipe", name: "Matheus Serra", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "ZAG",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-luiz-santos-da-costa-sergipe", name: "Rafael Luiz Santos da Costa", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "LAT",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodrigo-rosa-sergipe", name: "Rodrigo Rosa", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "LAT",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-massaia-sergipe", name: "Victor Massaia", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "ZAG",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-sambudio-rosalen-sergipe", name: "Felipe Sambudio Rosalen", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-vitor-varolo-dos-santos-sergipe", name: "João Vitor Varolo dos Santos", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-neris-graca-sergipe", name: "Matheus Neris Graça", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "VOL",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mauro-sergipe", name: "Mauro", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-soares-santos-sergipe", name: "Lucas Soares Santos", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marlon-martins-sergipe", name: "Marlon Martins", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-santos-sergipe", name: "Thiago Santos", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "venicius-dos-santos-cascais-sergipe", name: "Venícius dos Santos Cascais", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-artur-sergipe", name: "Zé Artur", clubId: "sergipe", clubName: "Sergipe", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/2224/sergipe", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-de-souza-barbosa-sousa", name: "Gabriel de Souza Barbosa", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-vitor-de-souza-paiva-sousa", name: "João Vitor de Souza Paiva", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-gabriel-ribeiro-ferreira-sousa", name: "Lucas Gabriel Ribeiro Ferreira", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "moises-freitas-gondim-sousa", name: "Moisés Freitas Gondim", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "crystian-souza-carvalho-sousa", name: "Crystian Souza Carvalho", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fernando-pereira-severo-sousa", name: "Fernando Pereira Severo", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "DEF",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gilmar-lourenco-da-silva-sousa", name: "Gilmar Lourenço da Silva", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "LAT",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "iranilson-jose-da-cruz-sousa", name: "Iranilson José da Cruz", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "LAT",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelo-duarte-da-silva-sousa", name: "Marcelo Duarte da Silva", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "ZAG",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "antonio-lisboa-alves-neto-sousa", name: "Antônio Lisboa Alves Neto", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "ZAG",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cesar-julio-sousa", name: "Cesar Julio", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ciro-henrique-rodrigues-ferreira-sousa", name: "Ciro Henrique Rodrigues Ferreira", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "VOL",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-santana-santos-conceicao-sousa", name: "Felipe Santana Santos Conceição", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guimaraes-sousa", name: "Guimaraes", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mateus-leandro-da-silva-antunes-sousa", name: "Mateus Leandro da Silva Antunes", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nathan-ferreira-da-silva-sousa", name: "Nathan Ferreira da Silva", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "VOL",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "estevan-costa-dos-santos-sousa", name: "Estevan Costa dos Santos", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcone-fernandes-dos-santos-filho-sousa", name: "Marcone Fernandes dos Santos Filho", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-henrique-silva-de-oliveira-sousa", name: "Luiz Henrique Silva de Oliveira", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-henrique-sousa", name: "Marcos Henrique", clubId: "sousa", clubName: "Sousa", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/7864/sousa", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "john-wilker-tirol", name: "John Wilker", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "GOL",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rayr-tirol", name: "Rayr", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "GOL",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "igor-ribeiro-tirol", name: "Igor Ribeiro", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "ZAG",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jairo-tirol", name: "Jairo", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "ZAG",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucao-tirol", name: "Lucão", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "ZAG",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "roni-lobo-tirol", name: "Roni Lobo", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "ZAG",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-augusto-tirol", name: "Zé Augusto", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "LAT",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ytalo-tirol", name: "Ytalo", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "LAT",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dieguinho-tirol", name: "Dieguinho", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "LAT",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-maranguape-tirol", name: "Matheus Maranguape", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "LAT",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sidney-tirol", name: "Sidney", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "MEI",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cesar-sampaio-tirol", name: "César Sampaio", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "MEI",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renan-dj-tirol", name: "Renan DJ", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "MEI",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodrigo-correia-tirol", name: "Rodrigo Correia", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "MEI",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "janeudo-tirol", name: "Janeudo", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "MEI",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "maycon-tirol", name: "Maycon", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "MEI",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "madalena-tirol", name: "Madalena", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "ATA",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wilkson-tirol", name: "Wilkson", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "ATA",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yuri-borges-tirol", name: "Yuri Borges", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "ATA",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "topetti-tirol", name: "Topetti", clubId: "tirol", clubName: "Tirol", division: "Série D", position: "ATA",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rogerio-tocantinopolis", name: "Rogério", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "ATA",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "murilo-tocantinopolis", name: "Murilo", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "ATA",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "samuel-tocantinopolis", name: "Samuel", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "ATA",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hitalo-tocantinopolis", name: "Hitalo", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "ATA",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedrinho-tocantinopolis", name: "Pedrinho", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "ATA",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luquinha-tocantinopolis", name: "Luquinha", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "ATA",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "romullo-tocantinopolis", name: "Romullo", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "ATA",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alan-tocantinopolis", name: "Alan", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "ATA",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-tocantinopolis", name: "Henrique", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "MEI",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adriel-tocantinopolis", name: "Adriel", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "LAT",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-tocantinopolis", name: "Daniel", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "ZAG",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-paulo-tocantinopolis", name: "João Paulo", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "ZAG",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ramos-tocantinopolis", name: "Ramos", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "ZAG",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "arthur-tocantinopolis", name: "Arthur", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "ZAG",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gati-tocantinopolis", name: "Gati", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "GOL",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luciano-tocantinopolis", name: "Luciano", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "GOL",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gian-tocantinopolis", name: "Gian", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "GOL",
+    source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "douglas-marques-tombense", name: "Douglas Marques", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "GOL",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alan-costa-tombense", name: "Alan Costa", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "GOL",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jorge-pazetti-tombense", name: "Jorge Pazetti", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "GOL",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "breno-roma-tombense", name: "Breno Roma", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ZAG",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-leandro-tombense", name: "Diego Leandro", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ZAG",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "donato-tombense", name: "Donato", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ZAG",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "roger-carvalho-tombense", name: "Roger Carvalho", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ZAG",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rony-tombense", name: "Rony", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ZAG",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-xavier-tombense", name: "Gustavo Xavier", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "LAT",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-vitor-lima-tombense", name: "João Vitor Lima", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "LAT",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "julio-henrique-tombense", name: "Julio Henrique", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "LAT",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaua-diego-tombense", name: "Kauã Diego", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "LAT",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ph-tombense", name: "PH", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "LAT",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cassio-tombense", name: "Cássio", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "MEI",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dyego-cavalcante-tombense", name: "Dyego Cavalcante", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "MEI",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-vitor-oliveira-tombense", name: "João Vitor Oliveira", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "MEI",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-chaves-tombense", name: "Matheus Chaves", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "MEI",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitinho-tombense", name: "Vitinho", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "MEI",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wanderson-tombense", name: "Wanderson", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "MEI",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cesinha-tombense", name: "Cesinha", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ATA",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipinho-tombense", name: "Felipinho", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ATA",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jefferson-renan-tombense", name: "Jefferson Renan", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ATA",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juanzin-tombense", name: "Juanzin", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ATA",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "julio-cesar-tombense", name: "Julio Cesar", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ATA",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jupi-tombense", name: "Jupi", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ATA",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-felipe-tombense", name: "Luiz Felipe", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ATA",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rubens-tombense", name: "Rubens", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ATA",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "silvano-tombense", name: "Silvano", clubId: "tombense", clubName: "Tombense", division: "Série D", position: "ATA",
+    source: "https://www.tombense.com.br/elenco/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-victor-treze", name: "João Victor", clubId: "treze", clubName: "Treze", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodolfo-castro-treze", name: "Rodolfo Castro", clubId: "treze", clubName: "Treze", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-davi-treze", name: "Marcos Davi", clubId: "treze", clubName: "Treze", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ryan-santos-treze", name: "Ryan Santos", clubId: "treze", clubName: "Treze", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-gomes-treze", name: "Caio Gomes", clubId: "treze", clubName: "Treze", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juninho-pianco-treze", name: "Juninho Piancó", clubId: "treze", clubName: "Treze", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-rocha-treze", name: "Lucas Rocha", clubId: "treze", clubName: "Treze", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yan-oliveira-treze", name: "Yan Oliveira", clubId: "treze", clubName: "Treze", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "italo-melo-treze", name: "Ítalo Melo", clubId: "treze", clubName: "Treze", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-melo-treze", name: "Matheus Melo", clubId: "treze", clubName: "Treze", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-re-treze", name: "Bruno Ré", clubId: "treze", clubName: "Treze", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-freire-treze", name: "Luan Freire", clubId: "treze", clubName: "Treze", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renilson-treze", name: "Renilson", clubId: "treze", clubName: "Treze", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-gomes-treze", name: "Lucas Gomes", clubId: "treze", clubName: "Treze", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marquinhos-treze", name: "Marquinhos", clubId: "treze", clubName: "Treze", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wilker-treze", name: "Wilker", clubId: "treze", clubName: "Treze", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-treze", name: "Gabriel", clubId: "treze", clubName: "Treze", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hugo-borges-treze", name: "Hugo Borges", clubId: "treze", clubName: "Treze", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-alagoano-treze", name: "Thiago Alagoano", clubId: "treze", clubName: "Treze", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "douglas-henrique-treze", name: "Douglas Henrique", clubId: "treze", clubName: "Treze", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-bala-treze", name: "Vinícius Bala", clubId: "treze", clubName: "Treze", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-vieira-treze", name: "Lucas Vieira", clubId: "treze", clubName: "Treze", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "giva-treze", name: "Giva", clubId: "treze", clubName: "Treze", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-brinquedo-treze", name: "Gustavo Brinquedo", clubId: "treze", clubName: "Treze", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "silvano-treze", name: "Silvano", clubId: "treze", clubName: "Treze", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-igor-treze", name: "Pedro Igor", clubId: "treze", clubName: "Treze", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pb/futebol/times/treze/noticia/2025/12/10/treze-fecha-elenco-26-atletas-paraibano-mas-segue-atento-mercado.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-lube-trem", name: "Victor Lube", clubId: "trem", clubName: "Trem", division: "Série D", position: "GOL",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-fortaleza-trem", name: "Felipe Fortaleza", clubId: "trem", clubName: "Trem", division: "Série D", position: "GOL",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "perema-trem", name: "Perema", clubId: "trem", clubName: "Trem", division: "Série D", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yan-trem", name: "Yan", clubId: "trem", clubName: "Trem", division: "Série D", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "douglas-bittencourt-trem", name: "Douglas Bittencourt", clubId: "trem", clubName: "Trem", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "junior-espeto-trem", name: "Junior Espeto", clubId: "trem", clubName: "Trem", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-reis-trem", name: "Léo Reis", clubId: "trem", clubName: "Trem", division: "Série D", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rivaldo-trem", name: "Rivaldo", clubId: "trem", clubName: "Trem", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "welliton-londres-trem", name: "Welliton Londres", clubId: "trem", clubName: "Trem", division: "Série D", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-felipe-trem", name: "Luiz Felipe", clubId: "trem", clubName: "Trem", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-baiano-trem", name: "Rafael Baiano", clubId: "trem", clubName: "Trem", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-doutor-trem", name: "Lucas Doutor", clubId: "trem", clubName: "Trem", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wanderson-gotinha-trem", name: "Wanderson Gotinha", clubId: "trem", clubName: "Trem", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabio-mucaja-trem", name: "Fábio Mucajá", clubId: "trem", clubName: "Trem", division: "Série D", position: "VOL",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-lucas-trem", name: "Zé Lucas", clubId: "trem", clubName: "Trem", division: "Série D", position: "VOL",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gerson-trem", name: "Gerson", clubId: "trem", clubName: "Trem", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafinha-trem", name: "Rafinha", clubId: "trem", clubName: "Trem", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "magno-trem", name: "Magno", clubId: "trem", clubName: "Trem", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "foguete-trem", name: "Foguete", clubId: "trem", clubName: "Trem", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "aleilson-trem", name: "Aleílson", clubId: "trem", clubName: "Trem", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wander-silva-trem", name: "Wander Silva", clubId: "trem", clubName: "Trem", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonas-moreira-trem", name: "Jonas Moreira", clubId: "trem", clubName: "Trem", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mauro-ajuruteua-trem", name: "Mauro Ajuruteua", clubId: "trem", clubName: "Trem", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/trem-30427/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-tuna-luso", name: "Vinícius", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "GOL",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucao-tuna-luso", name: "Lucão", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "GOL",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-tuna-luso", name: "Henrique", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "GOL",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lua-niger-tuna-luso", name: "Luã Niger", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonilson-tuna-luso", name: "Jonilson", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "douglas-santos-tuna-luso", name: "Douglas Santos", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wander-tuna-luso", name: "Wander", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "george-tuna-luso", name: "George", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marlon-tuna-luso", name: "Marlon", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "amaral-tuna-luso", name: "Amaral", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wesley-tuna-luso", name: "Wesley", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-henrique-tuna-luso", name: "Gustavo Henrique", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "neto-tuna-luso", name: "Neto", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hudson-tuna-luso", name: "Hudson", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "VOL",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaue-tuna-luso", name: "Kauê", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "VOL",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "derlan-tuna-luso", name: "Derlan", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "VOL",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paranhos-tuna-luso", name: "Paranhos", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "VOL",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tulio-tuna-luso", name: "Tulio", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "popo-tuna-luso", name: "Popó", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-menezes-tuna-luso", name: "Bruno Menezes", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "VOL",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "otavio-tuna-luso", name: "Otávio", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "everson-bilau-tuna-luso", name: "Everson Bilau", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jayme-tuna-luso", name: "Jayme", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulo-rangel-tuna-luso", name: "Paulo Rangel", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-furtado-tuna-luso", name: "Gabriel Furtado", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedrinho-tuna-luso", name: "Pedrinho", clubId: "tuna-luso", clubName: "Tuna Luso", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/tuna-luso-10259/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jefferson-luis-uberlandia", name: "Jefferson Luís", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "GOL",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-viotti-uberlandia", name: "Felipe Viotti", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "GOL",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "aranha-uberlandia", name: "Aranha", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "GOL",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-victor-barto-uberlandia", name: "João Victor Bartô", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "GOL",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "max-miller-uberlandia", name: "Max Miller", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rayne-uberlandia", name: "Rayne", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "samuel-uberlandia", name: "Samuel", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-ferreira-uberlandia", name: "Gabriel Ferreira", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yuri-ferraz-uberlandia", name: "Yuri Ferraz", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renan-uberlandia", name: "Renan", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ben-hur-uberlandia", name: "Ben-Hur", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lazarini-uberlandia", name: "Lazarini", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitor-gottems-uberlandia", name: "Vitor Gottems", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-carioca-uberlandia", name: "Gabriel Carioca", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nathan-uberlandia", name: "Nathan", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-felipe-uberlandia", name: "Luis Felipe", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "julio-cesar-uberlandia", name: "Julio César", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ZAG",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fernandinho-uberlandia", name: "Fernandinho", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "LAT",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruninho-uberlandia", name: "Bruninho", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "roldan-uberlandia", name: "Roldan", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "parrudo-uberlandia", name: "Parrudo", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "VOL",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jhonatan-lima-uberlandia", name: "Jhonatan Lima", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonatas-paulista-uberlandia", name: "Jonatas Paulista", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-fumaca-uberlandia", name: "Diego Fumaça", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "VOL",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "balao-uberlandia", name: "Balão", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tomas-bastos-uberlandia", name: "Tomas Bastos", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-conceicao-uberlandia", name: "Rafael Conceição", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leonardo-souza-uberlandia", name: "Leonardo Souza", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "arthur-longatto-uberlandia", name: "Arthur Longatto", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "VOL",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "evanderson-uberlandia", name: "Evanderson", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "VOL",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "serginho-uberlandia", name: "Serginho", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "MEI",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juan-pablo-uberlandia", name: "Juan Pablo", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "VOL",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kayke-uberlandia", name: "Kayke", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jaco-uberlandia", name: "Jacó", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-calazans-uberlandia", name: "Marcos Calazans", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pablo-thomaz-uberlandia", name: "Pablo Thomaz", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dudu-uberlandia", name: "Dudu", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-reis-uberlandia", name: "Léo Reis", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "carlos-miguel-uberlandia", name: "Carlos Miguel", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ingro-uberlandia", name: "Ingro", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "flavio-uberlandia", name: "Flávio", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-miguel-uberlandia", name: "Luis Miguel", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-martins-uberlandia", name: "Léo Martins", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "da-silva-uberlandia", name: "Da Silva", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juan-carlos-uberlandia", name: "Juan Carlos", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tche-tche-uberlandia", name: "Tchê Tchê", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-japa-uberlandia", name: "Gabriel Japa", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "brenda-diaz-uberlandia", name: "Brenda Diaz", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "robinho-uberlandia", name: "Robinho", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "denis-uberlandia", name: "Denis", clubId: "uberlandia", clubName: "Uberlândia", division: "Série D", position: "ATA",
+    source: "https://www.365scores.com/pt-br/football/team/uberlandia-28682/squad", verifiedAt: "2026-11-11"
+  },
+  {
     id: "marcao-sao-raimundo-rr", name: "Marcão", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "GOL",
     source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
   },
