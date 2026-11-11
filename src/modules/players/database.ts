@@ -22810,6 +22810,687 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "kaua-humaita", name: "Kauã", clubId: "humaita", clubName: "Humaitá", division: "Série D", position: "ATA",
     source: "TerFaro — elenco Humaitá Série D 2026; CBF — súmulas oficiais da Série D 2026", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "marcelo-jacuipense", name: "Marcelo", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "GOL",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "italo-pezao-jacuipense", name: "Italo Pezão", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "GOL",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eric-santos-jacuipense", name: "Eric Santos", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "GOL",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "erick-lima-jacuipense", name: "Erick Lima", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "GOL",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "weverton-jacuipense", name: "Weverton", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ZAG",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-pedro-talisca-jacuipense", name: "João Pedro Talisca", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ZAG",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "railon-jacuipense", name: "Railon", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ZAG",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-cabral-jacuipense", name: "Matheus Cabral", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ZAG",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jhones-jacuipense", name: "Jhones", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ZAG",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "romario-jacuipense", name: "Romário", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ZAG",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vicente-reis-jacuipense", name: "Vicente Reis", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "LAT",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "geferson-teles-jacuipense", name: "Geferson Teles", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "LAT",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vicente-ferreira-jacuipense", name: "Vicente Ferreira", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "LAT",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hugo-moura-jacuipense", name: "Hugo Moura", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "LAT",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-jacuipense", name: "Daniel", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "LAT",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-pereira-jacuipense", name: "Gabriel Pereira", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "MEI",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-santana-jacuipense", name: "David Santana", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "MEI",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-maia-jacuipense", name: "Gabriel Maia", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "MEI",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-sousa-jacuipense", name: "Thiago Sousa", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "MEI",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-rend-jacuipense", name: "Guilherme Rend", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "MEI",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "geovani-jacuipense", name: "Geovani", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "MEI",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiaguinho-jacuipense", name: "Thiaguinho", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "MEI",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "silas-jacuipense", name: "Silas", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "MEI",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alison-jacuipense", name: "Alison", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "MEI",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "willian-jacuipense", name: "Willian", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ATA",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jarles-baiano-jacuipense", name: "Jarles Baiano", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ATA",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "flavinho-jacuipense", name: "Flavinho", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ATA",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-pedro-jacuipense", name: "João Pedro", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ATA",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adriano-jr-jacuipense", name: "Adriano JR", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ATA",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sidney-jacuipense", name: "Sidney", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ATA",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ruan-nascimento-jacuipense", name: "Ruan Nascimento", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ATA",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruninho-jacuipense", name: "Bruninho", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ATA",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jeferson-jacuipense", name: "Jeferson", clubId: "jacuipense", clubName: "Jacuipense", division: "Série D", position: "ATA",
+    source: "https://interiordabahia.com.br/2025/12/30/jacuipense-divulga-elenco-do-clube-para-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-rodrigues-joinville", name: "Thiago Rodrigues", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "GOL",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodrigo-bazilio-joinville", name: "Rodrigo Bazilio", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "GOL",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "borges-joao-joinville", name: "Borges Joao", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "GOL",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "v-maximiano-joinville", name: "V. Maximiano", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "GOL",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitao-joinville", name: "Vitão", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ZAG",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gutieri-joinville", name: "Gutieri", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ZAG",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jean-mineiro-joinville", name: "Jean Mineiro", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ZAG",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "brendon-lucas-joinville", name: "Brendon Lucas", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ZAG",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-oliveira-joinville", name: "Victor Oliveira", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ZAG",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaka-joinville", name: "Kaka", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ZAG",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alyson-joinville", name: "Alyson", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ZAG",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "toty-joinville", name: "Toty", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "LAT",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "natanael-joinville", name: "Natanael", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "LAT",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yalle-joinville", name: "Yalle", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "VOL",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-camilo-joinville", name: "Bruno Camilo", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "VOL",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rickson-joinville", name: "Rickson", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "VOL",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "erick-crispim-joinville", name: "Erick Crispim", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "VOL",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-terra-joinville", name: "Gabriel Terra", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "MEI",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "r-vinicius-joinville", name: "R. Vinicius", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "MEI",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thomaz-joinville", name: "Thomaz", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "MEI",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fernando-neto-joinville", name: "Fernando Neto", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "MEI",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "iago-dias-joinville", name: "Iago Dias", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ATA",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yuri-souza-joinville", name: "Yuri Souza", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ATA",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ytalo-joinville", name: "Ytalo", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ATA",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luizinho-joinville", name: "Luizinho", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ATA",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-victor-joinville", name: "João Victor", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ATA",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "elie-joel-joinville", name: "Elie Joel", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ATA",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "j-klock-joinville", name: "J. Klock", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ATA",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rigley-joinville", name: "Rigley", clubId: "joinville", clubName: "Joinville", division: "Série D", position: "ATA",
+    source: "https://terfaro.com/time/joinville/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-campanelli-juazeirense", name: "Pedro Campanelli", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "GOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-santos-juazeirense", name: "Thiago Santos", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "GOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-nazare-juazeirense", name: "Daniel Nazaré", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fernando-dias-monteiro-juazeirense", name: "Fernando Dias Monteiro", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-vasconcelos-juazeirense", name: "Felipe Vasconcelos", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leandro-cerqueira-juazeirense", name: "Leandro Cerqueira", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "murilo-juazeirense", name: "Murilo", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "breno-oliveira-juazeirense", name: "Breno Oliveira", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "romario-ze-juazeirense", name: "Romario Ze", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eduardo-rosado-juazeirense", name: "Eduardo Rosado", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-ramos-juazeirense", name: "Victor Ramos", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitinho-juazeirense", name: "Vitinho", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ZAG",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "benedetti-felipe-juazeirense", name: "Benedetti Felipe", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "VOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bino-juazeirense", name: "Bino", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "VOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "breno-rayck-juazeirense", name: "Breno Rayck", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "VOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-sena-juazeirense", name: "Bruno Sena", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "VOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "douglas-nathan-juazeirense", name: "Douglas Nathan", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "VOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "elivelton-juazeirense", name: "Elivelton", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "VOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-juazeirense", name: "Luan", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "VOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tardelli-juninho-juazeirense", name: "Tardelli Juninho", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "VOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thierry-juazeirense", name: "Thierry", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "VOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "waguinho-juazeirense", name: "Waguinho", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "VOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wanderson-papaterra-juazeirense", name: "Wanderson Papaterra", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "VOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "italo-melo-juazeirense", name: "Ítalo Melo", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "VOL",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adriano-pardal-juazeirense", name: "Adriano Pardal", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ATA",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "anderson-juazeirense", name: "Anderson", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ATA",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bravo-juazeirense", name: "Bravo", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ATA",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ceara-juazeirense", name: "Ceará", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ATA",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diki-juazeirense", name: "Diki", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ATA",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marlon-juazeirense", name: "Marlon", clubId: "juazeirense", clubName: "Juazeirense", division: "Série D", position: "ATA",
+    source: "https://tudosobrefutebol.com.br/club/juazeirense", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "max-lagarto", name: "Max", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "GOL",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "deijair-lagarto", name: "Deijair", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "GOL",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "p-belem-lagarto", name: "P. Belem", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ZAG",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leozao-lagarto", name: "Leozao", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ZAG",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hitalo-lagarto", name: "Hitalo", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ZAG",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "emanuel-pereira-lagarto", name: "Emanuel Pereira", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ZAG",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alessandro-lagarto", name: "Alessandro", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ZAG",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-dias-lagarto", name: "Gabriel Dias", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ZAG",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-zoio-lagarto", name: "Guilherme Zoio", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ZAG",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dadinha-lagarto", name: "Dadinha", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ZAG",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "natanel-lagarto", name: "Natanel", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ZAG",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rhuann-lagarto", name: "Rhuann", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gionnotti-lagarto", name: "Gionnotti", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruninho-lagarto", name: "Bruninho", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "william-lagarto", name: "William", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-vieira-lagarto", name: "Guilherme Vieira", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "soares-lagarto", name: "Soares", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-recife-lagarto", name: "Felipe Recife", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "danielzinho-lagarto", name: "Danielzinho", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jefferson-baiano-lagarto", name: "Jefferson Baiano", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "denis-lagarto", name: "Denis", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "erik-gabriel-lagarto", name: "Erik Gabriel", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-oliveira-lagarto", name: "Luan Oliveira", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "aldair-lagarto", name: "Aldair", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rhuann-patrick-lagarto", name: "Rhuann Patrick", clubId: "lagarto", clubName: "Lagarto", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/lagarto/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-guilherme-pestana-luverdense", name: "João Guilherme Pestana", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "GOL",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caua-franca-luverdense", name: "Cauã França", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "GOL",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaique-feijo-luverdense", name: "Kaique Feijó", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "GOL",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cesinha-luverdense", name: "Cesinha", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "LAT",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "raul-prata-luverdense", name: "Raul Prata", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "LAT",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "isac-luverdense", name: "Isac", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "LAT",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yan-victor-luverdense", name: "Yan Victor", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "ZAG",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jackson-ferreira-luverdense", name: "Jackson Ferreira", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "ZAG",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-alexandria-luverdense", name: "Gustavo Alexandria", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "ZAG",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "feliphe-gabriel-luverdense", name: "Feliphe Gabriel", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "ZAG",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "danilo-borges-luverdense", name: "Danilo Borges", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "VOL",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-goes-luverdense", name: "Lucas Goes", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "VOL",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "douglas-da-silva-luverdense", name: "Douglas da Silva", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "VOL",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-fernando-luverdense", name: "Luiz Fernando", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "VOL",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-barros-luverdense", name: "João Barros", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "VOL",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jan-luverdense", name: "Jan", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "VOL",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renato-bady-luverdense", name: "Renato Bady", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "MEI",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-hassen-luverdense", name: "João Hassen", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "MEI",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ph-luverdense", name: "PH", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "MEI",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henan-faria-luverdense", name: "Henan Faria", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "ATA",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "edgo-guedes-luverdense", name: "Edgo Guedes", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "ATA",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-oliveira-luverdense", name: "Daniel Oliveira", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "ATA",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wendel-barros-luverdense", name: "Wendel Barros", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "ATA",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jeferson-borges-luverdense", name: "Jeferson Borges", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "ATA",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hitalo-mota-luverdense", name: "Hitalo Mota", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "ATA",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-ilha-luverdense", name: "Guilherme Ilha", clubId: "luverdense", clubName: "Luverdense", division: "Série D", position: "ATA",
+    source: "https://luverdense.com.br/luverdense-anuncia-11-reforcos-e-segue-qualificando-o-elenco-para-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yan-rodrigues-madureira", name: "Yan Rodrigues", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "GOL",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-cabo-madureira", name: "Guilherme Cabo", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "GOL",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rogerio-gabriel-madureira", name: "Rogério Gabriel", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "GOL",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caua-coutinho-madureira", name: "Cauã Coutinho", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "LAT",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "celsinho-madureira", name: "Celsinho", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "LAT",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-freitas-madureira", name: "David Freitas", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "LAT",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marlinho-madureira", name: "Marlinho", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "LAT",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-trepte-madureira", name: "Bruno Trepte", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "ZAG",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-felipe-madureira", name: "Daniel Felipe", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "ZAG",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leozao-madureira", name: "Leozão", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "ZAG",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rickelme-madureira", name: "Rickelme", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "ZAG",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adriano-madureira", name: "Adriano", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "VOL",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "andre-madureira", name: "André", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "VOL",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dilsinho-madureira", name: "Dilsinho", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "VOL",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fuba-madureira", name: "Fubá", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "VOL",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juanni-madureira", name: "Juanni", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "VOL",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "zaru-madureira", name: "Zaru", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "MEI",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-nobrega-madureira", name: "Gabriel Nóbrega", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "MEI",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-barros-madureira", name: "Caio Barros", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "ATA",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fash-madureira", name: "Fash", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "ATA",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabricio-camara-madureira", name: "Fabrício Camará", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "ATA",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-fontenelle-madureira", name: "Guilherme Fontenelle", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "ATA",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "geovane-maranhao-madureira", name: "Geovane Maranhão", clubId: "madureira", clubName: "Madureira", division: "Série D", position: "ATA",
+    source: "https://madureiraec.com.br/noticias/madureira-se-reapresenta-para-a-disputa-da-copa-rio", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "anderson-jr-laguna", name: "Anderson Jr", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/rn/futebol/times/laguna/noticia/2026/04/01/laguna-passa-por-reformulacao-para-primeira-participacao-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paje-laguna", name: "Pajé", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/rn/futebol/times/laguna/noticia/2026/04/01/laguna-passa-por-reformulacao-para-primeira-participacao-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-leonel-laguna", name: "Vinicius Leonel", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/rn/futebol/times/laguna/noticia/2026/04/01/laguna-passa-por-reformulacao-para-primeira-participacao-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "natanael-laguna", name: "Natanael", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/rn/futebol/times/laguna/noticia/2026/04/01/laguna-passa-por-reformulacao-para-primeira-participacao-na-serie-d.ghtml", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
