@@ -26853,6 +26853,78 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/33061", verifiedAt: "2026-11-11"
   },
   {
+    id: "oliveira-gabriel", name: "Oliveira Gabriel", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "GOL",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "prezzi", name: "Prezzi", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "GOL",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renan-sao-luiz", name: "Renan", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "GOL",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "arlan-sao-luiz", name: "Arlan", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "DEF",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caetano-sao-luiz", name: "Caetano", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "DEF",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eduardo-sao-luiz", name: "Eduardo", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "DEF",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-santiago-sao-luiz", name: "Gabriel Santiago", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "DEF",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "heitor-sao-luiz", name: "Heitor", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "DEF",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hian-lucas-sao-luiz", name: "Hian Lucas", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "DEF",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-de-almeida-sao-luiz", name: "Marcos De Almeida", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "DEF",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vidmar-sao-luiz", name: "Vidmar", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "DEF",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "escuro-sao-luiz", name: "Escuro", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "MEI",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-devitte-dal-pian-sao-luiz", name: "Guilherme Devitte Dal Pian", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "MEI",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jean-henrique-dos-santos-sao-luiz", name: "Jean Henrique", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "MEI",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-hulk-sao-luiz", name: "Lucas Hulk", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "MEI",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "brandao-sao-luiz", name: "Brandao", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "ATA",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sena-rogerio-sao-luiz", name: "Sena Rogerio", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "ATA",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "valber-junior-sao-luiz", name: "Valber Junior", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "ATA",
+    source: "https://rodadadofut.com.br/time/sao-luiz", verifiedAt: "2026-11-11"
+  },
+  {
     id: "marcao-sao-raimundo-rr", name: "Marcão", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "GOL",
     source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
   },
