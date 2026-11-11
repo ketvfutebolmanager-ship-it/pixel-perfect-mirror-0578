@@ -25082,6 +25082,855 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "digao-monte-roraima", name: "Digão", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "LAT",
     source: "https://www.folhabv.com.br/esporte/monte-roraima-contrata-reforcos-para-duelo-decisivo-diante-do-guapore-na-serie-d/", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "carlos-eduardo-parnahyba", name: "Carlos Eduardo", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diogo-leal-parnahyba", name: "Diogo Leal", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-parnahyba", name: "Léo", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-neres-parnahyba", name: "Lucas Neres", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "danilo-bala-parnahyba", name: "Danilo Bala", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-guilherme-parnahyba", name: "David Guilherme", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dadinha-parnahyba", name: "Dadinha", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-antonio-parnahyba", name: "João Antônio", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renan-barreto-parnahyba", name: "Renan Barreto", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yuri-melo-parnahyba", name: "Yuri Melo", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "amilton-parnahyba", name: "Amilton", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-fernando-parnahyba", name: "Luís Fernando", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leandro-sobral-parnahyba", name: "Leandro Sobral", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-santos-parnahyba", name: "Léo Santos", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alecio-gabriel-parnahyba", name: "Alécio Gabriel", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-henrique-parnahyba", name: "Luis Henrique", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-filipe-parnahyba", name: "Gabriel Filipe", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alex-mineiro-parnahyba", name: "Alex Mineiro", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jefinho-parnahyba", name: "Jefinho", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wesley-kaua-parnahyba", name: "Wesley Kauã", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "junior-saudade-parnahyba", name: "Júnior Saudade", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-paulo-parnahyba", name: "João Paulo", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dede-parnahyba", name: "Dedé", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kessinho-parnahyba", name: "Kessinho", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "denis-macedo-parnahyba", name: "Denis Macedo", clubId: "parnahyba", clubName: "Parnahyba", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/03/28/parnahyba-anuncia-meia-alex-mineiro-e-acerta-com-mais-tres-reforcos-para-serie-d-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "arthur-silva-piaui", name: "Arthur Silva", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-paulo-piaui", name: "Pedro Paulo", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alan-alves-piaui", name: "Alan Alves", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "william-bahia-piaui", name: "William Bahia", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dudu-piaui", name: "Dudu", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-marques-piaui", name: "Matheus Marques", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tenorio-piaui", name: "Tenório", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leandro-amorim-piaui", name: "Leandro Amorim", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-brandao-piaui", name: "Gustavo Brandão", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gomes-piaui", name: "Gomes", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eduardo-thuram-piaui", name: "Eduardo Thuram", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "reinaldo-piaui", name: "Reinaldo", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-jacare-piaui", name: "Felipe Jacaré", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-china-piaui", name: "Gustavo China", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "toro-piaui", name: "Toró", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rayanderson-piaui", name: "Rayanderson", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "digao-piaui", name: "Digão", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adsson-piaui", name: "Adsson", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "natan-piaui", name: "Natan", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-piaui", name: "Vinicius", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-sacramento-piaui", name: "Matheus Sacramento", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "islan-piaui", name: "Islan", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kauan-maranhao-piaui", name: "Kauan Maranhão", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustagol-piaui", name: "Gustagol", clubId: "piaui", clubName: "Piauí", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pi/futebol/noticia/2026/01/19/conheca-elenco-dos-oito-clubes-piauienses-que-iniciaram-a-temporada-de-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-passos-porto", name: "Thiago Passos", clubId: "porto", clubName: "Porto", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-porto", name: "Guilherme", clubId: "porto", clubName: "Porto", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-cabral-porto", name: "Matheus Cabral", clubId: "porto", clubName: "Porto", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-porto", name: "Caio", clubId: "porto", clubName: "Porto", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-saulo-porto", name: "Gabriel Saulo", clubId: "porto", clubName: "Porto", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "peu-porto", name: "Peu", clubId: "porto", clubName: "Porto", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "uinatan-porto", name: "Uinatan", clubId: "porto", clubName: "Porto", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "breno-liborge-porto", name: "Breno Liborge", clubId: "porto", clubName: "Porto", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "anderson-bandeira-porto", name: "Anderson Bandeira", clubId: "porto", clubName: "Porto", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "everton-dias-porto", name: "Everton Dias", clubId: "porto", clubName: "Porto", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wenderson-porto", name: "Wenderson", clubId: "porto", clubName: "Porto", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jean-porto", name: "Jean", clubId: "porto", clubName: "Porto", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "breno-cezar-porto", name: "Breno Cézar", clubId: "porto", clubName: "Porto", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "taison-porto", name: "Taison", clubId: "porto", clubName: "Porto", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-rodrigues-porto", name: "Luan Rodrigues", clubId: "porto", clubName: "Porto", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vini-porto", name: "Vini", clubId: "porto", clubName: "Porto", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-lima-porto", name: "Pedro Lima", clubId: "porto", clubName: "Porto", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-ferreira-porto", name: "Bruno Ferreira", clubId: "porto", clubName: "Porto", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kauan-jesus-porto", name: "Kauan Jesus", clubId: "porto", clubName: "Porto", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ygor-porto", name: "Ygor", clubId: "porto", clubName: "Porto", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "arthur-porto", name: "Arthur", clubId: "porto", clubName: "Porto", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-gomes-porto", name: "Léo Gomes", clubId: "porto", clubName: "Porto", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diki-porto", name: "Diki", clubId: "porto", clubName: "Porto", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diogo-porto", name: "Diogo", clubId: "porto", clubName: "Porto", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adriano-napao-porto", name: "Adriano Napão", clubId: "porto", clubName: "Porto", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-kawa-porto", name: "Gustavo Kawã", clubId: "porto", clubName: "Porto", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "danilinho-porto", name: "Danilinho", clubId: "porto", clubName: "Porto", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "helio-porto", name: "Hélio", clubId: "porto", clubName: "Porto", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cesinha-porto", name: "Cesinha", clubId: "porto", clubName: "Porto", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "italo-porto", name: "Ítalo", clubId: "porto", clubName: "Porto", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/01/10/guia-do-campeonato-baiano-2026-tudo-o-que-voce-precisa-saber-sobre-a-competicao.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodrigo-antunes-miranda-porto-velho", name: "Rodrigo Antunes Miranda", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "GOL",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "serjao-porto-velho", name: "Serjão", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "GOL",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marquinho-porto-velho", name: "Marquinho", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "GOL",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rikelmy-luiz-porto-velho", name: "Rikelmy Luiz", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "LAT",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodrigo-ramos-porto-velho", name: "Rodrigo Ramos", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "ZAG",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-bala-porto-velho", name: "Lucas Bala", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "LAT",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mauricio-leal-porto-velho", name: "Maurício Leal", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "ZAG",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renna-porto-velho", name: "Rennã", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "ZAG",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "douglas-dos-santos-moreira-porto-velho", name: "Douglas dos Santos Moreira", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "ZAG",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-porto-velho", name: "Lucas", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "LAT",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "aisley-porto-velho", name: "Aisley", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "LAT",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonathan-porto-velho", name: "Jonathan", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "ZAG",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "franca-porto-velho", name: "França", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "VOL",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "esquerdinha-porto-velho", name: "Esquerdinha", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kadu-barone-porto-velho", name: "Kadu Barone", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wallace-porto-velho", name: "Wallace", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "emerson-bacas-neri-porto-velho", name: "Emerson Bacas Neri", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "VOL",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-porto-velho", name: "Rafael", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-menezes-porto-velho", name: "Bruno Menezes", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cezinha-porto-velho", name: "Cezinha", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tanaka-porto-velho", name: "Tanaka", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pablo-porto-velho", name: "Pablo", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tcharlles-porto-velho", name: "Tcharlles", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "ATA",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-viana-porto-velho", name: "Luan Viana", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "ATA",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "edrean-goveia-costa-porto-velho", name: "Edrean Goveia Costa", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "ATA",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wellington-junior-porto-velho", name: "Wellington Junior", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "ATA",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jeferson-porto-velho", name: "Jeferson", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "ATA",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ruan-costa-porto-velho", name: "Ruan Costa", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "ATA",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-victor-porto-velho", name: "João Victor", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "ATA",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-davis-porto-velho", name: "Gabriel Davis", clubId: "porto-velho", clubName: "Porto Velho", division: "Série D", position: "ATA",
+    source: "https://www.sofascore.com/pt/football/team/gazin-porto-velho/339705", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-bertinato-portuguesa", name: "Bruno Bertinato", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eduardo-portuguesa", name: "Eduardo", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-paulo-portuguesa", name: "João Paulo", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "carlos-eduardo-portuguesa", name: "Carlos Eduardo", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-salomao-portuguesa", name: "Gustavo Salomão", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-vitor-portuguesa", name: "João Vitor", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jotta-portuguesa", name: "Jotta", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-hipolito-portuguesa", name: "Lucas Hipólito", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sciencia-portuguesa", name: "Sciencia", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "carlos-lima-portuguesa", name: "Carlos Lima", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eduardo-biazus-portuguesa", name: "Eduardo Biazus", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eric-botteghin-portuguesa", name: "Eric Botteghin", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-henrique-portuguesa", name: "Gustavo Henrique", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wellington-portuguesa", name: "Wellington", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "denis-portuguesa", name: "Denis", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-tontini-portuguesa", name: "Felipe Tontini", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-portuga-portuguesa", name: "Guilherme Portuga", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hudson-portuguesa", name: "Hudson", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mateus-cecchini-portuguesa", name: "Mateus Cecchini", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiaguinho-portuguesa", name: "Thiaguinho", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cauari-portuguesa", name: "Cauari", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-santos-portuguesa", name: "Guilherme Santos", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "igor-torres-portuguesa", name: "Igor Torres", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonas-toro-portuguesa", name: "Jonas Toró", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "keven-coloni-portuguesa", name: "Keven Coloni", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "maceio-portuguesa", name: "Maceió", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-cadorini-portuguesa", name: "Matheus Cadorini", clubId: "portuguesa", clubName: "Portuguesa", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/03/28/portuguesa-perde-cinco-titulares-antes-da-serie-d-mas-repoe-elenco-com-pacote-de-reforcos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "douglas-borges-portuguesa-rj", name: "Douglas Borges", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-teodoro-portuguesa-rj", name: "Vinicius Teodoro", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "GOL",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alex-reinaldo-portuguesa-rj", name: "Alex Reinaldo", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "LAT",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-oliveira-portuguesa-rj", name: "Guilherme Oliveira", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "ZAG",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaue-portuguesa-rj", name: "Kauê", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "ZAG",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-rodrigues-portuguesa-rj", name: "Lucas Rodrigues", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "ZAG",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "patrick-portuguesa-rj", name: "Patrick", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "ZAG",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "albert-rocha-portuguesa-rj", name: "Albert Rocha", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "VOL",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alex-moretti-portuguesa-rj", name: "Alex Moretti", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "anderson-indalencio-portuguesa-rj", name: "Anderson Indalêncio", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "VOL",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-rocha-portuguesa-rj", name: "Henrique Rocha", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juninho-portuguesa-rj", name: "Juninho", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lenon-portuguesa-rj", name: "Lenon", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "LAT",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wellington-cezar-portuguesa-rj", name: "Wellington Cezar", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "VOL",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wilian-portuguesa-rj", name: "Wilian", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "MEI",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-silveira-portuguesa-rj", name: "Guilherme Silveira", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lohan-portuguesa-rj", name: "Lohan", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-iacovelli-portuguesa-rj", name: "Matheus Iacovelli", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "romario-costa-portuguesa-rj", name: "Romário Costa", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "uelber-portuguesa-rj", name: "Uelber", clubId: "portuguesa-rj", clubName: "Portuguesa-RJ", division: "Série D", position: "ATA",
+    source: "https://classificacaogeral.com.br/clube/7835/portuguesa-rj", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-braga-pouso-alegre", name: "Thiago Braga", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "anderson-gavineski-pouso-alegre", name: "Anderson Gavineski", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "natan-barbosa-pouso-alegre", name: "Natan Barbosa", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-nunes-pouso-alegre", name: "Matheus Nunes", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "da-silva-pouso-alegre", name: "Da Silva", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eduardo-kempf-pouso-alegre", name: "Eduardo Kempf", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "enzo-mendes-pouso-alegre", name: "Enzo Mendes", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "andre-krobel-pouso-alegre", name: "André Krobel", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "xandao-pouso-alegre", name: "Xandão", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vanderley-pouso-alegre", name: "Vanderley", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lailton-pouso-alegre", name: "Lailton", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "michel-custodio-pouso-alegre", name: "Michel Custódio", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "samuel-bastos-pouso-alegre", name: "Samuel Bastos", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitao-pouso-alegre", name: "Vitão", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-oliveira-pouso-alegre", name: "Victor Oliveira", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wagner-manaus-pouso-alegre", name: "Wagner Manaus", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ramires-pouso-alegre", name: "Ramires", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "italo-henrique-pouso-alegre", name: "Ítalo Henrique", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jorge-mage-pouso-alegre", name: "Jorge Magé", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thomas-augustin-pouso-alegre", name: "Thomas Augustin", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "anderson-canhoto-pouso-alegre", name: "Anderson Canhoto", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yuri-merlim-pouso-alegre", name: "Yuri Merlim", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mateus-lustosa-pouso-alegre", name: "Mateus Lustosa", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-oliveira-pouso-alegre", name: "Bruno Oliveira", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-tota-pouso-alegre", name: "Gabriel Tota", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-rubim-pouso-alegre", name: "Thiago Rubim", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelinho-pouso-alegre", name: "Marcelinho", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-rosa-pouso-alegre", name: "Caio Rosa", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-alvim-pouso-alegre", name: "Lucas Alvim", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-gabriel-pouso-alegre", name: "João Gabriel", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ricardo-bueno-pouso-alegre", name: "Ricardo Bueno", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ruan-henrique-pouso-alegre", name: "Ruan Henrique", clubId: "pouso-alegre", clubName: "Pouso Alegre", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mg/sul-de-minas/futebol/times/pouso-alegre-fc/noticia/2026/03/27/apos-perder-destaques-do-mineiro-pouso-alegre-anuncia-mais-um-meia-e-renova-com-atacantes-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-cardoso-primavera", name: "Lucas Cardoso", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-inacio-primavera", name: "João Inácio", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-candido-primavera", name: "Gustavo Cândido", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ricardinho-primavera", name: "Ricardinho", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dimitry-primavera", name: "Dimitry", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jo-primavera", name: "Jô", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jordan-primavera", name: "Jordan", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-octavio-primavera", name: "Luis Octávio", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tallys-primavera", name: "Tallys", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-cruz-primavera", name: "David Cruz", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "zemarcio-primavera", name: "Zemarcio", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabiano-terra-primavera", name: "Fabiano Terra", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sampson-nunes-primavera", name: "Sampson Nunes", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "italo-tabata-primavera", name: "Italo Tabata", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ronald-bele-primavera", name: "Ronald Belé", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "giovanni-primavera", name: "Giovanni", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-davi-primavera", name: "João Davi", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tomi-montefiore-primavera", name: "Tomi Montefiore", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-primavera", name: "Luan", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ruan-levine-primavera", name: "Ruan Levine", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonatan-da-ora-primavera", name: "Jonatan Da Ora", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wallisson-primavera", name: "Wallisson", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yuri-ferreira-primavera", name: "Yuri Ferreira", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-antonio-primavera", name: "Luiz Antônio", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
