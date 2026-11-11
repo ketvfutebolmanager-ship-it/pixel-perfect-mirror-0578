@@ -15,6 +15,7 @@ export const NAV_GROUPS: NavGroup[] = [
     title: "Competições",
     items: [
       { label: "Campeonatos", to: "/campeonatos" },
+      { label: "Copa do Brasil 2027", to: "/copa-do-brasil" },
       { label: "Série A", to: "/campeonatos/$divisao", params: { divisao: "serie-a" } },
       { label: "Série B", to: "/campeonatos/$divisao", params: { divisao: "serie-b" } },
       { label: "Série C", to: "/campeonatos/$divisao", params: { divisao: "serie-c" } },
