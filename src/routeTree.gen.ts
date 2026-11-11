@@ -15,6 +15,7 @@ import { Route as ClassificacaoRouteImport } from './routes/classificacao'
 import { Route as ClubesRouteImport } from './routes/clubes'
 import { Route as ConfiguracoesRouteImport } from './routes/configuracoes'
 import { Route as ContinuarCarreiraRouteImport } from './routes/continuar-carreira'
+import { Route as CopaDoBrasilRouteImport } from './routes/copa-do-brasil'
 import { Route as EstatisticasRouteImport } from './routes/estatisticas'
 import { Route as FinancasRouteImport } from './routes/financas'
 import { Route as JogadoresRouteImport } from './routes/jogadores'
@@ -23,7 +24,6 @@ import { Route as PartidaRouteImport } from './routes/partida'
 import { Route as PatrociniosRouteImport } from './routes/patrocinios'
 import { Route as SalaDeTrofeusRouteImport } from './routes/sala-de-trofeus'
 import { Route as TransferenciasRouteImport } from './routes/transferencias'
-import { Route as CopaDoBrasilRouteImport } from './routes/copa-do-brasil'
 import { Route as CampeonatosIndexRouteImport } from './routes/campeonatos.index'
 import { Route as CampeonatosDivisaoRouteImport } from './routes/campeonatos.$divisao'
 
@@ -55,6 +55,11 @@ const ConfiguracoesRoute = ConfiguracoesRouteImport.update({
 const ContinuarCarreiraRoute = ContinuarCarreiraRouteImport.update({
   id: '/continuar-carreira',
   path: '/continuar-carreira',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CopaDoBrasilRoute = CopaDoBrasilRouteImport.update({
+  id: '/copa-do-brasil',
+  path: '/copa-do-brasil',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EstatisticasRoute = EstatisticasRouteImport.update({
@@ -97,11 +102,6 @@ const TransferenciasRoute = TransferenciasRouteImport.update({
   path: '/transferencias',
   getParentRoute: () => rootRouteImport,
 } as any)
-const CopaDoBrasilRoute = CopaDoBrasilRouteImport.update({
-  id: '/copa-do-brasil',
-  path: '/copa-do-brasil',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const CampeonatosIndexRoute = CampeonatosIndexRouteImport.update({
   id: '/campeonatos/',
   path: '/campeonatos/',
@@ -120,6 +120,7 @@ export interface FileRoutesByFullPath {
   '/clubes': typeof ClubesRoute
   '/configuracoes': typeof ConfiguracoesRoute
   '/continuar-carreira': typeof ContinuarCarreiraRoute
+  '/copa-do-brasil': typeof CopaDoBrasilRoute
   '/estatisticas': typeof EstatisticasRoute
   '/financas': typeof FinancasRoute
   '/jogadores': typeof JogadoresRoute
@@ -130,7 +131,6 @@ export interface FileRoutesByFullPath {
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos/': typeof CampeonatosIndexRoute
-  '/copa-do-brasil': typeof CopaDoBrasilRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -139,6 +139,7 @@ export interface FileRoutesByTo {
   '/clubes': typeof ClubesRoute
   '/configuracoes': typeof ConfiguracoesRoute
   '/continuar-carreira': typeof ContinuarCarreiraRoute
+  '/copa-do-brasil': typeof CopaDoBrasilRoute
   '/estatisticas': typeof EstatisticasRoute
   '/financas': typeof FinancasRoute
   '/jogadores': typeof JogadoresRoute
@@ -149,7 +150,6 @@ export interface FileRoutesByTo {
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos': typeof CampeonatosIndexRoute
-  '/copa-do-brasil': typeof CopaDoBrasilRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -159,6 +159,7 @@ export interface FileRoutesById {
   '/clubes': typeof ClubesRoute
   '/configuracoes': typeof ConfiguracoesRoute
   '/continuar-carreira': typeof ContinuarCarreiraRoute
+  '/copa-do-brasil': typeof CopaDoBrasilRoute
   '/estatisticas': typeof EstatisticasRoute
   '/financas': typeof FinancasRoute
   '/jogadores': typeof JogadoresRoute
@@ -169,7 +170,6 @@ export interface FileRoutesById {
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos/': typeof CampeonatosIndexRoute
-  '/copa-do-brasil': typeof CopaDoBrasilRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -180,6 +180,7 @@ export interface FileRouteTypes {
     | '/clubes'
     | '/configuracoes'
     | '/continuar-carreira'
+    | '/copa-do-brasil'
     | '/estatisticas'
     | '/financas'
     | '/jogadores'
@@ -190,7 +191,6 @@ export interface FileRouteTypes {
     | '/transferencias'
     | '/campeonatos/$divisao'
     | '/campeonatos/'
-    | '/copa-do-brasil'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -199,6 +199,7 @@ export interface FileRouteTypes {
     | '/clubes'
     | '/configuracoes'
     | '/continuar-carreira'
+    | '/copa-do-brasil'
     | '/estatisticas'
     | '/financas'
     | '/jogadores'
@@ -209,7 +210,6 @@ export interface FileRouteTypes {
     | '/transferencias'
     | '/campeonatos/$divisao'
     | '/campeonatos'
-    | '/copa-do-brasil'
   id:
     | '__root__'
     | '/'
@@ -218,6 +218,7 @@ export interface FileRouteTypes {
     | '/clubes'
     | '/configuracoes'
     | '/continuar-carreira'
+    | '/copa-do-brasil'
     | '/estatisticas'
     | '/financas'
     | '/jogadores'
@@ -228,7 +229,6 @@ export interface FileRouteTypes {
     | '/transferencias'
     | '/campeonatos/$divisao'
     | '/campeonatos/'
-    | '/copa-do-brasil'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -238,6 +238,7 @@ export interface RootRouteChildren {
   ClubesRoute: typeof ClubesRoute
   ConfiguracoesRoute: typeof ConfiguracoesRoute
   ContinuarCarreiraRoute: typeof ContinuarCarreiraRoute
+  CopaDoBrasilRoute: typeof CopaDoBrasilRoute
   EstatisticasRoute: typeof EstatisticasRoute
   FinancasRoute: typeof FinancasRoute
   JogadoresRoute: typeof JogadoresRoute
@@ -292,6 +293,13 @@ declare module '@tanstack/react-router' {
       path: '/continuar-carreira'
       fullPath: '/continuar-carreira'
       preLoaderRoute: typeof ContinuarCarreiraRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/copa-do-brasil': {
+      id: '/copa-do-brasil'
+      path: '/copa-do-brasil'
+      fullPath: '/copa-do-brasil'
+      preLoaderRoute: typeof CopaDoBrasilRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/estatisticas': {
@@ -350,20 +358,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TransferenciasRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/copa-do-brasil': {
-      id: '/copa-do-brasil'
-      path: '/copa-do-brasil'
-      fullPath: '/copa-do-brasil'
-      preLoaderRoute: typeof CopaDoBrasilRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/copa-do-brasil': {
-      id: '/copa-do-brasil'
-      path: '/copa-do-brasil'
-      fullPath: '/copa-do-brasil'
-      preLoaderRoute: typeof CopaDoBrasilRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/campeonatos/': {
       id: '/campeonatos/'
       path: '/campeonatos'
@@ -388,6 +382,7 @@ const rootRouteChildren: RootRouteChildren = {
   ClubesRoute: ClubesRoute,
   ConfiguracoesRoute: ConfiguracoesRoute,
   ContinuarCarreiraRoute: ContinuarCarreiraRoute,
+  CopaDoBrasilRoute: CopaDoBrasilRoute,
   EstatisticasRoute: EstatisticasRoute,
   FinancasRoute: FinancasRoute,
   JogadoresRoute: JogadoresRoute,
@@ -396,7 +391,6 @@ const rootRouteChildren: RootRouteChildren = {
   PatrociniosRoute: PatrociniosRoute,
   SalaDeTrofeusRoute: SalaDeTrofeusRoute,
   TransferenciasRoute: TransferenciasRoute,
-  CopaDoBrasilRoute: CopaDoBrasilRoute,
   CampeonatosDivisaoRoute: CampeonatosDivisaoRoute,
   CampeonatosIndexRoute: CampeonatosIndexRoute,
 }

@@ -8,7 +8,7 @@ type Leg={homeGoals?:number;awayGoals?:number};
 type Tie={id:string;home:Club;away:Club;legs:Leg[];winner?:Club;penalties?:boolean;transmissions:string[];kickoff:string};
 type Cup={phase:number;rounds:Tie[][];champion?:Club};
 const KEY="ketv-copa-brasil-2026-career-v1";
-const parse=(raw:string,criterion:1|2|3):Club[]=>raw.trim().split("\n").map(line=>{const [name,state]=line.split("|");return {id:(name+"-"+state).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-"),name,state,criterion};});
+const parse=(raw:string,criterion:1|2|3):Club[]=>raw.trim().split("\n").map(line=>{const [name="",state=""]=line.split("|");return {id:(name+"-"+state).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-"),name,state,criterion};});
 const A=parse(`Flamengo|RJ
 Corinthians|SP
 Palmeiras|SP
@@ -136,13 +136,15 @@ Araguaína|TO
 Capital-TO|TO
 Tocantinópolis|TO`,3);
 const CLUBS=[...A,...B,...C];
-const PHASES=["1ª fase","2ª fase","3ª fase","4ª fase","5ª fase","Oitavas de final","Quartas de final","Semifinal","Final"];\nconst BROADCASTERS=["GE TV","TV Globo","Prime Video","SporTV","Premiere","KE TV Sports"];\nconst ALL_BROADCASTERS=["GE TV","TV Globo","Prime Video","SporTV","Premiere","KE TV Sports"];
+const PHASES=["1ª fase","2ª fase","3ª fase","4ª fase","5ª fase","Oitavas de final","Quartas de final","Semifinal","Final"];
+const BROADCASTERS=["GE TV","TV Globo","Prime Video","SporTV","Premiere","KE TV Sports"];
+const ALL_BROADCASTERS=["GE TV","TV Globo","Prime Video","SporTV","Premiere","KE TV Sports"];
 const DATES=["18–19 fev","25 fev–5 mar","11–12 mar","18–19 mar","22–23 abr / 13–14 mai","1–6 ago","26 ago–3 set","1–8 nov","6 dez"];
 const rating=(c:Club,n:number)=>Math.max(38,Math.min(91,(c.criterion===1?78:c.criterion===2?66:57)+((c.id.length*(n+3))%13)-6));
 const team=(c:Club)=>({id:c.id,name:c.name,attack:rating(c,1),midfield:rating(c,2),defense:rating(c,3)});
 const shuffled=<T,>(xs:T[])=>{const a=[...xs];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j]!,a[i]!];}return a;};
 const ties=(xs:Club[],phase:number,legs:number)=>{const d=shuffled(xs);return Array.from({length:Math.floor(d.length/2)},(_,i)=>{const kickoff=["18:00","19:00","21:30"][i%3]!;const overflow=i>=3;const transmissions=phase>=7?ALL_BROADCASTERS:overflow?["KE TV Sports"]:[BROADCASTERS[i%5]!];return {id:"f"+phase+"-"+i,home:d[i*2]!,away:d[i*2+1]!,legs:Array.from({length:legs},()=>({})),transmissions,kickoff};});};
-const firstPairs=[["Ji-Paraná|RO","FC Pantanal|MS"],["Ivinhema|MS","Independente-AP|AP"],["Baré|RR","Madureira|RJ"],["Gama|DF","Monte Roraima|RR"],["Galvez|AC","Guaporé|RO"],["Vasco-AC|AC","Velo Clube|SP"],["Araguaína|TO","Primavera-SP|SP"],["Sampaio Corrêa-RJ|RJ","Desportiva Ferroviária|ES"],["Betim|MG","Piauí|PI"],["América de Propriá|SE","Tirol|CE"],["Santa Catarina|SC","IAPE|MA"],["Porto Seguro|BA","Serra Branca|PB"],["Maguary|PE","Laguna|RN"],["Primavera-MT|MT","Bragantino-PA|PA"]];
+const firstPairs:[string,string][]=[["Ji-Paraná|RO","FC Pantanal|MS"],["Ivinhema|MS","Independente-AP|AP"],["Baré|RR","Madureira|RJ"],["Gama|DF","Monte Roraima|RR"],["Galvez|AC","Guaporé|RO"],["Vasco-AC|AC","Velo Clube|SP"],["Araguaína|TO","Primavera-SP|SP"],["Sampaio Corrêa-RJ|RJ","Desportiva Ferroviária|ES"],["Betim|MG","Piauí|PI"],["América de Propriá|SE","Tirol|CE"],["Santa Catarina|SC","IAPE|MA"],["Porto Seguro|BA","Serra Branca|PB"],["Maguary|PE","Laguna|RN"],["Primavera-MT|MT","Bragantino-PA|PA"]];
 const clubByName=new Map(CLUBS.map(c=>[c.name+"|"+c.state,c]));
 const initial=():Cup=>({phase:0,rounds:[firstPairs.map((pair,i)=>({id:"r1-"+i,home:clubByName.get(pair[0])!,away:clubByName.get(pair[1])!,legs:[{}],transmissions:i>=3?["KE TV Sports"]:[BROADCASTERS[i%5]!],kickoff:["18:00","19:00","21:30"][i%3]!}))]});
 function Page(){
@@ -163,7 +165,7 @@ function Page(){
  function advance(){
   if(!allDone)return;
   const winners=current.map(t=>t.winner!);
-  if(cup.phase===8){setCup(o=>({...o,champion:winners[0]}));setNotice("Campeão definido!");return;}
+  if(cup.phase===8){setCup(o=>({...o,champion:winners[0]!}));setNotice("Campeão definido!");return;}
   const next=cup.phase+1;let entrants:Club[];
   if(next===1){const firstIds=new Set(current.flatMap(t=>[t.home.id,t.away.id]));entrants=[...winners,...C.filter(c=>!firstIds.has(c.id))];}
   else if(next===2){entrants=[...winners,...B];}
