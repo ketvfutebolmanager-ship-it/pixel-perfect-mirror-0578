@@ -78,7 +78,7 @@ function Page() {
         </label>
       </section>
       <div className="mb-4 rounded-md border border-amber-500/40 bg-amber-500/5 p-3 text-sm">
-        <strong>Importação inicial parcial:</strong> 30 atletas com estatísticas identificadas nas Séries A e B. Os demais elencos ainda serão conferidos; esta lista não representa os grupos completos.
+        <strong>Base de elencos em atualização:</strong> jogadores com cadastro e fonte identificada são exibidos conforme a divisão e o clube selecionados. Elencos ainda não conferidos podem aparecer parcialmente.
       </div>
       <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
         <h2 className="font-display text-xl font-bold uppercase">{division} · {players.length} atletas cadastrados</h2>
@@ -106,7 +106,7 @@ function Page() {
         </section>}
       </> : <section className="rounded-md border border-dashed border-border bg-card p-6">
         <h2 className="font-display text-xl font-bold uppercase">Elencos aguardando importação</h2>
-        <p className="mt-2 text-sm text-muted-foreground">Os filtros por divisão e clube e a abertura do perfil individual já estão preparados. A base de atletas verificados ainda não foi carregada nesta divisão; não vou inventar jogadores ou estatísticas.</p>
+        <p className="mt-2 text-sm text-muted-foreground">Não há jogadores cadastrados para esta combinação de divisão e clube. Confira os filtros ou aguarde a importação do elenco verificado.</p>
         <p className="mt-3 text-xs text-muted-foreground">Status da base: {PLAYER_DATA_STATUS}</p>
       </section>}
     </>
