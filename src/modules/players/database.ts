@@ -23491,6 +23491,71 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "natanael-laguna", name: "Natanael", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ATA",
     source: "https://ge.globo.com/rn/futebol/times/laguna/noticia/2026/04/01/laguna-passa-por-reformulacao-para-primeira-participacao-na-serie-d.ghtml", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "noninha-laguna", name: "Noninha", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-jacare-laguna", name: "Victor Jacaré", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ZAG",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "erivelton-laguna", name: "Erivelton", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cafe-laguna", name: "Café", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "romulo-laguna", name: "Rômulo", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "higor-gabriel-laguna", name: "Higor Gabriel", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "GOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "davi-laguna", name: "Davi", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ZAG",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaiky-laguna", name: "Kaiky", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ferrugem-laguna", name: "Ferrugem", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "VOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "enrique-moran-laguna", name: "Enrique Morán", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "danilinho-laguna", name: "Danilinho", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hector-urrego-laguna", name: "Hector Urrego", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ZAG",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "iranilson-laguna", name: "Iranilson", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "LAT",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "samuel-filipi-fidelis-peixoto-laguna", name: "Samuel Filipi Fidelis Peixoto", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "LAT",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-salvador-laguna", name: "Lucas Salvador", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "ZAG",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-vitor-de-oliveira-dreger-laguna", name: "João Vitor de Oliveira Dreger", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
