@@ -22636,6 +22636,35 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "waltinho-inhumas", name: "Waltinho", clubId: "inhumas", clubName: "Inhumas", division: "Série D", position: "ATA",
     source: "https://classificacaogeral.com.br/clube/20708/inhumas", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "hiago-lucas-guarany-de-bage", name: "Hiago Lucas", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "LAT",
+    source: "CBF — súmula e escalação Guarany de Bagé x Cianorte, Série D 2026; Jornal Minuano — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitor-oliveira-guarany-de-bage", name: "Vitor Oliveira", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "LAT",
+    source: "CBF — súmula e escalação Guarany de Bagé x Cianorte, Série D 2026; Jornal Minuano — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-cunha-guarany-de-bage", name: "David Cunha", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "VOL",
+    source: "CBF — súmula e escalação Guarany de Bagé x Cianorte, Série D 2026; Jornal Minuano — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulinho-souza-guarany-de-bage", name: "Paulinho Souza", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "VOL",
+    source: "CBF — súmula e escalação Guarany de Bagé x Cianorte, Série D 2026; Jornal Minuano — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-guimaraes-guarany-de-bage", name: "Matheus Guimarães", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "ATA",
+    source: "CBF — súmula e escalação Guarany de Bagé x Cianorte, Série D 2026; Jornal Minuano — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-paulo-guarany-de-bage", name: "Marcos Paulo", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "ATA",
+    source: "CBF — súmula e escalação Guarany de Bagé x Cianorte, Série D 2026; Jornal Minuano — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "silas-guarany-de-bage", name: "Silas", clubId: "guarany-de-bage", clubName: "Guarany de Bagé", division: "Série D", position: "MEI",
+    source: "CBF — súmula e escalação Guarany de Bagé x Cianorte, Série D 2026; Jornal Minuano — elenco 2026", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
