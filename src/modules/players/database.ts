@@ -20699,6 +20699,43 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "robinho-brasil-rs", name: "Robinho", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ATA",
     source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "adriano-czermainski-brasil-rs", name: "Adriano Czermainski", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/64810?tab=atletas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-dias-gelatti-brasil-rs", name: "Rafael Dias Gelatti", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/64810?tab=atletas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-de-campos-lemons-brasil-rs", name: "Matheus de Campos Lemons", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/64810?tab=atletas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thobias-jean-fernandes-brasil-rs", name: "Thobias Jean Fernandes", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/64810?tab=atletas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-dias-oliveira-brasil-rs", name: "Daniel Dias Oliveira", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/64810?tab=atletas", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "iury-tanque-brasil-rs", name: "Iury Tanque", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "saulo-brasil-rs", name: "Saulo", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ZAG",
+    source: "https://jogohoje.esp.br/time/brasil-de-pelotas/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dg-brasil-rs", name: "DG", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ATA",
+    source: "https://jogohoje.esp.br/time/brasil-de-pelotas/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jacsson-brasil-rs", name: "Jacsson", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "GOL",
+    source: "https://www.fotmob.com/pt-BR/teams/162165/overview/brasil-de-pelotas/teams", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
