@@ -169,6 +169,7 @@ export interface FileRoutesById {
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos/': typeof CampeonatosIndexRoute
+  '/copa-do-brasil': typeof CopaDoBrasilRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -189,6 +190,7 @@ export interface FileRouteTypes {
     | '/transferencias'
     | '/campeonatos/$divisao'
     | '/campeonatos/'
+    | '/copa-do-brasil'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -207,6 +209,7 @@ export interface FileRouteTypes {
     | '/transferencias'
     | '/campeonatos/$divisao'
     | '/campeonatos'
+    | '/copa-do-brasil'
   id:
     | '__root__'
     | '/'
@@ -225,6 +228,7 @@ export interface FileRouteTypes {
     | '/transferencias'
     | '/campeonatos/$divisao'
     | '/campeonatos/'
+    | '/copa-do-brasil'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -344,6 +348,13 @@ declare module '@tanstack/react-router' {
       path: '/transferencias'
       fullPath: '/transferencias'
       preLoaderRoute: typeof TransferenciasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/copa-do-brasil': {
+      id: '/copa-do-brasil'
+      path: '/copa-do-brasil'
+      fullPath: '/copa-do-brasil'
+      preLoaderRoute: typeof CopaDoBrasilRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/copa-do-brasil': {
