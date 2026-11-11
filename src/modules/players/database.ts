@@ -27060,6 +27060,15 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "ezequiel-serra-branca", name: "Ezequiel", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "ATA",
     source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "danilo-mariotto-sao-joseense", name: "Danilo Mariotto", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "ATA",
+    source: "https://www.sofascore.com/pt/football/team/independente-sao-joseense/313924", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "elias-carioca-sao-joseense", name: "Elias Carioca", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "ATA",
+    source: "https://www.sofascore.com/pt/football/team/independente-sao-joseense/313924", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
