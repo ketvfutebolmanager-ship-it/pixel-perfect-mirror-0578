@@ -24358,124 +24358,721 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "oliveira-monteroraima", name: "Oliveira", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "GOL",
+    id: "oliveira-monteroraima", name: "Oliveira", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "GOL",
     source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "luis-henrique-monteroraima", name: "Luis Henrique", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "GOL",
+    id: "luis-henrique-monteroraima", name: "Luis Henrique", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "GOL",
     source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "diego-rocha-monteroraima", name: "Diego Rocha", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "ZAG",
+    id: "diego-rocha-monteroraima", name: "Diego Rocha", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "ZAG",
     source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "luis-gustavo-monteroraima", name: "Luis Gustavo", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "ZAG",
+    id: "luis-gustavo-monteroraima", name: "Luis Gustavo", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "ZAG",
     source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "boca-monteroraima", name: "Boca", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "VOL",
+    id: "boca-monteroraima", name: "Boca", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "VOL",
     source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "ferrugem-monteroraima", name: "Ferrugem", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "VOL",
+    id: "ferrugem-monteroraima", name: "Ferrugem", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "VOL",
     source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "kayo-vieira-monteroraima", name: "Kayo Vieira", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "VOL",
+    id: "kayo-vieira-monteroraima", name: "Kayo Vieira", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "VOL",
     source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "samuka-monteroraima", name: "Samuka", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "VOL",
+    id: "samuka-monteroraima", name: "Samuka", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "VOL",
     source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "jefer-arboleda-monteroraima", name: "Jefer Arboleda", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "ATA",
+    id: "jefer-arboleda-monteroraima", name: "Jefer Arboleda", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "ATA",
     source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "eydison-monteroraima", name: "Eydison", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "ATA",
+    id: "eydison-monteroraima", name: "Eydison", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "ATA",
     source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "dante-monteroraima", name: "Dante", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "ATA",
+    id: "dante-monteroraima", name: "Dante", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "ATA",
     source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "kassio-motoclub", name: "Kassio", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "GOL",
+    id: "kassio-motoclub", name: "Kassio", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "GOL",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "isaac-motoclub", name: "Isaac", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "GOL",
+    id: "isaac-motoclub", name: "Isaac", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "GOL",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "denilson-motoclub", name: "Denilson", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ZAG",
+    id: "denilson-motoclub", name: "Denilson", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "ZAG",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "washington-motoclub", name: "Washington", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ZAG",
+    id: "washington-motoclub", name: "Washington", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "ZAG",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "victor-souza-motoclub", name: "Victor Souza", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ZAG",
+    id: "victor-souza-motoclub", name: "Victor Souza", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "ZAG",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "gabriel-motoclub", name: "Gabriel", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "LAT",
+    id: "gabriel-motoclub", name: "Gabriel", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "LAT",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "roberth-motoclub", name: "Roberth", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "LAT",
+    id: "roberth-motoclub", name: "Roberth", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "LAT",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "romullo-carioca-motoclub", name: "Romullo Carioca", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "LAT",
+    id: "romullo-carioca-motoclub", name: "Romullo Carioca", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "LAT",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "patrick-motoclub", name: "Patrick", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "VOL",
+    id: "patrick-motoclub", name: "Patrick", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "VOL",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "jair-motoclub", name: "Jair", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "VOL",
+    id: "jair-motoclub", name: "Jair", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "VOL",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "diego-valderrama-motoclub", name: "Diego Valderrama", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "VOL",
+    id: "diego-valderrama-motoclub", name: "Diego Valderrama", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "VOL",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "athos-motoclub", name: "Athos", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "MEI",
+    id: "athos-motoclub", name: "Athos", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "MEI",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "cleitinho-motoclub", name: "Cleitinho", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "MEI",
+    id: "cleitinho-motoclub", name: "Cleitinho", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "MEI",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "fabio-motoclub", name: "Fábio", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ATA",
+    id: "fabio-motoclub", name: "Fábio", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "ATA",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "william-motoclub", name: "William", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ATA",
+    id: "william-motoclub", name: "William", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "ATA",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "emerson-nike-motoclub", name: "Emerson Nike", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ATA",
+    id: "emerson-nike-motoclub", name: "Emerson Nike", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "ATA",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "bacurau-motoclub", name: "Bacurau", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ATA",
+    id: "bacurau-motoclub", name: "Bacurau", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "ATA",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "warllem-motoclub", name: "Warllem", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ATA",
+    id: "warllem-motoclub", name: "Warllem", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "ATA",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
   },
   {
-    id: "netinho-motoclub", name: "Netinho", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ATA",
+    id: "netinho-motoclub", name: "Netinho", clubId: "moto-club", clubName: "Moto Club", division: "Série D", position: "ATA",
     source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  }
+,
+  {
+    id: "robalo-nacional-am", name: "Robalo", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-alan-nacional-am", name: "Caio Alan", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rayan-nacional-am", name: "Rayan", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wendel-nery-nacional-am", name: "Wendel Nery", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "miliano-nacional-am", name: "Miliano", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-kalyman-nacional-am", name: "Caio Kalyman", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "barbiere-nacional-am", name: "Barbiere", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alisson-santos-nacional-am", name: "Alisson Santos", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alagoano-nacional-am", name: "Alagoano", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "silas-nacional-am", name: "Silas", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaio-wilker-nacional-am", name: "Kaio Wilker", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "icaro-souza-nacional-am", name: "Ícaro Souza", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wallace-nacional-am", name: "Wallace", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mardley-nacional-am", name: "Mardley", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "icaro-nacional-am", name: "Ícaro", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodrigo-nacional-am", name: "Rodrigo", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adenilson-nacional-am", name: "Adenilson", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitinho-nacional-am", name: "Vitinho", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "stefano-nacional-am", name: "Stefano", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ryan-luka-nacional-am", name: "Ryan Luka", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renanzinho-nacional-am", name: "Renanzinho", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafa-marcos-nacional-am", name: "Rafa Marcos", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kevin-nacional-am", name: "Kevin", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joaozinho-nacional-am", name: "Joãozinho", clubId: "nacional-am", clubName: "Nacional-AM", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2025/12/22/nacional-am-apresenta-elenco-com-novidades-como-renanzinho-alisson-e-outros-para-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-teixeira-noroeste", name: "Matheus Teixeira", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-fernandes-noroeste", name: "Henrique Fernandes", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jeferson-romario-noroeste", name: "Jeferson Romário", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ph-noroeste", name: "PH", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leocovick-noroeste", name: "Leocovick", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wesley-silva-noroeste", name: "Wesley Silva", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yuri-ferraz-noroeste", name: "Yuri Ferraz", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pacheco-noroeste", name: "Pacheco", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-carrerete-noroeste", name: "Pedro Carrerete", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renan-araujo-noroeste", name: "Renan Araújo", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "maycon-noroeste", name: "Maycon", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ronaldo-alves-noroeste", name: "Ronaldo Alves", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "igor-cristiano-noroeste", name: "Igor Cristiano", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-sena-noroeste", name: "Léo Sena", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "taua-antunes-noroeste", name: "Tauã Antunes", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "peixoto-noroeste", name: "Peixoto", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-guedes-noroeste", name: "Vinicius Guedes", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caua-aguiar-noroeste", name: "Cauã Aguiar", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "denner-noroeste", name: "Denner", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-lopes-noroeste", name: "Thiago Lopes", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-belem-noroeste", name: "Lucas Belém", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-felipe-noroeste", name: "Pedro Felipe", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-silva-noroeste", name: "Rafael Silva", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marlyson-noroeste", name: "Marlyson", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tocantins-noroeste", name: "Tocantins", clubId: "noroeste", clubName: "Noroeste", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/sp/tem-esporte/futebol/times/noroeste/noticia/2026/04/01/noroeste-apresenta-mais-dois-reforcos-para-a-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mota-nova-iguacu", name: "Mota", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "GOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-miranda-nova-iguacu", name: "Matheus Miranda", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "GOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "arthur-vidal-nova-iguacu", name: "Arthur Vidal", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "GOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wender-almeida-nova-iguacu", name: "Wender Almeida", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "LAT",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "arthur-neves-nova-iguacu", name: "Arthur Neves", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "LAT",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yan-silva-nova-iguacu", name: "Yan Silva", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "LAT",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "miguel-nobrega-nova-iguacu", name: "Miguel Nóbrega", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "LAT",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "augusto-guse-nova-iguacu", name: "Augusto Guse", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "LAT",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sidney-nova-iguacu", name: "Sidney", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-zavioli-nova-iguacu", name: "Daniel Zavioli", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-gabriel-nova-iguacu", name: "Zé Gabriel", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaua-santos-nova-iguacu", name: "Kauã Santos", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "davi-alves-nova-iguacu", name: "Davi Alves", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-kayron-nova-iguacu", name: "Guilherme Kayron", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "iago-lacerda-nova-iguacu", name: "Iago Lacerda", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "VOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-thomaz-nova-iguacu", name: "Pedro Thomaz", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "VOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-rafael-nova-iguacu", name: "Léo Rafael", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "VOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jorge-pedra-nova-iguacu", name: "Jorge Pedra", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "VOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-ouriques-nova-iguacu", name: "Pedro Ouriques", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "VOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-cruz-nova-iguacu", name: "Lucas Cruz", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "MEI",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alexandre-nova-iguacu", name: "Alexandre", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "MEI",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-silva-nova-iguacu", name: "Pedro Silva", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "MEI",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rickelme-nova-iguacu", name: "Rickelme", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "MEI",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-pedro-nova-iguacu", name: "João Pedro", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "MEI",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "xandinho-nova-iguacu", name: "Xandinho", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eduardo-thomasel-nova-iguacu", name: "Eduardo Thomasel", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-charopem-nova-iguacu", name: "Vinícius Charopem", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leonardo-david-nova-iguacu", name: "Leonardo David", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "philippe-costa-nova-iguacu", name: "Philippe Costa", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-capanni-nova-iguacu", name: "Luan Capanni", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bill-nova-iguacu", name: "Bill", clubId: "nova-iguacu", clubName: "Nova Iguaçu", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14108", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mayson-operario-ms", name: "Mayson", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-covolan-operario-ms", name: "Lucas Covolan", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucca-moraes-machado-fernandes-operario-ms", name: "Lucca Moraes Machado Fernandes", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mateus-petri-operario-ms", name: "Mateus Petri", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "reinaldo-operario-ms", name: "Reinaldo", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "einstein-operario-ms", name: "Einstein", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-biteco-operario-ms", name: "Gabriel Biteco", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "titi-operario-ms", name: "Titi", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-teixeira-operario-ms", name: "Gabriel Teixeira", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-teixeira-operario-ms", name: "Guilherme Teixeira", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonilson-operario-ms", name: "Jonilson", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leylon-operario-ms", name: "Leylon", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "carlos-miguel-operario-ms", name: "Carlos Miguel", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caua-godoy-operario-ms", name: "Cauã Godoy", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-vitor-operario-ms", name: "Zé Vitor", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonas-operario-ms", name: "Jonas", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-galdezani-operario-ms", name: "Matheus Galdezani", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wilsinho-operario-ms", name: "Wilsinho", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lauder-operario-ms", name: "Lauder", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "roger-modesto-operario-ms", name: "Roger Modesto", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luisinho-operario-ms", name: "Luisinho", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eduardo-tanque-operario-ms", name: "Eduardo Tanque", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "danilinho-operario-ms", name: "Danilinho", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitor-robinho-operario-ms", name: "Vitor Robinho", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-fenga-operario-ms", name: "Léo Fenga", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "italo-leite-operario-ms", name: "Ítalo Leite", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joas-mota-operario-ms", name: "Joás Mota", clubId: "operario-ms", clubName: "Operário-MS", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/ms/futebol/times/operario-ms/noticia/2025/12/17/operario-ms-apresenta-elenco-da-era-saf-com-jonas-e-galdezani-confira-os-jogadores.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alvaro-operario-mt", name: "Álvaro", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-henz-operario-mt", name: "Pedro Henz", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-carioca-operario-mt", name: "Matheus Carioca", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yago-ramon-operario-mt", name: "Yago Ramon", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jeanderson-operario-mt", name: "Jeanderson", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-hulk-operario-mt", name: "Felipe Hulk", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "roque-junior-operario-mt", name: "Roque Júnior", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rayan-correa-operario-mt", name: "Rayan Corrêa", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luciano-operario-mt", name: "Luciano", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mastherson-operario-mt", name: "Mastherson", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-cruz-operario-mt", name: "Felipe Cruz", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "castanha-operario-mt", name: "Castanha", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaka-operario-mt", name: "Kaká", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nenem-operario-mt", name: "Neném", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pepe-operario-mt", name: "Pepê", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "maicky-operario-mt", name: "Maicky", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "erick-lacerda-operario-mt", name: "Erick Lacerda", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "keven-operario-mt", name: "Keven", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sidnei-neto-operario-mt", name: "Sidnei Neto", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-lotto-operario-mt", name: "Lucas Lotto", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-goncalves-operario-mt", name: "Léo Gonçalves", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lyncon-filipe-operario-mt", name: "Lyncon Filipe", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alisson-farias-operario-mt", name: "Alisson Farias", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-gustavo-operario-mt", name: "Luiz Gustavo", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaue-fernandes-operario-mt", name: "Kauê Fernandes", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wagner-marques-operario-mt", name: "Wagner Marques", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yago-operario-mt", name: "Yago", clubId: "operario-mt", clubName: "Operário-MT", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/brasileirao-serie-d/noticia/2026/03/19/operario-vg-reformula-elenco-para-serie-d-do-brasileiro.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-bretas-oratorio", name: "Rafael Bretas", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "GOL",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jhonatan-oratorio", name: "Jhonatan", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "GOL",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "carlos-eduardo-oratorio", name: "Carlos Eduardo", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "GOL",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-eduardo-oratorio", name: "Matheus Eduardo", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "ZAG",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "heverton-oratorio", name: "Heverton", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "ZAG",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulo-oratorio", name: "Paulo", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "ZAG",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "patrick-leme-oratorio", name: "Patrick Leme", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "LAT",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dennys-oratorio", name: "Dennys", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "ZAG",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "igor-oratorio", name: "Igor", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "MEI",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "elder-oratorio", name: "Elder", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "MEI",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-lucas-oratorio", name: "Rafael Lucas", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "MEI",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-oratorio", name: "Matheus", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "VOL",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "brendow-oratorio", name: "Brendow", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "ATA",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "magno-dos-santos-ribeiro-oratorio", name: "Magno dos Santos Ribeiro", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "ATA",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-marreta-oratorio", name: "Gabriel Marreta", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "ATA",
+    source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
   }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
