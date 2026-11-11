@@ -25073,6 +25073,14 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     id: "gabriel-marreta-oratorio", name: "Gabriel Marreta", clubId: "oratorio", clubName: "Oratório", division: "Série D", position: "ATA",
     source: "https://jogohoje.esp.br/time/oratorio/elenco", verifiedAt: "2026-11-11"
+    },
+  {
+    id: "rodolfo-oliveira-monte-roraima", name: "Rodolfo Oliveira", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/rr/futebol/times/monte-roraima/noticia/2026/06/17/monte-roraima-reforca-elenco-para-mata-mata-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "digao-monte-roraima", name: "Digão", clubId: "monte-roraima", clubName: "Monte Roraima", division: "Série D", position: "LAT",
+    source: "https://www.folhabv.com.br/esporte/monte-roraima-contrata-reforcos-para-duelo-decisivo-diante-do-guapore-na-serie-d/", verifiedAt: "2026-11-11"
   }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
