@@ -23894,131 +23894,131 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
   },
   {
-    id: "diego-almeida-marciliodias", name: "Diego Almeida", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "GOL",
+    id: "diego-almeida-marciliodias", name: "Diego Almeida", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "GOL",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "joao-freitas-marciliodias", name: "João Freitas", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "GOL",
+    id: "joao-freitas-marciliodias", name: "João Freitas", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "GOL",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "juan-coelho-marciliodias", name: "Juan Coelho", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "GOL",
+    id: "juan-coelho-marciliodias", name: "Juan Coelho", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "GOL",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "jonathan-queiroz-marciliodias", name: "Jonathan Queiroz", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "GOL",
+    id: "jonathan-queiroz-marciliodias", name: "Jonathan Queiroz", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "GOL",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "wesley-marciliodias", name: "Wesley", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "LAT",
+    id: "wesley-marciliodias", name: "Wesley", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "LAT",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "joaquin-marciliodias", name: "Joaquin", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "LAT",
+    id: "joaquin-marciliodias", name: "Joaquin", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "LAT",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "bruno-boca-marciliodias", name: "Bruno Boca", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "LAT",
+    id: "bruno-boca-marciliodias", name: "Bruno Boca", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "LAT",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "caua-goncalves-marciliodias", name: "Cauã Gonçalves", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "LAT",
+    id: "caua-goncalves-marciliodias", name: "Cauã Gonçalves", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "LAT",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "claudinho-marciliodias", name: "Claudinho", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
+    id: "claudinho-marciliodias", name: "Claudinho", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "marcelo-sousa-marciliodias", name: "Marcelo Sousa", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
+    id: "marcelo-sousa-marciliodias", name: "Marcelo Sousa", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "rony-marciliodias", name: "Rony", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
+    id: "rony-marciliodias", name: "Rony", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "ze-mendes-marciliodias", name: "Zé Mendes", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
+    id: "ze-mendes-marciliodias", name: "Zé Mendes", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "ranghetti-marciliodias", name: "Ranghetti", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
+    id: "ranghetti-marciliodias", name: "Ranghetti", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "felipe-baiano-marciliodias", name: "Felipe Baiano", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
+    id: "felipe-baiano-marciliodias", name: "Felipe Baiano", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "guilherme-kante-marciliodias", name: "Guilherme Kanté", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
+    id: "guilherme-kante-marciliodias", name: "Guilherme Kanté", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "acosta-marciliodias", name: "Acosta", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
+    id: "acosta-marciliodias", name: "Acosta", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "adryan-marciliodias", name: "Adryan", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
+    id: "adryan-marciliodias", name: "Adryan", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "emerson-marciliodias", name: "Emerson", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
+    id: "emerson-marciliodias", name: "Emerson", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "murilo-marciliodias", name: "Murilo", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
+    id: "murilo-marciliodias", name: "Murilo", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "cesinha-marciliodias", name: "Cesinha", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "MEI",
+    id: "cesinha-marciliodias", name: "Cesinha", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "MEI",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "lucas-de-sa-marciliodias", name: "Lucas de Sá", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "MEI",
+    id: "lucas-de-sa-marciliodias", name: "Lucas de Sá", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "MEI",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "luis-fabiano-marciliodias", name: "Luis Fabiano", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "MEI",
+    id: "luis-fabiano-marciliodias", name: "Luis Fabiano", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "MEI",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "cristiano-oliveira-marciliodias", name: "Cristiano Oliveira", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    id: "cristiano-oliveira-marciliodias", name: "Cristiano Oliveira", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "lucas-evaristo-marciliodias", name: "Lucas Evaristo", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    id: "lucas-evaristo-marciliodias", name: "Lucas Evaristo", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "garrinsha-marciliodias", name: "Garrinsha", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    id: "garrinsha-marciliodias", name: "Garrinsha", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "caio-hones-marciliodias", name: "Caio Hones", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    id: "caio-hones-marciliodias", name: "Caio Hones", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "davi-schwenck-marciliodias", name: "Davi Schwenck", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    id: "davi-schwenck-marciliodias", name: "Davi Schwenck", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "vitinho-marciliodias", name: "Vitinho", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    id: "vitinho-marciliodias", name: "Vitinho", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "fernando-viana-marciliodias", name: "Fernando Viana", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    id: "fernando-viana-marciliodias", name: "Fernando Viana", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "caio-zimmermann-marciliodias", name: "Caio Zimmermann", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    id: "caio-zimmermann-marciliodias", name: "Caio Zimmermann", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "jackson-marciliodias", name: "Jackson", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    id: "jackson-marciliodias", name: "Jackson", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
-    id: "renanzinho-marciliodias", name: "Renanzinho", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    id: "renanzinho-marciliodias", name: "Renanzinho", clubId: "marcilio-dias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
     source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
   },
   {
