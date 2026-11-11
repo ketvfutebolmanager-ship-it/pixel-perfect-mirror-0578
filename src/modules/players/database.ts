@@ -20736,6 +20736,351 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "jacsson-brasil-rs", name: "Jacsson", clubId: "brasil-de-pelotas", clubName: "Brasil-RS", division: "Série D", position: "GOL",
     source: "https://www.fotmob.com/pt-BR/teams/162165/overview/brasil-de-pelotas/teams", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "matheus-alberto-kayser-brasiliense", name: "Matheus Alberto Kayser", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "GOL",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-brasiliense", name: "Felipe", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "GOL",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hudson-brasiliense", name: "Hudson", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "GOL",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jeferson-hermes-brasiliense", name: "Jeferson Hermes", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "GOL",
+    source: "CBF — Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alan-costa-brasiliense", name: "Alan Costa", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "ZAG",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "euller-brasiliense", name: "Euller", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "ZAG",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-junior-brasiliense", name: "Marcos Júnior", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "VOL",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tarta-brasiliense", name: "Tarta", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "MEI",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "elyeser-brasiliense", name: "Elyeser", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "VOL",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "apodi-brasiliense", name: "Apodi", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "ATA",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jackson-brasiliense", name: "Jackson", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "ATA",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wallace-pernambucano-brasiliense", name: "Wallace Pernambucano", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "ATA",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "anderson-magrao-brasiliense", name: "Anderson Magrão", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "ATA",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "julio-vitor-brasiliense", name: "Júlio Vitor", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "ATA",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-hones-brasiliense", name: "Caio Hones", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "ATA",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "montanha-brasiliense", name: "Montanha", clubId: "brasiliense", clubName: "Brasiliense", division: "Série D", position: "ATA",
+    source: "Correio Braziliense — elenco 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "raffler-mateus-decisao", name: "Raffler Mateus", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-gabriel-decisao", name: "João Gabriel", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ramon-victor-decisao", name: "Ramon Victor", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodrigues-mateus-decisao", name: "Rodrigues Mateus", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marolla-decisao", name: "Marolla", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedrao-decisao", name: "Pedrão", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "r-batista-decisao", name: "R. Batista", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "LAT",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "israel-decisao", name: "Israel", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eder-monteiro-decisao", name: "Éder Monteiro", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-araujo-decisao", name: "Henrique Araujo", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alessandro-costa-de-lima-decisao", name: "Alessandro Costa de Lima", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dayvisson-decisao", name: "Dayvisson", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonas-decisao", name: "Jonas", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedrinho-decisao", name: "Pedrinho", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lipek-luis-decisao", name: "Lipek Luis", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leal-rodrigo-decisao", name: "Leal Rodrigo", clubId: "decisao", clubName: "Decisão", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thulio-democrata-de-governador-valadares", name: "Thulio", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-pezao-democrata-de-governador-valadares", name: "Gabriel Pezão", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-francisco-de-jesus-thiago-democrata-de-governador-valadares", name: "Henrique Francisco de Jesus Thiago", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-klein-democrata-de-governador-valadares", name: "Rafael Klein", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-democrata-de-governador-valadares", name: "Henrique", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "chico-bala-democrata-de-governador-valadares", name: "Chico Bala", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marco-antonio-democrata-de-governador-valadares", name: "Marco Antonio", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bryan-democrata-de-governador-valadares", name: "Bryan", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "LAT",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "junior-ivan-democrata-de-governador-valadares", name: "Junior Ivan", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dante-democrata-de-governador-valadares", name: "Dante", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-democrata-de-governador-valadares", name: "Marcos", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-dourado-democrata-de-governador-valadares", name: "Leo Dourado", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "LAT",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-vieira-democrata-de-governador-valadares", name: "Gabriel Vieira", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-henrique-democrata-de-governador-valadares", name: "Luiz Henrique", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bernardo-democrata-de-governador-valadares", name: "Bernardo", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "giovanni-carignano-democrata-de-governador-valadares", name: "Giovanni Carignano", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mauricio-democrata-de-governador-valadares", name: "Maurício", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "g-batata-democrata-de-governador-valadares", name: "G. Batata", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-silva-democrata-de-governador-valadares", name: "Pedro Silva", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tiago-cunha-democrata-de-governador-valadares", name: "Tiago Cunha", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "willian-mococa-democrata-de-governador-valadares", name: "Willian Mococa", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcio-jonatan-democrata-de-governador-valadares", name: "Márcio Jonatan", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "robert-democrata-de-governador-valadares", name: "Robert", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelinho-democrata-de-governador-valadares", name: "Marcelinho", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thomasel-democrata-de-governador-valadares", name: "Thomasel", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "richard-luca-democrata-de-governador-valadares", name: "Richard Luca", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "elton-democrata-de-governador-valadares", name: "Elton", clubId: "democrata-de-governador-valadares", clubName: "Democrata GV", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "andre-luiz-fc-cascavel", name: "André Luiz", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sidnei-fc-cascavel", name: "Sidnei", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-felipe-fc-cascavel", name: "Leo Felipe", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "GOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "libano-fc-cascavel", name: "Libano", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "LAT",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cleiton-fc-cascavel", name: "Cleiton", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "LAT",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "borech-fc-cascavel", name: "Borech", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renan-cosenza-fc-cascavel", name: "Renan Cosenza", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "geovane-fc-cascavel", name: "Geovane", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-rodrigues-fc-cascavel", name: "Zé Rodrigues", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-herrero-fc-cascavel", name: "Leo Herrero", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "ZAG",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tapioca-fc-cascavel", name: "Tapioca", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "LAT",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luizinho-fc-cascavel", name: "Luizinho", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitor-amaral-fc-cascavel", name: "Vitor Amaral", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kauhe-galdino-fc-cascavel", name: "Kauhe Galdino", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-henrique-fc-cascavel", name: "Luiz Henrique", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "antony-fc-cascavel", name: "Antony", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vanderlei-fc-cascavel", name: "Vanderlei", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "VOL",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guru-fc-cascavel", name: "Guru", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "robinho-fc-cascavel", name: "Robinho", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "negueba-fc-cascavel", name: "Negueba", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "s-tiba-fc-cascavel", name: "S. Tiba", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "haruna-hassan-fc-cascavel", name: "Haruna Hassan", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "saci-vitor-fc-cascavel", name: "Saci Vitor", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitor-braga-fc-cascavel", name: "Vitor Braga", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "MEI",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-carlos-fc-cascavel", name: "Zé Carlos", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonathan-estiven-palacios-castillo-fc-cascavel", name: "Jonathan Estiven Palacios Castillo", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ryan-fc-cascavel", name: "Ryan", clubId: "fc-cascavel", clubName: "FC Cascavel", division: "Série D", position: "ATA",
+    source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
