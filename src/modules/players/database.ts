@@ -23556,6 +23556,927 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "joao-vitor-de-oliveira-dreger-laguna", name: "João Vitor de Oliveira Dreger", clubId: "laguna", clubName: "Laguna", division: "Série D", position: "MEI",
     source: "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-d/2026/laguna-x-sousa/834179?view=escalacao", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "juliano-maguary", name: "Juliano", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "keu-maguary", name: "Keu", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mauricio-maguary", name: "Maurício", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guedes-maguary", name: "Guedes", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-barcellos-maguary", name: "Vinicius Barcellos", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nathan-silva-maguary", name: "Nathan Silva", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-fontes-maguary", name: "Gabriel Fontes", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "davyson-maguary", name: "Davyson", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-zanella-maguary", name: "Matheus Zanella", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-kawan-maguary", name: "Lucas Kawan", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-vinicius-maguary", name: "Bruno Vinícius", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "memo-maguary", name: "Memo", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "iago-maguary", name: "Iago", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jallyson-maguary", name: "Jallyson", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marquinhos-maguary", name: "Marquinhos", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "francisco-maguary", name: "Francisco", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matias-verdun-maguary", name: "Matías Verdún", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-alves-maguary", name: "Henrique Alves", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-furtado-maguary", name: "Gabriel Furtado", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mayco-felix-maguary", name: "Mayco Félix", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kannu-maguary", name: "Kannu", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitinho-maguary", name: "Vitinho", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "erick-cunha-maguary", name: "Erick Cunha", clubId: "maguary", clubName: "Maguary", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/pe/caruaru-regiao/futebol/times/maguary/noticia/2025/12/01/maguary-faz-reapresentacao-e-inicia-atividades-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "william-menezes-manaus", name: "William Menezes", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "GOL",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eugenio-neto-manaus", name: "Eugênio Neto", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "GOL",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hollyver-manaus", name: "Hollyver", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "GOL",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "manicore-manaus", name: "Manicoré", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "GOL",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gutierrez-manaus", name: "Gutierrez", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ZAG",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "augustine-uche-manaus", name: "Augustine Uche", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ZAG",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "handerson-manaus", name: "Handerson", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ZAG",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-mota-manaus", name: "Diego Mota", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ZAG",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rapha-lasmar-manaus", name: "Raphá Lasmar", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ZAG",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vivico-manaus", name: "Vivico", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "LAT",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-luis-manaus", name: "David Luis", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "LAT",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-manaus", name: "Henrique", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "LAT",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nicolas-feri-manaus", name: "Nicolas Feri", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "LAT",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gilson-alves-manaus", name: "Gilson Alves", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "VOL",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wallace-manaus", name: "Wallace", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "VOL",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "charles-daniel-manaus", name: "Charles Daniel", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "VOL",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adenilson-manaus", name: "Adenilson", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "MEI",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-correia-manaus", name: "Gabriel Correia", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "MEI",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "neko-manaus", name: "Neko", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "MEI",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-bietkoski-manaus", name: "Bruno Bietkoski", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "MEI",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tico-manaus", name: "Tico", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ATA",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonas-manaus", name: "Jonas", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ATA",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "railan-manaus", name: "Railan", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ATA",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-tataccioli-manaus", name: "João Tataccioli", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ATA",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-marinho-manaus", name: "Pedro Marinho", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ATA",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dodo-manaus", name: "Dodô", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ATA",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leo-bahia-manaus", name: "Leo Bahia", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ATA",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leonardo-reis-manaus", name: "Leonardo Reis", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ATA",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thierry-manaus", name: "Thierry", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ATA",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "anderson-manaus", name: "Anderson", clubId: "manaus", clubName: "Manaus", division: "Série D", position: "ATA",
+    source: "https://www.fafamazonas.com.br/site/noticia/manaus-fc-gaviao-apresenta-elenco-para-a-temporada-2026/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-becker-manauara", name: "David Becker", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-boer-manauara", name: "Guilherme Boer", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-vinicius-manauara", name: "Matheus Vinícius", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-manauara", name: "Caio", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jhonathan-moc-manauara", name: "Jhonathan Moc", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "arthur-manauara", name: "Arthur", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitinho-manauara", name: "Vitinho", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabricio-manauara", name: "Fabrício", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-clemente-manauara", name: "Diego Clemente", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "everson-manauara", name: "Everson", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulinho-manauara", name: "Paulinho", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "maicon-manauara", name: "Maicon", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-fernando-manauara", name: "Luis Fernando", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "colina-manauara", name: "Colina", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "giba-manauara", name: "Giba", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marinho-manauara", name: "Marinho", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juninho-manauara", name: "Juninho", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "neto-manauara", name: "Neto", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "falcao-manauara", name: "Falcão", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pardal-manauara", name: "Pardal", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gui-campana-manauara", name: "Gui Campana", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mike-manauara", name: "Mike", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dudu-manauara", name: "Dudu", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-ibiapino-manauara", name: "Rafael Ibiapino", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "igo-cuadrado-manauara", name: "Igo Cuadrado", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-manauara", name: "David", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adriano-klein-manauara", name: "Adriano Klein", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-guilherme-manauara", name: "João Guilherme", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wesley-manauara", name: "Wesley", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "aleffe-manauara", name: "Aleffe", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulo-galvao-manauara", name: "Paulo Galvão", clubId: "manauara", clubName: "Manauara", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/am/futebol/times/manauara/noticia/2025/12/05/manauara-apresenta-elenco-com-31-jogadores-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-almeida-marciliodias", name: "Diego Almeida", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "GOL",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-freitas-marciliodias", name: "João Freitas", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "GOL",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juan-coelho-marciliodias", name: "Juan Coelho", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "GOL",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonathan-queiroz-marciliodias", name: "Jonathan Queiroz", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "GOL",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wesley-marciliodias", name: "Wesley", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "LAT",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joaquin-marciliodias", name: "Joaquin", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "LAT",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-boca-marciliodias", name: "Bruno Boca", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "LAT",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caua-goncalves-marciliodias", name: "Cauã Gonçalves", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "LAT",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "claudinho-marciliodias", name: "Claudinho", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelo-sousa-marciliodias", name: "Marcelo Sousa", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rony-marciliodias", name: "Rony", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-mendes-marciliodias", name: "Zé Mendes", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ranghetti-marciliodias", name: "Ranghetti", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ZAG",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-baiano-marciliodias", name: "Felipe Baiano", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-kante-marciliodias", name: "Guilherme Kanté", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "acosta-marciliodias", name: "Acosta", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adryan-marciliodias", name: "Adryan", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "emerson-marciliodias", name: "Emerson", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "murilo-marciliodias", name: "Murilo", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "VOL",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cesinha-marciliodias", name: "Cesinha", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "MEI",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-de-sa-marciliodias", name: "Lucas de Sá", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "MEI",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-fabiano-marciliodias", name: "Luis Fabiano", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "MEI",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cristiano-oliveira-marciliodias", name: "Cristiano Oliveira", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-evaristo-marciliodias", name: "Lucas Evaristo", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "garrinsha-marciliodias", name: "Garrinsha", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-hones-marciliodias", name: "Caio Hones", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "davi-schwenck-marciliodias", name: "Davi Schwenck", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitinho-marciliodias", name: "Vitinho", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fernando-viana-marciliodias", name: "Fernando Viana", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-zimmermann-marciliodias", name: "Caio Zimmermann", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jackson-marciliodias", name: "Jackson", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renanzinho-marciliodias", name: "Renanzinho", clubId: "marciliodias", clubName: "Marcílio Dias", division: "Série D", position: "ATA",
+    source: "https://www.marciliodias.com.br/elenco.php", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "douglas-dias-maracana", name: "Douglas Dias", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "GOL",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinnicius-maracana", name: "Vinnicius", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "GOL",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-santos-maracana", name: "Diego Santos", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "GOL",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marlon-maracana", name: "Marlon", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ZAG",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-da-dalto-maracana", name: "Pedro Da Dalto", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ZAG",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilha-maracana", name: "Guilha", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ZAG",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "geilson-souza-maracana", name: "Geilson Souza", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ZAG",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-oliveira-maracana", name: "Vinicius Oliveira", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ZAG",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-maracana", name: "Guilherme", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ZAG",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "valdo-paraiba-maracana", name: "Valdo Paraíba", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ZAG",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "edvaine-maracana", name: "Edvaine", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ZAG",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "willian-maracana", name: "Willian", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ZAG",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thalison-maracana", name: "Thalison", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "MEI",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "welton-santana-maracana", name: "Welton Santana", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "MEI",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "robert-maracana", name: "Robert", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "MEI",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lincoln-maracana", name: "Lincoln", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "MEI",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "esquerdinha-maracana", name: "Esquerdinha", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "MEI",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitor-hugo-maracana", name: "Vitor Hugo", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "MEI",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "shider-maracana", name: "Shider", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ATA",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-caninde-maracana", name: "Vinícius Canindé", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ATA",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "junior-goiaba-maracana", name: "Júnior Goiaba", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ATA",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-soares-maracana", name: "Luís Soares", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ATA",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-gabriel-maracana", name: "João Gabriel", clubId: "maracana", clubName: "Maracanã", division: "Série D", position: "ATA",
+    source: "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/vladimir-marques/conheca-todos-os-elencos-e-treinadores-do-campeonato-cearense-2026-1.3724144", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yuri-marica", name: "Yuri", clubId: "marica", clubName: "Maricá", division: "Série D", position: "GOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dida-marica", name: "Dida", clubId: "marica", clubName: "Maricá", division: "Série D", position: "GOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "julio-cesar-marica", name: "Júlio César", clubId: "marica", clubName: "Maricá", division: "Série D", position: "GOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ruan-marica", name: "Ruan", clubId: "marica", clubName: "Maricá", division: "Série D", position: "GOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "andrey-marica", name: "Andrey", clubId: "marica", clubName: "Maricá", division: "Série D", position: "GOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "magno-nunes-marica", name: "Magno Nunes", clubId: "marica", clubName: "Maricá", division: "Série D", position: "LAT",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "almir-marica", name: "Almir", clubId: "marica", clubName: "Maricá", division: "Série D", position: "LAT",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-carioca-marica", name: "Rafael Carioca", clubId: "marica", clubName: "Maricá", division: "Série D", position: "LAT",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelinho-marica", name: "Marcelinho", clubId: "marica", clubName: "Maricá", division: "Série D", position: "LAT",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mendes-marica", name: "Mendes", clubId: "marica", clubName: "Maricá", division: "Série D", position: "LAT",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "possidonio-marica", name: "Possidônio", clubId: "marica", clubName: "Maricá", division: "Série D", position: "LAT",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sandro-silva-marica", name: "Sandro Silva", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-carvalho-marica", name: "Felipe Carvalho", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitor-pereira-marica", name: "Vitor Pereira", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "heltton-marica", name: "Heltton", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-forster-marica", name: "Rafael Forster", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "brenno-marica", name: "Brenno", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "emanuel-marica", name: "Emanuel", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-marica", name: "Luan", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ZAG",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-marica", name: "Vinícius", clubId: "marica", clubName: "Maricá", division: "Série D", position: "VOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-lira-marica", name: "Matheus Lira", clubId: "marica", clubName: "Maricá", division: "Série D", position: "VOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "magno-souza-marica", name: "Magno Souza", clubId: "marica", clubName: "Maricá", division: "Série D", position: "VOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wellington-marica", name: "Wellington", clubId: "marica", clubName: "Maricá", division: "Série D", position: "VOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-marcelo-marica", name: "João Marcelo", clubId: "marica", clubName: "Maricá", division: "Série D", position: "VOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rhenan-marica", name: "Rhenan", clubId: "marica", clubName: "Maricá", division: "Série D", position: "VOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kayque-marica", name: "Kayque", clubId: "marica", clubName: "Maricá", division: "Série D", position: "VOL",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelo-marica", name: "Marcelo", clubId: "marica", clubName: "Maricá", division: "Série D", position: "MEI",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-vitor-marica", name: "Caio Vitor", clubId: "marica", clubName: "Maricá", division: "Série D", position: "MEI",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "octavio-manteca-marica", name: "Octavio Manteca", clubId: "marica", clubName: "Maricá", division: "Série D", position: "MEI",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "oliver-marica", name: "Oliver", clubId: "marica", clubName: "Maricá", division: "Série D", position: "MEI",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caick-vitor-marica", name: "Caick Vitor", clubId: "marica", clubName: "Maricá", division: "Série D", position: "MEI",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pablo-thomaz-marica", name: "Pablo Thomaz", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-alessandro-marica", name: "Matheus Alessandro", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cafe-marica", name: "Café", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alex-azeredo-marica", name: "Alex Azeredo", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "denilson-marica", name: "Denílson", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diogo-bolt-marica", name: "Diogo Bolt", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alexis-quinonez-marica", name: "Alexis Quiñonez", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wd-marica", name: "WD", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cayke-silva-marica", name: "Cayke Silva", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "flavio-trivelinha-marica", name: "Flávio Trivelinha", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitinho-marica", name: "Vitinho", clubId: "marica", clubName: "Maricá", division: "Série D", position: "ATA",
+    source: "https://www.rj.gov.br/radioroquettepinto/node/14084", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-silva-mixto", name: "Gustavo Silva", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wilderk-sales-mixto", name: "Wilderk Sales", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "glaycon-mixto", name: "Glaycon", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-cerqueira-mixto", name: "Guilherme Cerqueira", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jackson-mixto", name: "Jackson", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-straub-mixto", name: "Lucas Straub", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rael-mixto", name: "Rael", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "indio-mixto", name: "Índio", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joazi-mixto", name: "Joazi", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "filipe-fraga-mixto", name: "Filipe Fraga", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "natan-alves-mixto", name: "Natan Alves", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheusinho-mixto", name: "Matheusinho", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "robson-lopes-mixto", name: "Robson Lopes", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-yuji-mixto", name: "Vinicius Yuji", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-henrick-mixto", name: "João Henrick", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dionatha-mixto", name: "Dionathã", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "di-maria-mixto", name: "Di María", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-justino-mixto", name: "Gabriel Justino", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kennedy-mixto", name: "Kennedy", clubId: "mixto", clubName: "Mixto", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/mt/futebol/times/mixto/noticia/2025/11/27/mixto-se-apresenta-com-mais-reforcos-para-a-temporada-2026-veja-nomes.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "oliveira-monteroraima", name: "Oliveira", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-henrique-monteroraima", name: "Luis Henrique", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-rocha-monteroraima", name: "Diego Rocha", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-gustavo-monteroraima", name: "Luis Gustavo", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "boca-monteroraima", name: "Boca", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ferrugem-monteroraima", name: "Ferrugem", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kayo-vieira-monteroraima", name: "Kayo Vieira", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "samuka-monteroraima", name: "Samuka", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jefer-arboleda-monteroraima", name: "Jefer Arboleda", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eydison-monteroraima", name: "Eydison", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dante-monteroraima", name: "Dante", clubId: "monteroraima", clubName: "Monte Roraima", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/rr/futebol/times/monte-roraima/noticia/2025/12/08/monte-roraima-renova-com-10-jogadores-para-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kassio-motoclub", name: "Kassio", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "GOL",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "isaac-motoclub", name: "Isaac", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "GOL",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "denilson-motoclub", name: "Denilson", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ZAG",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "washington-motoclub", name: "Washington", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ZAG",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-souza-motoclub", name: "Victor Souza", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ZAG",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-motoclub", name: "Gabriel", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "LAT",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "roberth-motoclub", name: "Roberth", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "LAT",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "romullo-carioca-motoclub", name: "Romullo Carioca", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "LAT",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "patrick-motoclub", name: "Patrick", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "VOL",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jair-motoclub", name: "Jair", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "VOL",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-valderrama-motoclub", name: "Diego Valderrama", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "VOL",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "athos-motoclub", name: "Athos", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "MEI",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cleitinho-motoclub", name: "Cleitinho", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "MEI",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabio-motoclub", name: "Fábio", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ATA",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "william-motoclub", name: "William", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ATA",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "emerson-nike-motoclub", name: "Emerson Nike", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ATA",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bacurau-motoclub", name: "Bacurau", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ATA",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "warllem-motoclub", name: "Warllem", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ATA",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "netinho-motoclub", name: "Netinho", clubId: "motoclub", clubName: "Moto Club", division: "Série D", position: "ATA",
+    source: "https://imirante.com/esporte/sao-luis/2026/03/28/moto-club-anuncia-pacotao-de-reforcos-para-a-disputa-da-serie-d", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
