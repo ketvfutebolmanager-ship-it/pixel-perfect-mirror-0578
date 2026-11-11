@@ -28400,6 +28400,114 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
   {
     id: "santa-helena-tocantinopolis", name: "Santa Helena", clubId: "tocantinopolis", clubName: "Tocantinópolis", division: "Série D", position: "VOL",
     source: "https://www.tocantinopolisesporteclube.com/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulo-henrique-vitoria-es", name: "Paulo Henrique", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucao-vitoria-es", name: "Lucão", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "junior-vernier-vitoria-es", name: "Júnior Vernier", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wellington-foguete-vitoria-es", name: "Wellington Foguete", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "geisandro-vitoria-es", name: "Geisandro", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-magatao-vitoria-es", name: "Thiago Magatão", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-ferraz-vitoria-es", name: "Caio Ferraz", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mailson-alves-vitoria-es", name: "Maílson Alves", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "abuda-vitoria-es", name: "Abuda", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "truyts-vitoria-es", name: "Truyts", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "enzo-vitoria-es", name: "Enzo", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gualberto-vitoria-es", name: "Gualberto", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-ramos-vitoria-es", name: "Thiago Ramos", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jonata-pe-de-pato-vitoria-es", name: "Jonata Pé de Pato", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "canario-vitoria-es", name: "Canário", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-paulo-souza-vitoria-es", name: "João Paulo Souza", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "carlos-vitor-vitoria-es", name: "Carlos Vitor", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaiky-borges-vitoria-es", name: "Kaiky Borges", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-tonoli-vitoria-es", name: "Gustavo Tonoli", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "patrick-moura-vitoria-es", name: "Patrick Moura", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelinho-vitoria-es", name: "Marcelinho", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tony-ribeiro-vitoria-es", name: "Tony Ribeiro", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "stuart-vitoria-es", name: "Stuart", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vini-vitoria-es", name: "Vini", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-quieza-vitoria-es", name: "Felipe Quieza", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cezini-vitoria-es", name: "Cezini", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alexsandro-vitoria-es", name: "Alexsandro", clubId: "vitoria-es", clubName: "Vitória-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
   }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
