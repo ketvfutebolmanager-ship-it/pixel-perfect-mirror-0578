@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { PageHeader } from "@/components/layout/AppShell";
 import { getClubsByDivision, type BrazilianDivision } from "@/modules/clubs/brazilian-clubs-2026";
 import { simulateMatch, type MatchResult, type MatchTeam } from "@/modules/matches/simulate";
@@ -595,6 +595,79 @@ function Page() {
   const [lineupSelections, setLineupSelections] = useState<Record<string, string>>(() => readMatchSession().lineupSelections ?? {});
   const [matchFinalized, setMatchFinalized] = useState(() => readMatchSession().finalized ?? false);
   const [showHalftimeModal, setShowHalftimeModal] = useState(false);
+  // O relógio começa a anunciar apenas os gols novos, sem repetir gols ao recarregar uma carreira.
+  const previousMinuteRef = useRef(minute);
+  const goalAudioContextRef = useRef<AudioContext | null>(null);
+
+  function prepareGoalAudio() {
+    try {
+      const AudioContextConstructor = window.AudioContext;
+      if (!AudioContextConstructor) return;
+      if (!goalAudioContextRef.current) goalAudioContextRef.current = new AudioContextConstructor();
+      if (goalAudioContextRef.current.state === "suspended") {
+        void goalAudioContextRef.current.resume().catch(() => undefined);
+      }
+    } catch {
+      // O jogo continua normalmente mesmo se o navegador bloquear áudio.
+    }
+  }
+
+  function playGoalCelebration(event: MatchResult["events"][number]) {
+    const context = goalAudioContextRef.current;
+    if (context && context.state === "running") {
+      try {
+        // Ruído filtrado e em crescendo cria uma cama curta de torcida de estádio.
+        const duration = 2.8;
+        const buffer = context.createBuffer(1, Math.floor(context.sampleRate * duration), context.sampleRate);
+        const samples = buffer.getChannelData(0);
+        for (let index = 0; index < samples.length; index += 1) {
+          samples[index] = (Math.random() * 2 - 1) * (0.55 + Math.random() * 0.45);
+        }
+        const crowd = context.createBufferSource();
+        const filter = context.createBiquadFilter();
+        const volume = context.createGain();
+        crowd.buffer = buffer;
+        filter.type = "bandpass";
+        filter.frequency.value = 950;
+        filter.Q.value = 0.65;
+        volume.gain.setValueAtTime(0.001, context.currentTime);
+        volume.gain.linearRampToValueAtTime(0.19, context.currentTime + 0.35);
+        volume.gain.setValueAtTime(0.16, context.currentTime + 1.45);
+        volume.gain.exponentialRampToValueAtTime(0.001, context.currentTime + duration);
+        crowd.connect(filter);
+        filter.connect(volume);
+        volume.connect(context.destination);
+        crowd.start();
+        crowd.stop(context.currentTime + duration);
+      } catch {
+        // A narração ainda pode funcionar se o efeito ambiente falhar.
+      }
+    }
+
+    // A voz em português do Brasil anuncia o gol; o navegador escolhe uma voz humana instalada.
+    if ("speechSynthesis" in window && typeof SpeechSynthesisUtterance !== "undefined") {
+      window.speechSynthesis.cancel();
+      const scorer = event.playerName ? ` Gol de ${event.playerName}!` : "";
+      const announcement = new SpeechSynthesisUtterance(`GOOOOOOL! ${event.clubName}!${scorer}`);
+      announcement.lang = "pt-BR";
+      announcement.rate = 0.82;
+      announcement.pitch = 0.88;
+      announcement.volume = 1;
+      const brazilianVoice = window.speechSynthesis.getVoices().find((voice) => voice.lang.toLowerCase() === "pt-br");
+      if (brazilianVoice) announcement.voice = brazilianVoice;
+      window.speechSynthesis.speak(announcement);
+    }
+  }
+
+  useEffect(() => {
+    const previousMinute = previousMinuteRef.current;
+    if (minute > previousMinute && result) {
+      result.events
+        .filter((event) => event.type === "goal" && event.minute > previousMinute && event.minute <= minute)
+        .forEach(playGoalCelebration);
+    }
+    previousMinuteRef.current = minute;
+  }, [minute, result]);
 
   useEffect(() => {
     if (halftime) setShowHalftimeModal(true);
@@ -851,6 +924,7 @@ function Page() {
 
   function play() {
     if (!fixtureOpponent || !careerFixture || playing) return;
+    prepareGoalAudio();
     const own: MatchTeam = {
       id: career!.club.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, "-"),
       name: career!.club,
@@ -1013,6 +1087,7 @@ function Page() {
             <button type="button" onClick={() => setShowHalftimeModal(false)} className="rounded-md border border-border px-5 py-3 text-sm font-bold">Continuar no intervalo</button>
             <button type="button" onClick={() => {
               if (!result) return;
+              prepareGoalAudio();
               const selectedPlayers = Object.values(lineupSelections).filter(Boolean).map(id => availableSubstitutionPlayers.find(player => player.id === id)).filter((player): player is typeof availableSubstitutionPlayers[number] => Boolean(player)).map(({id,name}) => ({id,name}));
               const ownIsHome = result.home.id === careerClubId;
               const ownTeam = ownIsHome ? result.home : result.away;
