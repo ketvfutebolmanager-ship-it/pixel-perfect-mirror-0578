@@ -119,7 +119,7 @@ function Page() {
   return (
     <>
       <PageHeader kicker="Temporada 2027 · Mata-mata" title="Copa do Brasil">
-        Simulador de competição com 128 participantes, sorteio de confrontos, partidas, pênaltis e avanço automático até a decisão.
+        Módulo jogável provisório: chave eliminatória de 128 clubes, sorteio, partidas simuladas, pênaltis e avanço automático até a decisão.
       </PageHeader>
       <section className="mb-6 rounded-lg border border-primary/30 bg-card p-5">
         <div className="flex flex-wrap items-center justify-between gap-3">
@@ -153,11 +153,11 @@ function Page() {
         ))}
       </div>
       <section className="mt-8 rounded-lg border border-border bg-card p-5">
-        <h3 className="font-display text-xl font-bold uppercase">Regulamento e transparência</h3>
+        <h3 className="font-display text-xl font-bold uppercase">Regulamento e transparência</h3>\n        <p className="mt-2 rounded-md border border-amber-500/40 bg-amber-500/10 p-3 text-sm font-semibold">ATENÇÃO: a CBF já confirmou os 128 clubes e critérios gerais de acesso, mas o chaveamento exibido aqui é provisório. Esta versão ainda usa sete rodadas genéricas e não reproduz a entrada escalonada dos clubes nas fases 2, 3 e 5.</p>
         <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-muted-foreground">
           <li>A CBF confirmou 128 participantes em 2027, com 20 vagas da Série A de 2026 e seis vagas para campeões regionais e nacionais de 2026.</li>
           <li>Os campeões estaduais de 2026 entram na segunda fase, exceto os clubes da Série A, que entram na quinta fase.</li>
-          <li>Este módulo já permite jogar um mata-mata completo de 128 clubes. O desenho exato das fases, a lista oficial dos classificados e os cruzamentos serão ajustados quando o REC e a tabela detalhada de 2027 forem publicados pela CBF.</li>
+          <li>Esta versão permite jogar um mata-mata genérico de 128 clubes. A lista de participantes cadastrada é provisória e não equivale à relação oficial de classificados. O módulo será ajustado ao REC 2027 para reproduzir as entradas na 2ª, 3ª e 5ª fases e os cruzamentos oficiais.</li>
           <li>Resultados e andamento ficam salvos neste navegador. As partidas são simulações do jogo, não resultados oficiais da CBF.</li>
         </ul>
         <a className="mt-4 inline-flex text-sm font-semibold text-primary underline" href="https://www.cbf.com.br/futebol-brasileiro/noticias/campeonato-brasileiro/a/cbf-oficializa-calendario-do-futebol-profissional-masculino-de-2027" target="_blank" rel="noreferrer">Consultar calendário oficial da CBF</a>
