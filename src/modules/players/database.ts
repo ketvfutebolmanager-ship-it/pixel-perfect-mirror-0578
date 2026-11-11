@@ -25931,6 +25931,1135 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "luiz-antonio-primavera", name: "Luiz Antônio", clubId: "primavera", clubName: "Primavera", division: "Série D", position: "ATA",
     source: "https://ge.globo.com/mt/futebol/times/primavera-mt/noticia/2025/12/16/primavera-anuncia-quinto-atacante-para-o-mato-grossense-2026.ghtml", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "giovani-araujo-real-noroeste", name: "Giovani Araújo", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alexandre-castro-real-noroeste", name: "Alexandre Castro", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-silva-real-noroeste", name: "Lucas Silva", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "junior-fonseca-real-noroeste", name: "Júnior Fonseca", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kauan-reis-real-noroeste", name: "Kauan Reis", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-lisboa-real-noroeste", name: "Gabriel Lisboa", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felippe-affonso-real-noroeste", name: "Felippe Affonso", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "romulo-costa-real-noroeste", name: "Romulo Costa", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ismael-rosendo-real-noroeste", name: "Ismael Rosendo", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sorriso-real-noroeste", name: "Sorriso", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yuri-mello-real-noroeste", name: "Yuri Mello", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mauricio-real-noroeste", name: "Maurício", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-recife-real-noroeste", name: "Matheus Recife", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jacquison-real-noroeste", name: "Jacquison", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-gabriel-real-noroeste", name: "João Gabriel", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcus-vinicius-real-noroeste", name: "Marcus Vinicius", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "erlon-real-noroeste", name: "Erlon", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "edgar-neto-real-noroeste", name: "Edgar Neto", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "savio-real-noroeste", name: "Sávio", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-cezario-real-noroeste", name: "Lucas Cezário", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gilbert-augusto-real-noroeste", name: "Gilbert Augusto", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-brito-real-noroeste", name: "Guilherme Brito", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jorge-eduardo-real-noroeste", name: "Jorge Eduardo", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alexandre-santos-real-noroeste", name: "Alexandre Santos", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "italo-real-noroeste", name: "Italo", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "davi-lima-real-noroeste", name: "Davi Lima", clubId: "real-noroeste", clubName: "Real Noroeste", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/es/futebol/campeonato-capixaba/noticia/2026/01/12/guia-do-campeonato-capixaba-2026-tudo-o-que-voce-precisa-saber-sobre-o-estadual.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-retro", name: "David", clubId: "retro", clubName: "Retrô", division: "Série D", position: "GOL",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jefferson-paulino-retro", name: "Jefferson Paulino", clubId: "retro", clubName: "Retrô", division: "Série D", position: "GOL",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulo-ricardo-retro", name: "Paulo Ricardo", clubId: "retro", clubName: "Retrô", division: "Série D", position: "GOL",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dankler-retro", name: "Dankler", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ZAG",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-junio-retro", name: "David Junio", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ZAG",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-retro", name: "Guilherme", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ZAG",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "helter-danillo-retro", name: "Helter Danillo", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ZAG",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "iury-retro", name: "Iury", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ZAG",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-sampaio-retro", name: "Lucas Sampaio", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ZAG",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rayan-retro", name: "Rayan", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ZAG",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-rafael-retro", name: "João Rafael", clubId: "retro", clubName: "Retrô", division: "Série D", position: "LAT",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-henrique-retro", name: "Bruno Henrique", clubId: "retro", clubName: "Retrô", division: "Série D", position: "MEI",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-guerra-retro", name: "Diego Guerra", clubId: "retro", clubName: "Retrô", division: "Série D", position: "MEI",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ericson-retro", name: "Ericson", clubId: "retro", clubName: "Retrô", division: "Série D", position: "MEI",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-baiano-retro", name: "Gustavo Baiano", clubId: "retro", clubName: "Retrô", division: "Série D", position: "MEI",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kady-retro", name: "Kady", clubId: "retro", clubName: "Retrô", division: "Série D", position: "MEI",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kevin-rivas-retro", name: "Kevin Rivas", clubId: "retro", clubName: "Retrô", division: "Série D", position: "MEI",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-henrique-retro", name: "Luiz Henrique", clubId: "retro", clubName: "Retrô", division: "Série D", position: "MEI",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "murilo-retro", name: "Murilo", clubId: "retro", clubName: "Retrô", division: "Série D", position: "MEI",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "radsley-retro", name: "Radsley", clubId: "retro", clubName: "Retrô", division: "Série D", position: "MEI",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sillas-retro", name: "Sillas", clubId: "retro", clubName: "Retrô", division: "Série D", position: "MEI",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-marques-retro", name: "Bruno Marques", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ATA",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cacau-retro", name: "Cacau", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ATA",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "douglas-retro", name: "Douglas", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ATA",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabricio-retro", name: "Fabricio", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ATA",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fernandinho-retro", name: "Fernandinho", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ATA",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joabe-retro", name: "Joabe", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ATA",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaua-leandro-retro", name: "Kaua Leandro", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ATA",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luquinhas-retro", name: "Luquinhas", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ATA",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vagner-love-retro", name: "Vágner Love", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ATA",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "willian-lira-retro", name: "Willian Lira", clubId: "retro", clubName: "Retrô", division: "Série D", position: "ATA",
+    source: "https://www.tudosobrefutebol.com.br/club/retro", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fernando-henrique-rio-branco-es", name: "Fernando Henrique", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "allan-camillato-rio-branco-es", name: "Allan Camillato", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alisson-rio-branco-es", name: "Alisson", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-paulo-purcino-rio-branco-es", name: "João Paulo Purcino", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ronaldo-santos-rio-branco-es", name: "Ronaldo Santos", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "murilo-henrique-rio-branco-es", name: "Murilo Henrique", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yuri-ribeiro-rio-branco-es", name: "Yuri Ribeiro", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-barboza-rio-branco-es", name: "Lucas Barboza", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-marba-rio-branco-es", name: "Pedro Marba", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-castelo-rio-branco-es", name: "Matheus Castelo", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "darlan-rio-branco-es", name: "Darlan", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-nunes-rio-branco-es", name: "Pedro Nunes", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "anderson-mello-rio-branco-es", name: "Anderson Mello", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-paulo-silva-rio-branco-es", name: "João Paulo Silva", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "romarinho-rio-branco-es", name: "Romarinho", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "edmilson-rio-branco-es", name: "Edmilson", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "carlinhos-rio-branco-es", name: "Carlinhos", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-mateus-rio-branco-es", name: "Zé Mateus", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "patricio-rio-branco-es", name: "Patrício", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "breno-melo-rio-branco-es", name: "Breno Melo", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-gabriel-rio-branco-es", name: "Rafael Gabriel", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "neto-oliveira-rio-branco-es", name: "Neto Oliveira", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-boaz-rio-branco-es", name: "Daniel Bôaz", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "inacio-rio-branco-es", name: "Inácio", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "david-lopes-rio-branco-es", name: "David Lopes", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alisson-farias-rio-branco-es", name: "Alisson Farias", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "edu-rio-branco-es", name: "Edu", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "heytor-rio-branco-es", name: "Heytor", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "brandao-rio-branco-es", name: "Brandão", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "braga-rio-branco-es", name: "Braga", clubId: "rio-branco-es", clubName: "Rio Branco-ES", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/es/futebol/times/rio-branco-es/noticia/2025/12/01/rio-branco-es-inicia-preparacao-para-a-temporada-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "welligton-lima-sampaio-correa-ma", name: "Welligton Lima", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-favero-sampaio-correa-ma", name: "Vinicius Fávero", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "deijair-sampaio-correa-ma", name: "Deijair", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "raynon-sampaio-correa-ma", name: "Raynon", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "clebao-sampaio-correa-ma", name: "Clebão", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "itambe-sampaio-correa-ma", name: "Itambé", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "izaldo-sampaio-correa-ma", name: "Izaldo", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vitor-manoel-sampaio-correa-ma", name: "Vitor Manoel", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hugo-leonardo-sampaio-correa-ma", name: "Hugo Leonardo", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-alves-sampaio-correa-ma", name: "Matheus Alves", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yago-rocha-sampaio-correa-ma", name: "Yago Rocha", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ball-sampaio-correa-ma", name: "Ball", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joecio-sampaio-correa-ma", name: "Joécio", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "edimar-sampaio-correa-ma", name: "Edimar", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gui-franca-sampaio-correa-ma", name: "Gui França", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dimas-sampaio-correa-ma", name: "Dimas", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-oliveira-sampaio-correa-ma", name: "Bruno Oliveira", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jardson-sampaio-correa-ma", name: "Jardson", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-caua-sampaio-correa-ma", name: "Felipe Cauã", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cavi-sampaio-correa-ma", name: "Cavi", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "peu-sampaio-correa-ma", name: "Peu", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "neto-sampaio-correa-ma", name: "Neto", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "patrick-sampaio-correa-ma", name: "Patrick", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-teixeira-sampaio-correa-ma", name: "Pedro Teixeira", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "esquerdinha-sampaio-correa-ma", name: "Esquerdinha", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nikollas-sena-sampaio-correa-ma", name: "Nikollas Sena", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hitalo-sousa-sampaio-correa-ma", name: "Hitalo Sousa", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alex-sandre-sampaio-correa-ma", name: "Alex Sandre", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-marcos-sampaio-correa-ma", name: "Henrique Marcos", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alecio-sampaio-correa-ma", name: "Alecio", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gean-carlos-sampaio-correa-ma", name: "Gean Carlos", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eric-carral-sampaio-correa-ma", name: "Eric Carral", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "emerson-carioca-sampaio-correa-ma", name: "Emerson Carioca", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adriano-sampaio-correa-ma", name: "Adriano", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-freitas-sampaio-correa-ma", name: "Felipe Freitas", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-furtado-sampaio-correa-ma", name: "Gustavo Furtado", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-moresche-sampaio-correa-ma", name: "Matheus Moresche", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "histone-sampaio-correa-ma", name: "Histone", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaka-sampaio-correa-ma", name: "Kaká", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-mazerochi-sampaio-correa-ma", name: "Daniel Mazerochi", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wendson-sampaio-correa-ma", name: "Wendson", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-carlos-sampaio-correa-ma", name: "Luis Carlos", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "warllem-sampaio-correa-ma", name: "Warllem", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rayllan-sampaio-correa-ma", name: "Rayllan", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luis-guilherme-sampaio-correa-ma", name: "Luís Guilherme", clubId: "sampaio-correa-ma", clubName: "Sampaio Corrêa-MA", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/ma/futebol/times/sampaio-correa/noticia/2026/08/05/em-apenas-seis-meses-de-temporada-sampaio-teve-47-jogadores-e-tres-tecnicos-em-2026.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jose-carlos-miranda-sampaio-correa-rj", name: "José Carlos Miranda", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "GOL",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eduardo-nascimento-dos-santos-sampaio-correa-rj", name: "Eduardo Nascimento dos Santos", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "GOL",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "daniel-nunes-ribeiro-sampaio-correa-rj", name: "Daniel Nunes Ribeiro", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "ZAG",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-de-figueiredo-gular-da-gama-sampaio-correa-rj", name: "Luan de Figueiredo Gular da Gama", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "ZAG",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-dos-santos-souza-sampaio-correa-rj", name: "Guilherme dos Santos Souza", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "ZAG",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-silva-de-almeida-sampaio-correa-rj", name: "Gabriel Silva de Almeida", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "ZAG",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-araujo-de-souza-sampaio-correa-rj", name: "Lucas Araújo de Souza", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "ZAG",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-carvalho-da-silva-sampaio-correa-rj", name: "Lucas Carvalho da Silva", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "ZAG",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-de-souza-rodolfo-sampaio-correa-rj", name: "Rafael de Souza Rodolfo", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pablo-da-silva-inacio-sampaio-correa-rj", name: "Pablo da Silva Inacio", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodrigo-correa-dantas-sampaio-correa-rj", name: "Rodrigo Correa Dantas", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "natan-da-silva-lima-e-silva-sampaio-correa-rj", name: "Natan da Silva Lima e Silva", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-de-oliveira-dionisio-sampaio-correa-rj", name: "Gabriel de Oliveira Dionisio", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelo-de-sa-fernandes-sampaio-correa-rj", name: "Marcelo de Sá Fernandes", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alexandre-souza-domingues-sampaio-correa-rj", name: "Alexandre Souza Domingues", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "magno-ribeiro-ferreira-sampaio-correa-rj", name: "Magno Ribeiro Ferreira", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ryan-silva-de-andrade-viana-toledo-sampaio-correa-rj", name: "Ryan Silva de Andrade Viana Toledo", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulo-victor-costa-soares-sampaio-correa-rj", name: "Paulo Victor Costa Soares", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "ATA",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alexander-lecaros-aragon-sampaio-correa-rj", name: "Alexander Lecaros Aragón", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "ATA",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-felipe-camargo-iacovelli-sampaio-correa-rj", name: "Matheus Felipe Camargo Iacovelli", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "ATA",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "elias-constantino-pereira-filho-sampaio-correa-rj", name: "Elias Constantino Pereira Filho", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "ATA",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "octavio-cruz-manhaes-sampaio-correa-rj", name: "Octávio Cruz Manhães", clubId: "sampaio-correa-rj", clubName: "Sampaio Corrêa-RJ", division: "Série D", position: "ATA",
+    source: "https://www.apwin.com/br/equipe/sampaio-correa-fe/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-santa-catarina", name: "Marcos", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vinicius-santa-catarina", name: "Vinícius", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "roberto-santa-catarina", name: "Roberto", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "iago-henrique-santa-catarina", name: "Iago Henrique", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "piaui-santa-catarina", name: "Piauí", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "coruja-santa-catarina", name: "Coruja", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "juninho-santa-catarina", name: "Juninho", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hytalo-santa-catarina", name: "Hytalo", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kaue-santa-catarina", name: "Kauê", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "adriel-santa-catarina", name: "Adriel", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ze-leandro-santa-catarina", name: "Zé Leandro", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "beto-santa-catarina", name: "Beto", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ruan-oliveira-santa-catarina", name: "Ruan Oliveira", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "breno-santos-santa-catarina", name: "Breno Santos", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedrinho-santa-catarina", name: "Pedrinho", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-mendes-santa-catarina", name: "Gabriel Mendes", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dvd-santa-catarina", name: "DVD", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "galdino-santa-catarina", name: "Galdino", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "negueba-santa-catarina", name: "Negueba", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renan-nunes-santa-catarina", name: "Renan Nunes", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "brener-santa-catarina", name: "Brener", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cleberson-santa-catarina", name: "Cleberson", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "wanderson-santa-catarina", name: "Wanderson", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pablo-santa-catarina", name: "Pablo", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luan-santa-catarina", name: "Luãn", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marquinho-santa-catarina", name: "Marquinho", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alex-goncalves-santa-catarina", name: "Alex Gonçalves", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gui-nascimento-santa-catarina", name: "Gui Nascimento", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yhago-santa-catarina", name: "Yhago", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "renan-santa-catarina", name: "Renan", clubId: "santa-catarina", clubName: "Santa Catarina", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/sc/futebol/brasileirao-serie-d/noticia/2026/04/03/como-chegam-os-times-catarinenses-para-a-disputa-da-serie-d.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alex-peralta-leguizamon-sao-jose-rs", name: "Alex Peralta Leguizamon", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "GOL",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabio-jose-rampi-sao-jose-rs", name: "Fabio José Rampi", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "GOL",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "raphael-soares-de-lima-sao-jose-rs", name: "Raphael Soares de Lima", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "DEF",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "mateus-pureza-santos-sao-jose-rs", name: "Mateus Pureza Santos", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "DEF",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tiago-de-souza-nascimento-sao-jose-rs", name: "Tiago de Souza Nascimento", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "DEF",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "michel-camargos-rodrigues-sao-jose-rs", name: "Michel Camargos Rodrigues", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "DEF",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-wavzinkevicz-ribeiro-sao-jose-rs", name: "Bruno Wavzinkevicz Ribeiro", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "DEF",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diney-carlos-albuquerque-do-nascimento-sao-jose-rs", name: "Diney Carlos Albuquerque do Nascimento", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "DEF",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "eduardo-felipe-da-silva-melo-sao-jose-rs", name: "Eduardo Felipe da Silva Melo", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "DEF",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "danilo-guimaraes-silva-sao-jose-rs", name: "Danilo Guimaraes Silva", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "DEF",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-bagatini-prudencio-sao-jose-rs", name: "Gustavo Bagatini Prudencio", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-farias-de-lima-sao-jose-rs", name: "Gabriel Farias de Lima", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "igor-guilherme-fraga-sao-jose-rs", name: "Igor Guilherme Fraga", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "keverton-resende-marcolino-sao-jose-rs", name: "Keverton Resende Marcolino", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jose-vitor-leal-silva-ferreira-sao-jose-rs", name: "José Vitor Leal Silva Ferreira", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pericles-mattiello-maier-sao-jose-rs", name: "Péricles Mattiello Maier", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "anderson-santos-dias-gomes-sao-jose-rs", name: "Anderson Santos Dias Gomes", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "igor-cassio-vieira-dos-santos-sao-jose-rs", name: "Igor Cassio Vieira dos Santos", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "ATA",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caique-santos-sao-jose-rs", name: "Caíque Santos", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "ATA",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "andrey-nunes-dos-santos-sao-jose-rs", name: "Andrey Nunes dos Santos", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "ATA",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "douglas-felisbino-de-oliveira-sao-jose-rs", name: "Douglas Felisbino de Oliveira", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "ATA",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-rodrigues-de-souza-sao-jose-rs", name: "Felipe Rodrigues de Souza", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "ATA",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-walisson-lino-da-silva-sao-jose-rs", name: "Gustavo Walisson Lino da Silva", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "ATA",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-jose-dos-santos-de-souza-sao-jose-rs", name: "Lucas José dos Santos de Souza", clubId: "sao-jose-rs", clubName: "São José-RS", division: "Série D", position: "ATA",
+    source: "https://www.apwin.com/br/equipe/ec-sao-jose-porto-alegre/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "samuel-deuner-sao-joseense", name: "Samuel Deuner", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "GOL",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-cesar-custodio-sao-joseense", name: "Caio Cesar Custodio", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "DEF",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "raphael-cavalcante-de-carvalho-sao-joseense", name: "Raphael Cavalcante de Carvalho", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "DEF",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodolfo-filemon-de-oliveira-da-silva-sao-joseense", name: "Rodolfo Filemon De Oliveira Da Silva", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "DEF",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-henrique-de-souza-correa-sao-joseense", name: "Pedro Henrique de Souza Corrêa", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "DEF",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "willian-pereira-da-rocha-sao-joseense", name: "Willian Pereira da Rocha", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "DEF",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "dener-goncalves-pinheiro-sao-joseense", name: "Dener Gonçalves Pinheiro", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alessandro-vinicius-goncalves-da-silva-sao-joseense", name: "Alessandro Vinícius Gonçalves da Silva", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "julio-cezar-rusch-sao-joseense", name: "Julio Cezar Rusch", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-gabriel-ferreira-macario-dias-sao-joseense", name: "João Gabriel Ferreira Macario Dias", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "murillo-pereira-de-lima-sao-joseense", name: "Murillo Pereira de Lima", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "oswaldo-da-silva-nascimento-sao-joseense", name: "Oswaldo da Silva Nascimento", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "felipe-vieira-fernandes-dias-sao-joseense", name: "Felipe Vieira Fernandes Dias", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "MEI",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "nilton-soares-rodrigues-sao-joseense", name: "Nilton Soares Rodrigues", clubId: "sao-joseense", clubName: "São Joseense", division: "Série D", position: "ATA",
+    source: "https://www.apwin.com/br/equipe/independente-futebol-sao-joseense/", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rodrigo-mendes-sao-luiz", name: "Rodrigo Mendes", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/33061", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "henrique-lima-sao-luiz", name: "Henrique Lima", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "ATA",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/33061", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-ferreira-sao-luiz", name: "Lucas Ferreira", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/33061", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-souza-sao-luiz", name: "Marcos Souza", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "MEI",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/33061", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-alves-sao-luiz", name: "Thiago Alves", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "LAT",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/33061", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-nunes-sao-luiz", name: "Diego Nunes", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "ZAG",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/33061", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rafael-costa-sao-luiz", name: "Rafael Costa", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "GOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/33061", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "fabio-leal-sao-luiz", name: "Fábio Leal", clubId: "sao-luiz", clubName: "São Luiz", division: "Série D", position: "GOL",
+    source: "https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-d/2026/33061", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcao-sao-raimundo-rr", name: "Marcão", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "GOL",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "george-sao-raimundo-rr", name: "George", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "DEF",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "paulo-meneses-sao-raimundo-rr", name: "Paulo Meneses", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "DEF",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "kleber-souza-sao-raimundo-rr", name: "Kleber Souza", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "DEF",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-sao-raimundo-rr", name: "Gabriel", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "DEF",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "cassio-sao-raimundo-rr", name: "Cássio", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "DEF",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-goncalves-sao-raimundo-rr", name: "Gabriel Gonçalves", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "DEF",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "hicaro-sao-raimundo-rr", name: "Hícaro", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "DEF",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "vera-cruz-sao-raimundo-rr", name: "Vera Cruz", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "DEF",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jair-sao-raimundo-rr", name: "Jair", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "DEF",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcos-gabriel-anaisce-da-costa-souza-sao-raimundo-rr", name: "Marcos Gabriel Anaisce da Costa Souza", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "DEF",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "leocacio-rocha-sao-raimundo-rr", name: "Leocacio Rocha", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "DEF",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jackson-dos-santos-oliveira-sao-raimundo-rr", name: "Jackson dos Santos Oliveira", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "DEF",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "randerson-fininho-sao-raimundo-rr", name: "Randerson Fininho", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-gomes-sao-raimundo-rr", name: "Guilherme Gomes", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-sao-raimundo-rr", name: "Guilherme", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jefferson-da-silva-nascimento-sao-raimundo-rr", name: "Jefferson Da Silva Nascimento", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "rian-sao-raimundo-rr", name: "Rian", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ygor-sao-raimundo-rr", name: "Ygor", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "joao-paulo-sao-raimundo-rr", name: "João Paulo", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luquinhas-sao-raimundo-rr", name: "Luquinhas", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "taysson-sao-raimundo-rr", name: "Taysson", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "MEI",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-tomaz-sao-raimundo-rr", name: "Matheus Tomaz", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "ATA",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-pirata-sao-raimundo-rr", name: "Caio Pirata", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "ATA",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-quinha-sao-raimundo-rr", name: "Lucas Quinha", clubId: "sao-raimundo-rr", clubName: "São Raimundo-RR", division: "Série D", position: "ATA",
+    source: "https://www.sofascore.com/pt/football/team/sao-raimundo-rr/90278", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bruno-fuso-serra-branca", name: "Bruno Fuso", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gleibson-serra-branca", name: "Gleibson", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "allan-serra-branca", name: "Allan", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "caio-ramon-serra-branca", name: "Caio Ramon", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "GOL",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "igor-nunes-serra-branca", name: "Igor Nunes", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "victor-ferraz-serra-branca", name: "Victor Ferraz", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "klayver-serra-branca", name: "Klayver", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "franca-serra-branca", name: "França", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "charles-serra-branca", name: "Charles", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "LAT",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "uesles-serra-branca", name: "Uesles", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jadson-serra-branca", name: "Jadson", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucao-serra-branca", name: "Lucão", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "luiz-fernando-serra-branca", name: "Luiz Fernando", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "ZAG",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "junior-dinde-serra-branca", name: "Júnior Dindê", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "sousa-tibiri-serra-branca", name: "Sousa Tibiri", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "venicio-serra-branca", name: "Venício", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bedeu-serra-branca", name: "Bedeu", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "VOL",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "peninha-serra-branca", name: "Peninha", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "pedro-vitor-serra-branca", name: "Pedro Vitor", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gustavo-serra-branca", name: "Gustavo", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "MEI",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ian-augusto-serra-branca", name: "Ian Augusto", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "marcelo-toscano-serra-branca", name: "Marcelo Toscano", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "maicon-serra-branca", name: "Maicon", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "jefferson-victor-serra-branca", name: "Jefferson Victor", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "diego-ceara-serra-branca", name: "Diego Ceará", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "bilao-serra-branca", name: "Bilão", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "ezequiel-serra-branca", name: "Ezequiel", clubId: "serra-branca", clubName: "Serra Branca", division: "Série D", position: "ATA",
+    source: "https://ge.globo.com/google/amp/pb/futebol/times/serra-branca/noticia/2025/11/04/pre-temporada-2026-do-serra-branca-confira-data-local-e-amistosos.ghtml", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
