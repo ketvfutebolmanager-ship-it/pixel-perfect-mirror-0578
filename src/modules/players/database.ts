@@ -20598,6 +20598,107 @@ export const VERIFIED_PLAYERS_2026: PlayerRecord[] = Array<PlayerRecord>(
     id: "thiago-magno-cse", name: "Thiago Magno", clubId: "cse", clubName: "CSE", division: "Série D", position: "ATA",
     source: "TerFaro — elenco Série D 2026", verifiedAt: "2026-11-11"
   }
+,
+  {
+    id: "edson-brasil-rs", name: "Edson", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "GOL",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "davi-schneider-brasil-rs", name: "Davi Schneider", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "GOL",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lucas-joao-brasil-rs", name: "Lucas João", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "GOL",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tiago-baiano-brasil-rs", name: "Tiago Baiano", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "LAT",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "tony-lucas-brasil-rs", name: "Tony Lucas", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ZAG",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "lula-brasil-rs", name: "Lula", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ZAG",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "matheus-streit-brasil-rs", name: "Matheus Streit", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ZAG",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "otavio-brasil-rs", name: "Otávio", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "LAT",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "yuri-farias-brasil-rs", name: "Yuri Farias", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ZAG",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "zamora-yago-brasil-rs", name: "Zamora Yago", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "LAT",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gedeilson-brasil-rs", name: "Gedeílson", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "LAT",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "alan-goncalves-de-freitas-brasil-rs", name: "Alan Gonçalves de Freitas", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "thiago-henrique-brasil-rs", name: "Thiago Henrique", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "VOL",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "germano-brasil-rs", name: "Germano", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "venicio-brasil-rs", name: "Venicio", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "julio-simas-brasil-rs", name: "Júlio Simas", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "masson-brasil-rs", name: "Masson", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guty-brasil-rs", name: "Guty", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "MEI",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "petterson-brasil-rs", name: "Petterson", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-givigi-brasil-rs", name: "Guilherme Givigi", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "andrey-brasil-rs", name: "Andrey", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "gabriel-argolo-morbeck-brasil-rs", name: "Gabriel Argolo Morbeck", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "guilherme-costa-brasil-rs", name: "Guilherme Costa", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "samuel-dos-reis-pinto-brasil-rs", name: "Samuel dos Reis Pinto", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  },
+  {
+    id: "robinho-brasil-rs", name: "Robinho", clubId: "brasil-rs", clubName: "Brasil-RS", division: "Série D", position: "ATA",
+    source: "https://www.terfaro.com/time/brasil-de-pelotas/ — elenco Série D 2026", verifiedAt: "2026-11-11"
+  }
 );
 export const PLAYER_DATA_AS_OF = "2026-11-11";
 export const PLAYER_DATA_STATUS = "partial-verified";
