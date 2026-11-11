@@ -23,6 +23,7 @@ import { Route as PartidaRouteImport } from './routes/partida'
 import { Route as PatrociniosRouteImport } from './routes/patrocinios'
 import { Route as SalaDeTrofeusRouteImport } from './routes/sala-de-trofeus'
 import { Route as TransferenciasRouteImport } from './routes/transferencias'
+import { Route as CopaDoBrasilRouteImport } from './routes/copa-do-brasil'
 import { Route as CampeonatosIndexRouteImport } from './routes/campeonatos.index'
 import { Route as CampeonatosDivisaoRouteImport } from './routes/campeonatos.$divisao'
 
@@ -96,6 +97,11 @@ const TransferenciasRoute = TransferenciasRouteImport.update({
   path: '/transferencias',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CopaDoBrasilRoute = CopaDoBrasilRouteImport.update({
+  id: '/copa-do-brasil',
+  path: '/copa-do-brasil',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CampeonatosIndexRoute = CampeonatosIndexRouteImport.update({
   id: '/campeonatos/',
   path: '/campeonatos/',
@@ -124,6 +130,7 @@ export interface FileRoutesByFullPath {
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos/': typeof CampeonatosIndexRoute
+  '/copa-do-brasil': typeof CopaDoBrasilRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -142,6 +149,7 @@ export interface FileRoutesByTo {
   '/transferencias': typeof TransferenciasRoute
   '/campeonatos/$divisao': typeof CampeonatosDivisaoRoute
   '/campeonatos': typeof CampeonatosIndexRoute
+  '/copa-do-brasil': typeof CopaDoBrasilRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -338,6 +346,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TransferenciasRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/copa-do-brasil': {
+      id: '/copa-do-brasil'
+      path: '/copa-do-brasil'
+      fullPath: '/copa-do-brasil'
+      preLoaderRoute: typeof CopaDoBrasilRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/campeonatos/': {
       id: '/campeonatos/'
       path: '/campeonatos'
@@ -370,6 +385,7 @@ const rootRouteChildren: RootRouteChildren = {
   PatrociniosRoute: PatrociniosRoute,
   SalaDeTrofeusRoute: SalaDeTrofeusRoute,
   TransferenciasRoute: TransferenciasRoute,
+  CopaDoBrasilRoute: CopaDoBrasilRoute,
   CampeonatosDivisaoRoute: CampeonatosDivisaoRoute,
   CampeonatosIndexRoute: CampeonatosIndexRoute,
 }
