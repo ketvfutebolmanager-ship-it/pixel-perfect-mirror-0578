@@ -136,7 +136,9 @@ Araguaína|TO
 Capital-TO|TO
 Tocantinópolis|TO`,3);
 const CLUBS=[...A,...B,...C];
-const PHASES=["1ª fase","2ª fase","3ª fase","4ª fase","5ª fase","Oitavas de final","Quartas de final","Semifinal","Final"];\nconst BROADCASTERS=["GE TV","TV Globo","Prime Video","SporTV","Premiere","KE TV Sports"];\nconst ALL_BROADCASTERS=["GE TV","TV Globo","Prime Video","SporTV","Premiere","KE TV Sports"];
+const PHASES=["1ª fase","2ª fase","3ª fase","4ª fase","5ª fase","Oitavas de final","Quartas de final","Semifinal","Final"];
+const BROADCASTERS=["GE TV","TV Globo","Prime Video","SporTV","Premiere","KE TV Sports"];
+const ALL_BROADCASTERS=["GE TV","TV Globo","Prime Video","SporTV","Premiere","KE TV Sports"];
 const DATES=["18–19 fev","25 fev–5 mar","11–12 mar","18–19 mar","22–23 abr / 13–14 mai","1–6 ago","26 ago–3 set","1–8 nov","6 dez"];
 const rating=(c:Club,n:number)=>Math.max(38,Math.min(91,(c.criterion===1?78:c.criterion===2?66:57)+((c.id.length*(n+3))%13)-6));
 const team=(c:Club)=>({id:c.id,name:c.name,attack:rating(c,1),midfield:rating(c,2),defense:rating(c,3)});
